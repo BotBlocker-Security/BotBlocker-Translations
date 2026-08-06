@@ -13613,7 +13613,7 @@ msgstr "URL конфликтует с существующей странице�
 
 #: includes/data/botblocker-pro-features.php:18
 msgid "Threat intelligence & zero-day botnet feeds"
-msgstr "Разведка угроз и фиды zero-day ботнетов"
+msgstr "Проверка угроз и фиды zero-day ботнетов"
 
 #: addons/bbcs-behavior/views/settings.php:32
 msgid "Three-layer behavioral engine combining Free rate-limit inspection (RPM velocity with quadratic subnet pressure) with Pro multi-signal scoring (velocity, URI diversity, session depth, timing regularity, referer consistency) and IP/subnet reputation tracking with lazy decay. Detects and blocks robotic traffic through layered analysis."
