@@ -1,11 +1,11 @@
-#
+﻿#
 msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
 "POT-Creation-Date: 2026-08-04 14:48+0000"
 "PO-Revision-Date: 2026-08-04 14:48+0000"
-"Last-Translator: BotBlocker Translator Engine via AI"
+"Last-Translator: BotBlocker Translator Team"
 "Language-Team: Arabic"
 "Language: ar"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;"

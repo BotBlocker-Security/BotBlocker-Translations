@@ -1,11 +1,11 @@
-#
+﻿#
 msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
 "POT-Creation-Date: 2026-08-04 15:44+0000"
 "PO-Revision-Date: 2026-08-04 15:44+0000"
-"Last-Translator: BotBlocker Translator Engine via AI"
+"Last-Translator: BotBlocker Translator Team"
 "Language-Team: Korean"
 "Language: ko_KR"
 "Plural-Forms: nplurals=1; plural=0;"
