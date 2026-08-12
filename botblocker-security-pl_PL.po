@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-08-12 16:58+0000"
-"PO-Revision-Date: 2026-08-12 16:58+0000"
+"POT-Creation-Date: 2026-08-12 20:44+0000"
+"PO-Revision-Date: 2026-08-12 20:44+0000"
 "Last-Translator: BotBlocker Translator Team"
 "Language-Team: Polish"
 "Language: pl_PL"
@@ -327,7 +327,7 @@ msgstr "90 dni"
 
 #: admin/templates/integrations/2fa.php:109
 msgid "<strong>Note:</strong> After clicking \"Reset 2FA\", the user will need to set up 2FA again <strong>only if \"Enable Two-Factor Authentication\" is checked</strong>. They can do this immediately (QR code will appear) or on their next login."
-msgstr "<strong>Uwaga:</strong> Po kliknięciu „Resetuj 2FA” użytkownik będzie musiał ponownie skonfigurować 2FA <strong>tylko wtedy, gdy zaznaczono „Włącz uwierzytelnianie dwuskładnikowe”</strong>. Może to zrobić natychmiast (pojawi się kod QR) lub przy następnym logowaniu."
+msgstr "<strong>Notatka:</strong> Po kliknięciu „Resetuj 2FA” użytkownik będzie musiał ponownie skonfigurować 2FA <strong>tylko jeśli zaznaczono „Włącz uwierzytelnianie dwuskładnikowe”</strong>. Może to zrobić natychmiast (pojawi się kod QR) lub przy następnym logowaniu."
 
 #: includes/modal/modal-botblocker-rewrite-rules.php:17
 msgid "A page reload may be required."
@@ -390,7 +390,7 @@ msgstr "Kontrola dostępu"
 
 #: public/captcha/render-silent-auto-trait.php:18
 msgid "Access denied. Please enable JavaScript and cookies."
-msgstr "Odmowa dostępu. Włącz obsługę JavaScript i plików cookie."
+msgstr "Dostęp zabroniony. Proszę włączyć JavaScript i pliki ciasteczek."
 
 #: includes/botblocker/traits/class-botblocker-block-page-trait.php:32
 #: includes/botblocker/traits/class-botblocker-response-trait.php:287
@@ -467,7 +467,7 @@ msgstr "Włącza wszystkie funkcje protokołu HTTPS, w tym przekierowania i popr
 
 #: admin/templates/setup-wizard/init-mode.php:28
 msgid "Activates before other plugins"
-msgstr "Aktywuje się przed innymi wtyczkami"
+msgstr "Włącza się przed innymi wtyczkami"
 
 #: includes/ajax/class-botblocker-ajax-email.php:126
 msgid "Activation sent."
@@ -700,16 +700,16 @@ msgstr "Pakiet rozszerzeń musi zawierać deklarację Requires-Core."
 
 #: includes/hook/hook-addon-validation.php:138
 msgid "Add-on package slug does not match the requested add-on."
-msgstr "Slug pakietu dodatku nie pasuje do żądanego dodatku."
+msgstr "Uproszczona nazwa pakietu dodatku nie pasuje do żądanego dodatku."
 
 #: admin/class-botblocker-admin.php:557
 #: includes/hook/class-botblocker-addon-hooks.php:355
 msgid "Add-on package uploaded. Find it below, then activate it when ready."
-msgstr "Pakiet dodatku został przesłany. Znajdź go poniżej, a następnie aktywuj, gdy będzie gotowy."
+msgstr "Pakiet dodatku przesłany. Znajdź go poniżej, a następnie włącz, gdy będzie gotowy."
 
 #: includes/hook/hook-addon-validation.php:119
 msgid "Add-on root folder must be a valid slug."
-msgstr "Folder główny dodatku musi być prawidłowym slugiem."
+msgstr "Katalog główny dodatku musi być prawidłową uproszczoną nazwą."
 
 #: admin/templates/addons/addons-content.php:60
 msgid "Add-on settings"
@@ -755,7 +755,7 @@ msgstr "Dodatki dezaktywowane"
 #: includes/components/class-botblocker-component-addons-summary.php:58
 #: includes/inc-botblocker-ui.php:320
 msgid "Add-ons locked. Activate Cloud API to use marketplace features."
-msgstr "Dodatki zablokowane. Aktywuj Cloud API, aby korzystać z funkcji rynku."
+msgstr "Dodatki zablokowane. Włącz Cloud API, aby korzystać z funkcji rynku."
 
 #: addons/bbcs-truth-source/inc/views/scan-results.php:83
 msgid "Added"
@@ -814,11 +814,11 @@ msgstr "Dodaje nagłówek Permissions-Policy, aby ograniczyć funkcje przegląda
 
 #: addons/bbcs-security-headers/views/settings.php:105
 msgid "Adds Strict-Transport-Security header for HTTPS responses (max-age=1 year, includeSubDomains, preload). Only works on HTTPS sites."
-msgstr "Dodaje nagłówek Strict-Transport-Security dla odpowiedzi HTTPS (max-age=1 rok, includeSubDomains, preload). Działa tylko na stronach HTTPS."
+msgstr "Dodaje nagłówek Strict-Transport-Security dla odpowiedzi HTTPS (max-age=1 rok, includeSubDomains, preload). Działa tylko na witrynach HTTPS."
 
 #: admin/templates/settings/login-brute-force.php:25
 msgid "Adjust attempt limits and block times to balance security and usability."
-msgstr "Dostosuj limity prób i czasy blokady, aby zrównoważyć bezpieczeństwo i użyteczność."
+msgstr "Dostosuj limity prób i czasy blokady, aby zrównoważyć zabezpieczenia i użyteczność."
 
 #: admin/templates/settings/data-log.php:45
 msgid "Adjust for Daylight Saving Time"
@@ -886,7 +886,7 @@ msgstr "Zaawansowane raporty"
 
 #: admin/templates/setup-wizard/finish.php:66
 msgid "Advanced security features for production sites."
-msgstr "Zaawansowane funkcje bezpieczeństwa dla witryn produkcyjnych."
+msgstr "Zaawansowane funkcje zabezpieczeń dla witryn produkcyjnych."
 
 #: includes/data/botblocker-data-palette.php:130
 msgid "Advanced Settings - expert, fine-tune, deep config"
@@ -945,7 +945,7 @@ msgstr "Ostrzegaj, gdy obciążenie serwera jest krytyczne lub wykryto nietypow�
 
 #: admin/templates/shared/header/alerts.php:19
 msgid "Alerts"
-msgstr "Alerty"
+msgstr "Ostrzeżenia"
 
 #. translators: %s is the IP version label (IPv4 or IPv6).
 #: includes/ajax/class-botblocker-ajax-ip-rules-trait.php:1021
@@ -973,7 +973,7 @@ msgstr "Wszystkie sprawdzenia"
 #: admin/templates/tools/modals/salt-clear.php:21
 #: includes/modal/modal-botblocker-salt-clear.php:15
 msgid "All existing cookies will become invalid."
-msgstr "Wszystkie istniejące pliki cookie staną się nieważne."
+msgstr "Wszystkie istniejące pliki ciasteczek staną się nieważne."
 
 #: admin/templates/tools/modals/transient-clear.php:19
 msgid "All expired transients will be cleared from the database."
@@ -1107,11 +1107,11 @@ msgstr "Zezwalaj na logowanie administratora"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:64
 msgid "Allow Custom Paths Outside WordPress"
-msgstr "Zezwalaj na niestandardowe ścieżki poza WordPressem"
+msgstr "Zezwalaj na własne ścieżki poza WordPressem"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:231
 msgid "Allow custom paths outside WordPress"
-msgstr "Zezwalaj na niestandardowe ścieżki poza WordPressem"
+msgstr "Zezwalaj na własne ścieżki poza WordPressem"
 
 #: admin/templates/settings/bot-detection.php:44
 #: includes/data/botblocker-data-snav.php:73
@@ -1303,7 +1303,7 @@ msgstr "Czy na pewno chcesz wyczyścić plik dziennika?"
 #: admin/templates/tools/modals/salt-clear.php:26
 #: includes/modal/modal-botblocker-salt-clear.php:20
 msgid "Are you sure you want to clear the security salt?"
-msgstr "Czy na pewno chcesz wyczyścić sól zabezpieczającą?"
+msgstr "Czy na pewno chcesz wyczyścić sól zabezpieczeń?"
 
 #: admin/templates/addons/marketplace-panel.php:140
 #: admin/templates/addons/marketplace-panel.php:238
@@ -1905,7 +1905,7 @@ msgstr "Blokowanie niereagujących klientów"
 
 #: admin/templates/settings/browser-plugins.php:56
 msgid "Block visitors by persistent fingerprint even if their IP changes. Fingerprint must be blocked 3+ times to activate."
-msgstr "Blokuj odwiedzających na podstawie trwałego odcisku palca, nawet jeśli zmieni się ich adres IP. Odcisk palca musi zostać zablokowany co najmniej 3 razy, aby aktywować blokadę."
+msgstr "Blokuj odwiedzających na podstawie trwałego odcisku palca, nawet jeśli zmieni się ich adres IP. Odciski palca muszą być zablokowane co najmniej 3 razy, aby się włączyły."
 
 #: admin/templates/settings/browser-plugins.php:35
 msgid "Block visitors using private/incognito browsing mode."
@@ -2167,7 +2167,7 @@ msgstr "BotBlocker jest projektem <b>GLOBUS.studio</b>"
 
 #: includes/inc-botblocker-connectors.php:42
 msgid "BotBlocker is a powerful, universal security plugin with proactive protection for WordPress."
-msgstr "BotBlocker to potężna, uniwersalna wtyczka bezpieczeństwa z proaktywną ochroną dla WordPress."
+msgstr "BotBlocker to potężna, uniwersalna wtyczka zabezpieczeń z proaktywną ochroną dla WordPressa."
 
 #: includes/data/botblocker-marketing-blocks.php:79
 msgid "BotBlocker is a security plugin that runs early in the request lifecycle. We highly recommend you back up your site and test the new version on a staging environment first."
@@ -2210,12 +2210,12 @@ msgstr "Aktualności BotBlocker"
 #: includes/inc-botblocker-ui.php:158
 #: includes/viewmodels/class-chain-context-data.php:108
 msgid "BotBlocker operates in normal mode processing all threat types (bots, proxies, referrers, languages etc.) after base early filtering."
-msgstr "BotBlocker działa w trybie normalnym, przetwarzając wszystkie typy zagrożeń (boty, serwery proxy, strony odsyłające, języki itp.) po podstawowym wczesnym filtrowaniu."
+msgstr "BotBlocker działa w trybie normalnym, przetwarzając wszystkie rodzaje zagrożeń (boty, serwery proxy, strony odsyłające, języki itp.) po podstawowym wczesnym filtrowaniu."
 
 #: includes/inc-botblocker-ui.php:159
 #: includes/viewmodels/class-chain-context-data.php:109
 msgid "BotBlocker operates in normal mode processing all threat types at WordPress load."
-msgstr "BotBlocker działa w trybie normalnym, przetwarzając wszystkie typy zagrożeń podczas ładowania WordPress."
+msgstr "BotBlocker działa w trybie normalnym, przetwarzając wszystkie rodzaje zagrożeń podczas wczytywania WordPressa."
 
 #: admin/templates/cloud-api.php:20
 #: admin/templates/cloud-api/status.php:66
@@ -2265,18 +2265,18 @@ msgstr ""
 
 #: admin/class-botblocker-setup-wizard.php:185
 msgid "BotBlocker Security &rsaquo; Setup Wizard"
-msgstr "BotBlocker Security &rsaquo; Kreator konfiguracji"
+msgstr "Zabezpieczenia BotBlocker › Kreator konfiguracji"
 
 #: admin/templates/setup-wizard/completed.php:23
 msgid "BotBlocker Security - Setup completed"
-msgstr "BotBlocker Security - Konfiguracja zakończona"
+msgstr "Zabezpieczenia BotBlocker — konfiguracja zakończona"
 
 #: includes/botblocker/traits/class-botblocker-block-page-trait.php:16
 #: includes/botblocker/traits/class-botblocker-check-page-trait.php:207
 #: includes/botblocker/traits/class-botblocker-denied-page-trait.php:17
 #: public/template-botblocker-denied.php:24
 msgid "BotBlocker security plugin"
-msgstr "Wtyczka bezpieczeństwa BotBlocker"
+msgstr "Wtyczka zabezpieczeń BotBlocker"
 
 #: admin/templates/shared/sidebar/status-card.php:15
 #: admin/templates/shared/sidebar/subscribe-card.php:13
@@ -2304,7 +2304,7 @@ msgstr "BotBlocker używa zadań cron do czyszczenia dziennika i przetwarzania d
 
 #: admin/templates/about/body.php:138
 msgid "BotBlocker uses third-party libraries selected for security, compatibility, and open-source license compliance."
-msgstr "BotBlocker korzysta z bibliotek innych firm wybranych pod kątem bezpieczeństwa, zgodności i zgodności z licencjami open-source."
+msgstr "BotBlocker korzysta z bibliotek innych firm wybranych pod kątem zabezpieczeń, zgodności i zgodności z licencjami open source."
 
 #: public/check-page.php:13
 #: public/template-botblocker-denied.php:18
@@ -2452,19 +2452,19 @@ msgstr "Interfejs wtyczki pamięci podręcznej"
 
 #: admin/templates/integrations/memcached.php:32
 msgid "Cache security counters and visitor data in Memcached instead of the database."
-msgstr "Przechowuj liczniki zabezpieczeń i dane odwiedzających w Memcached zamiast w bazie danych."
+msgstr "Przechowuj liczniki zabezpieczeń i dane odwiedzających w pamięci podręcznej Memcached zamiast w bazie danych."
 
 #: admin/templates/integrations/redis.php:33
 msgid "Cache security counters and visitor data in Redis instead of the database."
-msgstr "Przechowuj liczniki zabezpieczeń i dane odwiedzających w Redis zamiast w bazie danych."
+msgstr "Przechowuj liczniki zabezpieczeń i dane odwiedzających w pamięci podręcznej Redis zamiast w bazie danych."
 
 #: admin/templates/shared/system-toggles.php:47
 msgid "Cache the admin interface for faster loading"
-msgstr "Buforuj interfejs administratora w celu szybszego ładowania"
+msgstr "Przechowuj interfejs administratora w pamięci podręcznej w celu szybszego wczytywania"
 
 #: admin/templates/settings/ui.php:47
 msgid "Cache the admin interface for faster loading."
-msgstr "Buforuj interfejs administratora w celu szybszego ładowania."
+msgstr "Przechowuj interfejs administratora w pamięci podręcznej w celu szybszego wczytywania."
 
 #: admin/templates/settings/ui.php:37
 msgid "Cache UI"
@@ -2472,15 +2472,15 @@ msgstr "Interfejs pamięci podręcznej"
 
 #: admin/templates/integrations/transients.php:24
 msgid "Caches cloud API responses in WordPress Transients to speed up repeated requests."
-msgstr "Buforuje odpowiedzi API chmury w WordPress Transients, aby przyspieszyć powtarzające się żądania."
+msgstr "Przechowuje odpowiedzi API chmury w pamięci podręcznej WordPress Transients, aby przyspieszyć powtarzające się żądania."
 
 #: admin/templates/shared/system-toggles.php:46
 msgid "Caches PTR lookups to speed up repeat visitor checks"
-msgstr "Buforuje zapytania PTR, aby przyspieszyć powtarzające się kontrole odwiedzających"
+msgstr "Przechowuje wyszukiwania PTR w pamięci podręcznej, aby przyspieszyć powtarzające się kontrole odwiedzających"
 
 #: admin/templates/shared/sidebar/status-card.php:93
 msgid "Caches PTR lookups to speed up repeat visitor checks (24h TTL)"
-msgstr "Buforuje zapytania PTR, aby przyspieszyć powtarzające się kontrole odwiedzających (TTL 24 godziny)"
+msgstr "Przechowuje wyszukiwania PTR w pamięci podręcznej, aby przyspieszyć powtarzające się kontrole odwiedzających (TTL 24h)"
 
 #: admin/templates/settings/general.php:73
 msgid "Caches PTR lookups to speed up repeat visitor checks. TTL is set by the PTR Cache Lifetime option."
@@ -2670,7 +2670,7 @@ msgstr "Wybierz, co się stanie, gdy ktoś spróbuje uzyskać dostęp do domyśl
 
 #: admin/templates/settings/log.php:16
 msgid "Choose which security events and visitor activities to log."
-msgstr "Wybierz, które zdarzenia zabezpieczeń i aktywności odwiedzających mają być rejestrowane."
+msgstr "Wybierz, które zdarzenia zabezpieczeń i aktywności odwiedzających mają być zapisywane w dzienniku."
 
 #: includes/modal/modal-botblocker-setup-wizard.php:18
 msgid "Choose your setup method"
@@ -2852,11 +2852,11 @@ msgstr "Wyczyść transjenty - pamięć podręczna, dane tymczasowe, czyszczenie
 #: admin/templates/tools/maintenance-tab.php:165
 #: includes/data/botblocker-data-snav.php:725
 msgid "Clear visitor cookies"
-msgstr "Wyczyść pliki cookie odwiedzających"
+msgstr "Wyczyść pliki ciasteczek odwiedzających"
 
 #: includes/data/botblocker-data-palette.php:95
 msgid "Clear visitor cookies - reset tracking, privacy data"
-msgstr "Wyczyść pliki cookie odwiedzających - resetuj śledzenie, dane prywatności"
+msgstr "Wyczyść pliki ciasteczek odwiedzających - zresetuj śledzenie i dane prywatności"
 
 #: includes/modal/modal-botblocker-hits-clear.php:9
 msgid "Clear Visitor Data"
@@ -3030,15 +3030,15 @@ msgstr "Zwiń wszystko"
 
 #: includes/services/class-botblocker-health-service.php:54
 msgid "Collect browser type"
-msgstr "Zbieraj typ przeglądarki"
+msgstr "Zbieraj rodzaj przeglądarki"
 
 #: includes/services/class-botblocker-health-service.php:56
 msgid "Collect device type"
-msgstr "Zbieraj typ urządzenia"
+msgstr "Zbieraj rodzaj urządzenia"
 
 #: includes/services/class-botblocker-health-service.php:55
 msgid "Collect OS type"
-msgstr "Zbieraj typ systemu operacyjnego"
+msgstr "Zbieraj rodzaj systemu operacyjnego"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-addons-page.php:43
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:423
@@ -3055,7 +3055,7 @@ msgstr "Przyciski kolorów"
 #: admin/templates/settings/captcha-tab.php:126
 #, php-format
 msgid "Combine any Captcha type with reCaptcha v3. <a href=\"%s\">Configure keys</a> in Integrations."
-msgstr "Połącz dowolny typ Captcha z reCaptcha v3. <a href=\"%s\">Skonfiguruj klucze</a> w Integracjach."
+msgstr "Połącz dowolny rodzaj Captcha z reCaptcha v3. <a href=\"%s\">Skonfiguruj klucze</a> w Integracjach."
 
 #: admin/templates/settings/notifications.php:115
 msgid "Coming soon"
@@ -3118,7 +3118,7 @@ msgstr "społeczność"
 
 #: admin/templates/cloud-api/status.php:93
 msgid "Compare features across plans"
-msgstr "Porównaj funkcje w różnych planach"
+msgstr "Porównaj funkcje w różnych abonamentach"
 
 #: admin/templates/shared/sidebar/pro-features.php:43
 msgid "Compare Free vs PRO"
@@ -3131,7 +3131,7 @@ msgstr "Porównaj funkcje planów poniżej. PRO odblokowuje pełną weryfikację
 #: admin/templates/addons/locked-notice.php:31
 #: admin/templates/setup-guide/pro-body.php:38
 msgid "Compare Plans"
-msgstr "Porównaj plany"
+msgstr "Porównaj abonamenty"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:134
 msgid "Compare WordPress core files against wp.org checksums to detect added, modified, or missing files."
@@ -3194,7 +3194,7 @@ msgstr "Konfiguracja wykluczeń"
 
 #: admin/templates/settings/notifications.php:27
 msgid "Configure how and when you receive alerts about bot activity."
-msgstr "Skonfiguruj, w jaki sposób i kiedy otrzymujesz alerty o aktywności botów."
+msgstr "Skonfiguruj, w jaki sposób i kiedy otrzymujesz ostrzeżenia o aktywności botów."
 
 #: admin/templates/settings/error.php:22
 msgid "Configure HTTP response codes for blocked visitors, ban durations, and search engine directives."
@@ -3218,7 +3218,7 @@ msgstr "Skonfiguruj bramki płatności - Stripe, PayPal, ominięcie kasy"
 
 #: admin/templates/tools/botblocker-tab.php:19
 msgid "Configure protection rules and automate threat detection. Reducing junk traffic also improves load times."
-msgstr "Skonfiguruj reguły ochrony i zautomatyzuj wykrywanie zagrożeń. Ograniczenie niechcianego ruchu poprawia również czas ładowania."
+msgstr "Skonfiguruj reguły ochrony i zautomatyzuj wykrywanie zagrożeń. Zmniejszenie ruchu śmieciowego poprawia również czas wczytywania."
 
 #: includes/data/botblocker-data-palette.php:87
 msgid "Configure rate limiting - spam, flood, throttle, behavioral"
@@ -3238,7 +3238,7 @@ msgstr "Skonfiguruj okres raportu, strefę czasową i sposób zliczania statysty
 
 #: admin/templates/tools/wordpress-tab.php:19
 msgid "Configure security settings and automate bot detection to reduce server load and improve loading speed."
-msgstr "Skonfiguruj ustawienia zabezpieczeń i zautomatyzuj wykrywanie botów, aby zmniejszyć obciążenie serwera i poprawić szybkość ładowania."
+msgstr "Skonfiguruj ustawienia zabezpieczeń i zautomatyzuj wykrywanie botów, aby zmniejszyć obciążenie serwera i poprawić szybkość wczytywania."
 
 #: includes/data/botblocker-data-palette.php:92
 msgid "Configure simple bot detection - crawler, scraper, user-agent"
@@ -3317,7 +3317,7 @@ msgstr "Test połączenia zakończony sukcesem!"
 #: includes/data/botblocker-data-snav.php:179
 #: includes/viewmodels/class-settings-viewmodel.php:173
 msgid "Connection Types"
-msgstr "Typy połączeń"
+msgstr "Rodzaje połączeń"
 
 #: admin/templates/about/body.php:25
 #: admin/templates/cloud-api/status.php:143
@@ -3367,11 +3367,11 @@ msgstr "Kontroluj buforowanie interfejsu administratora i ustawienia wyświetlan
 
 #: admin/templates/settings/cookie.php:50
 msgid "Control BotBlocker verification cookies: name, lifetime, salt, and security attributes."
-msgstr "Kontroluj pliki cookie weryfikacyjne BotBlocker: nazwę, czas życia, sól i atrybuty bezpieczeństwa."
+msgstr "Kontroluj pliki ciasteczek weryfikacyjnych BotBlocker: nazwę, czas życia, sól i atrybuty zabezpieczeń."
 
 #: admin/templates/settings/general.php:24
 msgid "Control how BotBlocker verifies visitors, applies security rules, and manages hit limits."
-msgstr "Kontroluj, w jaki sposób BotBlocker weryfikuje odwiedzających, stosuje reguły bezpieczeństwa i zarządza limitami trafień."
+msgstr "Kontroluj, w jaki sposób BotBlocker weryfikuje odwiedzających, stosuje reguły zabezpieczeń i zarządza limitami trafień."
 
 #: admin/templates/settings/rate-limiting.php:28
 msgid "Control request velocity per IP with configurable thresholds, sliding windows, and subnet aggregation."
@@ -3383,63 +3383,63 @@ msgstr "Kontroluj dostęp XML-RPC z obsługą listy dozwolonych adresów IP dla 
 
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-addons-page.php:33
 msgid "Cookie Alert"
-msgstr "Alert o plikach cookie"
+msgstr "Ostrzeżenie o plikach ciasteczek"
 
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-addons-page.php:38
 msgid "Cookie Alert Settings"
-msgstr "Ustawienia alertu o plikach cookie"
+msgstr "Ustawienia ostrzeżeń o plikach ciasteczek"
 
 #: includes/viewmodels/class-setup-guide-viewmodel.php:223
 msgid "Cookie and session"
-msgstr "Pliki cookie i sesja"
+msgstr "Plik ciasteczka i sesja"
 
 #: includes/data/botblocker-data-palette.php:84
 #: includes/data/botblocker-data-palette.php:85
 msgid "Cookie consent alert - GDPR, privacy notice"
-msgstr "Alert zgody na pliki cookie - RODO, informacja o prywatności"
+msgstr "Ostrzeżenie o zgodzie na pliki ciasteczek - RODO, powiadomienie o prywatności"
 
 #: includes/data/traits/trait-botblocker-stats-charts.php:259
 msgid "Cookie Hits and Visitors"
-msgstr "Trafienia i odwiedzający z plików cookie"
+msgstr "Trafienia i odwiedzający z plikami ciasteczek"
 
 #: admin/templates/settings/cookie.php:87
 #: includes/data/botblocker-data-snav.php:430
 msgid "Cookie Lifetime"
-msgstr "Czas życia pliku cookie"
+msgstr "Czas życia pliku ciasteczka"
 
 #: includes/services/class-botblocker-health-service.php:40
 msgid "Cookie lifetime >= 1 day"
-msgstr "Czas życia pliku cookie >= 1 dzień"
+msgstr "Czas życia pliku ciasteczka >= 1 dzień"
 
 #: admin/templates/settings/cookie.php:67
 #: includes/data/botblocker-data-snav.php:428
 msgid "Cookie Name"
-msgstr "Nazwa pliku cookie"
+msgstr "Nazwa pliku ciasteczka"
 
 #: admin/templates/settings/cookie.php:68
 msgid "Cookie name used by BotBlocker. Changing it resets all existing cookies."
-msgstr "Nazwa pliku cookie używana przez BotBlocker. Jej zmiana resetuje wszystkie istniejące pliki cookie."
+msgstr "Nazwa pliku ciasteczka używana przez BotBlocker. Jej zmiana resetuje wszystkie istniejące pliki ciasteczek."
 
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-plugin.php:154
 msgid "Cookie notice"
-msgstr "Powiadomienie o plikach cookie"
+msgstr "Powiadomienie o plikach ciasteczek"
 
 #: addons/bbcs-cookie-alert/views/settings.php:54
 msgid "Cookie notice text"
-msgstr "Tekst powiadomienia o plikach cookie"
+msgstr "Tekst powiadomienia o plikach ciasteczek"
 
 #: includes/services/class-botblocker-health-service.php:39
 msgid "Cookie salt set"
-msgstr "Ustawiono sól pliku cookie"
+msgstr "Ustawiona sól pliku ciasteczka"
 
 #: admin/templates/settings/cookie.php:75
 #: includes/data/botblocker-data-snav.php:429
 msgid "Cookie SameSite Policy"
-msgstr "Polityka SameSite pliku cookie"
+msgstr "Polityka SameSite pliku ciasteczka"
 
 #: includes/services/class-botblocker-health-service.php:38
 msgid "Cookie SameSite policy (Lax/Strict)"
-msgstr "Polityka SameSite pliku cookie (Lax/Strict)"
+msgstr "Polityka SameSite pliku ciasteczka (Lax/Strict)"
 
 #: admin/templates/settings/cookie.php:49
 #: admin/templates/settings/cookie.php:60
@@ -3447,12 +3447,12 @@ msgstr "Polityka SameSite pliku cookie (Lax/Strict)"
 #: includes/data/botblocker-data-snav.php:426
 #: includes/viewmodels/class-settings-viewmodel.php:211
 msgid "Cookie Settings"
-msgstr "Ustawienia plików cookie"
+msgstr "Ustawienia plików ciasteczek"
 
 #: admin/templates/settings/cookie.php:53
 #: admin/templates/settings/general.php:26
 msgid "Cookies"
-msgstr "Pliki cookie"
+msgstr "Pliki ciasteczek"
 
 #: includes/botblocker/traits/class-botblocker-check-page-trait.php:107
 msgid "Cookies are disabled in your browser. Enable cookies to continue."
@@ -3481,11 +3481,11 @@ msgstr "Nie można zbudować widoku drzewa. Przełącz na widok płaski."
 #: includes/data/class-botblocker-alerts.php:140
 #, php-format
 msgid "Could not download the ASN database (%s). Will retry automatically."
-msgstr "Nie można pobrać bazy danych ASN (%s). Ponowię próbę automatycznie."
+msgstr "Nie można było pobrać bazy danych ASN (%s). Nastąpi automatyczna ponowna próba."
 
 #: includes/data/class-botblocker-alerts.php:143
 msgid "Could not download the ASN database. Will retry automatically."
-msgstr "Nie można pobrać bazy danych ASN. Ponowię próbę automatycznie."
+msgstr "Nie można było pobrać bazy danych ASN. Nastąpi automatyczna ponowna próba."
 
 #: includes/components/class-botblocker-component-latest-hits-table.php:46
 #: includes/modal/modal-botblocker-hits-add-rule.php:30
@@ -3513,7 +3513,7 @@ msgstr "Lista krajów została zapisana."
 
 #: admin/templates/settings/payment-tab.php:21
 msgid "Covered: WooCommerce wc-api / wc-ajax, WC REST, EDD, Give, Memberpress, RCP, PMPro, Surecart, plus payment-specific paths and admin-ajax actions for Stripe, PayPal, Mollie, Adyen, Braintree, Square, Razorpay, CloudPayments, WayForPay, LiqPay, Fondy, PayU, Klarna, Paystack, Flutterwave, GoCardless, Paddle, Authorize.Net, 2Checkout and many others."
-msgstr "Obsługiwane: WooCommerce wc-api / wc-ajax, WC REST, EDD, Give, Memberpress, RCP, PMPro, Surecart, a także ścieżki specyficzne dla płatności i akcje admin-ajax dla Stripe, PayPal, Mollie, Adyen, Braintree, Square, Razorpay, CloudPayments, WayForPay, LiqPay, Fondy, PayU, Klarna, Paystack, Flutterwave, GoCardless, Paddle, Authorize.Net, 2Checkout i wielu innych."
+msgstr "Obsługiwane: WooCommerce wc-api / wc-ajax, WC REST, EDD, Give, Memberpress, RCP, PMPro, Surecart oraz ścieżki specyficzne dla płatności i działania admin-ajax dla Stripe, PayPal, Mollie, Adyen, Braintree, Square, Razorpay, CloudPayments, WayForPay, LiqPay, Fondy, PayU, Klarna, Paystack, Flutterwave, GoCardless, Paddle, Authorize.Net, 2Checkout i wielu innych."
 
 #: admin/templates/settings/cron.php:90
 msgid "cPanel Cron Jobs"
@@ -3584,7 +3584,7 @@ msgstr "Polecenie cURL (dla cron systemowego)"
 #: admin/templates/settings/tls-fingerprint.php:109
 #: includes/data/botblocker-data-snav.php:158
 msgid "Current JA3"
-msgstr "Bieżący JA3"
+msgstr "Używany JA3"
 
 #: admin/templates/settings/tls-fingerprint.php:109
 msgid "Current JA3 fingerprint received from your web server or Cloudflare."
@@ -3593,7 +3593,7 @@ msgstr "Bieżący odcisk palca JA3 otrzymany z serwera WWW lub Cloudflare."
 #: admin/templates/settings/tls-fingerprint.php:114
 #: includes/data/botblocker-data-snav.php:159
 msgid "Current JA4"
-msgstr "Bieżący JA4"
+msgstr "Używany JA4"
 
 #: admin/templates/settings/tls-fingerprint.php:114
 msgid "Current JA4 fingerprint received from your web server."
@@ -3602,56 +3602,56 @@ msgstr "Bieżący odcisk palca JA4 otrzymany z serwera WWW."
 #: addons/bbcs-https-protocol/inc/class-bbcs-https-protocol-addons-page.php:54
 #: addons/bbcs-https-protocol/views/settings.php:116
 msgid "Current Protocol"
-msgstr "Bieżący protokół"
+msgstr "Używany protokół"
 
 #: addons/bbcs-https-protocol/inc/bbcs-https-protocol-settings.php:128
 msgid "Current Site Protocol:"
-msgstr "Bieżący protokół witryny:"
+msgstr "Używany protokół witryny:"
 
 #: admin/templates/setup-wizard/finish.php:52
 msgid "Custom block/allow rules"
-msgstr "Niestandardowe reguły blokowania/zezwalania"
+msgstr "Własne reguły blokowania/zezwalania"
 
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-addons-page.php:57
 #: addons/bbcs-cookie-alert/views/settings.php:131
 msgid "Custom CSS"
-msgstr "Niestandardowy CSS"
+msgstr "Własny CSS"
 
 #: addons/bbcs-cookie-alert/views/settings.php:132
 msgid "Custom CSS for styling the cookie alert banner."
-msgstr "Niestandardowy CSS do stylizowania banera alertu o plikach cookie."
+msgstr "Własny CSS do stylizowania banera ostrzeżenia o plikach ciasteczka."
 
 #: admin/templates/cloud-api/status.php:140
 msgid "Custom development"
-msgstr "Niestandardowy rozwój"
+msgstr "Własne tworzenie"
 
 #: addons/bbcs-hide-admin/inc/class-bbcs-hide-admin-addons-page.php:35
 #: addons/bbcs-hide-admin/views/settings.php:60
 msgid "Custom Login URL"
-msgstr "Niestandardowy adres URL logowania"
+msgstr "Własny adres URL logowania"
 
 #: addons/bbcs-hide-admin/inc/class-bbcs-hide-admin-plugin.php:61
 msgid "Custom Login URL is invalid. Use only letters, numbers, hyphens, or underscores, and do not use reserved WordPress login endpoints."
-msgstr "Niestandardowy adres URL logowania jest nieprawidłowy. Używaj tylko liter, cyfr, myślników lub podkreśleń i nie używaj zarezerwowanych punktów końcowych logowania WordPress."
+msgstr "Własny adres URL logowania jest nieprawidłowy. Używaj tylko liter, cyfr, łączników lub podkreśleń i nie używaj zarezerwowanych punktów końcowych logowania WordPress."
 
 #: addons/bbcs-hide-admin/views/settings.php:89
 msgid "Custom message shown when the default login URL is accessed and behavior is set to Message."
-msgstr "Niestandardowa wiadomość wyświetlana, gdy uzyskano dostęp do domyślnego adresu URL logowania, a zachowanie jest ustawione na Wiadomość."
+msgstr "Własna wiadomość wyświetlana, gdy uzyskiwany jest domyślny adres URL logowania, a zachowanie jest ustawione na Wiadomość."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:61
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:63
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:215
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:221
 msgid "Custom Paths"
-msgstr "Niestandardowe ścieżki"
+msgstr "Własne ścieżki"
 
 #: admin/templates/setup-wizard/welcome.php:21
 msgid "Custom rules: IP, User-Agent, PTR, country, paths and headers"
-msgstr "Niestandardowe reguły: IP, User-Agent, PTR, kraj, ścieżki i nagłówki"
+msgstr "Własne reguły: IP, User-Agent, PTR, kraj, ścieżki i nagłówki"
 
 #: includes/data/botblocker-pro-features.php:22
 msgid "Custom security rules engine"
-msgstr "Silnik niestandardowych reguł bezpieczeństwa"
+msgstr "Własny silnik reguł zabezpieczeń"
 
 #: admin/templates/setup-wizard/welcome.php:22
 msgid "Daily cloud threat updates (signatures + networks)"
@@ -3875,7 +3875,7 @@ msgstr "Usuń wygasłe transjenty"
 
 #: includes/utilites/util-botblocker-support.php:52
 msgid "Describe your issue"
-msgstr "Opisz swój problem"
+msgstr "Opisz twój problem"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-truth-source-addons-page.php:60
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:133
@@ -3931,7 +3931,7 @@ msgstr "Wykrywanie urządzeń:"
 
 #: includes/data/traits/trait-botblocker-stats-charts.php:271
 msgid "Device Types"
-msgstr "Typy urządzeń"
+msgstr "Rodzaje urządzeń"
 
 #: admin/templates/settings/tls-fingerprint.php:104
 #: includes/data/botblocker-data-snav.php:156
@@ -3953,7 +3953,7 @@ msgstr "Wyłącz komentarze"
 
 #: admin/templates/dashboard/secret.php:38
 msgid "Disable current check"
-msgstr "Wyłącz bieżącą kontrolę"
+msgstr "Wyłącz używane sprawdzanie"
 
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-addons-page.php:43
 #: addons/bbcs-speedup/views/settings.php:66
@@ -4030,7 +4030,7 @@ msgstr "Zachowanie niepełnosprawnych"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:232
 msgid "Disabled by default so custom paths cannot scan arbitrary server locations."
-msgstr "Domyślnie wyłączone, aby niestandardowe ścieżki nie mogły skanować dowolnych lokalizacji na serwerze."
+msgstr "Domyślnie wyłączone, aby własne ścieżki nie mogły skanować dowolnych lokalizacji serwera."
 
 #: addons/bbcs-speedup/views/settings.php:170
 msgid "Disables all RSS feeds on the site."
@@ -4063,7 +4063,7 @@ msgstr "Wyświetl"
 
 #: addons/bbcs-cookie-alert/views/settings.php:28
 msgid "Displays a lightweight first-party cookie notice for visitors and stores consent locally in a BotBlocker-named cookie. Use it for simple privacy notices where no external consent platform is required. Configure message text, policy link, button label, theme, position, and optional CSS."
-msgstr "Wyświetla lekkie powiadomienie o plikach cookie pierwszej strony dla odwiedzających i przechowuje zgodę lokalnie w pliku cookie o nazwie BotBlocker. Użyj go do prostych powiadomień o prywatności, gdy nie jest wymagana zewnętrzna platforma zgody. Skonfiguruj tekst wiadomości, link do polityki, etykietę przycisku, motyw, pozycję i opcjonalny CSS."
+msgstr "Wyświetla lekkie powiadomienie o plikach ciasteczka pierwszej strony dla odwiedzających i przechowuje zgodę lokalnie w pliku ciasteczka o nazwie BotBlocker. Użyj go do prostych powiadomień o prywatności, gdzie nie jest wymagana zewnętrzna platforma zgody. Skonfiguruj tekst wiadomości, odnośnik do polityki, etykietę przycisku, motyw, pozycję i opcjonalny CSS."
 
 #: botblocker-security.php:256
 msgid "Docs and FAQs"
@@ -4167,7 +4167,7 @@ msgstr "Wczesna inicjalizacja - zanim WP się załaduje"
 
 #: admin/templates/shared/request-chain.php:90
 msgid "Early Init and MU modes drop blacklisted IPs at the first gate - no WordPress load, no overhead. This saves CPU time by skipping heavier logic for junk traffic before it reaches the main shield."
-msgstr "Tryby wczesnej inicjalizacji i MU odrzucają adresy IP z czarnej listy przy pierwszej bramie - bez ładowania WordPressa, bez narzutu. Oszczędza to czas procesora, pomijając cięższą logikę dla śmieciowego ruchu, zanim dotrze on do głównej tarczy."
+msgstr "Tryby wczesnej inicjalizacji i MU odrzucają IP z czarnej listy przy pierwszej bramie — bez wczytywania WordPressa, bez narzutu. Oszczędza to czas procesora, pomijając cięższą logikę dla śmieciowego ruchu, zanim dotrze on do głównej tarczy."
 
 #: admin/templates/setup-guide/chain-body.php:49
 msgid "Early Init and MU plugin modes reject requests at the first gate: IPs on the blacklist (bots, malicious networks, previously blocked) are dropped before heavier logic runs. With Early Init, WordPress does not load at all - saving memory and CPU. The MU plugin filters before regular plugins and the theme. Only clean traffic proceeds; junk is dropped as early as possible."
@@ -4176,7 +4176,7 @@ msgstr "Tryby wczesnej inicjalizacji i wtyczki MU odrzucają żądania przy pier
 #: admin/templates/setup-wizard/init-mode.php:60
 #, php-format
 msgid "Early Init provides instant IP bans. Custom IPv4/IPv6 lists can be uploaded in any mode - see %s."
-msgstr "Wczesna inicjalizacja zapewnia natychmiastowe blokady IP. Niestandardowe listy IPv4/IPv6 można przesłać w dowolnym trybie - zobacz %s."
+msgstr "Wczesna inicjalizacja zapewnia natychmiastowe blokady IP. Własne listy IPv4/IPv6 można przesłać w dowolnym trybie — zobacz %s."
 
 #: includes/ajax/class-botblocker-ajax-early-phase.php:55
 msgid "Early Init requires Cloud API and the Early Init addon to be enabled."
@@ -4250,7 +4250,7 @@ msgstr "Faza wczesna"
 
 #: admin/templates/settings/status.php:21
 msgid "Early Phase settings control how BotBlocker loads before WordPress fully initializes. Toggle Early Init and MU-plugin for earlier bot filtering at the earliest possible stage."
-msgstr "Ustawienia fazy wczesnej kontrolują, jak BotBlocker ładuje się przed pełną inicjalizacją WordPressa. Przełącz wczesną inicjalizację i wtyczkę MU, aby filtrować boty na najwcześniejszym możliwym etapie."
+msgstr "Ustawienia wczesnej fazy kontrolują sposób wczytywania BotBlocker, zanim WordPress w pełni się zainicjalizuje. Przełącz wczesną inicjalizację i wtyczkę MU, aby filtrować boty na jak najwcześniejszym etapie."
 
 #: admin/templates/settings/status.php:30
 #: includes/data/botblocker-data-snav.php:412
@@ -4382,7 +4382,7 @@ msgstr "Włącz automatyczne sprawdzanie źródła prawdy w regularnych odstępa
 
 #: addons/bbcs-security-headers/inc/class-bbcs-security-headers-addons-page.php:37
 msgid "Enable Basic Security Headers"
-msgstr "Włącz podstawowe nagłówki bezpieczeństwa"
+msgstr "Włącz podstawowe nagłówki zabezpieczeń"
 
 #: addons/bbcs-security-headers/views/settings.php:112
 msgid "Enable basic security headers"
@@ -4401,7 +4401,7 @@ msgstr "Włącz uwierzytelnianie dwuskładnikowe BotBlocker dla %s"
 
 #: admin/templates/integrations/2fa.php:34
 msgid "Enable BotBlocker Two-Factor Authentication for enhanced security."
-msgstr "Włącz uwierzytelnianie dwuskładnikowe BotBlocker dla zwiększenia bezpieczeństwa."
+msgstr "Włącz uwierzytelnianie dwuskładnikowe BotBlocker dla zwiększonych zabezpieczeń."
 
 #: addons/bbcs-security-headers/views/settings.php:113
 msgid "Enable common protection headers: X-Frame-Options, X-Content-Type-Options, X-XSS-Protection, Referrer-Policy, and X-Permitted-Cross-Domain-Policies."
@@ -4415,7 +4415,7 @@ msgstr "Włącz Content-Security-Policy"
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-addons-page.php:45
 #: addons/bbcs-cookie-alert/views/settings.php:44
 msgid "Enable Cookie Alert"
-msgstr "Włącz powiadomienie o plikach cookie"
+msgstr "Włącz ostrzeżenie o plikach ciasteczka"
 
 #: addons/bbcs-early-init/inc/class-bbcs-early-init-addons-page.php:54
 msgid "Enable Early Init"
@@ -4542,7 +4542,7 @@ msgstr "Włącz zaplanowane skanowanie"
 
 #: addons/bbcs-security-headers/inc/class-bbcs-security-headers-addons-page.php:35
 msgid "Enable Security Headers"
-msgstr "Włącz nagłówki bezpieczeństwa"
+msgstr "Włącz nagłówki zabezpieczeń"
 
 #: addons/bbcs-security-headers/views/settings.php:96
 msgid "Enable security headers group"
@@ -4636,7 +4636,7 @@ msgstr "Angielski"
 #: includes/components/class-botblocker-component-addons-summary.php:63
 #: includes/inc-botblocker-ui.php:325
 msgid "Enhance speed, security and user experience with official BotBlocker add-ons."
-msgstr "Zwiększ szybkość, bezpieczeństwo i doświadczenie użytkownika dzięki oficjalnym dodatkom BotBlocker."
+msgstr "Zwiększ szybkość, zabezpieczenia i doświadczenie użytkownika dzięki oficjalnym dodatkom BotBlocker."
 
 #: admin/templates/integrations/2fa.php:52
 #: includes/data/botblocker-data-snav.php:660
@@ -4666,7 +4666,7 @@ msgstr "Wpisz 6-cyfrowy kod z aplikacji:"
 
 #: admin/templates/integrations/botblocker-api.php:89
 msgid "Enter the additional API endpoint URL for advanced security analytics and threat monitoring services."
-msgstr "Wpisz dodatkowy adres URL punktu końcowego API dla zaawansowanych analiz bezpieczeństwa i usług monitorowania zagrożeń."
+msgstr "Wpisz dodatkowy adres URL punktu końcowego API dla zaawansowanych analiz zabezpieczeń i usług monitorowania zagrożeń."
 
 #: public/2FA/bbcs-2fa.php:174
 msgid "Enter the code to confirm login"
@@ -4687,11 +4687,11 @@ msgstr "Wpisz numer portu serwera Redis. Standardowy port to 6379 dla większoś
 
 #: includes/utilites/util-botblocker-support.php:47
 msgid "Enter your email"
-msgstr "Wpisz swój adres email"
+msgstr "Wpisz twój email"
 
 #: admin/templates/integrations/recaptcha-v2.php:36
 msgid "Enter your Google reCaptcha v2 secret key. This private key is used to verify user responses on the server side and should be kept confidential."
-msgstr "Wpisz swój klucz prywatny Google reCaptcha v2. Ten klucz prywatny służy do weryfikacji odpowiedzi użytkowników po stronie serwera i powinien być poufny."
+msgstr "Wpisz twój klucz prywatny Google reCaptcha v2. Ten klucz prywatny jest używany do weryfikacji odpowiedzi użytkownika po stronie serwera i powinien być poufny."
 
 #: admin/templates/integrations/recaptcha-v2.php:16
 msgid "Enter your Google reCaptcha v2 site and secret keys below."
@@ -4699,11 +4699,11 @@ msgstr "Wpisz poniżej klucze witryny i klucz prywatny Google reCaptcha v2."
 
 #: admin/templates/integrations/recaptcha-v2.php:27
 msgid "Enter your Google reCaptcha v2 site key obtained from Google reCaptcha console. This key is used to display the Captcha challenge on your website forms."
-msgstr "Wpisz klucz witryny Google reCaptcha v2 uzyskany z konsoli Google reCaptcha. Ten klucz służy do wyświetlania wyzwania Captcha w formularzach Twojej witryny."
+msgstr "Wpisz twój klucz witryny Google reCaptcha v2 uzyskany z konsoli Google reCaptcha. Ten klucz jest używany do wyświetlania wyzwania Captcha na formularzach twojej witryny internetowej."
 
 #: admin/templates/integrations/recaptcha-v3.php:39
 msgid "Enter your Google reCaptcha v3 secret key. This private key verifies user authenticity scores and determines bot likelihood for enhanced security."
-msgstr "Wpisz swój klucz prywatny Google reCaptcha v3. Ten klucz prywatny weryfikuje wyniki autentyczności użytkowników i określa prawdopodobieństwo bota w celu zwiększenia bezpieczeństwa."
+msgstr "Wpisz twój klucz prywatny Google reCaptcha v3. Ten klucz prywatny weryfikuje wyniki autentyczności użytkownika i określa prawdopodobieństwo bota w celu zwiększenia zabezpieczeń."
 
 #: includes/utilites/util-botblocker-support.php:42
 msgid "Enter your name"
@@ -4852,7 +4852,7 @@ msgstr "Eksportuj CSV"
 
 #: admin/templates/tools/botblocker-tab.php:32
 msgid "Export current settings and data."
-msgstr "Eksportuj bieżące ustawienia i dane."
+msgstr "Eksportuj używane ustawienia i dane."
 
 #: admin/templates/tools/botblocker-tab.php:31
 #: includes/data/botblocker-data-snav.php:699
@@ -4892,7 +4892,7 @@ msgstr "Zewnętrzne systemy buforowania (Redis, Memcached) również zostaną wy
 #: admin/templates/settings/connection-types.php:50
 #: includes/data/botblocker-data-snav.php:188
 msgid "Extra Connection Types"
-msgstr "Dodatkowe typy połączeń"
+msgstr "Dodatkowe rodzaje połączeń"
 
 #: addons/bbcs-truth-source/inc/views/scan-results.php:118
 msgid "Extra files (e.g. Pro build). Not verified - review optional."
@@ -5631,7 +5631,7 @@ msgstr "Baza danych odcisków palca"
 
 #: admin/templates/settings/browser-plugins.php:56
 msgid "Fingerprint Sticky Block"
-msgstr "Trwała blokada odcisku palca"
+msgstr "Przypięty blok odcisku palca"
 
 #: includes/modal/modal-botblocker-rewrite-rules.php:15
 msgid "Fixes 404 errors after permalink structure changes."
@@ -5661,7 +5661,7 @@ msgstr "Wyczyść reguły przepisywania - adresy URL, bezpośrednie odnośniki, 
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:182
 msgid "Follow symbolic links when scanning directories."
-msgstr "Podążaj za dowiązaniami symbolicznymi podczas skanowania katalogów."
+msgstr "Podążaj za odnośnikami symbolicznymi podczas skanowania katalogów."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:55
 msgid "Follow Symlinks"
@@ -5790,7 +5790,7 @@ msgstr "Biblioteka GD nie jest włączona na tym serwerze. Captcha obrazkowa (tr
 
 #: includes/hook/class-botblocker-settings-hooks.php:340
 msgid "GD library not available. Captcha mode was adjusted to a compatible mode."
-msgstr "Biblioteka GD jest niedostępna. Tryb Captcha został dostosowany do trybu zgodnego."
+msgstr "Biblioteka GD jest niedostępna. Tryb Captcha został dostosowany do zgodnego [może być też \"kompatybilny\"] trybu."
 
 #: addons/bbcs-cookie-alert/views/settings.php:29
 msgid "GDPR Cookies"
@@ -5810,7 +5810,7 @@ msgstr "Zasady ogólne"
 
 #: includes/class-botblocker-telegram.php:138
 msgid "Generated by BotBlocker Security"
-msgstr "Wygenerowane przez BotBlocker Security"
+msgstr "Wygenerowane przez BotBlocker Zabezpieczenia"
 
 #: admin/templates/rules.php:41
 msgid "GEO / ASN:"
@@ -5839,7 +5839,7 @@ msgstr "Baza danych geolokalizacyjnych:"
 
 #: includes/data/botblocker-data-palette.php:94
 msgid "Get API key from cloud - token, license, activate"
-msgstr "Pobierz klucz API z chmury — token, licencja, aktywacja"
+msgstr "Pobierz klucz API z chmury - token, licencja, włącz"
 
 #: admin/templates/addons/locked-notice.php:28
 #: admin/templates/addons/marketplace-panel.php:113
@@ -5860,7 +5860,7 @@ msgstr "Kup PRO"
 #: admin/templates/shared/sidebar/rail.php:80
 #: admin/templates/shared/sidebar/subscribe-card.php:17
 msgid "Get security updates and offers by email"
-msgstr "Otrzymuj aktualizacje zabezpieczeń i oferty pocztą elektroniczną"
+msgstr "Otrzymuj aktualizacje zabezpieczeń i oferty przez email"
 
 #: admin/templates/shared/header/user-menu.php:45
 msgid "GLOBUS.studio"
@@ -5969,7 +5969,7 @@ msgstr "Hartowanie WordPressa"
 
 #: admin/templates/settings/advanced-protection.php:46
 msgid "Hardens the verification cycle against server-side interference (DDoS protection, WAF, CDN, rate-limiters). Adds response signing, circuit breaker, and transport hardening. Disable if your hosting environment interferes with these protections."
-msgstr "Wzmacnia cykl weryfikacji przed zakłóceniami po stronie serwera (ochrona DDoS, WAF, CDN, ograniczniki szybkości). Dodaje podpisywanie odpowiedzi, wyłącznik obwodu i wzmocnienie transportu. Wyłącz, jeśli środowisko hostingowe zakłóca te zabezpieczenia."
+msgstr "Wzmacnia cykl weryfikacji przed zakłóceniami po stronie serwera (ochrona DDoS, WAF, CDN, ograniczniki szybkości). Dodaje podpisywanie odpowiedzi, wyłącznik obwodu i wzmocnienie transportu. Wyłącz, jeśli twój środowisko hostingowe zakłóca te zabezpieczenia."
 
 #: admin/templates/settings/tls-fingerprint.php:41
 #: includes/data/botblocker-data-snav.php:135
@@ -6080,7 +6080,7 @@ msgstr "CAPTCHA z przytrzymaniem przycisku"
 
 #: public/captcha/render-hold-button-trait.php:27
 msgid "Hold the button and release in the green zone"
-msgstr "Przytrzymaj przycisk i zwolnij w zielonej strefie"
+msgstr "Przytrzymaj przycisk i wydaj w zielonej strefie"
 
 #: addons/bbcs-hide-admin/views/settings.php:73
 msgid "Home Page"
@@ -6137,7 +6137,7 @@ msgstr "Godziny bezczynności, zanim poziom reputacji podsieci obniży się o 1 
 
 #: admin/templates/settings/data-log.php:26
 msgid "How BotBlocker Detects Browser Version, OS, and Device Type"
-msgstr "Jak BotBlocker wykrywa wersję przeglądarki, system operacyjny i typ urządzenia"
+msgstr "Jak BotBlocker wykrywa wersję przeglądarki, system operacyjny i rodzaj urządzenia"
 
 #: addons/bbcs-behavior/views/settings.php:139
 msgid "How far back (in minutes) to evaluate a visitor's activity patterns. (Default: 10)"
@@ -6385,7 +6385,7 @@ msgstr "Ignoruj katalog"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:351
 msgid "Ignore now, but alert again if this file changes."
-msgstr "Zignoruj teraz, ale ostrzeż ponownie, jeśli ten plik się zmieni."
+msgstr "Zignoruj teraz, ale ponów ostrzeżenie, jeśli ten plik się zmieni."
 
 #: addons/bbcs-truth-source/inc/class-bbcs-truth-source-addons-page.php:84
 msgid "Ignore Patterns"
@@ -6546,7 +6546,7 @@ msgstr "Popraw wydajność witryny, wyłączając niepotrzebne zasoby i funkcje.
 
 #: includes/viewmodels/class-dashboard-viewmodel.php:179
 msgid "Improve your plan for excellent security protection."
-msgstr "Ulepsz swój abonament, aby uzyskać doskonałą ochronę zabezpieczeń."
+msgstr "Ulepsz twój abonament, aby uzyskać doskonałą ochronę zabezpieczeń."
 
 #: admin/templates/setup-wizard/init-mode.php:30
 msgid "Improved login page protection"
@@ -6610,7 +6610,7 @@ msgstr "Niekompatybilne dodatki dezaktywowane: %s."
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:567
 #, php-format
 msgid "Increase Max Files or Max Findings to scan more items. Current Max Files: %1$d. Current Max Findings: %2$d."
-msgstr "Zwiększ maksymalną liczbę plików lub maksymalną liczbę znalezisk, aby przeskanować więcej elementów. Obecna maksymalna liczba plików: %1$d. Obecna maksymalna liczba znalezisk: %2$d."
+msgstr "Zwiększ maksymalną liczbę plików lub maksymalną liczbę znalezisk, aby przeskanować więcej elementów. Używana maksymalna liczba plików: %1$d. Używana maksymalna liczba znalezisk: %2$d."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:584
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:646
@@ -6727,7 +6727,7 @@ msgstr "Nieprawidłowy klucz API. Cloud API odpowiedział:"
 
 #: admin/class-botblocker-setup-wizard-ajax.php:254
 msgid "Invalid cache type."
-msgstr "Nieprawidłowy typ pamięci podręcznej."
+msgstr "Nieprawidłowy rodzaj pamięci podręcznej."
 
 #: admin/class-botblocker-setup-wizard-ajax.php:128
 msgid "Invalid Captcha mode."
@@ -7210,7 +7210,7 @@ msgstr "Działania dziennika w panelu administracyjnym WordPress"
 #: admin/templates/settings/log.php:33
 #: includes/data/botblocker-data-snav.php:345
 msgid "Log Allowed Visitors"
-msgstr "Rejestruj dozwolonych odwiedzających"
+msgstr "Dziennik dozwolonych odwiedzających"
 
 #: admin/templates/reports.php:20
 msgid "Log and Statistics"
@@ -7219,12 +7219,12 @@ msgstr "Dziennik i statystyki"
 #: admin/templates/settings/log.php:36
 #: includes/data/botblocker-data-snav.php:348
 msgid "Log Blocked Visitors"
-msgstr "Rejestruj zablokowanych odwiedzających"
+msgstr "Dziennik zablokowanych odwiedzających"
 
 #: admin/templates/settings/log.php:55
 #: includes/data/botblocker-data-snav.php:362
 msgid "Log BotBlocker Errors"
-msgstr "Rejestruj błędy BotBlocker"
+msgstr "Dziennik błędów BotBlocker"
 
 #: admin/templates/settings/log.php:47
 #: includes/data/botblocker-data-snav.php:355
@@ -7234,7 +7234,7 @@ msgstr "Rejestruj wizyty na stronach BotBlocker"
 #: admin/templates/settings/log.php:56
 #: includes/data/botblocker-data-snav.php:363
 msgid "Log CLI requests"
-msgstr "Rejestruj żądania CLI"
+msgstr "Dziennik żądań CLI"
 
 #: includes/ajax/class-botblocker-ajax-debug.php:100
 msgid "Log file cleared successfully."
@@ -7259,12 +7259,12 @@ msgstr "Plik dziennika został pomyślnie wyczyszczony!"
 #: admin/templates/settings/log.php:35
 #: includes/data/botblocker-data-snav.php:347
 msgid "Log Known Good IPs"
-msgstr "Rejestruj znane dobre adresy IP"
+msgstr "Dziennik znanych dobrych adresów IP"
 
 #: admin/templates/settings/log.php:31
 #: includes/data/botblocker-data-snav.php:343
 msgid "Log Manual Verification Requests"
-msgstr "Rejestruj ręczne żądania weryfikacji"
+msgstr "Dziennik ręcznych żądań weryfikacji"
 
 #: public/2FA/bbcs-2fa.php:234
 msgid "Log out"
@@ -7290,16 +7290,16 @@ msgstr "Okres przechowywania dziennika:"
 #: admin/templates/settings/log.php:34
 #: includes/data/botblocker-data-snav.php:346
 msgid "Log Suspected Fake Bots"
-msgstr "Rejestruj podejrzane fałszywe boty"
+msgstr "Dziennik podejrzanych fałszywych botów"
 
 #: admin/templates/settings/log.php:17
 msgid "Log verification requests, allowed visitors, blocked attempts, and admin actions."
-msgstr "Rejestruj żądania weryfikacji, dozwolonych odwiedzających, zablokowane próby i działania administratora."
+msgstr "Dziennik żądań weryfikacji, dozwolonych odwiedzających, zablokowanych prób i działań administratora."
 
 #: admin/templates/settings/log.php:32
 #: includes/data/botblocker-data-snav.php:344
 msgid "Log Verified Local Visitors"
-msgstr "Rejestruj zweryfikowanych lokalnych odwiedzających"
+msgstr "Dziennik zweryfikowanych lokalnych odwiedzających"
 
 #: admin/templates/settings/log.php:57
 #: includes/data/botblocker-data-snav.php:364
@@ -7309,7 +7309,7 @@ msgstr "Rejestruj wizyty, gdy ochrona BotBlocker jest wyłączona"
 #: admin/templates/settings/log.php:48
 #: includes/data/botblocker-data-snav.php:356
 msgid "Log WordPress Actions"
-msgstr "Rejestruj działania WordPress"
+msgstr "Dziennik działań WordPressa"
 
 #: includes/data/botblocker-data-snav.php:336
 #: includes/viewmodels/class-settings-viewmodel.php:199
@@ -7669,7 +7669,7 @@ msgstr "Brakujące wymagane pole: %s."
 #: includes/ajax/class-botblocker-ajax-paths.php:294
 #: includes/ajax/class-botblocker-ajax-proxy.php:314
 msgid "Missing required field: id."
-msgstr "Brak wymaganego pola: id."
+msgstr "Brak wymaganego pola: identyfikator."
 
 #: includes/ajax/class-botblocker-ajax-paths.php:556
 msgid "Missing required field: paths."
@@ -7720,7 +7720,7 @@ msgstr "Bardziej liberalne, mniej fałszywych alarmów"
 
 #: admin/templates/integrations/recaptcha-v3.php:52
 msgid "Move the slider to adjust the threshold level"
-msgstr "Przesuń suwak, aby dostosować poziom progu"
+msgstr "Przesuń pokaz slajdów, aby dostosować poziom progu"
 
 #: includes/inc-botblocker-ui.php:149
 #: includes/viewmodels/class-chain-context-data.php:98
@@ -7788,7 +7788,7 @@ msgstr "Potrzebujesz pomocy z zabezpieczeniami WordPress?"
 
 #: admin/templates/setup-wizard/finish.php:92
 msgid "Need help? Visit our"
-msgstr "Potrzebujesz pomocy? Odwiedź nasze"
+msgstr "Potrzebujesz pomocy? Przejdź na naszą"
 
 #: admin/templates/rules/body.php:111
 #: includes/modal/modal-botblocker-proxy-add.php:18
@@ -7882,7 +7882,7 @@ msgstr "Nie wymaga DNS/NS: działa wewnątrz WordPress, nie potrzebuje zewnętrz
 
 #: includes/ajax/class-botblocker-ajax-ip-rules-trait.php:1217
 msgid "No file content provided."
-msgstr "Nie podano zawartości pliku."
+msgstr "Nie podano treści pliku."
 
 #: admin/class-botblocker-admin.php:596
 #: admin/templates/addons/upload-section.php:21
@@ -8027,7 +8027,7 @@ msgstr "Ustawienia powiadomień"
 #: admin/templates/settings/notifications.php:36
 #: includes/data/botblocker-data-snav.php:538
 msgid "Notification Types"
-msgstr "Typy powiadomień"
+msgstr "Rodzaje powiadomień"
 
 #: admin/templates/settings/notifications.php:26
 #: includes/data/botblocker-data-snav.php:533
@@ -8075,7 +8075,7 @@ msgstr "Oficjalne dodatki BotBlocker wymagają BotBlocker PRO."
 
 #: admin/class-botblocker-admin.php:584
 msgid "Official BotBlocker add-ons require BotBlocker PRO. Custom ZIP add-ons can still be uploaded."
-msgstr "Oficjalne dodatki BotBlocker wymagają wersji BotBlocker PRO. Niestandardowe dodatki ZIP nadal można przesyłać."
+msgstr "Oficjalne dodatki BotBlocker wymagają wersji BotBlocker PRO. Własne dodatki ZIP nadal można przesyłać."
 
 #: admin/templates/settings/error.php:25
 msgid "Old HTTP versions"
@@ -8121,7 +8121,7 @@ msgstr "Akceptuj nagłówki odcisków palców TLS tylko z tego zaufanego adresu 
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:166
 msgid "Only hash executable file types (php, js, htaccess, etc.). Faster but may miss modified image/media files."
-msgstr "Obliczaj skróty tylko dla plików wykonywalnych (php, js, htaccess itp.). Szybciej, ale może pominąć zmodyfikowane pliki obrazów/multimediów."
+msgstr "Obliczaj skróty tylko dla wykonywalnych rodzajów plików (php, js, htaccess itp.). Szybciej, ale może pominąć zmodyfikowane pliki obrazków/multimediów."
 
 #: admin/templates/settings/payment-tab.php:22
 msgid "Only safe HTTP methods (GET, POST, HEAD) are bypassed. Hard IP blacklists and country blocks still apply."
@@ -8137,7 +8137,7 @@ msgstr "Otwórz kokpit — status ochrony, przegląd, strona główna"
 
 #: public/2FA/bbcs-2fa.php:195
 msgid "Open Google Authenticator or another TOTP app and enter the 6-digit code."
-msgstr "Otwórz Google Authenticator lub inną aplikację TOTP i wprowadź 6-cyfrowy kod."
+msgstr "Otwórz Google Authenticator lub inną aplikację TOTP i wpisz 6-cyfrowy kod."
 
 #: includes/data/botblocker-data-palette.php:67
 msgid "Open reports & log - traffic, blocked, threats, visitor history"
@@ -8145,7 +8145,7 @@ msgstr "Otwórz raporty i dziennik — ruch, zablokowane, zagrożenia, historia 
 
 #: admin/templates/about/body.php:31
 msgid "open support form"
-msgstr "otwórz formularz wsparcia"
+msgstr "otwórz formularz obsługi"
 
 #: admin/templates/tools/modals/db-repair.php:21
 #: includes/modal/modal-botblocker-db-repair.php:15
@@ -8176,7 +8176,7 @@ msgstr "Operacja nie powiodła się."
 
 #: admin/templates/setup-wizard/presets.php:27
 msgid "Optimal balance of security and convenience"
-msgstr "Optymalna równowaga między bezpieczeństwem a wygodą"
+msgstr "Optymalna równowaga zabezpieczeń i wygody"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-truth-source-addons-page.php:65
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:151
@@ -8274,7 +8274,7 @@ msgstr "Ścieżka"
 #: includes/modal/modal-botblocker-path-add.php:49
 #: includes/modal/modal-botblocker-path-edit.php:50
 msgid "Path (URL)"
-msgstr "Ścieżka (URL)"
+msgstr "Ścieżka (adres URL)"
 
 #: includes/ajax/class-botblocker-ajax-paths.php:455
 msgid "Path already exists."
@@ -8649,7 +8649,7 @@ msgstr "Status PRO: Nieaktywny"
 
 #: admin/templates/shared/sidebar/rail.php:144
 msgid "PRO users automatically share real-time threat intelligence. When one site on our network is attacked by a new botnet, the IP addresses are flagged and all PRO sites are protected instantly."
-msgstr "Użytkownicy PRO automatycznie udostępniają informacje o zagrożeniach w czasie rzeczywistym. Gdy jedna witryna w naszej sieci zostanie zaatakowana przez nowy botnet, adresy IP są oznaczane i wszystkie witryny PRO są natychmiast chronione."
+msgstr "Użytkownicy PRO automatycznie udostępniają informacje o zagrożeniach w czasie rzeczywistym. Gdy jedna witryna w naszej sieci zostanie zaatakowana przez nowy botnet, adresy IP są oznaczane, a wszystkie witryny PRO są natychmiast zabezpieczone."
 
 #: admin/templates/settings/advanced-protection.php:22
 msgid "PRO vs Free"
@@ -8675,7 +8675,7 @@ msgstr "Chroń domyślne punkty końcowe logowania i używaj własnego adresu UR
 #: public/templates/block-page.php:60
 #: public/templates/denied-page.php:62
 msgid "Protected by <b>BotBlocker</b> plugin"
-msgstr "Chronione przez wtyczkę <b>BotBlocker</b>"
+msgstr "Zabezpieczony przez wtyczkę <b>BotBlocker</b>"
 
 #: admin/class-botblocker-admin.php:246
 #: includes/viewmodels/class-header-viewmodel.php:131
@@ -9045,15 +9045,15 @@ msgstr ""
 
 #: admin/templates/settings/notifications.php:113
 msgid "Receive real-time security alerts via Pusher."
-msgstr "Otrzymuj powiadomienia o zabezpieczeniach w czasie rzeczywistym przez Pusher."
+msgstr "Otrzymuj ostrzeżenia o zabezpieczeniach w czasie rzeczywistym za pośrednictwem Pushera."
 
 #: admin/templates/settings/notifications.php:40
 msgid "Receive security alerts via email."
-msgstr "Otrzymuj powiadomienia o zabezpieczeniach przez email."
+msgstr "Otrzymuj ostrzeżenia o zabezpieczeniach za pośrednictwem emaila."
 
 #: admin/templates/settings/notifications.php:41
 msgid "Receive security alerts via Telegram."
-msgstr "Otrzymuj powiadomienia o zabezpieczeniach przez Telegram."
+msgstr "Otrzymuj ostrzeżenia o zabezpieczeniach za pośrednictwem Telegrama."
 
 #: admin/templates/setup-guide/one-click-modal.php:49
 #: admin/templates/setup-wizard/captcha.php:14
@@ -9085,16 +9085,16 @@ msgstr "Rejestruj dane zablokowanych odwiedzających do analizy wzorców ataków
 #: admin/templates/settings/data-log.php:37
 #: includes/data/botblocker-data-snav.php:326
 msgid "Record Browser Type"
-msgstr "Rejestruj typ przeglądarki"
+msgstr "Rejestruj rodzaj przeglądarki"
 
 #: admin/templates/settings/log.php:47
 msgid "Record challenge page visits. Helps monitor bot traffic that reaches verification stage."
-msgstr "Rejestruj wizyty na stronie weryfikacyjnej. Pomaga monitorować ruch botów, które docierają do etapu weryfikacji."
+msgstr "Rejestruj przejścia na stronę wyzwania. Pomaga monitorować ruch botów, który dociera do etapu weryfikacji."
 
 #: admin/templates/settings/data-log.php:44
 #: includes/data/botblocker-data-snav.php:328
 msgid "Record Device Type"
-msgstr "Rejestruj typ urządzenia"
+msgstr "Rejestruj rodzaj urządzenia"
 
 #: admin/templates/settings/log.php:55
 msgid "Record internal errors for debugging and support troubleshooting."
@@ -9103,7 +9103,7 @@ msgstr "Rejestruj błędy wewnętrzne do debugowania i rozwiązywania problemów
 #: admin/templates/settings/data-log.php:38
 #: includes/data/botblocker-data-snav.php:327
 msgid "Record OS Type"
-msgstr "Rejestruj typ systemu operacyjnego"
+msgstr "Rejestruj rodzaj systemu operacyjnego"
 
 #: admin/templates/settings/log.php:57
 msgid "Record traffic during maintenance windows or when protection is intentionally disabled."
@@ -9123,7 +9123,7 @@ msgstr "Rejestruj odwiedzających wysłanych do wyzwań Captcha. Przydatne do an
 
 #: admin/templates/settings/log.php:33
 msgid "Record visitors who pass all security checks. Useful for traffic analysis and audit trails."
-msgstr "Rejestruj odwiedzających, którzy przechodzą wszystkie kontrole bezpieczeństwa. Przydatne do analizy ruchu i ścieżek audytu."
+msgstr "Rejestruj odwiedzających, którzy przejdą wszystkie kontrole zabezpieczeń. Przydatne do analizy ruchu i ścieżek audytu."
 
 #: admin/templates/settings/log.php:48
 msgid "Record WordPress events such as logins, password resets, and blocked access attempts."
@@ -9177,7 +9177,7 @@ msgstr "Rozszerzenie PHP Redis nie jest zainstalowane na tym serwerze"
 
 #: admin/templates/integrations/redis.php:17
 msgid "Redis provides in-memory caching for security counters, visitor statistics, and threat detection data."
-msgstr "Redis zapewnia buforowanie w pamięci dla liczników bezpieczeństwa, statystyk odwiedzających i danych wykrywania zagrożeń."
+msgstr "Redis zapewnia buforowanie w pamięci dla liczników zabezpieczeń, statystyk odwiedzających i danych wykrywania zagrożeń."
 
 #: includes/data/botblocker-data-snav.php:621
 msgid "Redis Server Host"
@@ -9194,7 +9194,7 @@ msgstr "Redis kontra Memcached"
 
 #: admin/templates/setup-wizard/welcome.php:17
 msgid "Reduce server load - junk is blocked before WP loads"
-msgstr "Zmniejsz obciążenie serwera - śmieci są blokowane przed załadowaniem WP"
+msgstr "Zmniejsz wczytywanie serwera — śmieci są blokowane, zanim WordPress się wczyta"
 
 #: admin/templates/reports/table-header.php:17
 #: admin/templates/settings/bot-detection.php:29
@@ -9312,7 +9312,7 @@ msgstr "Usuwa adres URL krótkiego łącza z nagłówka."
 
 #: addons/bbcs-speedup/views/settings.php:135
 msgid "Removes the website URL field from the comment form."
-msgstr "Usuwa pole adresu URL witryny z formularza komentarza."
+msgstr "Usuwa pole adresu URL witryny internetowej z formularza komentarza."
 
 #: addons/bbcs-speedup/views/settings.php:100
 msgid "Removes the WordPress version meta tag from the page source."
@@ -9763,7 +9763,7 @@ msgstr "Bezpieczne ustawienia domyślne"
 
 #: admin/templates/setup-wizard/welcome.php:23
 msgid "Safe defaults: compatible with WooCommerce, Elementor, caches"
-msgstr "Bezpieczne ustawienia domyślne: zgodne z WooCommerce, Elementor, pamięcią podręczną"
+msgstr "Bezpieczne ustawienia domyślne: zgodny [może być też \"kompatybilny\"] z WooCommerce, Elementor, pamięciami podręcznymi"
 
 #: includes/modal/modal-botblocker-object-cache.php:18
 msgid "Safe for production use."
@@ -9980,7 +9980,7 @@ msgstr "Skanowanie plików w poszukiwaniu złośliwego oprogramowania"
 
 #: addons/bbcs-malware/views/settings.php:17
 msgid "Scans WordPress files and database content for dangerous execution, obfuscation, encoded payloads, injected scripts, and known webshell markers. Findings are indicators for review. Do not delete files before checking backups and confirming the payload."
-msgstr "Skanuje pliki WordPressa i zawartość bazy danych pod kątem niebezpiecznego wykonania, zaciemnienia, zakodowanych ładunków, wstrzykniętych skryptów i znanych znaczników webshell. Znaleziska są wskaźnikami do przeglądu. Nie usuwaj plików przed sprawdzeniem kopii zapasowych i potwierdzeniem ładunku."
+msgstr "Skanuje pliki WordPressa i treść bazy danych pod kątem niebezpiecznego wykonywania, zaciemniania, zakodowanych ładunków, wstrzykniętych skryptów i znanych znaczników webshelli. Wyniki są wskaźnikami do przeglądu. Nie usuwaj plików przed sprawdzeniem kopii zapasowych i potwierdzeniem ładunku."
 
 #: addons/bbcs-cron-jobs/views/settings.php:120
 #: addons/bbcs-cron-jobs/views/settings.php:68
@@ -10053,7 +10053,7 @@ msgstr "Weryfikacja wyszukiwarek, ochrona SEO przed fałszywymi robotami"
 
 #: includes/components/class-botblocker-component-counters-grid.php:28
 msgid "Search engine visits"
-msgstr "Wizyty wyszukiwarek"
+msgstr "Przejścia z wyszukiwarek"
 
 #: admin/templates/shared/kpi-primary-grid.php:51
 msgid "Search Engines"
@@ -10205,7 +10205,7 @@ msgstr "Wybierz kraj"
 
 #: admin/templates/settings/captcha-tab.php:85
 msgid "Select Captcha type for visitor verification."
-msgstr "Wybierz typ Captcha do weryfikacji odwiedzających."
+msgstr "Wybierz rodzaj Captcha do weryfikacji odwiedzających."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:318
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:194
@@ -10228,7 +10228,7 @@ msgstr "Wybierz pasujące obrazy. Najlepsza równowaga ochrony i doświadczenia 
 #: includes/modal/modal-botblocker-rule-add.php:20
 #: includes/modal/modal-botblocker-rule-edit.php:20
 msgid "Select rule type"
-msgstr "Wybierz typ reguły"
+msgstr "Wybierz rodzaj reguły"
 
 #: admin/templates/integrations/redis.php:61
 msgid "Select the Redis database index (0-15) to use. Default is 0. Different database indexes provide logical isolation between applications sharing the same Redis server."
@@ -10259,7 +10259,7 @@ msgstr "Wysyłaj podejrzane żądania do BotBlocker Cloud w celu weryfikacji."
 #: admin/templates/settings/cookie.php:127
 #: includes/data/botblocker-data-snav.php:439
 msgid "Send Vary: Cookie Header"
-msgstr "Wysyłaj nagłówek Vary: Cookie"
+msgstr "Wysyłaj nagłówek Vary: plik ciasteczka"
 
 #: admin/templates/dashboard/secret.php:47
 msgid "Send via email"
@@ -10514,7 +10514,7 @@ msgstr "Zdrowie witryny"
 #: admin/class-botblocker-admin.php:245
 #: includes/viewmodels/class-dashboard-viewmodel.php:141
 msgid "Site is protected"
-msgstr "Witryna jest chroniona"
+msgstr "Witryna jest zabezpieczona"
 
 #: admin/templates/integrations/recaptcha-v2.php:31
 #: admin/templates/integrations/recaptcha-v3.php:34
@@ -10852,7 +10852,7 @@ msgstr "Pobrano pomyślnie "
 #: includes/utilites/util-botblocker-support.php:21
 #: includes/utilites/util-botblocker-support.php:29
 msgid "Support"
-msgstr "Wsparcie"
+msgstr "Obsługa"
 
 #: admin/templates/about.php:20
 msgid "Support & About"
@@ -10860,7 +10860,7 @@ msgstr "Wsparcie i informacje"
 
 #: admin/templates/setup-wizard/finish.php:93
 msgid "support center"
-msgstr "centrum wsparcia"
+msgstr "centrum obsługi"
 
 #: admin/templates/about/body.php:60
 msgid "Support forum"
@@ -10868,7 +10868,7 @@ msgstr "Forum wsparcia"
 
 #: admin/templates/about/body.php:30
 msgid "Support ticket"
-msgstr "Zgłoszenie do wsparcia"
+msgstr "Zgłoszenie do obsługi"
 
 #: includes/class-botblocker-telegram.php:106
 msgid "Suspicious"
@@ -11102,7 +11102,7 @@ msgstr "Silnik behawioralny jest zainstalowany i aktywny. Możesz dostosować pr
 
 #: admin/templates/shared/sidebar/rail.php:145
 msgid "The Early Init add-on allows BotBlocker to execute at the very beginning of the WordPress load cycle. This stops bad bots early, saving massive amounts of database queries and server resources."
-msgstr "Dodatek Early Init pozwala BotBlocker działać na samym początku cyklu ładowania WordPressa. To wcześnie zatrzymuje złe boty, oszczędzając ogromne ilości zapytań do bazy danych i zasobów serwera."
+msgstr "Dodatek Early Init umożliwia BotBlockerowi uruchomienie na samym początku cyklu wczytywania WordPressa. Dzięki temu złe boty są zatrzymywane wcześnie, co oszczędza ogromne ilości zapytań do bazy danych i zasobów serwera."
 
 #: admin/templates/settings/cron.php:139
 msgid "The fallback runner checks overdue tasks (>1.5× interval) and recreates missing cron events. Runs automatically every 15 minutes via the WordPress init hook."
@@ -11114,7 +11114,7 @@ msgstr "Wewnętrzna pamięć podręczna WordPress i zewnętrzne systemy buforowa
 
 #: addons/bbcs-cookie-alert/views/settings.php:88
 msgid "The label for the cookie consent button."
-msgstr "Etykieta przycisku zgody na pliki cookie."
+msgstr "Etykieta przycisku zgody na pliki ciasteczka."
 
 #: addons/bbcs-cookie-alert/views/settings.php:76
 msgid "The label for the link to your privacy policy page."
@@ -11186,7 +11186,7 @@ msgstr "Strona naprawy jest publicznie dostępna bez uwierzytelniania, gdy jest 
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:440
 msgid "The scan runs in the background and may pause if you close this page. For best results, keep this tab open until the scan finishes."
-msgstr "Skanowanie działa w tle i może zostać wstrzymane, jeśli zamkniesz tę stronę. Aby uzyskać najlepsze wyniki, pozostaw tę kartę otwartą do zakończenia skanowania."
+msgstr "Skanowanie działa w tle i może zostać wstrzymane, jeśli zamkniesz tę stronę. Aby uzyskać najlepsze wyniki, pozostaw tę zakładkę otwartą do zakończenia skanowania."
 
 #. translators: %d: number of high-confidence malware indicators found
 #: addons/bbcs-malware/inc/class-bbcs-malware-background.php:637
@@ -11217,7 +11217,7 @@ msgstr "Brak tymczasowego katalogu rozpakowywania."
 
 #: addons/bbcs-cookie-alert/views/settings.php:53
 msgid "The text displayed in the cookie notice. Keep it concise and informative."
-msgstr "Tekst wyświetlany w powiadomieniu o plikach cookie. Zachowaj zwięzłość i treściwość."
+msgstr "Tekst wyświetlany w powiadomieniu o plikach ciasteczka. Zachowaj zwięzłość i treściwość."
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:425
 #, php-format
@@ -11240,7 +11240,7 @@ msgstr "Brak zweryfikowanego źródła dodatku."
 
 #: addons/bbcs-cookie-alert/views/settings.php:111
 msgid "The visual style of the cookie alert banner."
-msgstr "Styl wizualny banera powiadomienia o plikach cookie."
+msgstr "Styl wizualny banera ostrzeżenia o plikach ciasteczka."
 
 #: admin/templates/tools/modals/log-clear.php:19
 #: includes/modal/modal-botblocker-log-clear.php:13
@@ -11954,7 +11954,7 @@ msgstr "Unikatowi odwiedzający (według adresu IP)"
 
 #: includes/shortcode/charts/chart-botblocker-stat.php:23
 msgid "Unknown chart data type."
-msgstr "Nieznany typ danych wykresu."
+msgstr "Nieznany rodzaj danych wykresu."
 
 #: includes/cron/class-botblocker-cron.php:291
 msgid "Unknown cron task."
@@ -12017,7 +12017,7 @@ msgstr "Aktualizacja statystyk"
 #: admin/templates/tools/modals/salt-clear.php:19
 #: includes/modal/modal-botblocker-salt-clear.php:13
 msgid "Updating the salt resets all authentication cookies:"
-msgstr "Zaktualizowanie soli resetuje wszystkie ciasteczka uwierzytelniające:"
+msgstr "Zaktualizowanie soli resetuje wszystkie pliki ciasteczka uwierzytelniające:"
 
 #: admin/templates/settings/rate-limiting.php:40
 #: admin/templates/setup-wizard/finish.php:80
@@ -12036,7 +12036,7 @@ msgstr "Przejdź na Pro, aby uzyskać silnik behawioralny. Oferuje zaawansowane 
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:123
 msgid "Upgrade your plan for better protection."
-msgstr "Zaktualizuj swój abonament, aby uzyskać lepszą ochronę."
+msgstr "Ulepsz twój abonament, aby uzyskać lepszą ochronę."
 
 #: admin/templates/addons.php:22
 msgid "Upload ZIP"
@@ -12052,7 +12052,7 @@ msgstr "Reguły przepisywania adresów URL zostaną zresetowane:"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:341
 msgid "URL to fetch remote regex signatures for malware detection. Endpoint must return JSON with version + signatures array. Each signature: id, severity (critical/high/medium/low), regex (valid PHP regex), score (1-100), confidence, category, description."
-msgstr "Adres URL do pobierania zdalnych sygnatur regex do wykrywania złośliwego oprogramowania. Punkt końcowy musi zwracać JSON z wersją i tablicą sygnatur. Każda sygnatura: id, ważność (krytyczna/wysoka/średnia/niska), regex (prawidłowy regex PHP), wynik (1-100), pewność, kategoria, opis."
+msgstr "Adres URL do pobierania zdalnych sygnatur regex do wykrywania złośliwego oprogramowania. Punkt końcowy musi zwracać JSON z wersją i tablicą sygnatur. Każda sygnatura: identyfikator, ważność (krytyczna/wysoka/średnia/niska), regex (poprawny regex PHP), wynik (1-100), pewność, kategoria, opis."
 
 #: addons/bbcs-hide-admin/views/settings.php:100
 msgid "URL to redirect to when someone tries to access the default login URL. Only used when behavior is set to Redirect."
@@ -12068,7 +12068,7 @@ msgstr "Użyj jawnych nagłówków CORS (Content-Type, X-Requested-With) zamiast
 
 #: public/2FA/bbcs-2fa-setup.php:156
 msgid "Use Google Authenticator or any TOTP app to scan the code, or enter the key manually."
-msgstr "Użyj Google Authenticator lub dowolnej aplikacji TOTP, aby zeskanować kod, lub wprowadź klucz ręcznie."
+msgstr "Użyj Google Authenticator lub dowolnej aplikacji TOTP, aby zeskanować kod, lub wpisz klucz ręcznie."
 
 #: admin/templates/settings/traffic.php:17
 msgid "Use noindex and noarchive directives to prevent search engines from indexing blocked or UTM pages."
@@ -12254,7 +12254,7 @@ msgstr "Zobacz wszystkie"
 
 #: addons/bbcs-cron-jobs/views/settings.php:25
 msgid "View and manage all WordPress scheduled cron jobs. Disable unwanted cron tasks directly from the admin panel."
-msgstr "Przeglądaj i zarządzaj wszystkimi zaplanowanymi zadaniami cron WordPressa. Wyłączaj niechciane zadania cron bezpośrednio z panelu administratora."
+msgstr "Zobacz i zarządzaj wszystkimi zaplanowanymi zadaniami cron WordPressa. Wyłącz niechciane zadania cron bezpośrednio z panelu administratora."
 
 #: admin/templates/shared/sidebar/rail.php:65
 #: admin/templates/shared/sidebar/social-proof.php:39
@@ -12308,7 +12308,7 @@ msgstr "Wykryto W3 Total Cache. Jeśli używasz trybu Disk Enhanced z regułami 
 
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-settings.php:12
 msgid "We use cookies to improve site security and user experience."
-msgstr "Używamy plików ciasteczek, aby poprawić bezpieczeństwo witryny i doświadczenie użytkownika."
+msgstr "Używamy plików ciasteczka, aby poprawić zabezpieczenia witryny i doświadczenia użytkownika."
 
 #: includes/helpers/class-health-score-helper.php:17
 #: includes/shortcode/botblocker-shortcode-health.php:37
@@ -12334,7 +12334,7 @@ msgstr ""
 
 #: includes/class-botblocker-telegram.php:136
 msgid "Website protection worked normally this week."
-msgstr "Ochrona witryny działała normalnie w tym tygodniu."
+msgstr "Ochrona witryny internetowej działała normalnie w tym tygodniu."
 
 #: includes/cron/class-botblocker-cron.php:123
 msgid "Weekly"
@@ -12378,7 +12378,7 @@ msgstr "Co nowego w"
 
 #: admin/templates/setup-wizard/init-mode.php:9
 msgid "When BotBlocker activates. Earlier = stronger protection."
-msgstr "Kiedy BotBlocker się aktywuje. Wcześniej = silniejsza ochrona."
+msgstr "Kiedy BotBlocker się włącza. Wcześniej = silniejsza ochrona."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:198
 msgid "When checked, the scanner downloads fresh reference data from wp.org instead of using previously cached integrity manifests. Useful when core/plugin updates may not have been detected yet."
@@ -12406,7 +12406,7 @@ msgstr "Gdy włączone, wywołania zwrotne płatności nadal pomijają Captcha, 
 
 #: admin/templates/settings/payment-tab.php:34
 msgid "When enabled, requests matching well-known payment callback patterns (paths, query keys, admin-ajax actions, signature headers) skip JS-challenge, Captcha and rate-limit. Recommended for any site with WooCommerce or another e-commerce plugin."
-msgstr "Gdy włączone, żądania pasujące do dobrze znanych wzorców wywołań zwrotnych płatności (ścieżki, klucze zapytań, akcje admin-ajax, nagłówki podpisu) pomijają wyzwanie JS, Captcha i limit szybkości. Zalecane dla każdej witryny z WooCommerce lub inną wtyczką e-commerce."
+msgstr "Po włączeniu żądania pasujące do dobrze znanych wzorców wywołań zwrotnych płatności (ścieżki, klucze zapytań, działania admin-ajax, nagłówki podpisu) pomijają wyzwanie JS, Captcha i ograniczenie szybkości. Zalecane dla każdej witryny z WooCommerce lub inną wtyczką e-commerce."
 
 #: addons/bbcs-xmlrpc-tunnel/views/settings.php:41
 msgid "When enabled, X-Forwarded-For and CF-Connecting-IP headers are trusted for IP allowlisting. WARNING: These headers are client-spoofable — only enable if your server is behind a trusted reverse proxy that strips these headers from external requests."
@@ -12418,7 +12418,7 @@ msgstr "Gdy włączone, nagłówki X-Forwarded-Proto, CF-Visitor i inne nagłów
 
 #: addons/bbcs-https-protocol/inc/bbcs-https-protocol-settings.php:44
 msgid "When enabling HTTPS redirect, ensure your SSL certificate is properly configured. Misconfiguration may cause site access issues."
-msgstr "Włączając przekierowanie HTTPS, upewnij się, że certyfikat SSL jest prawidłowo skonfigurowany. Błędna konfiguracja może powodować problemy z dostępem do witryny."
+msgstr "Podczas włączania przekierowania HTTPS upewnij się, że twój certyfikat SSL jest poprawnie skonfigurowany. Błędna konfiguracja może powodować problemy z dostępem do witryny."
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:208
 msgid "When the rule should stop applying."
@@ -12426,7 +12426,7 @@ msgstr "Kiedy reguła powinna przestać obowiązywać."
 
 #: addons/bbcs-cookie-alert/views/settings.php:122
 msgid "Where the cookie alert banner appears on the page."
-msgstr "Gdzie na stronie pojawia się baner ostrzeżenia o ciasteczkach."
+msgstr "Gdzie baner ostrzeżenia o plikach ciasteczka pojawia się na stronie."
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:157
 #: admin/partials/botblocker-admin-dashboard-widgets.php:164
@@ -12669,12 +12669,12 @@ msgstr "Możesz przygotować listę w dowolnym edytorze tekstu. Każda linia pow
 
 #: includes/shortcode/botblocker-shortcode-sidebar.php:122
 msgid "You do not have permission to view this information."
-msgstr "Nie masz uprawnień do wyświetlania tych informacji."
+msgstr "Brak uprawnień do zobaczenia tych informacji."
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:123
 #: includes/viewmodels/class-dashboard-viewmodel.php:172
 msgid "You have PRO activated. Check your plan."
-msgstr "Masz aktywowaną wersję PRO. Sprawdź swój abonament."
+msgstr "Masz aktywowaną wersję PRO. Sprawdź twój abonament."
 
 #: includes/utilites/2FA/inc-botblocker-2fa.php:343
 msgid "You must be logged in."
@@ -12682,7 +12682,7 @@ msgstr "Musisz być zalogowany."
 
 #: includes/class-botblocker-telegram.php:197
 msgid "You will receive weekly security reports here."
-msgstr "Będziesz otrzymywać cotygodniowe raporty bezpieczeństwa tutaj."
+msgstr "Będziesz otrzymywać cotygodniowe raporty zabezpieczeń tutaj."
 
 #: admin/templates/setup-guide/chain-body.php:56
 msgid "Your browser does not support the video tag."
@@ -12695,7 +12695,7 @@ msgstr "Twój interfejs API chmury wygasł."
 
 #: includes/data/class-botblocker-alerts.php:107
 msgid "Your cloud API has expired. Please renew it."
-msgstr "Twoje API chmurowe wygasło. Proszę je odnowić."
+msgstr "Twój interfejs API w chmurze wygasł. Proszę go odnowić."
 
 #. translators: %d: number of hits remaining before the cloud API is exhausted.
 #: includes/data/class-botblocker-alerts.php:120
@@ -12711,7 +12711,7 @@ msgstr "Twój interfejs API w chmurze nie ma już żadnych trafień."
 
 #: includes/data/class-botblocker-alerts.php:121
 msgid "Your cloud API has no hits remaining. Please renew."
-msgstr "Twoje API chmurowe nie ma już żadnych wywołań. Proszę odnowić."
+msgstr "Twój interfejs API w chmurze nie ma już dostępnych wywołań. Proszę go odnowić."
 
 #. translators: %d: number of days left before the cloud API expires.
 #. translators: %d: number of days until the cloud API expires.
@@ -12719,7 +12719,7 @@ msgstr "Twoje API chmurowe nie ma już żadnych wywołań. Proszę odnowić."
 #: includes/pro/class-botblocker-pro.php:159
 #, php-format
 msgid "Your cloud API will expire in %d days."
-msgstr "Twoje API chmurowe wygaśnie za %d dni."
+msgstr "Twój interfejs API w chmurze wygaśnie za %d dni."
 
 #: admin/templates/shared/sidebar/rail.php:82
 #: admin/templates/shared/sidebar/subscribe-card.php:20

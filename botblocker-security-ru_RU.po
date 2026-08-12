@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-08-12 17:01+0000"
-"PO-Revision-Date: 2026-08-12 17:01+0000"
+"POT-Creation-Date: 2026-08-12 20:45+0000"
+"PO-Revision-Date: 2026-08-12 20:45+0000"
 "Last-Translator: BotBlocker Translator Team"
 "Language-Team: Russian"
 "Language: ru_RU"
@@ -463,7 +463,7 @@ msgstr "Активируйте аддон Behavioral Engine для расшир�
 #: addons/bbcs-https-protocol/inc/bbcs-https-protocol-settings.php:70
 #: addons/bbcs-https-protocol/views/settings.php:62
 msgid "Activates all HTTPS protocol features including redirects and mixed content fixing. Requires SSL certificate to be installed."
-msgstr "Активирует все функции протокола HTTPS, включая перенаправления и исправление смешанного содержимого. Требуется установленный SSL-сертификат."
+msgstr "Активирует все возможности протокола HTTPS, включая перенаправления и исправление смешанного содержимого. Требуется установленный SSL-сертификат."
 
 #: admin/templates/setup-wizard/init-mode.php:28
 msgid "Activates before other plugins"
@@ -755,7 +755,7 @@ msgstr "Аддоны деактивированы"
 #: includes/components/class-botblocker-component-addons-summary.php:58
 #: includes/inc-botblocker-ui.php:320
 msgid "Add-ons locked. Activate Cloud API to use marketplace features."
-msgstr "Аддоны заблокированы. Активируйте Cloud API, чтобы использовать функции маркетплейса."
+msgstr "Дополнения заблокированы. Активируйте Cloud API, чтобы использовать возможности маркетплейса."
 
 #: addons/bbcs-truth-source/inc/views/scan-results.php:83
 msgid "Added"
@@ -810,7 +810,7 @@ msgstr "Добавляет заголовок Content-Security-Policy по ум�
 
 #: addons/bbcs-security-headers/views/settings.php:121
 msgid "Adds Permissions-Policy header to restrict browser features (camera, geolocation, microphone, payment etc.) on all pages."
-msgstr "Добавляет заголовок Permissions-Policy для ограничения функций браузера (камера, геолокация, микрофон, оплата и т. д.) на всех страницах."
+msgstr "Добавляет заголовок Permissions-Policy для ограничения возможностей браузера (камера, геолокация, микрофон, оплата и т. д.) на всех страницах."
 
 #: addons/bbcs-security-headers/views/settings.php:105
 msgid "Adds Strict-Transport-Security header for HTTPS responses (max-age=1 year, includeSubDomains, preload). Only works on HTTPS sites."
@@ -886,7 +886,7 @@ msgstr "Расширенные отчёты и аналитика"
 
 #: admin/templates/setup-wizard/finish.php:66
 msgid "Advanced security features for production sites."
-msgstr "Расширенные функции безопасности для рабочих сайтов."
+msgstr "Расширенные возможности безопасности для рабочих сайтов."
 
 #: includes/data/botblocker-data-palette.php:130
 msgid "Advanced Settings - expert, fine-tune, deep config"
@@ -1415,7 +1415,7 @@ msgstr "База данных ASN"
 #: includes/cron/class-botblocker-cron.php:215
 #: includes/cron/class-botblocker-cron.php:91
 msgid "ASN Database Download/Update"
-msgstr "Загрузка/обновление базы данных ASN"
+msgstr "Скачивание/обновление базы данных ASN"
 
 #: includes/cron/class-botblocker-cron.php:92
 #: includes/viewmodels/class-settings-viewmodel.php:356
@@ -1440,7 +1440,7 @@ msgstr "Запланировано обновление базы данных AS
 
 #: includes/ajax/class-botblocker-ajax-maintenance.php:221
 msgid "ASN database update scheduled. The download will start shortly in the background."
-msgstr "Обновление базы данных ASN запланировано. Загрузка скоро начнётся в фоновом режиме."
+msgstr "Обновление базы данных ASN запланировано. Скачивание скоро начнётся в фоновом режиме."
 
 #. translators: %1$s: ASN database type, %2$s: database size, %3$s: time since last update
 #: admin/templates/tools/maintenance-tab.php:36
@@ -1600,7 +1600,7 @@ msgstr "Среднее число запросов в минуту в сколь
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:373
 msgid "Avoid reporting common analytics, payment and CDN script tags as malware indicators."
-msgstr "Не сообщать о распространённых тегах скриптов аналитики, платежей и CDN как об индикаторах вредоносного ПО."
+msgstr "Не сообщать о распространённых метках скриптов аналитики, платежей и CDN как об индикаторах вредоносного ПО."
 
 #: admin/templates/setup-wizard/cache.php:53
 #: admin/templates/setup-wizard/captcha.php:77
@@ -2151,7 +2151,7 @@ msgstr "Протокол HTTPS BotBlocker автоматически обнов�
 
 #: addons/bbcs-https-protocol/views/settings.php:27
 msgid "BotBlocker HTTPS Protocol automatically upgrades all insecure HTTP connections to secure HTTPS. This protects your visitors' data and improves your site security. The addon provides two essential features: HTTPS Redirect - automatically redirects HTTP traffic to HTTPS. Mixed Content Fixer - replaces insecure content links with secure ones."
-msgstr "Протокол HTTPS BotBlocker автоматически обновляет все небезопасные HTTP-соединения до безопасного HTTPS. Это защищает данные ваших посетителей и повышает безопасность вашего сайта. Аддон предоставляет две основные функции: HTTPS Redirect — автоматически перенаправляет HTTP-трафик на HTTPS. Mixed Content Fixer — заменяет небезопасные ссылки содержимого на безопасные."
+msgstr "Протокол HTTPS BotBlocker автоматически преобразует все небезопасные HTTP-соединения в безопасные HTTPS. Это защищает данные ваших посетителей и повышает безопасность вашего сайта. Дополнение предоставляет две основные возможности: перенаправление HTTPS — автоматически перенаправляет HTTP-трафик на HTTPS. Исправление смешанного содержимого — заменяет небезопасные ссылки на содержимое безопасными."
 
 #: admin/templates/settings/captcha-tab.php:24
 #: admin/templates/setup-wizard/captcha.php:34
@@ -3298,7 +3298,7 @@ msgstr "Фильтрация соединений блокирует подоз�
 #: public/templates/block-page.php:54
 #: public/templates/denied-page.php:56
 msgid "Connection ID:"
-msgstr "Идентификатор подключения:"
+msgstr "ID соединения:"
 
 #: public/check-page.php:60
 #: public/template-botblocker-denied.php:236
@@ -3481,11 +3481,11 @@ msgstr "Не удалось построить древовидный вид. П
 #: includes/data/class-botblocker-alerts.php:140
 #, php-format
 msgid "Could not download the ASN database (%s). Will retry automatically."
-msgstr "Не удалось загрузить базу данных ASN (%s). Будет выполнена автоматическая повторная попытка."
+msgstr "Не удалось скачать базу данных ASN (%s). Будет выполнена автоматическая повторная попытка."
 
 #: includes/data/class-botblocker-alerts.php:143
 msgid "Could not download the ASN database. Will retry automatically."
-msgstr "Не удалось загрузить базу данных ASN. Будет выполнена автоматическая повторная попытка."
+msgstr "Не удалось скачать базу данных ASN. Будет выполнена автоматическая повторная попытка."
 
 #: includes/components/class-botblocker-component-latest-hits-table.php:46
 #: includes/modal/modal-botblocker-hits-add-rule.php:30
@@ -3623,7 +3623,7 @@ msgstr "Пользовательский CSS для стилизации бан�
 
 #: admin/templates/cloud-api/status.php:140
 msgid "Custom development"
-msgstr "Индивидуальная разработка"
+msgstr "Пользовательская разработка"
 
 #: addons/bbcs-hide-admin/inc/class-bbcs-hide-admin-addons-page.php:35
 #: addons/bbcs-hide-admin/views/settings.php:60
@@ -4913,7 +4913,7 @@ msgstr "Извлекать и сохранять название и верси�
 
 #: admin/templates/settings/data-log.php:44
 msgid "Extract and store visitor device category (PC, Phone, Tablet, TV, Box) from User-Agent header."
-msgstr "Извлекать и сохранять категорию устройства посетителя (ПК, телефон, планшет, ТВ, приставка) из заголовка User-Agent."
+msgstr "Извлекать и сохранять рубрику устройства посетителя (ПК, телефон, планшет, ТВ, приставка) из заголовка User-Agent."
 
 #: admin/templates/settings/data-log.php:38
 msgid "Extract and store visitor operating system from User-Agent header."
@@ -5902,7 +5902,7 @@ msgstr "Перейти на сайт"
 #: includes/modal/modal-botblocker-rule-add.php:40
 #: includes/modal/modal-botblocker-rule-edit.php:36
 msgid "Google Analytics ID"
-msgstr "Идентификатор Google Analytics"
+msgstr "ID Google Analytics"
 
 #: admin/templates/integrations/2fa.php:153
 #: admin/templates/integrations/2fa.php:20
@@ -6141,11 +6141,11 @@ msgstr "Как BotBlocker определяет версию браузера, О
 
 #: addons/bbcs-behavior/views/settings.php:139
 msgid "How far back (in minutes) to evaluate a visitor's activity patterns. (Default: 10)"
-msgstr "Насколько далеко назад (в минутах) оценивать модели активности посетителя. (По умолчанию: 10)"
+msgstr "Насколько далеко назад (в минутах) оценивать паттерны активности посетителя. (По умолчанию: 10)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:365
 msgid "How far back in time (in minutes) we look to evaluate a visitor's activity patterns. For example, a 10-minute window means we inspect request patterns over the last 10 minutes. (Default: 10)"
-msgstr "Насколько далеко назад во времени (в минутах) мы смотрим для оценки моделей активности посетителя. Например, окно в 10 минут означает, что мы проверяем модели запросов за последние 10 минут. (По умолчанию: 10)"
+msgstr "Насколько далеко назад во времени (в минутах) мы смотрим для оценки паттернов активности посетителя. Например, окно в 10 минут означает, что мы проверяем паттерны запросов за последние 10 минут. (По умолчанию: 10)"
 
 #: addons/bbcs-behavior/views/settings.php:151
 msgid "How long (in seconds) an IP remains blocked after triggering the block threshold. (Default: 900)"
@@ -6320,7 +6320,7 @@ msgstr ""
 #: includes/ajax/class-botblocker-ajax-asn.php:387
 #: includes/ajax/class-botblocker-ajax-white-bots.php:301
 msgid "ID is required for deletion."
-msgstr "Для удаления требуется идентификатор."
+msgstr "Для удаления требуется id."
 
 #: admin/templates/setup-wizard/presets.php:19
 msgid "Ideal for testing"
@@ -6460,7 +6460,7 @@ msgstr "Импорт"
 
 #: admin/templates/settings/tls-fingerprint.php:69
 msgid "Import a JSON file containing known JA3/JA4 TLS fingerprints. The file must be an array of objects with fields: fingerprint, category, ua_family, description."
-msgstr "Импортируйте JSON-файл с известными TLS-отпечатками JA3/JA4. Файл должен содержать массив объектов с полями: fingerprint, category, ua_family, description."
+msgstr "Импортируйте JSON-файл с известными отпечатками TLS JA3/JA4. Файл должен быть массивом объектов с полями: fingerprint, рубрика, ua_family, description."
 
 #: admin/templates/tools/botblocker-tab.php:37
 #: includes/data/botblocker-data-snav.php:700
@@ -6542,7 +6542,7 @@ msgstr "Импортировано: "
 
 #: addons/bbcs-speedup/views/settings.php:22
 msgid "Improve site performance by disabling unneeded assets and features. Disable unused scripts, feeds, and UI elements to speed up WordPress."
-msgstr "Улучшите производительность сайта, отключив ненужные ресурсы и функции. Отключите неиспользуемые скрипты, ленты и элементы интерфейса, чтобы ускорить WordPress."
+msgstr "Улучшите производительность сайта, отключив ненужные ресурсы и возможности. Отключите неиспользуемые скрипты, ленты и элементы UI, чтобы ускорить WordPress."
 
 #: includes/viewmodels/class-dashboard-viewmodel.php:179
 msgid "Improve your plan for excellent security protection."
@@ -8300,7 +8300,7 @@ msgstr "Приоритет правила пути (1-100)"
 #: includes/modal/modal-botblocker-path-add.php:50
 #: includes/modal/modal-botblocker-path-edit.php:51
 msgid "Path substring or pattern to match"
-msgstr "Подстрока пути или шаблон для сопоставления"
+msgstr "Подстрока пути или паттерн для сопоставления"
 
 #: includes/ajax/class-botblocker-ajax-paths.php:382
 msgid "Path toggled successfully."
@@ -9080,7 +9080,7 @@ msgstr "Рекомендуемый пресет в один клик (~30 сек
 
 #: admin/templates/settings/log.php:36
 msgid "Record blocked visitor data for attack pattern analysis and threat intelligence."
-msgstr "Записывать данные о заблокированных посетителях для анализа шаблонов атак и сбора информации об угрозах."
+msgstr "Записывайте данные заблокированных посетителей для анализа паттернов атак и разведки угроз."
 
 #: admin/templates/settings/data-log.php:37
 #: includes/data/botblocker-data-snav.php:326
@@ -9308,7 +9308,7 @@ msgstr "Удаляет ссылку Really Simple Discovery из заголов�
 
 #: addons/bbcs-speedup/views/settings.php:158
 msgid "Removes the shortlink URL from the header."
-msgstr "Удаляет короткую ссылку из заголовка."
+msgstr "Удаляет короткую ссылку URL из заголовка."
 
 #: addons/bbcs-speedup/views/settings.php:135
 msgid "Removes the website URL field from the comment form."
@@ -9385,7 +9385,7 @@ msgstr "Отчеты и статистика"
 
 #: admin/templates/reports/body.php:13
 msgid "Reports Dashboard"
-msgstr "Панель отчётов"
+msgstr "Панель управления отчётами"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-addons-page.php:47
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:438
@@ -10556,7 +10556,7 @@ msgstr "Не проверять авторизованных пользоват�
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:190
 msgid "Skip hash-comparison integrity warnings for plugins and themes that ship with WordPress (Akismet, default themes, etc.). Version mismatches between bundled copies and wp.org often cause false positives. Added files and malware patterns are still always scanned."
-msgstr "Пропускать предупреждения о целостности при сравнении хэшей для плагинов и тем, поставляемых с WordPress (Akismet, темы по умолчанию и т. д.). Несовпадения версий между встроенными копиями и wp.org часто вызывают ложные срабатывания. Добавленные файлы и шаблоны вредоносного ПО по-прежнему всегда сканируются."
+msgstr "Пропускать предупреждения о целостности при сравнении хэшей для плагинов и тем, поставляемых с WordPress (Akismet, темы по умолчанию и т. д.). Несовпадения версий между встроенными копиями и wp.org часто вызывают ложные срабатывания. Добавленные файлы и паттерны вредоносного ПО по-прежнему всегда сканируются."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:189
 msgid "Skip integrity check for bundled plugins & themes"
@@ -12032,7 +12032,7 @@ msgstr "Перейти на PRO — премиум, цены, лицензия, 
 
 #: admin/templates/settings/rate-limiting.php:38
 msgid "Upgrade to Pro for the Behavioral Engine. It features advanced multi-signal scoring and decay-based reputation, preventing bots from spamming your site by tightening thresholds for repeat offenders."
-msgstr "Перейдите на Pro для Поведенческого движка. Он включает расширенную многосигнальную оценку и репутацию на основе затухания, предотвращая спам ботами на вашем сайте за счёт ужесточения порогов для повторных нарушителей."
+msgstr "Перейдите на Pro для получения Поведенческого движка. Он обладает расширенными возможностями мультисигнальной оценки и репутацией на основе затухания, предотвращая спам ботами на вашем сайте за счёт ужесточения порогов для повторных нарушителей."
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:123
 msgid "Upgrade your plan for better protection."
@@ -12052,7 +12052,7 @@ msgstr "Правила перезаписи URL будут сброшены:"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:341
 msgid "URL to fetch remote regex signatures for malware detection. Endpoint must return JSON with version + signatures array. Each signature: id, severity (critical/high/medium/low), regex (valid PHP regex), score (1-100), confidence, category, description."
-msgstr "URL для получения удалённых regex-сигнатур для обнаружения вредоносного ПО. Конечная точка должна возвращать JSON с версией и массивом сигнатур. Каждая сигнатура: id, серьёзность (critical/high/medium/low), regex (допустимый PHP regex), оценка (1-100), уверенность, категория, описание."
+msgstr "URL для получения удалённых regex-сигнатур для обнаружения вредоносного ПО. Конечная точка должна возвращать JSON с версией и массивом сигнатур. Каждая сигнатура: id, серьёзность (critical/high/medium/low), regex (валидный PHP regex), оценка (1-100), уверенность, рубрика, описание."
 
 #: addons/bbcs-hide-admin/views/settings.php:100
 msgid "URL to redirect to when someone tries to access the default login URL. Only used when behavior is set to Redirect."
@@ -12406,7 +12406,7 @@ msgstr "Если включено, платежные обратные вызо�
 
 #: admin/templates/settings/payment-tab.php:34
 msgid "When enabled, requests matching well-known payment callback patterns (paths, query keys, admin-ajax actions, signature headers) skip JS-challenge, Captcha and rate-limit. Recommended for any site with WooCommerce or another e-commerce plugin."
-msgstr "Если включено, запросы, соответствующие известным шаблонам платежных обратных вызовов (пути, ключи запроса, действия admin-ajax, заголовки подписи), пропускают JS-проверку, Captcha и ограничение частоты. Рекомендуется для любого сайта с WooCommerce или другим плагином электронной коммерции."
+msgstr "Если включено, запросы, соответствующие известным паттернам обратных вызовов платежей (пути, ключи запросов, действия admin-ajax, заголовки подписей), пропускают JS-проверку, Captcha и ограничение частоты. Рекомендуется для любого сайта с WooCommerce или другим плагином электронной коммерции."
 
 #: addons/bbcs-xmlrpc-tunnel/views/settings.php:41
 msgid "When enabled, X-Forwarded-For and CF-Connecting-IP headers are trusted for IP allowlisting. WARNING: These headers are client-spoofable — only enable if your server is behind a trusted reverse proxy that strips these headers from external requests."
@@ -12686,7 +12686,7 @@ msgstr "Вы будете получать еженедельные отчёты
 
 #: admin/templates/setup-guide/chain-body.php:56
 msgid "Your browser does not support the video tag."
-msgstr "Ваш браузер не поддерживает тег video."
+msgstr "Ваш браузер не поддерживает метку video."
 
 #. translators: %d: number of days until the cloud API expires.
 #: includes/pro/class-botblocker-pro.php:159
