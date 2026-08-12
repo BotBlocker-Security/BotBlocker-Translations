@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-08-12 16:36+0000"
-"PO-Revision-Date: 2026-08-12 16:36+0000"
+"POT-Creation-Date: 2026-08-12 16:40+0000"
+"PO-Revision-Date: 2026-08-12 16:40+0000"
 "Last-Translator: BotBlocker Translator Team"
 "Language-Team: Spanish"
 "Language: es_ES"
@@ -24,19 +24,19 @@ msgstr "Protección \"Recomendada\" activa"
 #: admin/templates/settings/cron.php:29
 #, php-format
 msgid "%1$dd %2$dh"
-msgstr ""
+msgstr "%1$dd %2$dh"
 
 #. translators: %1$d hours, %2$d minutes, e.g. "12h 30m"
 #: admin/templates/settings/cron.php:26
 #, php-format
 msgid "%1$dh %2$dm"
-msgstr ""
+msgstr "%1$dh %2$dm"
 
 #. translators: %1$d minutes, %2$d seconds, e.g. "12m 30s"
 #: admin/templates/settings/cron.php:22
 #, php-format
 msgid "%1$dm %2$ds"
-msgstr ""
+msgstr "%1$dm %2$ds"
 
 #. translators: 1: add-on name, 2: required BotBlocker version.
 #: includes/data/class-botblocker-alerts.php:252
@@ -82,7 +82,7 @@ msgstr "%d tareas"
 #: admin/templates/settings/cron.php:18
 #, php-format
 msgid "%ds"
-msgstr ""
+msgstr "%ds"
 
 #: includes/data/botblocker-marketing-blocks.php:170
 #: includes/viewmodels/class-social-proof-data.php:35
@@ -101,7 +101,7 @@ msgstr "%s es obligatorio."
 #: admin/templates/tools/maintenance-tab.php:59
 #, php-format
 msgid "%s list: not yet downloaded."
-msgstr ""
+msgstr "Lista %s: aún no descargada."
 
 #. translators: %s is the IP version label (IPv4 or IPv6).
 #: includes/ajax/class-botblocker-ajax-ip-rules-trait.php:535
@@ -223,7 +223,7 @@ msgstr "120 días"
 
 #: admin/templates/settings/notifications.php:58
 msgid "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
-msgstr ""
+msgstr "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
 
 #: includes/data/botblocker-data-time.php:11
 msgid "15 minutes"
@@ -374,7 +374,7 @@ msgstr "Aceptar"
 
 #: admin/templates/settings/bot-detection.php:24
 msgid "Accept-Language"
-msgstr ""
+msgstr "Accept-Language"
 
 #: includes/botblocker/traits/class-botblocker-check-page-trait.php:122
 msgid "Access approved. Redirecting..."
@@ -506,7 +506,7 @@ msgstr "Activa:"
 #: admin/templates/settings/browser-plugins.php:42
 #: includes/data/botblocker-data-snav.php:109
 msgid "AdBlock / uBlock"
-msgstr ""
+msgstr "AdBlock / uBlock"
 
 #: admin/class-botblocker-admin.php:458
 msgid "Adblocker:"
@@ -2087,7 +2087,7 @@ msgstr "Token de bot"
 #: includes/data/botblocker-data-snav.php:645
 #: includes/viewmodels/class-integrations-viewmodel.php:147
 msgid "BotBlocker 2FA"
-msgstr ""
+msgstr "BotBlocker 2FA"
 
 #: addons/bbcs-security-headers/views/settings.php:67
 msgid "BotBlocker API (botblocker.top, globus.studio) - always allowed in CSP."
@@ -2122,7 +2122,7 @@ msgstr "URL de la API de BotBlocker:"
 #: admin/templates/settings/captcha-tab.php:76
 #: includes/data/botblocker-data-snav.php:283
 msgid "BotBlocker Captcha"
-msgstr ""
+msgstr "BotBlocker Captcha"
 
 #: admin/templates/integrations/card.php:18
 #: includes/data/botblocker-data-snav.php:631
@@ -2221,7 +2221,7 @@ msgstr "BotBlocker funciona en modo normal procesando todos los tipos de amenaza
 #: admin/templates/shared/sidebar/pro-features.php:24
 #: admin/templates/shared/sidebar/pro-features.php:28
 msgid "BotBlocker PRO"
-msgstr ""
+msgstr "BotBlocker PRO"
 
 #: admin/class-botblocker-admin.php:546
 msgid "BotBlocker PRO information refreshed successfully!"
@@ -2289,7 +2289,7 @@ msgstr "Estadísticas de BotBlocker"
 
 #: includes/class-botblocker-telegram.php:191
 msgid "BotBlocker Telegram"
-msgstr ""
+msgstr "BotBlocker Telegram"
 
 #: admin/templates/tools/botblocker-tab.php:17
 msgid "BotBlocker Tools"
@@ -2309,7 +2309,7 @@ msgstr "BotBlocker utiliza bibliotecas de terceros seleccionadas por su segurida
 #: public/templates/denied-page.php:13
 #, php-format
 msgid "BotBlocker v. %s"
-msgstr ""
+msgstr "BotBlocker v. %s"
 
 #: admin/templates/shared/header/user-menu.php:29
 msgid "BotBlocker Website"
@@ -2331,7 +2331,7 @@ msgstr "Plugin BotBlocker para WordPress"
 #: admin/templates/shared/system-status-lines.php:13
 #: includes/viewmodels/class-about-viewmodel.php:67
 msgid "BotBlocker: v"
-msgstr ""
+msgstr "BotBlocker: v"
 
 #: addons/bbcs-cookie-alert/views/settings.php:118
 msgid "Bottom"
@@ -2589,7 +2589,7 @@ msgstr "Registro de cambios"
 
 #: includes/utilites/util-botblocker-support.php:65
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #: admin/templates/settings/notifications.php:68
 #: includes/data/botblocker-data-snav.php:543
@@ -2679,7 +2679,7 @@ msgstr "Elegir ZIP"
 
 #: admin/class-botblocker-admin.php:459
 msgid "CID:"
-msgstr ""
+msgstr "CID:"
 
 #: admin/templates/settings/rate-limiting.php:149
 msgid "CIDR mask pair for subnet aggregation (v4_v6). Tighter masks target attackers more precisely. Default: 24-64."
@@ -2914,7 +2914,7 @@ msgstr "cerrar"
 
 #: includes/viewmodels/class-setup-guide-viewmodel.php:224
 msgid "Cloud / PRO"
-msgstr ""
+msgstr "Cloud / PRO"
 
 #: includes/hook/class-botblocker-cloud-api-hooks.php:155
 msgid "Cloud API connection deactivated."
@@ -3449,7 +3449,7 @@ msgstr "Ajustes de cookies"
 #: admin/templates/settings/cookie.php:53
 #: admin/templates/settings/general.php:26
 msgid "Cookies"
-msgstr ""
+msgstr "Cookies"
 
 #: includes/botblocker/traits/class-botblocker-check-page-trait.php:107
 msgid "Cookies are disabled in your browser. Enable cookies to continue."
@@ -3544,7 +3544,7 @@ msgstr "Crítico:"
 
 #: admin/templates/settings/cron.php:89
 msgid "Cron"
-msgstr ""
+msgstr "Cron"
 
 #: addons/bbcs-cron-jobs/inc/class-bbcs-cron-jobs-addons-page.php:33
 #: admin/templates/dashboard/quick-links.php:22
@@ -4340,7 +4340,7 @@ msgstr "Soporte de emergencia (24 h)"
 
 #: addons/bbcs-speedup/views/settings.php:25
 msgid "Emoji"
-msgstr ""
+msgstr "Emoji"
 
 #: addons/bbcs-speedup/views/settings.php:23
 msgid "Emoji Support"
@@ -4737,7 +4737,7 @@ msgstr "Registro de errores"
 #: admin/class-botblocker-admin.php:154
 #: admin/class-botblocker-setup-wizard.php:208
 msgid "Error: "
-msgstr ""
+msgstr "Error: "
 
 #: addons/bbcs-truth-source/inc/views/scan-results.php:226
 msgid "Errors"
@@ -5798,7 +5798,7 @@ msgstr "Cookies RGPD"
 #: includes/data/botblocker-data-snav.php:451
 #: includes/viewmodels/class-settings-viewmodel.php:213
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: includes/shortcode/botblocker-shortcode-rules.php:85
 msgid "General Rules"
@@ -5810,7 +5810,7 @@ msgstr "Generado por BotBlocker Security"
 
 #: admin/templates/rules.php:41
 msgid "GEO / ASN:"
-msgstr ""
+msgstr "GEO / ASN:"
 
 #: admin/templates/reports/dashboard.php:54
 msgid "Geo Data"
@@ -5860,7 +5860,7 @@ msgstr "Recibir actualizaciones de seguridad y ofertas por correo electrónico"
 
 #: admin/templates/shared/header/user-menu.php:45
 msgid "GLOBUS.studio"
-msgstr ""
+msgstr "GLOBUS.studio"
 
 #: admin/templates/settings/ui.php:36
 msgid "GMT and Time Zone"
@@ -5903,12 +5903,12 @@ msgstr "ID de Google Analytics"
 #: admin/templates/integrations/2fa.php:153
 #: admin/templates/integrations/2fa.php:20
 msgid "Google Authenticator (App Store)"
-msgstr ""
+msgstr "Google Authenticator (App Store)"
 
 #: admin/templates/integrations/2fa.php:156
 #: admin/templates/integrations/2fa.php:21
 msgid "Google Authenticator (Google Play)"
-msgstr ""
+msgstr "Google Authenticator (Google Play)"
 
 #: admin/templates/integrations/2fa.php:19
 msgid "Google Authenticator Setup Guide"
@@ -6218,12 +6218,12 @@ msgstr "h"
 
 #: addons/bbcs-hide-admin/views/settings.php:30
 msgid "HTTP 404"
-msgstr ""
+msgstr "HTTP 404"
 
 #: includes/modal/modal-botblocker-rule-add.php:30
 #: includes/modal/modal-botblocker-rule-edit.php:29
 msgid "HTTP Accept"
-msgstr ""
+msgstr "HTTP Accept"
 
 #: admin/templates/settings/error.php:26
 msgid "HTTP Codes"
@@ -6311,7 +6311,7 @@ msgstr "Iconos:"
 #: admin/templates/rules/body.php:78
 #: admin/templates/rules/body.php:94
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: includes/ajax/class-botblocker-ajax-asn.php:387
 #: includes/ajax/class-botblocker-ajax-white-bots.php:301
@@ -6352,7 +6352,7 @@ msgstr "Si utiliza pasarelas de pago (Stripe, PayPal, LiqPay, etc.), añada sus 
 
 #: admin/templates/settings/traffic.php:20
 msgid "iFrame"
-msgstr ""
+msgstr "iFrame"
 
 #: includes/services/class-botblocker-health-service.php:36
 msgid "Iframe protection (clickjacking)"
@@ -6594,7 +6594,7 @@ msgstr "Solicitud entrante"
 #: admin/templates/addons/marketplace-panel.php:74
 #: admin/templates/addons/marketplace-panel.php:80
 msgid "Incompatible"
-msgstr ""
+msgstr "Incompatible"
 
 #. translators: %s: comma-separated list of deactivated add-on names with version requirements.
 #: includes/data/class-botblocker-alerts.php:263
@@ -6910,12 +6910,12 @@ msgstr "Reglas IP, ASN, GEO y proxy"
 
 #: admin/templates/settings/payment-tab.php:24
 msgid "IPN"
-msgstr ""
+msgstr "IPN"
 
 #: admin/templates/rules.php:39
 #: includes/viewmodels/class-rules-viewmodel.php:93
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: includes/modal/modal-botblocker-rule-ipv4-add.php:30
 #: includes/modal/modal-botblocker-rule-ipv4-edit.php:31
@@ -6933,7 +6933,7 @@ msgstr "Listas IPv4:"
 #: admin/templates/rules.php:39
 #: includes/viewmodels/class-rules-viewmodel.php:94
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: includes/data/botblocker-data-time.php:60
 msgid "IPv6 /48 (large allocation)"
@@ -6976,7 +6976,7 @@ msgstr "Nombre de cabecera JA3"
 
 #: admin/templates/reports/dashboard.php:31
 msgid "JA3/4"
-msgstr ""
+msgstr "JA3/4"
 
 #: admin/templates/settings/tls-fingerprint.php:54
 #: includes/data/botblocker-data-snav.php:138
@@ -7001,11 +7001,11 @@ msgstr "Soporte de JavaScript"
 
 #: addons/bbcs-speedup/views/settings.php:26
 msgid "jQuery"
-msgstr ""
+msgstr "jQuery"
 
 #: addons/bbcs-speedup/views/settings.php:24
 msgid "jQuery Migrate"
-msgstr ""
+msgstr "jQuery Migrate"
 
 #: includes/services/class-botblocker-health-service.php:35
 msgid "JS consistency checks"
@@ -7374,7 +7374,7 @@ msgstr "IP maliciosas en la base de datos"
 
 #: addons/bbcs-malware/views/settings.php:19
 msgid "Malware"
-msgstr ""
+msgstr "Malware"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-admin.php:172
 msgid "Malware Scan"
@@ -7824,7 +7824,7 @@ msgstr "Se detectó Nginx con WP_CACHE activado. Si utiliza FastCGI Cache, aseg�
 #: admin/class-botblocker-admin.php:389
 #: admin/class-botblocker-admin.php:466
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: admin/templates/shared/header/alerts.php:32
 msgid "No active alerts"
@@ -8336,7 +8336,7 @@ msgstr "Las pasarelas de pago (Stripe, PayPal, LiqPay, Fondy), analíticas (Goog
 #, pgettext
 msgctxt "device type label"
 msgid "PC"
-msgstr ""
+msgstr "PC"
 
 #: admin/templates/settings/cron.php:222
 msgid "Pending"
@@ -8414,7 +8414,7 @@ msgstr "Se requiere la extensión zip de PHP para las importaciones."
 #: admin/templates/shared/system-status-lines.php:11
 #: includes/viewmodels/class-about-viewmodel.php:64
 msgid "PHP: v"
-msgstr ""
+msgstr "PHP: v"
 
 #: admin/templates/setup-wizard/captcha.php:25
 msgid "Pick the correct color. Simple logic, hard to automate."
@@ -8598,7 +8598,7 @@ msgstr "Política de privacidad"
 #: includes/modal/modal-botblocker-setup-wizard.php:90
 #: includes/utilites/util-botblocker-support.php:65
 msgid "PRO"
-msgstr ""
+msgstr "PRO"
 
 #: includes/data/botblocker-data-palette.php:138
 msgid "PRO - cloud, upgrade, pricing, license, premium"
@@ -8753,7 +8753,7 @@ msgstr "Los servidores proxy se han actualizado correctamente para el modo BotBl
 #: admin/templates/rules/body.php:19
 #: includes/viewmodels/class-rules-viewmodel.php:99
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: includes/ajax/class-botblocker-ajax-proxy.php:413
 msgid "Proxy already exists."
@@ -8858,7 +8858,7 @@ msgstr "Púrpura"
 #: admin/templates/settings/notifications.php:29
 #: includes/data/botblocker-data-snav.php:544
 msgid "Pusher"
-msgstr ""
+msgstr "Pusher"
 
 #: includes/services/class-botblocker-health-service.php:62
 msgid "Pusher notifications"
@@ -8976,7 +8976,7 @@ msgstr "Nivel de umbral de reCaptcha"
 #: includes/data/botblocker-data-snav.php:571
 #: includes/viewmodels/class-integrations-viewmodel.php:135
 msgid "reCaptcha v2"
-msgstr ""
+msgstr "reCaptcha v2"
 
 #: admin/templates/settings/captcha-tab.php:25
 msgid "reCaptcha v2 - \"I am not a robot\""
@@ -9009,7 +9009,7 @@ msgstr "Clave del Sitio de reCaptcha v2:"
 #: includes/data/botblocker-data-snav.php:585
 #: includes/viewmodels/class-integrations-viewmodel.php:137
 msgid "reCaptcha v3"
-msgstr ""
+msgstr "reCaptcha v3"
 
 #: includes/services/class-botblocker-health-service.php:32
 msgid "reCaptcha v3 enabled"
@@ -9037,7 +9037,7 @@ msgstr "Integraciones con reCaptcha, Redis y Memcached"
 
 #: admin/templates/dashboard/quick-links.php:17
 msgid "reCaptcha, Redis, Telegram"
-msgstr ""
+msgstr "reCaptcha, Redis, Telegram"
 
 #: admin/templates/settings/notifications.php:113
 msgid "Receive real-time security alerts via Pusher."
@@ -9186,7 +9186,7 @@ msgstr "Puerto del servidor Redis"
 #: admin/templates/integrations/memcached.php:25
 #: admin/templates/integrations/redis.php:26
 msgid "Redis vs Memcached"
-msgstr ""
+msgstr "Redis vs Memcached"
 
 #: admin/templates/setup-wizard/welcome.php:17
 msgid "Reduce server load - junk is blocked before WP loads"
@@ -9198,11 +9198,11 @@ msgstr "Reducir la carga del servidor: el tráfico basura se bloquea antes de qu
 #: includes/modal/modal-botblocker-rule-add.php:27
 #: includes/modal/modal-botblocker-rule-edit.php:26
 msgid "Referer"
-msgstr ""
+msgstr "Referer"
 
 #: admin/class-botblocker-admin.php:455
 msgid "Referer:"
-msgstr ""
+msgstr "Referer:"
 
 #: admin/templates/integrations/botblocker-api.php:70
 msgid "Refresh PRO status"
@@ -9561,21 +9561,21 @@ msgstr "Archivo de enrutador"
 
 #: addons/bbcs-behavior/views/settings.php:121
 msgid "rph"
-msgstr ""
+msgstr "rph"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:285
 msgid "RPM"
-msgstr ""
+msgstr "RPM"
 
 #: addons/bbcs-behavior/views/settings.php:109
 #: admin/templates/settings/rate-limiting.php:77
 #: admin/templates/settings/rate-limiting.php:86
 msgid "rpm"
-msgstr ""
+msgstr "rpm"
 
 #: addons/bbcs-speedup/views/settings.php:27
 msgid "RSS"
-msgstr ""
+msgstr "RSS"
 
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-plugin.php:302
 msgid "RSS feeds are disabled. Visit the"
@@ -9583,7 +9583,7 @@ msgstr "Los feeds RSS están desactivados. Visite el"
 
 #: admin/templates/tools/maintenance-tab.php:63
 msgid "RU-Gov"
-msgstr ""
+msgstr "RU-Gov"
 
 #: includes/ajax/class-botblocker-ajax-rugov.php:52
 msgid "RU-Gov list update already queued."
@@ -10993,7 +10993,7 @@ msgstr "Tareas"
 #: admin/templates/settings/notifications.php:41
 #: includes/data/botblocker-data-snav.php:541
 msgid "Telegram"
-msgstr ""
+msgstr "Telegram"
 
 #: admin/templates/settings/notifications.php:30
 msgid "Telegram BotFather"
@@ -11523,7 +11523,7 @@ msgstr "Principales-%d IPs"
 
 #: admin/templates/settings/connection-types.php:27
 msgid "Tor"
-msgstr ""
+msgstr "Tor"
 
 #: admin/templates/settings/connection-types.php:54
 #: includes/data/botblocker-data-snav.php:192
@@ -11742,7 +11742,7 @@ msgstr "Activa o desactiva todas las cabeceras de seguridad de BotBlocker. Úsel
 #, pgettext
 msgctxt "device type label"
 msgid "TV"
-msgstr ""
+msgstr "TV"
 
 #: admin/templates/settings/notifications.php:19
 msgid "Twice a week"
@@ -12114,7 +12114,7 @@ msgstr "Usuario no conectado"
 
 #: admin/templates/settings/bot-detection.php:23
 msgid "User-Agent"
-msgstr ""
+msgstr "User-Agent"
 
 #: admin/templates/settings/bot-detection.php:42
 #: includes/data/botblocker-data-snav.php:71
@@ -12128,7 +12128,7 @@ msgstr "Subcadena de User-Agent que identifica al bot"
 
 #: admin/templates/settings/traffic.php:18
 msgid "UTM"
-msgstr ""
+msgstr "UTM"
 
 #: admin/templates/settings/traffic.php:30
 #: includes/data/botblocker-data-snav.php:237
@@ -12276,7 +12276,7 @@ msgstr "Los visitantes de los países seleccionados no podrán acceder al sitio.
 
 #: admin/templates/settings/connection-types.php:26
 msgid "VPN"
-msgstr ""
+msgstr "VPN"
 
 #: includes/data/botblocker-pro-features.php:74
 msgid "VPN / Tor / proxy blocking"
@@ -12311,20 +12311,20 @@ msgstr "Débil"
 
 #: admin/class-botblocker-admin.php:457
 msgid "Web"
-msgstr ""
+msgstr "Web"
 
 #: admin/templates/shared/system-status-lines.php:9
 #: includes/viewmodels/class-about-viewmodel.php:62
 msgid "Web:"
-msgstr ""
+msgstr "Web:"
 
 #: admin/templates/settings/payment-tab.php:23
 msgid "Webhook"
-msgstr ""
+msgstr "Webhook"
 
 #: addons/bbcs-malware/views/settings.php:20
 msgid "Webshell"
-msgstr ""
+msgstr "Webshell"
 
 #: includes/class-botblocker-telegram.php:136
 msgid "Website protection worked normally this week."
@@ -12562,7 +12562,7 @@ msgstr "Transitorios de WordPress. Funciona en cualquier alojamiento."
 #: admin/templates/shared/system-status-lines.php:12
 #: includes/viewmodels/class-about-viewmodel.php:65
 msgid "WordPress: v"
-msgstr ""
+msgstr "WordPress: v"
 
 #: admin/templates/setup-wizard/cache.php:42
 msgid "Works everywhere"
@@ -12570,7 +12570,7 @@ msgstr "Funciona en todas partes"
 
 #: includes/data/botblocker-data-snav.php:375
 msgid "WP Cron"
-msgstr ""
+msgstr "WP Cron"
 
 #: includes/data/botblocker-data-snav.php:377
 msgid "WP Cron Enabled"
