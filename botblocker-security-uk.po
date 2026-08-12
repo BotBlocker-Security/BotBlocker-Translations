@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-08-12 16:08+0000"
-"PO-Revision-Date: 2026-08-12 16:08+0000"
+"POT-Creation-Date: 2026-08-12 16:36+0000"
+"PO-Revision-Date: 2026-08-12 16:36+0000"
 "Last-Translator: BotBlocker Translator Team"
 "Language-Team: Ukrainian"
 "Language: uk"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: admin/templates/setup-wizard/presets.php:58
 msgid "\"Recommended\" protection active"
-msgstr "Захист \"Рекомендований\" активний"
+msgstr "Діє «рекомендований» захист"
 
 #. translators: %1$d days, %2$d hours, e.g. "2d 5h"
 #: admin/templates/settings/cron.php:29
@@ -183,7 +183,7 @@ msgstr "/28 - /64 (мала підмережа)"
 
 #: includes/data/botblocker-data-time.php:48
 msgid "/32 - /128 (single IP)"
-msgstr "/32 - /128 (один IP)"
+msgstr "/32 - /128 (одна IP)"
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:190
 msgid "1 = highest. Higher priority rules processed first."
@@ -248,7 +248,7 @@ msgstr "2 тижні"
 
 #: includes/utilites/2FA/inc-botblocker-2fa.php:456
 msgid "2FA has been reset."
-msgstr "2FA було скинуто."
+msgstr "2FA скинуто."
 
 #: includes/utilites/2FA/inc-botblocker-2fa.php:424
 msgid "2FA service unavailable"
@@ -327,7 +327,7 @@ msgstr "90 днів"
 
 #: admin/templates/integrations/2fa.php:109
 msgid "<strong>Note:</strong> After clicking \"Reset 2FA\", the user will need to set up 2FA again <strong>only if \"Enable Two-Factor Authentication\" is checked</strong>. They can do this immediately (QR code will appear) or on their next login."
-msgstr "<strong>Примітка:</strong> Після натискання кнопки \"Скинути 2FA\" користувачеві потрібно буде заново налаштувати 2FA <strong>лише в тому випадку, якщо встановлено прапорець \"Увімкнути двофакторну автентифікацію\"</strong>. Це можна зробити одразу (з’явиться QR-код) або під час наступного входу в систему."
+msgstr "<strong>Нотатка:</strong> Після натискання «Скинути 2FA» користувачу потрібно буде налаштувати 2FA знову <strong>лише якщо встановлено прапорець «Увімкнути двокрокову автентифікацію»</strong>. Він може зробити це одразу (з’явиться QR-код) або під час наступного входу."
 
 #: includes/modal/modal-botblocker-rewrite-rules.php:17
 msgid "A page reload may be required."
@@ -368,7 +368,7 @@ msgstr "Про Redis"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:222
 msgid "Absolute paths to additional directories to scan."
-msgstr "Абсолютні шляхи до додаткових каталогів для сканування."
+msgstr "Абсолютні шляхи до додаткових директорій для сканування."
 
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-settings.php:15
 #: addons/bbcs-cookie-alert/views/settings.php:87
@@ -458,12 +458,12 @@ msgstr "Увімкніть захист від брутфорсу в адмін�
 
 #: admin/templates/settings/rate-limiting.php:55
 msgid "Activate the Behavioral Engine addon to get advanced multi-signal scoring and IP/subnet reputation protection."
-msgstr "Активуйте аддон Behavioral Engine, щоб отримати розширене багатосигнальне оцінювання та захист репутації IP/підмереж."
+msgstr "Активуйте додаток Behavioral Engine, щоб отримати передове багатосигнальне оцінювання та захист репутації IP/підмереж."
 
 #: addons/bbcs-https-protocol/inc/bbcs-https-protocol-settings.php:70
 #: addons/bbcs-https-protocol/views/settings.php:62
 msgid "Activates all HTTPS protocol features including redirects and mixed content fixing. Requires SSL certificate to be installed."
-msgstr "Активує всі функції протоколу HTTPS, включаючи перенаправлення та виправлення змішаного контенту. Потрібно встановити SSL-сертифікат."
+msgstr "Активує всі функції протоколу HTTPS, включно з переспрямуваннями та виправленням змішаного вмісту. Потребує встановленого SSL-сертифіката."
 
 #: admin/templates/setup-wizard/init-mode.php:28
 msgid "Activates before other plugins"
@@ -496,15 +496,15 @@ msgstr "Сервіс активації недоступний."
 #: includes/shortcode/botblocker-shortcode-sidebar.php:179
 #: includes/shortcode/botblocker-shortcode-sidebar.php:210
 msgid "Active"
-msgstr "Активний"
+msgstr "Діючий"
 
 #: includes/shortcode/botblocker-shortcode-rules.php:89
 msgid "Active rules:"
-msgstr "Активні правила:"
+msgstr "Діючі правила:"
 
 #: includes/shortcode/botblocker-shortcode-rules.php:83
 msgid "Active:"
-msgstr "Активний:"
+msgstr "Діючий:"
 
 #: admin/templates/settings/browser-plugins.php:42
 #: includes/data/botblocker-data-snav.php:109
@@ -532,11 +532,11 @@ msgstr "Додати"
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:213
 msgid "Add a short note to remember why you created this rule."
-msgstr "Додайте коротку примітку, щоб не забути, для чого створено це правило."
+msgstr "Додайте коротку нотатку, щоб пам’ятати, чому ви створили це правило."
 
 #: includes/data/botblocker-data-palette.php:99
 msgid "Add a white bot - allowlist, trusted, search engine"
-msgstr "Додати білого бота"
+msgstr "Додати білого бота – дозволений список, довірений, пошукова система"
 
 #: admin/class-botblocker-admin.php:261
 #: includes/data/botblocker-data-palette.php:149
@@ -630,7 +630,7 @@ msgstr "Додати довіреного бота"
 
 #: admin/templates/settings/cookie.php:128
 msgid "Add Vary: Cookie header for CDN compatibility. May reduce cache hit ratio."
-msgstr "Додати Vary: Cookie для сумісності з CDN. Може знизити коефіцієнт потрапляння в кеш."
+msgstr "Додати заголовок Vary: Cookie для сумісності з CDN. Може знизити коефіцієнт влучань у кеш."
 
 #: admin/templates/settings/status.php:41
 #: admin/templates/shared/system-toggles.php:19
@@ -669,7 +669,7 @@ msgstr "Аддон не відповідає контракту аддона Bot
 
 #: includes/hook/hook-addon-validation.php:66
 msgid "Add-on package has an invalid file count."
-msgstr "В аддоні вказано неправильну кількість файлів."
+msgstr "Пакет додатка має невірну кількість файлів."
 
 #: includes/hook/hook-addon-install.php:101
 msgid "Add-on package install is disabled in local add-on mode."
@@ -700,7 +700,7 @@ msgstr "Аддон повинен містити оголошення Requires-C
 
 #: includes/hook/hook-addon-validation.php:138
 msgid "Add-on package slug does not match the requested add-on."
-msgstr "Ярлик аддона не відповідає запитуваному аддону."
+msgstr "Частина посилання пакета додатка не відповідає запитаному додатку."
 
 #: admin/class-botblocker-admin.php:557
 #: includes/hook/class-botblocker-addon-hooks.php:355
@@ -709,7 +709,7 @@ msgstr "Аддон завантажено. Знайдіть його нижче 
 
 #: includes/hook/hook-addon-validation.php:119
 msgid "Add-on root folder must be a valid slug."
-msgstr "Коренева папка плагіна повинна мати допустимий слог."
+msgstr "Коренева папка додатка має бути дійсною частиною посилання."
 
 #: admin/templates/addons/addons-content.php:60
 msgid "Add-on settings"
@@ -721,7 +721,7 @@ msgstr "Налаштування додатка збережено."
 
 #: includes/data/class-botblocker-alerts.php:235
 msgid "Add-on Update Failed"
-msgstr "Не вдалося оновити аддон"
+msgstr "Не вдалося оновити додаток"
 
 #: admin/class-botblocker-admin.php:559
 #: includes/hook/class-botblocker-addon-hooks.php:215
@@ -798,7 +798,7 @@ msgstr "Додатки"
 
 #: includes/data/botblocker-data-palette.php:137
 msgid "Addons - extensions, plugins, marketplace, more features"
-msgstr "Аддони - розширення, плагіни, маркетплейс"
+msgstr "Додатки – розширення, плагіни, маркетплейс, більше функцій"
 
 #: admin/templates/addons/addons-content.php:30
 msgid "Addons sections"
@@ -806,15 +806,15 @@ msgstr "Розділи додатків"
 
 #: addons/bbcs-security-headers/views/settings.php:129
 msgid "Adds a default Content-Security-Policy header to limit sources for scripts, styles, images, fonts and other resources. May require plugin/theme testing for compatibility."
-msgstr "Додає стандартний заголовок Content-Security-Policy для обмеження джерел скриптів, стилів, зображень, шрифтів та інших ресурсів. Може знадобитися тестування плагінів/тем на сумісність."
+msgstr "Додає початковий заголовок Content-Security-Policy для обмеження джерел скриптів, стилів, зображень, шрифтів та інших ресурсів. Може потребувати тестування плагіна/теми на сумісність."
 
 #: addons/bbcs-security-headers/views/settings.php:121
 msgid "Adds Permissions-Policy header to restrict browser features (camera, geolocation, microphone, payment etc.) on all pages."
-msgstr "Додає заголовок Permissions-Policy для обмеження функцій браузера (камера, геолокація, мікрофон, платіж тощо) на всіх сторінках."
+msgstr "Додає заголовок Permissions-Policy для обмеження функцій браузера (камера, геолокація, мікрофон, оплата тощо) на всіх сторінках."
 
 #: addons/bbcs-security-headers/views/settings.php:105
 msgid "Adds Strict-Transport-Security header for HTTPS responses (max-age=1 year, includeSubDomains, preload). Only works on HTTPS sites."
-msgstr "Додає заголовок Strict-Transport-Security для відповідей HTTPS (max-age=1 рік, includeSubDomains, preload). Працює лише на сайтах HTTPS."
+msgstr "Додає заголовок Strict-Transport-Security для відповідей HTTPS (max-age=1 рік, includeSubDomains, preload). Працює лише на сайтах з HTTPS."
 
 #: admin/templates/settings/login-brute-force.php:25
 msgid "Adjust attempt limits and block times to balance security and usability."
@@ -852,16 +852,16 @@ msgstr "Адміністратори ніколи не будуть заблок
 
 #: includes/data/botblocker-pro-features.php:109
 msgid "Advanced analytics & forensics"
-msgstr "Розширена аналітика"
+msgstr "Передова аналітика та криміналістика"
 
 #: admin/templates/setup-guide/one-click-modal.php:70
 #: includes/modal/modal-botblocker-setup-wizard.php:96
 msgid "Advanced bot detection"
-msgstr "Продвинутое обнаружение ботов"
+msgstr "Передове виявлення ботів"
 
 #: admin/templates/setup-wizard/cache.php:20
 msgid "Advanced data structures"
-msgstr "Продвинутые структуры данных"
+msgstr "Передові структури даних"
 
 #: admin/templates/dashboard/quick-links.php:12
 #: admin/templates/settings/advanced-protection.php:18
@@ -870,31 +870,31 @@ msgstr "Продвинутые структуры данных"
 #: includes/data/botblocker-data-snav.php:498
 #: includes/viewmodels/class-settings-viewmodel.php:217
 msgid "Advanced Protection"
-msgstr "Розширений захист"
+msgstr "Передовий захист"
 
 #: admin/templates/about/body.php:18
 msgid "Advanced protection against bots, spam, and brute-force attacks."
-msgstr "Розширений захист від ботів, спаму та атак перебором."
+msgstr "Передовий захист від ботів, спаму та атак перебором."
 
 #: admin/templates/settings/advanced-protection.php:19
 msgid "Advanced protection uses cloud-based real-time analysis and smart verification to detect sophisticated bots."
-msgstr "Удосконалений захист використовує хмарний аналіз у реальному часі та інтелектуальну перевірку для виявлення складних ботів."
+msgstr "Передовий захист використовує хмарний аналіз у реальному часі та розумну перевірку для виявлення складних ботів."
 
 #: includes/data/botblocker-pro-features.php:21
 msgid "Advanced reporting, analytics & forensics"
-msgstr "Розширені звіти та аналітика"
+msgstr "Передова звітність, аналітика та криміналістика"
 
 #: admin/templates/setup-wizard/finish.php:66
 msgid "Advanced security features for production sites."
-msgstr "Розширені функції безпеки для сайтів із відвідувачами."
+msgstr "Передові функції безпеки для робочих сайтів."
 
 #: includes/data/botblocker-data-palette.php:130
 msgid "Advanced Settings - expert, fine-tune, deep config"
-msgstr "Розширені налаштування"
+msgstr "Передові налаштування – експерт, тонке налаштування, глибока конфігурація"
 
 #: admin/templates/setup-wizard/presets.php:29
 msgid "Advanced threat detection"
-msgstr "Розширене виявлення загроз"
+msgstr "Передове виявлення загроз"
 
 #: admin/templates/tools/modals/db-repair.php:26
 #: includes/modal/modal-botblocker-db-repair.php:22
@@ -907,7 +907,7 @@ msgstr "Агрегація RPM у межах підмережі. Високе н
 
 #: admin/templates/setup-wizard/finish.php:76
 msgid "AI behavior analysis"
-msgstr "AI-аналіз поведінки"
+msgstr "Аналіз поведінки ШІ"
 
 #: addons/bbcs-cron-jobs/views/settings.php:142
 msgid "AJAX Cron Heartbeat"
@@ -941,7 +941,7 @@ msgstr "Помилка AJAX: "
 
 #: admin/templates/settings/notifications.php:85
 msgid "Alert when server load is critical or unusual bot activity is detected."
-msgstr "Повідомлення у разі критичного навантаження на сервер або виявлення незвичайної активності ботів."
+msgstr "Сповіщати, коли навантаження на сервер критичне або виявлено незвичну активність ботів."
 
 #: admin/templates/shared/header/alerts.php:19
 msgid "Alerts"
@@ -973,7 +973,7 @@ msgstr "Всі перевірки"
 #: admin/templates/tools/modals/salt-clear.php:21
 #: includes/modal/modal-botblocker-salt-clear.php:15
 msgid "All existing cookies will become invalid."
-msgstr "Усі існуючі файли cookie стануть недійсними."
+msgstr "Усі наявні файли cookie стануть недійсними."
 
 #: admin/templates/tools/modals/transient-clear.php:19
 msgid "All expired transients will be cleared from the database."
@@ -1010,7 +1010,7 @@ msgstr "Усі шляхи були видалені."
 
 #: admin/templates/dashboard/quick-links.php:28
 msgid "All plugin sections in one click"
-msgstr "Всі розділи плагіна в один клік"
+msgstr "Усі розділи плагіна в один клік"
 
 #: includes/data/botblocker-pro-features.php:24
 msgid "All premium add-ons included"
@@ -1120,12 +1120,12 @@ msgstr "Дозволити порожній заголовок Accept-Language �
 
 #: admin/templates/settings/bot-detection.php:63
 msgid "Allow HTTP OPTIONS requests for CORS preflight (REST API, WooCommerce, external apps)."
-msgstr "Увімкнути HTTP-запити OPTIONS для попередньої перевірки CORS (REST API, WooCommerce, зовнішні додатки)."
+msgstr "Дозволити HTTP-запити OPTIONS для попередньої перевірки CORS (REST API, WooCommerce, зовнішні застосунки)."
 
 #: admin/templates/settings/bot-detection.php:63
 #: includes/data/botblocker-data-snav.php:87
 msgid "Allow OPTIONS Preflight"
-msgstr "Дозволити preflight-запити OPTIONS"
+msgstr "Дозволити попередню перевірку OPTIONS"
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:222
 msgid "Allow or Block"
@@ -1253,7 +1253,7 @@ msgstr "Зовнішній вигляд"
 #: addons/bbcs-https-protocol/inc/class-bbcs-https-protocol-addons-page.php:48
 #: addons/bbcs-https-protocol/views/settings.php:88
 msgid "Apply Mixed Content Fix to Admin Area"
-msgstr "Застосувати виправлення для змішаного контенту в адмінці"
+msgstr "Застосувати виправлення змішаного вмісту до внутрішньої частини сайту"
 
 #: admin/class-botblocker-admin.php:181
 #: admin/class-botblocker-admin.php:613
@@ -1376,11 +1376,11 @@ msgstr "Ви впевнені, що хочете видалити всіх бі�
 
 #: admin/templates/setup-wizard/completed.php:66
 msgid "Are you sure you want to reset and restart the setup wizard?"
-msgstr "Ви впевнені, що хочете скинути налаштування майстра та запустити його заново?"
+msgstr "Ви впевнені, що хочете скинути та перезапустити майстер налаштування?"
 
 #: admin/class-botblocker-setup-wizard.php:206
 msgid "Are you sure? We will apply the default settings (Balanced)."
-msgstr "Ви впевнені? Ми застосуємо налаштування за замовчуванням (\"Збалансований\")."
+msgstr "Ви впевнені? Ми застосуємо початкові налаштування (Збалансовані)."
 
 #: admin/templates/reports/table-header.php:14
 msgid "AS Info"
@@ -1428,7 +1428,7 @@ msgstr "Модуль бази даних ASN недоступний."
 
 #: includes/data/class-botblocker-alerts.php:136
 msgid "ASN Database Update Failed"
-msgstr "Не вдалося оновити базу ASN"
+msgstr "Не вдалося оновити базу даних ASN"
 
 #: includes/ajax/class-botblocker-ajax-maintenance.php:227
 msgid "ASN database update is already scheduled."
@@ -1556,7 +1556,7 @@ msgstr "Виправлення внесено автоматично (заглу
 
 #: admin/templates/setup-guide/pro-body.php:26
 msgid "Automatic signature and AI model updates"
-msgstr "Автоматичне оновлення сигнатур та AI-моделей"
+msgstr "Автоматичні оновлення сигнатур та моделей ШІ"
 
 #: admin/templates/settings/cron.php:144
 #: includes/data/botblocker-data-snav.php:385
@@ -1578,7 +1578,7 @@ msgstr "Автоматичне збереження IP-адрес адмініс
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:208
 msgid "Automatically skip default WordPress-shipped plugins and themes (Akismet, Hello Dolly, Twenty* default themes). Prevents false MISSING reports when these are intentionally removed."
-msgstr "Автоматично пропускати стандартні плагіни та теми, що постачаються з WordPress (Akismet, Hello Dolly, теми Twenty*). Запобігає хибним повідомленням MISSING, коли їх навмисно видалено."
+msgstr "Автоматично пропускати плагіни та теми, що постачаються з WordPress (Akismet, Hello Dolly, початкові теми Twenty*). Запобігає хибним звітам MISSING, коли їх навмисно видалено."
 
 #: includes/modal/modal-botblocker-asn-add.php:60
 #: includes/modal/modal-botblocker-asn-edit.php:61
@@ -1592,15 +1592,15 @@ msgstr "Номер автономної системи"
 
 #: admin/templates/settings/rate-limiting.php:76
 msgid "Average requests per minute over the sliding window that trigger a Captcha challenge. Total hits in window / window minutes. Default: 30."
-msgstr "Середня кількість запитів за хвилину в ковзному вікні, яка спричиняє перевірку Captcha. Загальна кількість звернень у вікні / хвилини вікна. Типово: 30."
+msgstr "Середня кількість запитів за хвилину за ковзним вікном, що викликає перевірку Captcha. Загальна кількість звернень у вікні / хвилини вікна. Початково: 30."
 
 #: admin/templates/settings/rate-limiting.php:85
 msgid "Average requests per minute over the sliding window that trigger an immediate block. Total hits in window / window minutes. Default: 50."
-msgstr "Середня кількість запитів за хвилину в ковзному вікні, яка спричиняє негайне блокування. Загальна кількість звернень у вікні / хвилини вікна. Типово: 50."
+msgstr "Середня кількість запитів за хвилину за ковзним вікном, що викликає негайне блокування. Загальна кількість звернень у вікні / хвилини вікна. Початково: 50."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:373
 msgid "Avoid reporting common analytics, payment and CDN script tags as malware indicators."
-msgstr "Ігнорувати стандартні скрипти аналітики, платіжних систем та CDN."
+msgstr "Уникати повідомлень про поширені теги скриптів аналітики, платежів та CDN як індикатори шкідливого ПЗ."
 
 #: admin/templates/setup-wizard/cache.php:53
 #: admin/templates/setup-wizard/captcha.php:77
@@ -1657,7 +1657,7 @@ msgstr "Збалансована безпека та сумісність"
 
 #: admin/templates/setup-guide/one-click-modal.php:51
 msgid "Balanced security and compatibility with safe defaults."
-msgstr "Збалансована безпека та сумісність із безпечними налаштуваннями за замовчуванням."
+msgstr "Збалансована безпека та сумісність з безпечними початковими налаштуваннями."
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:289
 msgid "Ban"
@@ -1689,11 +1689,11 @@ msgstr "Налаштування поведінки"
 
 #: includes/data/botblocker-pro-features.php:69
 msgid "Behavioral & AI analysis"
-msgstr "Поведінковий та AI-аналіз"
+msgstr "Поведінковий та ШІ-аналіз"
 
 #: includes/data/botblocker-pro-features.php:12
 msgid "Behavioral & AI traffic analysis"
-msgstr "Поведінковий аналіз трафіку"
+msgstr "Поведінковий та ШІ-аналіз трафіку"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-addons-page.php:33
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:254
@@ -1753,7 +1753,7 @@ msgstr "Блокування доступу за протоколом IPv6."
 
 #: includes/data/botblocker-data-palette.php:98
 msgid "Block an IP address - ban, deny, blacklist"
-msgstr "Заблокувати IP"
+msgstr "Заблокувати IP-адресу – бан, заборона, чорний список"
 
 #: admin/templates/setup-wizard/welcome.php:12
 msgid "Block brute-force, scanners and scrapers before WordPress"
@@ -1769,7 +1769,7 @@ msgstr "Блокувати клієнтів, які не відповідают�
 
 #: admin/templates/settings/bot-detection.php:66
 msgid "Block connections from known RKN-listed government IP addresses."
-msgstr "Заблокувати підключення з відомих державних IP-адрес, включених до списку RKN."
+msgstr "Блокувати з’єднання з відомих урядових IP-адрес, внесених до списку RKN."
 
 #: admin/templates/settings/traffic.php:34
 #: includes/data/botblocker-data-snav.php:239
@@ -1806,11 +1806,11 @@ msgstr "Блокування IP-адрес, для яких прямі та зв
 
 #: includes/data/botblocker-data-snav.php:588
 msgid "Block IPv6 connections"
-msgstr "Блокувати IPv6-з'єднання"
+msgstr "Блокувати з’єднання IPv6"
 
 #: admin/templates/settings/bot-detection.php:42
 msgid "Block known anti-detect and malformed User-Agent strings."
-msgstr "Блокування відомих антитектів і поганих рядків User-Agent."
+msgstr "Блокувати відомі антидетектні та некоректні рядки User-Agent."
 
 #: admin/templates/settings/connection-types.php:42
 msgid "Block legacy HTTP/1.0 protocol."
@@ -1843,7 +1843,7 @@ msgstr "Блокувати запити без заголовка User-Agent."
 
 #: admin/templates/settings/bot-detection.php:46
 msgid "Block requests with spoofed Referer headers."
-msgstr "Блокування запитів із підробленими заголовками Referer."
+msgstr "Блокувати запити з підробленими заголовками Referer."
 
 #: includes/data/botblocker-data-snav.php:479
 msgid "Block Response Code"
@@ -1981,7 +1981,7 @@ msgstr "Блокування порожнього User-Agent"
 #: includes/services/class-botblocker-health-service.php:25
 #: includes/shortcode/botblocker-shortcode-health.php:72
 msgid "Blocking fake referrers"
-msgstr "Блокування підроблених реферерів"
+msgstr "Блокування підроблених джерел переходу"
 
 #: includes/services/class-botblocker-health-service.php:31
 #: includes/shortcode/botblocker-shortcode-health.php:88
@@ -2003,7 +2003,7 @@ msgstr "Блокування режиму інкогніто/приватног�
 
 #: includes/services/class-botblocker-health-service.php:29
 msgid "Blocking IPv6 connections"
-msgstr "Блокування користувачів IPv6"
+msgstr "Блокування з’єднань IPv6"
 
 #: includes/shortcode/botblocker-shortcode-health.php:73
 msgid "Blocking proxy users"
@@ -2098,7 +2098,7 @@ msgstr "API BotBlocker (botblocker.top, globus.studio) - завжди дозво
 
 #: addons/bbcs-security-headers/views/settings.php:146
 msgid "BotBlocker API and reCaptcha domains are added automatically - no need to list them here."
-msgstr "Домени BotBlocker API та reCaptcha додаються автоматично - їх не потрібно вказувати тут."
+msgstr "Домени BotBlocker API та reCaptcha додаються автоматично – не потрібно вказувати їх тут."
 
 #: admin/templates/integrations/botblocker-api.php:16
 msgid "BotBlocker API connects your site to cloud threat intelligence for real-time security data beyond local detection."
@@ -2139,7 +2139,7 @@ msgstr "BotBlocker Документація"
 
 #: admin/templates/cloud-api/status.php:65
 msgid "BotBlocker Features"
-msgstr "Можливості BotBlocker"
+msgstr "Функції BotBlocker"
 
 #: addons/bbcs-early-init/views/settings.php:27
 msgid "BotBlocker filtering runs before WordPress core loads. No additional settings are required - the integration is managed automatically via wp-config.php."
@@ -2147,11 +2147,11 @@ msgstr "Фільтрація BotBlocker виконується до завант
 
 #: addons/bbcs-https-protocol/inc/bbcs-https-protocol-settings.php:17
 msgid "BotBlocker HTTPS Protocol automatically upgrades all insecure HTTP connections to secure HTTPS. This protects your visitors' data and improves your site security."
-msgstr "Протокол BotBlocker HTTPS автоматично перетворює всі незахищені HTTP-з'єднання на захищені HTTPS. Це забезпечує захист даних ваших відвідувачів і підвищує безпеку вашого сайту."
+msgstr "Протокол HTTPS BotBlocker автоматично перетворює всі незахищені HTTP-з’єднання на безпечні HTTPS. Це захищає дані ваших відвідувачів і покращує безпеку вашого сайту."
 
 #: addons/bbcs-https-protocol/views/settings.php:27
 msgid "BotBlocker HTTPS Protocol automatically upgrades all insecure HTTP connections to secure HTTPS. This protects your visitors' data and improves your site security. The addon provides two essential features: HTTPS Redirect - automatically redirects HTTP traffic to HTTPS. Mixed Content Fixer - replaces insecure content links with secure ones."
-msgstr "Протокол BotBlocker HTTPS автоматично оновлює всі незахищені з'єднання HTTP до безпечних HTTPS. Це захищає дані відвідувачів і покращує безпеку вашого сайту. Аддон надає дві основні функції: перенаправлення HTTPS - автоматично перенаправляє трафік HTTP на HTTPS. Виправлення змішаного вмісту - замінює незахищені посилання на безпечні."
+msgstr "Протокол HTTPS BotBlocker автоматично перетворює всі незахищені HTTP-з’єднання на безпечні HTTPS. Це захищає дані ваших відвідувачів і покращує безпеку вашого сайту. Додаток надає дві основні функції: HTTPS Redirect – автоматично перенаправляє HTTP-трафік на HTTPS. Mixed Content Fixer – замінює незахищені посилання на вміст безпечними."
 
 #: admin/templates/settings/captcha-tab.php:24
 #: admin/templates/setup-wizard/captcha.php:34
@@ -2175,7 +2175,7 @@ msgstr "BotBlocker - плагін безпеки. Рекомендуємо зр�
 
 #: includes/data/botblocker-marketing-blocks.php:252
 msgid "BotBlocker is active &middot; awaiting traffic"
-msgstr "BotBlocker активний &middot; очікування трафіку"
+msgstr "BotBlocker активний &middot; очікує трафік"
 
 #: admin/class-botblocker-setup-wizard-ajax.php:482
 msgid "BotBlocker is active and protecting your site."
@@ -2210,7 +2210,7 @@ msgstr "Новини BotBlocker"
 #: includes/inc-botblocker-ui.php:158
 #: includes/viewmodels/class-chain-context-data.php:108
 msgid "BotBlocker operates in normal mode processing all threat types (bots, proxies, referrers, languages etc.) after base early filtering."
-msgstr "BotBlocker працює у звичайному режимі, обробляючи всі типи загроз (боти, проксі, реферери, мови тощо) після базової попередньої фільтрації."
+msgstr "BotBlocker працює у звичайному режимі, обробляючи всі типи загроз (боти, проксі, джерела переходу, мови тощо) після базової ранньої фільтрації."
 
 #: includes/inc-botblocker-ui.php:159
 #: includes/viewmodels/class-chain-context-data.php:109
@@ -2255,7 +2255,7 @@ msgstr "BotBlocker вимагає WordPress 5.1 або новішої версі
 
 #: includes/data/botblocker-marketing-blocks.php:100
 msgid "BotBlocker runs early in the WordPress request lifecycle. Back up your site and review the update before upgrading."
-msgstr "BotBlocker працює на ранньому етапі. Зробіть бекап."
+msgstr "BotBlocker запускається на ранньому етапі життєвого циклу запиту WordPress. Зробіть резервну копію сайту та перегляньте оновлення перед оновленням."
 
 #: includes/inc-botblocker-connectors.php:41
 #: public/2FA/bbcs-2fa-setup.php:131
@@ -2347,16 +2347,16 @@ msgstr "Не працює"
 
 #: admin/templates/setup-guide/status.php:208
 msgid "Browse add-ons"
-msgstr "Переглянути додатки"
+msgstr "Оглянути додатки"
 
 #: includes/components/class-botblocker-component-addons-summary.php:64
 #: includes/inc-botblocker-ui.php:326
 msgid "Browse Add-ons"
-msgstr "Переглянути аддони"
+msgstr "Оглянути додатки"
 
 #: admin/templates/cloud-api/status.php:84
 msgid "Browse premium add-ons"
-msgstr "Переглянути преміум-додатки"
+msgstr "Оглянути преміум-додатки"
 
 #: includes/data/botblocker-data-snav.php:96
 msgid "Browser & Plugins"
@@ -2376,7 +2376,7 @@ msgstr "Перевірки браузера"
 
 #: admin/templates/settings/browser-plugins.php:20
 msgid "Browser detection identifies bots using spoofing, anti-detect tools, and privacy modes. Advanced options verify browser engine consistency."
-msgstr "Функція виявлення браузерів виявляє ботів, які використовують спуфінг, засоби захисту від виявлення та режими конфіденційності. Додаткові опції перевіряють сумісність движка браузера."
+msgstr "Виявлення браузера ідентифікує ботів, які використовують підробку, антидетектні інструменти та режими приватності. Передові параметри перевіряють узгодженість рушія браузера."
 
 #: admin/templates/settings/browser-plugins.php:33
 #: includes/data/botblocker-data-snav.php:101
@@ -2421,11 +2421,11 @@ msgstr "Кнопка - \"Я не робот\""
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-addons-page.php:49
 #: addons/bbcs-cookie-alert/views/settings.php:86
 msgid "Button Label"
-msgstr "Текст кнопки"
+msgstr "Мітка кнопки"
 
 #: admin/templates/settings/payment-tab.php:20
 msgid "Bypass BotBlocker checks for incoming payment gateway callbacks (webhooks / IPN / postbacks) so legitimate payment notifications are never blocked."
-msgstr "Bypass BotBlocker відстежує зворотні виклики від платіжних шлюзів (webhooks / IPN / postbacks), завдяки чому легітимні повідомлення про платежі ніколи не блокуються."
+msgstr "Обхід перевірок BotBlocker для вхідних зворотних викликів платіжних шлюзів (вебхуки / IPN / postbacks), щоб законні платіжні сповіщення ніколи не блокувалися."
 
 #: admin/templates/settings/cookie.php:111
 #: includes/data/botblocker-data-snav.php:436
@@ -2500,7 +2500,7 @@ msgstr "Кешування через API тимчасових даних WordPr
 
 #: admin/templates/setup-wizard/presets.php:9
 msgid "Can be changed at any time with one click"
-msgstr "Можна змінити в будь-який час одним натисканням"
+msgstr "Можна змінити будь-коли одним натисканням"
 
 #: admin/templates/setup-wizard/compatibility.php:33
 msgid "Can be fixed automatically. The site will remain functional."
@@ -2520,7 +2520,7 @@ msgstr "Можна виправити автоматично. Сайт зали�
 #: includes/modal/modal-botblocker-salt-clear.php:23
 #: includes/modal/modal-botblocker-transient-clear.php:22
 msgid "Cancel"
-msgstr "Відміна"
+msgstr "Скасувати"
 
 #: public/2FA/bbcs-2fa-setup.php:185
 msgid "Cancel and log out"
@@ -2605,7 +2605,7 @@ msgstr "Перевірка оновлень плагінів"
 
 #: addons/bbcs-cron-jobs/views/settings.php:132
 msgid "Check for Theme Updates"
-msgstr "Перевірка оновлень тем"
+msgstr "Перевірити оновлення теми"
 
 #: addons/bbcs-cron-jobs/views/settings.php:130
 msgid "Check for WordPress Updates"
@@ -2614,7 +2614,7 @@ msgstr "Перевірка оновлень WordPress"
 #: admin/templates/settings/traffic.php:31
 #: includes/data/botblocker-data-snav.php:238
 msgid "Check GET Parameters in Referrer"
-msgstr "Перевіряти GET-параметри в реферері"
+msgstr "Перевіряти GET-параметри в джерелі переходу"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-background.php:516
 msgid "Checking database tables..."
@@ -2654,7 +2654,7 @@ msgstr "Виберіть дію для цієї IP-адреси/підмереж
 
 #: admin/templates/settings/notifications.php:28
 msgid "Choose notification channels, set up load alerts, and configure report frequency."
-msgstr "Канали сповіщень, повідомлення про навантаження та періодичність звітів."
+msgstr "Виберіть канали сповіщень, налаштуйте сповіщення про навантаження та частоту звітів."
 
 #: admin/templates/setup-wizard/presets.php:8
 msgid "Choose protection level"
@@ -2666,11 +2666,11 @@ msgstr "Виберіть рівень захисту, який підходит�
 
 #: addons/bbcs-hide-admin/views/settings.php:77
 msgid "Choose what happens when someone tries to access the default login URL."
-msgstr "Виберіть дію, яка має відбутися, коли хтось намагається отримати доступ до стандартного URL-адреси для входу."
+msgstr "Виберіть, що відбувається, коли хтось намагається отримати доступ до стандартного URL входу."
 
 #: admin/templates/settings/log.php:16
 msgid "Choose which security events and visitor activities to log."
-msgstr "Виберіть, які події безпеки та дії відвідувачів слід реєструвати."
+msgstr "Виберіть, які події безпеки та дії відвідувачів реєструвати."
 
 #: includes/modal/modal-botblocker-setup-wizard.php:18
 msgid "Choose your setup method"
@@ -2686,7 +2686,7 @@ msgstr ""
 
 #: admin/templates/settings/rate-limiting.php:149
 msgid "CIDR mask pair for subnet aggregation (v4_v6). Tighter masks target attackers more precisely. Default: 24-64."
-msgstr "Пара масок CIDR для агрегації підмереж (v4_v6). Жорсткіші маски точніше націлені на зловмисників. За замовчуванням: 24-64."
+msgstr "Пара масок CIDR для агрегації підмереж (v4_v6). Жорсткіші маски точніше націлюються на атакуючих. Початкове значення: 24-64."
 
 #: public/captcha/render-moving-shapes-button-trait.php:16
 msgid "Circle"
@@ -2773,7 +2773,7 @@ msgstr "Очистити всі дані відвідувачів"
 
 #: includes/data/botblocker-data-palette.php:113
 msgid "Clear all visitor data - wipe stats, reset counters"
-msgstr "Очистити всі дані відвідувачів"
+msgstr "Очистити всі дані відвідувачів – стерти статистику, скинути лічильники"
 
 #: admin/class-botblocker-admin.php:355
 msgid "Clear All White Bots"
@@ -2806,7 +2806,7 @@ msgstr "Очистити кеш об'єктів"
 
 #: includes/data/botblocker-data-palette.php:96
 msgid "Clear object cache - flush, redis, memcached, purge"
-msgstr "Очистити об'єктний кеш"
+msgstr "Очистити об’єктний кеш – flush, redis, memcached, purge"
 
 #: admin/templates/tools/maintenance-tab.php:91
 msgid "Clear outdated logs, remove temporary files, and optimize the database. Regular maintenance prevents storage-related issues."
@@ -2847,7 +2847,7 @@ msgstr "Очистити транзієнти"
 
 #: includes/data/botblocker-data-palette.php:112
 msgid "Clear transients - cache, temporary data, cleanup"
-msgstr "Очистити транзієнти"
+msgstr "Очистити транзієнти – кеш, тимчасові дані, очищення"
 
 #: admin/templates/tools/maintenance-tab.php:165
 #: includes/data/botblocker-data-snav.php:725
@@ -2856,7 +2856,7 @@ msgstr "Очистити cookie відвідувачів"
 
 #: includes/data/botblocker-data-palette.php:95
 msgid "Clear visitor cookies - reset tracking, privacy data"
-msgstr "Очистити куки відвідувачів"
+msgstr "Очистити файли cookie відвідувачів – скинути відстеження, дані приватності"
 
 #: includes/modal/modal-botblocker-hits-clear.php:9
 msgid "Clear Visitor Data"
@@ -2921,7 +2921,7 @@ msgstr "Хмара / PRO"
 
 #: includes/hook/class-botblocker-cloud-api-hooks.php:155
 msgid "Cloud API connection deactivated."
-msgstr "Підключення до Cloud API вимкнено."
+msgstr "З’єднання з Cloud API вимкнено."
 
 #: includes/data/class-botblocker-alerts.php:111
 msgid "Cloud API Expired"
@@ -2933,7 +2933,7 @@ msgstr "Ліміт звернень Cloud API вичерпано"
 
 #: admin/templates/setup-guide/pro-body.php:44
 msgid "Cloud API is active. Full protection enabled."
-msgstr "Cloud API активний. Увімкнено повний захист."
+msgstr "Cloud API активний. Повний захист увімкнено."
 
 #: includes/hook/class-botblocker-cloud-api-hooks.php:113
 msgid "Cloud API key connected and validated."
@@ -3001,11 +3001,11 @@ msgstr "Хмарна перевірка"
 
 #: includes/data/botblocker-data-palette.php:107
 msgid "Cloud validation - PRO bot verification, AI detection"
-msgstr "Хмарна валідація - PRO-верифікація"
+msgstr "Хмарна перевірка – PRO-верифікація ботів, виявлення ШІ"
 
 #: admin/templates/dashboard/quick-links.php:12
 msgid "Cloud validation, DDoS, forced verification"
-msgstr "Хмарна валідація, DDoS"
+msgstr "Хмарна перевірка, DDoS, примусова верифікація"
 
 #: admin/templates/integrations/botblocker-api.php:21
 msgid "Cloud verification"
@@ -3088,7 +3088,7 @@ msgstr "Коментар"
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:211
 msgid "Comment (optional)"
-msgstr "Коментар (опціонально)"
+msgstr "Коментар (необов’язково)"
 
 #: includes/modal/modal-botblocker-path-add.php:61
 #: includes/modal/modal-botblocker-path-edit.php:62
@@ -3126,7 +3126,7 @@ msgstr "Порівняння версій Free та PRO"
 
 #: admin/templates/cloud-api/status.php:22
 msgid "Compare plan features below. PRO unlocks full per-visit verification, advanced blocking rules, performance add-ons, and priority support."
-msgstr "Порівняйте можливості тарифних планів нижче. Тарифний план PRO надає доступ до повної перевірки кожного відвідування, розширених правил блокування, додаткових функцій для підвищення продуктивності та пріоритетної підтримки."
+msgstr "Порівняйте функції планів нижче. PRO відкриває повну перевірку кожного відвідування, передові правила блокування, додатки для продуктивності та пріоритетну підтримку."
 
 #: admin/templates/addons/locked-notice.php:31
 #: admin/templates/setup-guide/pro-body.php:38
@@ -3156,7 +3156,7 @@ msgstr "Сумісний з усіма плагінами"
 
 #: admin/templates/setup-guide/status.php:47
 msgid "Complete protection checklist. Review each item below to ensure full coverage."
-msgstr "Чеклист повного захисту. Перегляньте кожен пункт нижче, щоб забезпечити повне покриття."
+msgstr "Повний контрольний список захисту. Перегляньте кожен пункт нижче, щоб забезпечити повне покриття."
 
 #: includes/shortcode/botblocker-shortcode-tooltips.php:26
 msgid "Complete Setup Wizard"
@@ -3181,7 +3181,7 @@ msgstr "Налаштувати двигун поведінки"
 
 #: includes/data/botblocker-data-palette.php:91
 msgid "Configure Captcha - human verification, challenge, reCaptcha"
-msgstr "Налаштувати Captcha"
+msgstr "Налаштувати Captcha – перевірка людини, виклик, reCaptcha"
 
 #: includes/data/botblocker-data-palette.php:86
 msgid "Configure DDoS resilience - attack mitigation, flood protection"
@@ -3194,7 +3194,7 @@ msgstr "Налаштувати виключення"
 
 #: admin/templates/settings/notifications.php:27
 msgid "Configure how and when you receive alerts about bot activity."
-msgstr "Налаштування каналів та частоти сповіщень про активність ботів."
+msgstr "Налаштуйте, як і коли ви отримуєте сповіщення про активність ботів."
 
 #: admin/templates/settings/error.php:22
 msgid "Configure HTTP response codes for blocked visitors, ban durations, and search engine directives."
@@ -3214,7 +3214,7 @@ msgstr "Налаштувати зараз"
 
 #: includes/data/botblocker-data-palette.php:89
 msgid "Configure payment gateways - Stripe, PayPal, checkout bypass"
-msgstr "Налаштувати платіжні шлюзи"
+msgstr "Налаштувати платіжні шлюзи – Stripe, PayPal, обхід оформлення замовлення"
 
 #: admin/templates/tools/botblocker-tab.php:19
 msgid "Configure protection rules and automate threat detection. Reducing junk traffic also improves load times."
@@ -3222,7 +3222,7 @@ msgstr "Налаштування правил захисту та автомат
 
 #: includes/data/botblocker-data-palette.php:87
 msgid "Configure rate limiting - spam, flood, throttle, behavioral"
-msgstr "Налаштувати обмеження швидкості"
+msgstr "Налаштувати обмеження швидкості – спам, флуд, тротлінг, поведінковий"
 
 #: includes/shortcode/botblocker-shortcode-tooltips.php:37
 msgid "Configure reCaptcha"
@@ -3242,7 +3242,7 @@ msgstr "Налаштування параметрів безпеки та авт
 
 #: includes/data/botblocker-data-palette.php:92
 msgid "Configure simple bot detection - crawler, scraper, user-agent"
-msgstr "Налаштувати просте виявлення ботів"
+msgstr "Налаштувати просте виявлення ботів – краулер, скрапер, user-agent"
 
 #: admin/templates/settings/data-log.php:24
 msgid "Configure what visitor data BotBlocker records for threat detection and analytics."
@@ -3287,29 +3287,29 @@ msgstr "Підключіться зараз!"
 
 #: admin/class-botblocker-admin.php:481
 msgid "Connection error. Please try again."
-msgstr "Помилка з'єднання. Будь ласка, спробуйте ще раз."
+msgstr "Помилка з’єднання. Будь ласка, спробуйте ще раз."
 
 #: admin/templates/settings/connection-types.php:20
 msgid "Connection filtering blocks suspicious connection methods used by bots and scrapers."
-msgstr "Фільтрація з'єднань блокує підозрілі методи підключення, які використовують боти та скрепери."
+msgstr "Фільтрування з’єднань блокує підозрілі методи з’єднання, які використовують боти та скрапери."
 
 #: public/check-page.php:61
 #: public/template-botblocker-denied.php:237
 #: public/templates/block-page.php:54
 #: public/templates/denied-page.php:56
 msgid "Connection ID:"
-msgstr "Ідентифікатор з'єднання:"
+msgstr "ID з’єднання:"
 
 #: public/check-page.php:60
 #: public/template-botblocker-denied.php:236
 #: public/templates/block-page.php:53
 #: public/templates/denied-page.php:55
 msgid "Connection info:"
-msgstr "Інформація про з'єднання:"
+msgstr "Інформація про з’єднання:"
 
 #: includes/class-botblocker-telegram.php:192
 msgid "Connection test successful!"
-msgstr "Тест з'єднання успішний!"
+msgstr "Перевірку з’єднання успішно завершено!"
 
 #: admin/templates/settings/connection-types.php:19
 #: admin/templates/settings/connection-types.php:37
@@ -3317,7 +3317,7 @@ msgstr "Тест з'єднання успішний!"
 #: includes/data/botblocker-data-snav.php:179
 #: includes/viewmodels/class-settings-viewmodel.php:173
 msgid "Connection Types"
-msgstr "Типи підключення"
+msgstr "Типи з’єднань"
 
 #: admin/templates/about/body.php:25
 #: admin/templates/cloud-api/status.php:143
@@ -3335,7 +3335,7 @@ msgstr "Контакти, документація та стан сервера"
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-addons-page.php:55
 #: addons/bbcs-speedup/views/settings.php:108
 msgid "Content and Functionality"
-msgstr "Зміст і функціональність"
+msgstr "Вміст і функціональність"
 
 #: admin/templates/setup-wizard/cache.php:54
 #: admin/templates/setup-wizard/captcha.php:78
@@ -3371,7 +3371,7 @@ msgstr "Налаштування файлів cookie для перевірки B
 
 #: admin/templates/settings/general.php:24
 msgid "Control how BotBlocker verifies visitors, applies security rules, and manages hit limits."
-msgstr "Стежте за тим, як BotBlocker перевіряє відвідувачів, застосовує правила безпеки та керує лімітами відвідувань."
+msgstr "Керуйте тим, як BotBlocker перевіряє відвідувачів, застосовує правила безпеки та керує лімітами звернень."
 
 #: admin/templates/settings/rate-limiting.php:28
 msgid "Control request velocity per IP with configurable thresholds, sliding windows, and subnet aggregation."
@@ -3422,11 +3422,11 @@ msgstr "Ім'я файлу cookie, яке використовує BotBlocker. �
 
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-plugin.php:154
 msgid "Cookie notice"
-msgstr "Повідомлення про куки"
+msgstr "Повідомлення про файли cookie"
 
 #: addons/bbcs-cookie-alert/views/settings.php:54
 msgid "Cookie notice text"
-msgstr "Текст повідомлення про куки"
+msgstr "Текст повідомлення про файли cookie"
 
 #: includes/services/class-botblocker-health-service.php:39
 msgid "Cookie salt set"
@@ -3471,11 +3471,11 @@ msgstr "Скопіюйте цю команду в кронтаб вашого с
 #: admin/templates/settings/cron.php:121
 #: admin/templates/settings/cron.php:132
 msgid "Copy to clipboard"
-msgstr "Скопіювати до буфера обміну"
+msgstr "Скопіювати в буфер обміну"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-admin.php:194
 msgid "Could not build tree view. Switch to Flat view."
-msgstr "Не вдалося побудувати деревоподібний перегляд. Перейдіть на плоский перегляд."
+msgstr "Не вдалося побудувати деревовидний перегляд. Перемкніться на плоский перегляд."
 
 #. translators: %s: short error code returned by the downloader.
 #: includes/data/class-botblocker-alerts.php:140
@@ -3567,7 +3567,7 @@ msgstr "Налаштування Cron"
 
 #: includes/data/botblocker-data-palette.php:131
 msgid "Cron Tasks - scheduler, jobs, automation"
-msgstr "Завдання Cron - планувальник"
+msgstr "Завдання Cron – планувальник, завдання, автоматизація"
 
 #: addons/bbcs-security-headers/inc/class-bbcs-security-headers-addons-page.php:43
 msgid "CSP Configuration"
@@ -3623,27 +3623,27 @@ msgstr "Власний CSS для стилізації банера сповіщ
 
 #: admin/templates/cloud-api/status.php:140
 msgid "Custom development"
-msgstr "Розробка під замовлення"
+msgstr "Індивідуальна розробка"
 
 #: addons/bbcs-hide-admin/inc/class-bbcs-hide-admin-addons-page.php:35
 #: addons/bbcs-hide-admin/views/settings.php:60
 msgid "Custom Login URL"
-msgstr "Користувацький URL для входу"
+msgstr "Власна URL-адреса входу"
 
 #: addons/bbcs-hide-admin/inc/class-bbcs-hide-admin-plugin.php:61
 msgid "Custom Login URL is invalid. Use only letters, numbers, hyphens, or underscores, and do not use reserved WordPress login endpoints."
-msgstr "URL-адреса адміністративної панелі, вказана користувачем, є недійсною. Використовуйте лише літери, цифри, дефіси або символи підкреслення та не використовуйте зарезервовані ендпоінти входу WordPress."
+msgstr "Власна URL-адреса входу недійсна. Використовуйте лише літери, цифри, дефіси або підкреслення та не використовуйте зарезервовані кінцеві точки входу WordPress."
 
 #: addons/bbcs-hide-admin/views/settings.php:89
 msgid "Custom message shown when the default login URL is accessed and behavior is set to Message."
-msgstr "Власне повідомлення, яке відображається при доступі до стандартної URL-адреси входу, коли поведінка встановлена на Повідомлення."
+msgstr "Власне повідомлення, яке відображається, коли здійснюється доступ до стандартної URL-адреси входу, а поведінку встановлено на «Повідомлення»."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:61
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:63
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:215
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:221
 msgid "Custom Paths"
-msgstr "Користувацькі шляхи"
+msgstr "Власні шляхи"
 
 #: admin/templates/setup-wizard/welcome.php:21
 msgid "Custom rules: IP, User-Agent, PTR, country, paths and headers"
@@ -3651,7 +3651,7 @@ msgstr "Власні правила: IP, User-Agent, PTR, країна, шлях
 
 #: includes/data/botblocker-pro-features.php:22
 msgid "Custom security rules engine"
-msgstr "Рушій користувацьких правил"
+msgstr "Рушій власних правил безпеки"
 
 #: admin/templates/setup-wizard/welcome.php:22
 msgid "Daily cloud threat updates (signatures + networks)"
@@ -3659,11 +3659,11 @@ msgstr "Щоденні оновлення хмарних загроз (підп�
 
 #: includes/data/botblocker-pro-features.php:99
 msgid "Daily signature updates & threat feeds"
-msgstr "Щоденні оновлення сигнатур"
+msgstr "Щоденні оновлення сигнатур і канали загроз"
 
 #: includes/data/botblocker-pro-features.php:19
 msgid "Daily signature updates (5M+ patterns)"
-msgstr "Щоденні оновлення сигнатур (5M+)"
+msgstr "Щоденні оновлення сигнатур (понад 5 млн патернів)"
 
 #: includes/cron/class-botblocker-cron.php:97
 msgid "Daily Summary Backfill"
@@ -3688,16 +3688,16 @@ msgstr "Темний"
 #: admin/class-botblocker-admin.php:954
 #: admin/templates/setup-wizard/finish.php:41
 msgid "Dashboard"
-msgstr "Панель інструментів"
+msgstr "Майстерня"
 
 #: includes/data/botblocker-data-palette.php:127
 msgid "Dashboard - home, overview, main page"
-msgstr "Дашборд - головна, огляд"
+msgstr "Майстерня – домашня сторінка, огляд, головна сторінка"
 
 #: admin/templates/tools/modals/hits-clear.php:22
 #: includes/modal/modal-botblocker-hits-clear.php:16
 msgid "Dashboard counters and daily statistics will be reset."
-msgstr "Лічильники дашборду та щоденна статистика будуть скинуті."
+msgstr "Лічильники майстерні та щоденну статистику буде скинуто."
 
 #: admin/templates/rules/body.php:33
 #: admin/templates/rules/body.php:49
@@ -3811,11 +3811,11 @@ msgstr "БД: v"
 #: admin/templates/addons/marketplace-panel.php:211
 #: admin/templates/addons/marketplace-panel.php:97
 msgid "Deactivate"
-msgstr "Деактивувати"
+msgstr "Вимкнути"
 
 #: addons/bbcs-hide-admin/views/settings.php:40
 msgid "Deactivate WPS Hide Login to use these settings."
-msgstr "Деактивуйте WPS Hide Login, щоб використовувати ці налаштування."
+msgstr "Вимкніть WPS Hide Login, щоб використовувати ці налаштування."
 
 #: admin/templates/tools/wordpress-tab.php:20
 msgid "Debug WordPress"
@@ -3839,11 +3839,11 @@ msgstr "Глибоке сканування (ігнорувати кеш мет�
 
 #: admin/templates/settings/cookie.php:25
 msgid "default"
-msgstr "за замовчуванням"
+msgstr "початковий"
 
 #: admin/templates/setup-wizard/init-mode.php:14
 msgid "Default"
-msgstr "За замовчуванням"
+msgstr "Початковий"
 
 #: admin/templates/integrations/memcached.php:47
 msgid "Define a unique prefix for all Memcached keys to avoid conflicts with other applications using the same cache server."
@@ -3888,7 +3888,7 @@ msgstr "Детальні журнали всіх блокувань"
 
 #: admin/templates/settings/browser-plugins.php:42
 msgid "Detect active ad blockers. May affect legitimate users with ad-blocking extensions."
-msgstr "Виявлення активних блокувальників реклами. Може торкнутися звичайних користувачів, які використовують розширення для блокування реклами."
+msgstr "Виявляти активні блокувальники реклами. Може вплинути на легітимних користувачів із розширеннями для блокування реклами."
 
 #: admin/templates/settings/connection-types.php:25
 msgid "Detect hosting"
@@ -3896,7 +3896,7 @@ msgstr "Визначити хостинг"
 
 #: admin/templates/settings/browser-plugins.php:53
 msgid "Detect tampered browser properties (navigator, plugins)."
-msgstr "Виявлення підмінених властивостей браузера (navigator, plugins)."
+msgstr "Виявляти підроблені властивості браузера (navigator, plugins)."
 
 #: includes/data/botblocker-data-snav.php:58
 #: includes/viewmodels/class-settings-viewmodel.php:158
@@ -3940,7 +3940,7 @@ msgstr "Діагностика"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:224
 msgid "Directory names to skip. One per line."
-msgstr "Назви каталогів, які слід пропустити. По одному на рядок."
+msgstr "Назви директорій, які потрібно пропускати. По одній на рядок."
 
 #: admin/class-botblocker-admin.php:432
 msgid "Disable"
@@ -3963,7 +3963,7 @@ msgstr "Вимкнути значки Dashicons"
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-addons-page.php:57
 #: addons/bbcs-speedup/views/settings.php:116
 msgid "Disable Embeds"
-msgstr "Вимкнути Embeds"
+msgstr "Вимкнути вставки"
 
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-addons-page.php:36
 #: addons/bbcs-speedup/views/settings.php:41
@@ -3981,12 +3981,12 @@ msgstr "Вимкнути reCaptcha v3 для відвідувачів IPv6. Goog
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-addons-page.php:67
 #: addons/bbcs-speedup/views/settings.php:169
 msgid "Disable RSS Feeds"
-msgstr "Вимкнути RSS-стрічки"
+msgstr "Вимкнути RSS-канали"
 
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-addons-page.php:69
 #: addons/bbcs-speedup/views/settings.php:187
 msgid "Disable Self Pingbacks"
-msgstr "Вимкнути власні пінгбеки"
+msgstr "Вимкнути самосповіщення"
 
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-addons-page.php:50
 #: addons/bbcs-speedup/views/settings.php:91
@@ -4030,11 +4030,11 @@ msgstr "Відключена поведінка"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:232
 msgid "Disabled by default so custom paths cannot scan arbitrary server locations."
-msgstr "За замовчуванням ця функція вимкнена, щоб користувацькі шляхи не могли сканувати довільні розташування серверів."
+msgstr "Вимкнено за замовчуванням, щоб власні шляхи не могли сканувати довільні розташування на сервері."
 
 #: addons/bbcs-speedup/views/settings.php:170
 msgid "Disables all RSS feeds on the site."
-msgstr "Вимкнути всі RSS-стрічки на сайті."
+msgstr "Вимикає всі RSS-канали на сайті."
 
 #: addons/bbcs-speedup/views/settings.php:125
 msgid "Disables comments site-wide."
@@ -4050,7 +4050,7 @@ msgstr "Вимкнення XML-RPC. Потрібно для деяких пла�
 
 #: admin/class-botblocker-admin.php:240
 msgid "Disabling Early Init mode may reduce protection against advanced bots. Are you sure you want to proceed?"
-msgstr "Вимкнення режиму Early Init може зменшити захист від просунутих ботів. Ви впевнені, що хочете продовжити?"
+msgstr "Вимкнення режиму Early Init може знизити захист від просунутих ботів. Ви впевнені, що хочете продовжити?"
 
 #: admin/templates/cloud-api/status.php:31
 #: admin/templates/integrations/botblocker-api.php:44
@@ -4063,7 +4063,7 @@ msgstr "Відображення"
 
 #: addons/bbcs-cookie-alert/views/settings.php:28
 msgid "Displays a lightweight first-party cookie notice for visitors and stores consent locally in a BotBlocker-named cookie. Use it for simple privacy notices where no external consent platform is required. Configure message text, policy link, button label, theme, position, and optional CSS."
-msgstr "Відображає легке сповіщення про файли cookie першої сторони для відвідувачів та зберігає згоду локально в файлі cookie з назвою BotBlocker. Використовуйте його для простих повідомлень про конфіденційність, де не потрібна зовнішня платформа згоди. Налаштуйте текст повідомлення, посилання на політику, мітку кнопки, тему, позицію та додатковий CSS."
+msgstr "Відображає легке повідомлення про файли cookie першої сторони для відвідувачів і зберігає згоду локально в файлі cookie з назвою BotBlocker. Використовуйте його для простих повідомлень про конфіденційність, де не потрібна зовнішня платформа згоди. Налаштуйте текст повідомлення, посилання на політику, мітку кнопки, тему, розташування та необов’язковий CSS."
 
 #: botblocker-security.php:256
 msgid "Docs and FAQs"
@@ -4171,12 +4171,12 @@ msgstr "Режими Early Init та MU відкидають IP з чорног�
 
 #: admin/templates/setup-guide/chain-body.php:49
 msgid "Early Init and MU plugin modes reject requests at the first gate: IPs on the blacklist (bots, malicious networks, previously blocked) are dropped before heavier logic runs. With Early Init, WordPress does not load at all - saving memory and CPU. The MU plugin filters before regular plugins and the theme. Only clean traffic proceeds; junk is dropped as early as possible."
-msgstr "Режими Early Init і MU plugin відхиляють запити на самому початку: IP-адреси, що знаходяться в чорному списку (боти, шкідливі мережі, раніше заблоковані), відсіваються до запуску більш ресурсоємної логіки. У режимі Early Init WordPress взагалі не завантажується - це економить пам'ять і процесор. Плагін MU фільтрується перед звичайними плагінами та темою. Тільки чистий трафік проходить далі; сміття відкидається якомога раніше."
+msgstr "Режими Early Init і MU-плагіна відхиляють запити на першому шлюзі: IP-адреси з чорного списку (боти, шкідливі мережі, раніше заблоковані) відкидаються до запуску важчої логіки. З Early Init WordPress взагалі не завантажується – економиться пам’ять і процесор. MU-плагін фільтрує перед звичайними плагінами та темою. Проходить лише чистий трафік; сміття відкидається якомога раніше."
 
 #: admin/templates/setup-wizard/init-mode.php:60
 #, php-format
 msgid "Early Init provides instant IP bans. Custom IPv4/IPv6 lists can be uploaded in any mode - see %s."
-msgstr "Early Init: миттєві бани IP. Списки IPv4/IPv6 - див. %s."
+msgstr "Early Init забезпечує миттєві бани IP. Власні списки IPv4/IPv6 можна завантажити в будь-якому режимі – див. %s."
 
 #: includes/ajax/class-botblocker-ajax-early-phase.php:55
 msgid "Early Init requires Cloud API and the Early Init addon to be enabled."
@@ -4223,12 +4223,12 @@ msgstr "Early Init вимкнено. Увімкніть його для біль
 #: includes/inc-botblocker-ui.php:151
 #: includes/viewmodels/class-chain-context-data.php:100
 msgid "Early initialization disabled. Its functions are handled by the active MU plugin."
-msgstr "Рання ініціалізація вимкнена: її функції виконує активний MU-плагін."
+msgstr "Ранню ініціалізацію вимкнено. Її функції виконує активний MU-плагін."
 
 #: includes/inc-botblocker-ui.php:148
 #: includes/viewmodels/class-chain-context-data.php:97
 msgid "Early initialization enabled. IP blacklist and base rule filtering run before WordPress loads. MU mode is not required."
-msgstr "Увімкнено ранню ініціалізацію: фільтрація за чорним списком IP-адрес та базовими правилами виконується до завантаження WordPress. Режим MU не потрібен."
+msgstr "Ранню ініціалізацію ввімкнено. Фільтрування чорного списку IP і базових правил виконується до завантаження WordPress. Режим MU не потрібен."
 
 #: admin/class-botblocker-setup-wizard-ajax.php:169
 msgid "Early initialization requires PRO license."
@@ -4327,7 +4327,7 @@ msgstr "Електронна пошта є обов’язковою."
 
 #: includes/services/class-botblocker-health-service.php:60
 msgid "Email notifications"
-msgstr "Email-повідомлення"
+msgstr "Сповіщення електронною поштою"
 
 #: includes/ajax/class-botblocker-ajax-email.php:42
 msgid "Email sent successfully."
@@ -4370,7 +4370,7 @@ msgstr "Увімкнути"
 #: admin/templates/settings/error.php:98
 #, php-format
 msgid "Enable %s directive in X-Robots-Tag headers"
-msgstr "Включити директиву %s у заголовках X-Robots-Tag"
+msgstr "Увімкнути директиву %s у заголовках X-Robots-Tag"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:309
 msgid "Enable automatic background scans at regular intervals."
@@ -4405,7 +4405,7 @@ msgstr "Увімкнути двофакторну автентифікацію B
 
 #: addons/bbcs-security-headers/views/settings.php:113
 msgid "Enable common protection headers: X-Frame-Options, X-Content-Type-Options, X-XSS-Protection, Referrer-Policy, and X-Permitted-Cross-Domain-Policies."
-msgstr "Увімкнути поширені заголовки захисту: X-Frame-Options, X-Content-Type-Options, X-XSS-Protection, Referrer-Policy та X-Permitted-Cross-Domain-Policies."
+msgstr "Увімкнути загальні захисні заголовки: X-Frame-Options, X-Content-Type-Options, X-XSS-Protection, Referrer-Policy та X-Permitted-Cross-Domain-Policies."
 
 #: addons/bbcs-security-headers/inc/class-bbcs-security-headers-addons-page.php:39
 #: addons/bbcs-security-headers/views/settings.php:128
@@ -4458,7 +4458,7 @@ msgstr "Спочатку увімкніть його."
 
 #: admin/templates/settings/tls-fingerprint.php:36
 msgid "Enable JA3/JA4 TLS fingerprint analysis for bot detection. Requires fingerprint headers from web server."
-msgstr "Увімкнути аналіз відбитків TLS JA3/JA4 для виявлення ботів. Потрібні заголовки відбитків від веб-сервера."
+msgstr "Увімкнути аналіз TLS-відбитків JA3/JA4 для виявлення ботів. Потребує заголовків відбитків від вебсервера."
 
 #: includes/shortcode/botblocker-shortcode-tooltips.php:66
 msgid "Enable JavaScript verification"
@@ -4486,7 +4486,7 @@ msgstr "Увімкнути лічильники Memcached"
 #: addons/bbcs-https-protocol/inc/class-bbcs-https-protocol-addons-page.php:47
 #: addons/bbcs-https-protocol/views/settings.php:79
 msgid "Enable Mixed Content Auto-Fix"
-msgstr "Увімкнути автоматичне виправлення змішаного контенту"
+msgstr "Увімкнути автоматичне виправлення змішаного вмісту"
 
 #: includes/shortcode/botblocker-shortcode-tooltips.php:86
 msgid "Enable MU plugin mode"
@@ -4566,7 +4566,7 @@ msgstr "Увімкніть компаратор джерела істини та
 
 #: addons/bbcs-cookie-alert/views/settings.php:45
 msgid "Enable this option to display a simple cookie notice to your visitors."
-msgstr "Увімкніть цю опцію, щоб показувати просте повідомлення про cookie відвідувачам."
+msgstr "Увімкніть цю опцію, щоб показувати відвідувачам просте повідомлення про файли cookie."
 
 #: admin/templates/settings/tls-fingerprint.php:36
 #: includes/data/botblocker-data-snav.php:131
@@ -4590,7 +4590,7 @@ msgstr "Увімкнути двофакторну автентифікацію"
 #: admin/templates/shared/sidebar/rail.php:141
 #, php-format
 msgid "Enable Two-Factor Authentication (2FA) for all administrator accounts. It adds an essential layer of security that stops 99% of automated credential stuffing and brute-force attacks from accessing your dashboard."
-msgstr "Увімкнути двофакторну автентифікацію (2FA) для всіх облікових записів адміністраторів. Це додає важливий рівень безпеки, який зупиняє 99% автоматизованих атак підбору облікових даних та brute-force атак на доступ до вашої панелі керування."
+msgstr "Увімкнути двокрокову автентифікацію (2FA) для всіх облікових записів адміністраторів. Це додає важливий рівень безпеки, який зупиняє 99% автоматизованих атак підбору облікових даних і перебору паролів від доступу до вашої Майстерні."
 
 #: addons/bbcs-xmlrpc-tunnel/inc/class-bbcs-xmlrpc-tunnel-addons-page.php:35
 #: addons/bbcs-xmlrpc-tunnel/views/settings.php:57
@@ -4608,7 +4608,7 @@ msgstr "Увімкнено"
 
 #: admin/templates/settings/cookie.php:36
 msgid "Enabled (Explicit headers)"
-msgstr "Увімкнено (Явні заголовки)"
+msgstr "Увімкнено (явні заголовки)"
 
 #: admin/templates/settings/cookie.php:19
 msgid "Enabled (Recommended)"
@@ -4666,7 +4666,7 @@ msgstr "Введіть 6-значний код із додатка:"
 
 #: admin/templates/integrations/botblocker-api.php:89
 msgid "Enter the additional API endpoint URL for advanced security analytics and threat monitoring services."
-msgstr "Введіть додаткову URL-адресу кінцевої точки API для розширеної аналітики безпеки та послуг моніторингу загроз."
+msgstr "Введіть додаткову URL-адресу кінцевої точки API для розширеної аналітики безпеки та сервісів моніторингу загроз."
 
 #: public/2FA/bbcs-2fa.php:174
 msgid "Enter the code to confirm login"
@@ -4865,7 +4865,7 @@ msgstr "Експорт Excel"
 
 #: includes/data/botblocker-data-palette.php:103
 msgid "Export rules to JSON - backup, save, download"
-msgstr "Експорт правил у JSON"
+msgstr "Експортувати правила у JSON – резервне копіювання, збереження, завантаження"
 
 #: admin/templates/settings/captcha-tab.php:121
 msgid "Extended Captcha Check"
@@ -4892,11 +4892,11 @@ msgstr "Зовнішні системи кешування (Redis, Memcached) т
 #: admin/templates/settings/connection-types.php:50
 #: includes/data/botblocker-data-snav.php:188
 msgid "Extra Connection Types"
-msgstr "Додаткові типи підключень"
+msgstr "Додаткові типи з’єднань"
 
 #: addons/bbcs-truth-source/inc/views/scan-results.php:118
 msgid "Extra files (e.g. Pro build). Not verified - review optional."
-msgstr "Додаткові файли (наприклад, збірка Pro). Не перевірено - перегляд за бажанням."
+msgstr "Додаткові файли (наприклад, Pro-збірка). Не перевірено – перегляд необов’язковий."
 
 #: admin/templates/dashboard/quick-links.php:15
 msgid "Extra modules"
@@ -4905,19 +4905,19 @@ msgstr "Додаткові модулі"
 #: admin/templates/settings/bot-detection.php:61
 #: includes/data/botblocker-data-snav.php:85
 msgid "Extra Options"
-msgstr "Додаткові опції"
+msgstr "Додаткові параметри"
 
 #: admin/templates/settings/data-log.php:37
 msgid "Extract and store visitor browser name and version from User-Agent header."
-msgstr "Витягування та збереження назви та версії браузера відвідувача з заголовка User-Agent."
+msgstr "Витягувати та зберігати назву й версію браузера відвідувача із заголовка User-Agent."
 
 #: admin/templates/settings/data-log.php:44
 msgid "Extract and store visitor device category (PC, Phone, Tablet, TV, Box) from User-Agent header."
-msgstr "Витягування та збереження категорії пристрою відвідувача (ПК, телефон, планшет, телевізор, приставка) з заголовка User-Agent."
+msgstr "Витягувати та зберігати категорію пристрою відвідувача (ПК, телефон, планшет, телевізор, приставка) із заголовка User-Agent."
 
 #: admin/templates/settings/data-log.php:38
 msgid "Extract and store visitor operating system from User-Agent header."
-msgstr "Витягування та збереження операційної системи відвідувача з заголовка User-Agent."
+msgstr "Витягувати та зберігати операційну систему відвідувача із заголовка User-Agent."
 
 #: includes/data/botblocker-data-snav.php:270
 msgid "Failed Attempt Time Window (seconds)"
@@ -5115,7 +5115,7 @@ msgstr "Не вдалося створити файл солі."
 
 #: includes/hook/hook-addon-install.php:122
 msgid "Failed to create temporary add-on directory."
-msgstr "Не вдалося створити тимчасовий каталог додатків."
+msgstr "Не вдалося створити тимчасову директорію доповнення."
 
 #: includes/ajax/class-botblocker-ajax-white-bots.php:496
 msgid "Failed to create white bot."
@@ -5370,7 +5370,7 @@ msgstr "Не вдалося зберегти список країн."
 #: includes/class-botblocker-toastify.php:263
 #: includes/hook/hook-addon-validation.php:92
 msgid "Failed to scan extraction directory."
-msgstr "Не вдалося просканувати каталог розпакування."
+msgstr "Не вдалося просканувати директорію витягування."
 
 #: admin/class-botblocker-admin.php:537
 msgid "Failed to schedule ASN database update."
@@ -5378,7 +5378,7 @@ msgstr "Не вдалося запланувати оновлення бази �
 
 #: includes/ajax/class-botblocker-ajax-email.php:119
 msgid "Failed to send activation. Try again later."
-msgstr "Не вдалося надіслати активцію. Спробуйте ще раз пізніше."
+msgstr "Не вдалося надіслати активацію. Спробуйте пізніше."
 
 #: includes/ajax/class-botblocker-ajax-email.php:48
 msgid "Failed to send email."
@@ -5420,7 +5420,7 @@ msgstr "Не вдалося оновити правило %s."
 
 #: includes/ajax/class-botblocker-ajax-asn.php:351
 msgid "Failed to update ASN rule."
-msgstr "Не вдалося оновити ASN-правило."
+msgstr "Не вдалося оновити правило ASN."
 
 #: admin/class-botblocker-admin.php:398
 msgid "Failed to update ASN rule: "
@@ -5444,7 +5444,7 @@ msgstr "Не вдалося оновити шлях: "
 
 #: admin/class-botblocker-admin.php:381
 msgid "Failed to update proxies: "
-msgstr "Не вдалося оновити проксі-сервери: "
+msgstr "Не вдалося оновити проксі: "
 
 #: includes/ajax/class-botblocker-ajax-proxy.php:274
 msgid "Failed to update proxy."
@@ -5499,7 +5499,7 @@ msgstr "Часті запитання"
 #: admin/templates/cloud-api/status.php:98
 #: includes/data/botblocker-pro-features.php:141
 msgid "Feature"
-msgstr "Можливості"
+msgstr "Функція"
 
 #: admin/templates/tools/maintenance-tab.php:160
 #: includes/data/botblocker-data-snav.php:723
@@ -5544,7 +5544,7 @@ msgstr "Змінювати файли заборонено."
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-admin.php:103
 msgid "File removed from ignore list."
-msgstr "Файл вилучено зі списку ігнорування."
+msgstr "Файл видалено зі списку ігнорування."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:490
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:554
@@ -5631,15 +5631,15 @@ msgstr "База даних відбитків"
 
 #: admin/templates/settings/browser-plugins.php:56
 msgid "Fingerprint Sticky Block"
-msgstr "Блокування за постійним відбитком"
+msgstr "Липке блокування за відбитком"
 
 #: includes/modal/modal-botblocker-rewrite-rules.php:15
 msgid "Fixes 404 errors after permalink structure changes."
-msgstr "Виправлення помилок 404 після зміни структури постійних посилань."
+msgstr "Виправляє помилки 404 після зміни структури постійних посилань."
 
 #: admin/templates/settings/bot-detection.php:64
 msgid "Flag visitors whose browser language doesn&#39;t match their GeoIP location. May affect travelers and VPN users."
-msgstr "Позначайте відвідувачів, мова браузера яких не відповідає їхньому GeoIP. Це може стосуватися мандрівників та користувачів VPN."
+msgstr "Позначати відвідувачів, у яких мова браузера не збігається з їхнім GeoIP-розташуванням. Може впливати на мандрівників і користувачів VPN."
 
 #: addons/bbcs-truth-source/inc/views/scan-results.php:89
 msgid "Flat"
@@ -5657,11 +5657,11 @@ msgstr "Очистити"
 
 #: includes/data/botblocker-data-palette.php:97
 msgid "Flush rewrite rules - URLs, permalinks, refresh"
-msgstr "Скинути правила перезапису"
+msgstr "Скинути правила перезапису – URL, постійні посилання, оновлення"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:182
 msgid "Follow symbolic links when scanning directories."
-msgstr "Під час сканування каталогів слід враховувати символічні посилання."
+msgstr "Переходити за символічними посиланнями під час сканування директорій."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:55
 msgid "Follow Symlinks"
@@ -5748,11 +5748,11 @@ msgstr "Повний режим: Перевіряйте всі запити (ф�
 
 #: includes/ajax/class-botblocker-ajax-profile.php:59
 msgid "Full profile function is not available."
-msgstr "Повна функціональність профілю недоступна."
+msgstr "Функція повного профілю недоступна."
 
 #: includes/ajax/class-botblocker-ajax-profile.php:52
 msgid "Full profile requires Cloud API connection to be active."
-msgstr "Для повного захисту необхідне активне підключення до Cloud API."
+msgstr "Повний профіль потребує активного з’єднання з Cloud API."
 
 #: admin/templates/setup-guide/one-click-modal.php:65
 #: includes/modal/modal-botblocker-setup-wizard.php:89
@@ -5839,7 +5839,7 @@ msgstr "База даних геолокації:"
 
 #: includes/data/botblocker-data-palette.php:94
 msgid "Get API key from cloud - token, license, activate"
-msgstr "Отримати API-ключ із хмари"
+msgstr "Отримати ключ API з хмари – токен, ліцензія, активація"
 
 #: admin/templates/addons/locked-notice.php:28
 #: admin/templates/addons/marketplace-panel.php:113
@@ -5849,7 +5849,7 @@ msgstr "Придбати BotBlocker PRO"
 
 #: includes/services/class-botblocker-health-service.php:37
 msgid "GET parameter referrer check"
-msgstr "Перевірка реферера в параметрі GET"
+msgstr "Перевірка реферера через GET-параметр"
 
 #: admin/templates/setup-guide/one-click-modal.php:82
 #: admin/templates/shared/sidebar/status-card.php:57
@@ -5886,13 +5886,13 @@ msgstr "Перейти до додатків"
 
 #: admin/class-botblocker-admin.php:925
 msgid "Go to BotBlocker Dashboard"
-msgstr "Перейти до панелі керування BotBlocker"
+msgstr "Перейти до Майстерні BotBlocker"
 
 #: admin/templates/setup-wizard/completed.php:48
 #: admin/templates/setup-wizard/finish.php:86
 #: public/2FA/bbcs-2fa-setup.php:141
 msgid "Go to Dashboard"
-msgstr "Перейти до панелі керування"
+msgstr "Перейти до Майстерні"
 
 #: public/captcha/render-recaptcha-with-button-trait.php:20
 #: public/captcha/render-recaptcha-with-button-trait.php:29
@@ -5937,7 +5937,7 @@ msgstr "Google reCaptcha v3 аналізує поведінку користув
 
 #: admin/templates/rules.php:22
 msgid "Granular rules for IPs, ASNs, countries, paths, and headers"
-msgstr "Деталізовані правила для IP, ASN, країн, шляхів та заголовків"
+msgstr "Детальні правила для IP, ASN, країн, шляхів і заголовків"
 
 #: includes/modal/modal-botblocker-asn-add.php:36
 #: includes/modal/modal-botblocker-asn-edit.php:37
@@ -6004,7 +6004,7 @@ msgstr "Стан системи"
 
 #: admin/templates/tools/maintenance-tab.php:172
 msgid "Helps resolve 404 errors after changing the permalink structure"
-msgstr "Допомагає усунути помилки 404 після зміни структури постійних посилань."
+msgstr "Допомагає вирішити помилки 404 після зміни структури постійних посилань"
 
 #: public/captcha/render-moving-shapes-button-trait.php:20
 msgid "Hexagon"
@@ -6025,7 +6025,7 @@ msgstr "Налаштування приховування адмінки"
 #: includes/data/botblocker-data-palette.php:75
 #: includes/data/botblocker-data-palette.php:76
 msgid "Hide admin URL - custom login page"
-msgstr "Приховати URL адмінки"
+msgstr "Приховати URL адміністратора – власна сторінка входу"
 
 #: includes/data/botblocker-pro-features.php:14
 #: includes/data/botblocker-pro-features.php:79
@@ -6084,7 +6084,7 @@ msgstr "Утримуйте кнопку та відпустіть її в зел
 
 #: addons/bbcs-hide-admin/views/settings.php:73
 msgid "Home Page"
-msgstr "Головна сторінка"
+msgstr "Домашня сторінка"
 
 #: addons/bbcs-https-protocol/inc/class-bbcs-https-protocol-addons-page.php:55
 #: addons/bbcs-https-protocol/views/settings.php:120
@@ -6129,11 +6129,11 @@ msgstr "Погодинний графік відвідувачів"
 
 #: addons/bbcs-behavior/views/settings.php:226
 msgid "Hours of inactivity before reputation tier cools down by 1 level. (Default: 16)"
-msgstr "Години бездіяльності перед тим, як рівень репутації знизиться на 1 рівень. (За замовчуванням: 16)"
+msgstr "Години бездіяльності, перш ніж рівень репутації знизиться на 1 рівень. (Початково: 16)"
 
 #: addons/bbcs-behavior/views/settings.php:255
 msgid "Hours of inactivity before subnet reputation tier cools down by 1 level. (Default: 4)"
-msgstr "Години бездіяльності перед тим, як рівень репутації підмережі знизиться на 1 рівень. (За замовчуванням: 4)"
+msgstr "Години бездіяльності, перш ніж рівень репутації підмережі знизиться на 1 рівень. (Початково: 4)"
 
 #: admin/templates/settings/data-log.php:26
 msgid "How BotBlocker Detects Browser Version, OS, and Device Type"
@@ -6141,23 +6141,23 @@ msgstr "Як BotBlocker визначає версію браузера, ОС т�
 
 #: addons/bbcs-behavior/views/settings.php:139
 msgid "How far back (in minutes) to evaluate a visitor's activity patterns. (Default: 10)"
-msgstr "На скільки хвилин назад оцінювати шаблони активності відвідувача. (За замовчуванням: 10)"
+msgstr "Наскільки далеко назад (у хвилинах) оцінювати моделі активності відвідувача. (Початково: 10)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:365
 msgid "How far back in time (in minutes) we look to evaluate a visitor's activity patterns. For example, a 10-minute window means we inspect request patterns over the last 10 minutes. (Default: 10)"
-msgstr "На скільки хвилин назад ми дивимося, щоб оцінити шаблони активності відвідувача. Наприклад, вікно в 10 хвилин означає, що ми аналізуємо шаблони запитів за останні 10 хвилин. (За замовчуванням: 10)"
+msgstr "Наскільки далеко назад у часі (у хвилинах) ми дивимося, щоб оцінити моделі активності відвідувача. Наприклад, вікно в 10 хвилин означає, що ми перевіряємо моделі запитів за останні 10 хвилин. (Початково: 10)"
 
 #: addons/bbcs-behavior/views/settings.php:151
 msgid "How long (in seconds) an IP remains blocked after triggering the block threshold. (Default: 900)"
-msgstr "Скільки секунд IP-адреса залишається заблокованою після перевищення порогу блокування. (За замовчуванням: 900)"
+msgstr "Як довго (у секундах) IP залишається заблокованим після перевищення порогу блокування. (Початково: 900)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:401
 msgid "How long (in seconds) an IP remains temporarily blocked in the database after triggering the behavior block threshold. (Default: 900)"
-msgstr "Скільки секунд IP-адреса тимчасово блокується в базі даних після перевищення порогу блокування поведінки. (За замовчуванням: 900)"
+msgstr "Як довго (у секундах) IP залишається тимчасово заблокованим у базі даних після перевищення порогу блокування за поведінкою. (Початково: 900)"
 
 #: admin/templates/settings/rate-limiting.php:99
 msgid "How long the IP stays blocked after exceeding the rate limit. Default: 600 (10 minutes)."
-msgstr "Як довго IP-адреса залишається заблокованою після перевищення ліміту швидкості. За замовчуванням: 600 (10 хвилин)."
+msgstr "Як довго IP залишається заблокованим після перевищення ліміту швидкості. Початково: 600 (10 хвилин)."
 
 #: admin/templates/settings/cookie.php:88
 msgid "How long the verification cookie remains valid."
@@ -6181,11 +6181,11 @@ msgstr "Як довго зберігати правила дозволу для 
 
 #: addons/bbcs-behavior/views/settings.php:243
 msgid "How many days a /24 subnet reputation is remembered. (Default: 2)"
-msgstr "Скільки днів зберігається репутація підмережі /24. (За замовчуванням: 2)"
+msgstr "Скільки днів пам’ятається репутація підмережі /24. (Початково: 2)"
 
 #: addons/bbcs-behavior/views/settings.php:214
 msgid "How many days a suspicious IP's reputation is remembered. (Default: 7)"
-msgstr "Скільки днів зберігається репутація підозрілої IP-адреси. (За замовчуванням: 7)"
+msgstr "Скільки днів пам’ятається репутація підозрілого IP. (Початково: 7)"
 
 #: admin/templates/settings/data-log.php:56
 msgid "How many days to keep raw visitor log data before automatic cleanup."
@@ -6193,19 +6193,19 @@ msgstr "Скільки днів зберігати необроблені дан
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:456
 msgid "How many days we remember a suspicious IP's reputation. After this time without new activity, their history is completely deleted and their tier resets to 0. (Default: 7)"
-msgstr "Скільки днів ми пам'ятаємо репутацію підозрілої IP-адреси. Після цього часу без нової активності їх історія повністю видаляється, а рівень скидається до 0. (За замовчуванням: 7)"
+msgstr "Скільки днів ми пам’ятаємо репутацію підозрілого IP. Після цього часу без нової активності їхня історія повністю видаляється, а рівень скидається до 0. (Початково: 7)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:480
 msgid "How many days we remember the reputation history for a /24 subnet (a block of 256 neighboring IPs) before resetting it. (Default: 2)"
-msgstr "Скільки днів ми пам'ятаємо історію репутації для підмережі /24 (блоку з 256 сусідніх IP-адрес) перед скиданням. (За замовчуванням: 2)"
+msgstr "Скільки днів ми пам’ятаємо історію репутації для підмережі /24 (блоку з 256 сусідніх IP) перед її скиданням. (Початково: 2)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:492
 msgid "How many hours of inactivity must pass before a suspicious /24 subnet's reputation tier cools down (decays) by 1 level. (Default: 4)"
-msgstr "Скільки годин бездіяльності має пройти, перш ніж рівень репутації підозрілої підмережі /24 знизиться (зменшиться) на 1 рівень. (За замовчуванням: 4)"
+msgstr "Скільки годин бездіяльності має минути, перш ніж рівень репутації підозрілої підмережі /24 знизиться (затухне) на 1 рівень. (Початково: 4)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:468
 msgid "How many hours of inactivity must pass before a suspicious IP's reputation tier cools down (decays) by 1 level. For example, if set to 16, a Tier 5 IP that is quiet for 32 hours drops to Tier 3. (Default: 16)"
-msgstr "Скільки годин бездіяльності має пройти, перш ніж рівень репутації підозрілої IP-адреси знизиться (зменшиться) на 1 рівень. Наприклад, якщо встановлено 16, IP-адреса рівня 5, яка мовчить протягом 32 годин, опускається до рівня 3. (За замовчуванням: 16)"
+msgstr "Скільки годин бездіяльності має минути, перш ніж рівень репутації підозрілого IP знизиться (затухне) на 1 рівень. Наприклад, якщо встановлено 16, IP рівня 5, який мовчить 32 години, опускається до рівня 3. (Початково: 16)"
 
 #: admin/templates/settings/notifications.php:92
 msgid "How often to receive status reports."
@@ -6237,20 +6237,20 @@ msgstr "HTTP-коди"
 #: includes/modal/modal-botblocker-proxy-add.php:31
 #: includes/modal/modal-botblocker-proxy-edit.php:32
 msgid "HTTP Header"
-msgstr "HTTP-заголовок"
+msgstr "Заголовок HTTP"
 
 #: includes/modal/modal-botblocker-proxy-add.php:32
 #: includes/modal/modal-botblocker-proxy-edit.php:33
 msgid "HTTP header for forwarding the real IP"
-msgstr "HTTP-заголовок для отримання реальної IP-адреси"
+msgstr "Заголовок HTTP для пересилання реального IP"
 
 #: admin/templates/settings/tls-fingerprint.php:47
 msgid "HTTP header name for JA3 fingerprint. Default: X-TLS-JA3. Cloudflare sends Cf-JA3-Fingerprint automatically."
-msgstr "Назва HTTP-заголовка для відбитка JA3. За замовчуванням: X-TLS-JA3. Cloudflare автоматично надсилає Cf-JA3-Fingerprint."
+msgstr "Назва заголовка HTTP для відбитка JA3. Початково: X-TLS-JA3. Cloudflare автоматично надсилає Cf-JA3-Fingerprint."
 
 #: admin/templates/settings/tls-fingerprint.php:55
 msgid "HTTP header name for JA4 fingerprint. Default: X-TLS-JA4."
-msgstr "Назва HTTP-заголовка для відбитка JA4. За замовчуванням: X-TLS-JA4."
+msgstr "Назва заголовка HTTP для відбитка JA4. Початково: X-TLS-JA4."
 
 #: admin/templates/settings/error.php:27
 msgid "HTTP proxy"
@@ -6276,7 +6276,7 @@ msgstr "Визначення HTTPS"
 #: includes/data/botblocker-data-palette.php:122
 #: includes/data/botblocker-data-palette.php:123
 msgid "HTTPS enforcement - redirect, mixed content fixer"
-msgstr "Примусовий HTTPS"
+msgstr "Примусове використання HTTPS – перенаправлення, виправлення змішаного вмісту"
 
 #: addons/bbcs-https-protocol/inc/class-bbcs-https-protocol-addons-page.php:33
 #: addons/bbcs-https-protocol/views/settings.php:28
@@ -6320,7 +6320,7 @@ msgstr ""
 #: includes/ajax/class-botblocker-ajax-asn.php:387
 #: includes/ajax/class-botblocker-ajax-white-bots.php:301
 msgid "ID is required for deletion."
-msgstr "Для видалення потрібен ідентифікатор."
+msgstr "Для видалення потрібен ID."
 
 #: admin/templates/setup-wizard/presets.php:19
 msgid "Ideal for testing"
@@ -6332,19 +6332,19 @@ msgstr "Якщо заплановане завдання пропущено (WP 
 
 #: addons/bbcs-behavior/views/settings.php:81
 msgid "If a visitor's behavior score (0–100) reaches this threshold, a Captcha challenge is shown. Lower values = stricter. (Default: 50)"
-msgstr "Якщо оцінка поведінки відвідувача (0–100) досягає цього порогу, показується Captcha. Нижчі значення = суворіше. (За замовчуванням: 50)"
+msgstr "Якщо оцінка поведінки відвідувача (0–100) досягає цього порогу, показується перевірка Captcha. Нижчі значення = суворіше. (Початково: 50)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:353
 msgid "If a visitor's behavior score (from 0 to 100) reaches this threshold, they are blocked immediately. This should be set higher than the Captcha threshold. Lower values make protection stricter. (Default: 75)"
-msgstr "Якщо оцінка поведінки відвідувача (від 0 до 100) досягає цього порогу, вони негайно блокуються. Це значення має бути вищим за поріг Captcha. Нижчі значення роблять захист суворішим. (За замовчуванням: 75)"
+msgstr "Якщо оцінка поведінки відвідувача (від 0 до 100) досягає цього порогу, його негайно блокують. Це значення має бути вищим за поріг Captcha. Нижчі значення роблять захист суворішим. (Початково: 75)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:341
 msgid "If a visitor's behavior score (from 0 to 100) reaches this threshold, we display a Captcha challenge before letting them proceed. Lower values make protection stricter. (Default: 50)"
-msgstr "Якщо оцінка поведінки відвідувача (від 0 до 100) досягає цього порогу, ми показуємо Captcha перед тим, як дозволити їм продовжити. Нижчі значення роблять захист суворішим. (За замовчуванням: 50)"
+msgstr "Якщо оцінка поведінки відвідувача (від 0 до 100) досягає цього порогу, ми показуємо перевірку Captcha, перш ніж дозволити йому продовжити. Нижчі значення роблять захист суворішим. (Початково: 50)"
 
 #: addons/bbcs-behavior/views/settings.php:93
 msgid "If a visitor's behavior score reaches this threshold, they are blocked immediately. Must be higher than Captcha threshold. (Default: 75)"
-msgstr "Якщо оцінка поведінки відвідувача досягає цього порогу, вони негайно блокуються. Має бути вищим за поріг Captcha. (За замовчуванням: 75)"
+msgstr "Якщо оцінка поведінки відвідувача досягає цього порогу, його негайно блокують. Має бути вищим за поріг Captcha. (Початково: 75)"
 
 #: admin/templates/settings/cron.php:87
 msgid "If WP-Cron is unreliable, set up a system cron job using the commands below."
@@ -6373,7 +6373,7 @@ msgstr "Ігнорувати вбудовані плагіни/теми"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:207
 msgid "Ignore built-in WordPress plugins/themes (Akismet, Hello Dolly, Twenty* series)"
-msgstr "Ігнорувати вбудовані плагіни/теми WordPress (Akismet, Hello Dolly, серія Twenty*)"
+msgstr "Ігнорувати вбудовані плагіни/теми WordPress (Akismet, Hello Dolly, серії Twenty*)"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:197
 msgid "Ignore cached truth source - force fresh download"
@@ -6393,7 +6393,7 @@ msgstr "Шаблони ігнорування"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:232
 msgid "Ignore Patterns (wildcards)"
-msgstr "Шаблони ігнорування (підстановочні символи)"
+msgstr "Шаблони ігнорування (підстановочні знаки)"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:94
 msgid "Ignore Trusted External Scripts"
@@ -6414,7 +6414,7 @@ msgstr "Ігноровані файли"
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:97
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:405
 msgid "Ignored Indicator IDs"
-msgstr "Ігноровані ідентифікатори індикаторів"
+msgstr "Ігноровані ID індикаторів"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-truth-source-addons-page.php:85
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:242
@@ -6428,7 +6428,7 @@ msgstr "Ігноровані теми"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:158
 msgid "Ignores the local metadata cache and re-hashes every file. Catches stealth edits that do not change directory mtime. Slower but more thorough."
-msgstr "Ігнорує локальний кеш метаданих і повторно хешує кожен файл. Виявляє приховані редагування, які не змінюють час зміни каталогу. Повільніше, але ретельніше."
+msgstr "Ігнорує локальний кеш метаданих і повторно хешує кожен файл. Виявляє приховані зміни, які не змінюють mtime директорії. Повільніше, але ретельніше."
 
 #: includes/data/botblocker-data-snav.php:287
 msgid "Image Captcha Pack"
@@ -6452,7 +6452,7 @@ msgstr "Зображення та іконки:"
 
 #: admin/templates/tools/maintenance-tab.php:151
 msgid "Immediately sync LLM provider list from BotBlocker cloud."
-msgstr "Негайно синхронізувати список провайдерів LLM із хмари BotBlocker."
+msgstr "Негайно синхронізувати список провайдерів LLM з хмари BotBlocker."
 
 #: admin/templates/rules.php:24
 msgid "Import"
@@ -6460,7 +6460,7 @@ msgstr "Імпорт"
 
 #: admin/templates/settings/tls-fingerprint.php:69
 msgid "Import a JSON file containing known JA3/JA4 TLS fingerprints. The file must be an array of objects with fields: fingerprint, category, ua_family, description."
-msgstr "Імпортуйте JSON-файл, що містить відомі відбитки TLS JA3/JA4. Файл має бути масивом об’єктів із полями: fingerprint, category, ua_family, description."
+msgstr "Імпортувати файл JSON, що містить відомі відбитки TLS JA3/JA4. Файл має бути масивом об’єктів із полями: fingerprint, category, ua_family, description."
 
 #: admin/templates/tools/botblocker-tab.php:37
 #: includes/data/botblocker-data-snav.php:700
@@ -6473,15 +6473,15 @@ msgstr "Імпорт даних та налаштувань пройшов ус�
 
 #: includes/data/botblocker-data-palette.php:101
 msgid "Import IP blacklist from file - blocklist, CSV, bulk block"
-msgstr "Імпорт чорного списку IP"
+msgstr "Імпортувати чорний список IP з файлу – блок-лист, CSV, масове блокування"
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:170
 msgid "Import IP lists from TXT files. White lists allow IPs, black lists block them. One IP per line."
-msgstr "Імпортуйте списки IP-адрес із TXT-файлів. Білі списки дозволяють доступ, чорні - блокують. Одна IP-адреса на рядок."
+msgstr "Імпортувати списки IP з файлів TXT. Білі списки дозволяють IP, чорні списки блокують їх. Один IP на рядок."
 
 #: includes/data/botblocker-data-palette.php:100
 msgid "Import IP whitelist from file - allowlist, CSV, bulk add"
-msgstr "Імпорт білого списку IP"
+msgstr "Імпортувати білий список IP з файлу – дозволений список, CSV, масове додавання"
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:158
 msgid "Import IPv4 blacklist TXT"
@@ -6506,7 +6506,7 @@ msgstr "Імпорт JSON"
 
 #: admin/templates/rules.php:39
 msgid "import lists into"
-msgstr "імпортувати списки в"
+msgstr "імпортувати списки до"
 
 #: admin/class-botblocker-admin.php:305
 #: admin/class-botblocker-admin.php:384
@@ -6516,7 +6516,7 @@ msgstr "Результат імпорту"
 
 #: includes/data/botblocker-data-palette.php:102
 msgid "Import rules from JSON - restore, migrate, transfer"
-msgstr "Імпорт правил із JSON"
+msgstr "Імпортувати правила з JSON – відновлення, міграція, перенесення"
 
 #: admin/templates/tools/botblocker-tab.php:38
 msgid "Import settings and data from a backup."
@@ -6542,7 +6542,7 @@ msgstr "Імпортовано: "
 
 #: addons/bbcs-speedup/views/settings.php:22
 msgid "Improve site performance by disabling unneeded assets and features. Disable unused scripts, feeds, and UI elements to speed up WordPress."
-msgstr "Покращте продуктивність сайту, вимкнувши непотрібні ресурси та функції. Вимкніть невикористовувані скрипти, стрічки та елементи інтерфейсу, щоб пришвидшити WordPress."
+msgstr "Покращте продуктивність сайту, вимкнувши непотрібні ресурси та функції. Вимкніть невикористовувані скрипти, канали та елементи інтерфейсу, щоб пришвидшити WordPress."
 
 #: includes/viewmodels/class-dashboard-viewmodel.php:179
 msgid "Improve your plan for excellent security protection."
@@ -6582,7 +6582,7 @@ msgstr "включено з BotBlocker PRO"
 #: admin/templates/settings/browser-plugins.php:35
 #: includes/data/botblocker-data-snav.php:103
 msgid "Incognito / Private"
-msgstr "Інкогніто / Конфіденційно"
+msgstr "Інкогніто / Приватний"
 
 #: admin/templates/settings/browser-plugins.php:23
 msgid "Incognito mode"
@@ -6604,7 +6604,7 @@ msgstr "Несумісне"
 #: includes/data/class-botblocker-alerts.php:263
 #, php-format
 msgid "Incompatible add-ons were deactivated: %s. Please update BotBlocker."
-msgstr "Несумісні аддони деактивовано: %s."
+msgstr "Несумісні додатки було вимкнено: %s. Будь ласка, оновіть BotBlocker."
 
 #. translators: %1$d is the max files setting, %2$d is the max findings setting.
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:567
@@ -6639,7 +6639,7 @@ msgstr "Inline Base64 (рекомендується)"
 
 #: admin/templates/settings/captcha-tab.php:93
 msgid "Inline: embed images in page (recommended). Separate: load via AJAX (legacy)."
-msgstr "Inline: вбудовування зображень у сторінку (рекомендується). Окремо: завантаження через AJAX (застарілий метод)."
+msgstr "Вбудовано: вставляти зображення на сторінку (рекомендовано). Окремо: завантажувати через AJAX (застарілий спосіб)."
 
 #: admin/templates/addons/marketplace-panel.php:110
 msgid "Install"
@@ -6702,7 +6702,7 @@ msgstr "Інтеграції"
 
 #: includes/data/botblocker-data-palette.php:133
 msgid "Integrations - API, services, cloud, connect"
-msgstr "Інтеграції - API, сервіси, хмара"
+msgstr "Інтеграції – API, сервіси, хмара, підключення"
 
 #: includes/hook/class-botblocker-settings-hooks.php:129
 msgid "Integrations saved."
@@ -6719,19 +6719,19 @@ msgstr "Кешування інтерфейсу"
 
 #: admin/templates/integrations/2fa.php:71
 msgid "Invalid 6-digit code. Please try again."
-msgstr "Неправильний 6-значний код. Спробуйте ще раз."
+msgstr "Невірний 6-значний код. Будь ласка, спробуйте ще раз."
 
 #: includes/hook/class-botblocker-cloud-api-hooks.php:91
 msgid "Invalid API key. Cloud API responded with: "
-msgstr "Неправильний ключ API. Хмарний API відповів:"
+msgstr "Невірний ключ API. Хмарний API відповів: "
 
 #: admin/class-botblocker-setup-wizard-ajax.php:254
 msgid "Invalid cache type."
-msgstr "Недопустимий тип кешу."
+msgstr "Невірний тип кешу."
 
 #: admin/class-botblocker-setup-wizard-ajax.php:128
 msgid "Invalid Captcha mode."
-msgstr "Недійсний режим Captcha."
+msgstr "Невірний режим Captcha."
 
 #: admin/class-botblocker-admin.php:413
 msgid "Invalid country."
@@ -6740,36 +6740,36 @@ msgstr "Невірна країна."
 #: includes/ajax/class-botblocker-ajax-email.php:96
 #: includes/utilites/util-botblocker-support.php:126
 msgid "Invalid email address."
-msgstr "Неправильна адреса електронної пошти."
+msgstr "Невірна адреса електронної пошти."
 
 #: includes/ajax/class-botblocker-ajax-ip-rules-trait.php:185
 msgid "Invalid ID provided."
-msgstr "Введено неправильний ідентифікатор."
+msgstr "Надано невірний ID."
 
 #: admin/class-botblocker-setup-wizard-ajax.php:164
 msgid "Invalid initialization mode."
-msgstr "Недопустимий режим ініціалізації."
+msgstr "Невірний режим ініціалізації."
 
 #: includes/ajax/class-botblocker-ajax-ip-rules-trait.php:1259
 #: includes/ajax/class-botblocker-ajax-ip-rules-trait.php:427
 #: includes/ajax/class-botblocker-ajax-ip-rules-trait.php:615
 msgid "Invalid IP address or CIDR notation provided."
-msgstr "Вказано неправильну IP-адресу або CIDR."
+msgstr "Надано невірну IP-адресу або нотацію CIDR."
 
 #: includes/ajax/class-botblocker-ajax-hits.php:378
 msgid "Invalid IP address provided."
-msgstr "Вказано неправильну IP-адресу."
+msgstr "Надано невірну IP-адресу."
 
 #: includes/ajax/class-botblocker-ajax-rules.php:784
 msgid "Invalid IP address."
-msgstr "Неправильна IP-адреса."
+msgstr "Невірна IP-адреса."
 
 #: admin/class-botblocker-admin.php:296
 #: admin/class-botblocker-admin.php:372
 #: admin/class-botblocker-admin.php:490
 #: admin/partials/botblocker-admin-dashboard-widgets.php:76
 msgid "Invalid JSON file: "
-msgstr "Неправильний файл JSON: "
+msgstr "Невірний файл JSON: "
 
 #: includes/ajax/class-botblocker-ajax-asn.php:558
 #: includes/ajax/class-botblocker-ajax-ip-rules-trait.php:927
@@ -6779,26 +6779,26 @@ msgstr "Неправильний файл JSON: "
 #: includes/ajax/class-botblocker-ajax-tls-fingerprints.php:47
 #: includes/ajax/class-botblocker-ajax-white-bots.php:628
 msgid "Invalid JSON format."
-msgstr "Неправильний формат JSON."
+msgstr "Невірний формат JSON."
 
 #. translators: %1$s is the table name, %2$d is the line number.
 #: includes/ajax/class-botblocker-ajax-backup.php:387
 #, php-format
 msgid "Invalid JSON in %1$s at line %2$d."
-msgstr "Неправильний JSON у %1$s у рядку %2$d."
+msgstr "Невірний JSON у %1$s на рядку %2$d."
 
 #: includes/ajax/class-botblocker-ajax-profile.php:40
 msgid "Invalid mode."
-msgstr "Недопустимий режим."
+msgstr "Невірний режим."
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-ajax.php:30
 #: admin/class-botblocker-setup-wizard-ajax.php:20
 msgid "Invalid preset."
-msgstr "Неправильне перевстановлення."
+msgstr "Невірний пресет."
 
 #: includes/ajax/class-botblocker-ajax-llm.php:182
 msgid "Invalid provider."
-msgstr "Недопустимий провайдер."
+msgstr "Невірний провайдер."
 
 #: includes/ajax/class-botblocker-ajax-backup.php:168
 #: includes/ajax/class-botblocker-ajax-cache.php:142
@@ -6806,33 +6806,33 @@ msgstr "Недопустимий провайдер."
 #: includes/ajax/class-botblocker-ajax-cache.php:99
 #: includes/ajax/class-botblocker-ajax-debug.php:183
 msgid "Invalid request."
-msgstr "Неправильний запит."
+msgstr "Невірний запит."
 
 #: includes/ajax/class-botblocker-ajax-early-phase.php:40
 msgid "Invalid setting value."
-msgstr "Недопустиме значення параметра."
+msgstr "Невірне значення налаштування."
 
 #: includes/ajax/class-botblocker-ajax-early-phase.php:33
 msgid "Invalid setting."
-msgstr "Недопустиме налаштування."
+msgstr "Невірне налаштування."
 
 #: includes/ajax/class-botblocker-ajax-backup.php:281
 msgid "Invalid upload."
-msgstr "Помилка завантаження."
+msgstr "Невірне завантаження."
 
 #: admin/class-botblocker-setup-wizard-ajax.php:109
 msgid "Invalid UX mode."
-msgstr "Неправильний режим UX."
+msgstr "Невірний режим UX."
 
 #: admin/class-botblocker-admin.php:476
 #: public/2FA/bbcs-2fa-setup.php:103
 #: public/2FA/bbcs-2fa.php:105
 msgid "Invalid verification code."
-msgstr "Неправильний код підтвердження."
+msgstr "Невірний код підтвердження."
 
 #: includes/utilites/2FA/inc-botblocker-2fa.php:381
 msgid "Invalid verification code. Please try again."
-msgstr "Неправильний код підтвердження. Спробуйте ще раз."
+msgstr "Невірний код підтвердження. Будь ласка, спробуйте ще раз."
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:193
 msgid "IP / Subnet"
@@ -6870,7 +6870,7 @@ msgstr "Звернення IP та унікальні IP"
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:152
 msgid "IP List Import"
-msgstr "Імпорт списку IP-адрес"
+msgstr "Імпорт списку IP"
 
 #: admin/templates/dashboard/quick-links.php:13
 msgid "IP lists, ASN, GEO, white bots"
@@ -6955,7 +6955,7 @@ msgstr "IPv6-адреса або підмережа (CIDR)"
 #: admin/templates/settings/connection-types.php:41
 #: includes/data/botblocker-data-snav.php:183
 msgid "IPv6 Connections"
-msgstr "Підключення IPv6"
+msgstr "З’єднання IPv6"
 
 #: admin/templates/rules/body.php:18
 msgid "IPv6 List"
@@ -7034,7 +7034,7 @@ msgstr "Вид"
 
 #: includes/data/class-botblocker-alerts.php:202
 msgid "Kinsta hosting detected. Add the BotBlocker cookie as a cache bypass rule in the Kinsta dashboard. See CACHE-COMPATIBILITY.md."
-msgstr "Виявлено Kinsta. Додайте куку BotBlocker."
+msgstr "Виявлено хостинг Kinsta. Додайте cookie BotBlocker як правило обходу кешу в Майстерні Kinsta. Див. CACHE-COMPATIBILITY.md."
 
 #: addons/bbcs-truth-source/inc/views/scan-results.php:157
 msgid "Known non-core files (expected)"
@@ -7117,20 +7117,20 @@ msgstr "Ліцензовано за"
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:71
 #: addons/bbcs-cookie-alert/views/settings.php:108
 msgid "Light"
-msgstr "Легкий"
+msgstr "Тонкий"
 
 #: includes/ajax/class-botblocker-ajax-profile.php:85
 msgid "Light profile function is not available."
-msgstr "Функція Light Profile недоступна."
+msgstr "Функція тонкого профілю недоступна."
 
 #: admin/templates/setup-guide/one-click-modal.php:31
 #: includes/modal/modal-botblocker-setup-wizard.php:29
 msgid "Light Protection"
-msgstr "Легкий захист"
+msgstr "Тонкий захист"
 
 #: admin/templates/setup-wizard/presets.php:14
 msgid "Light protection"
-msgstr "Легкий захист"
+msgstr "Тонкий захист"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:68
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:239
@@ -7273,7 +7273,7 @@ msgstr "Вийти"
 #: admin/templates/settings/payment-tab.php:35
 #: includes/data/botblocker-data-snav.php:302
 msgid "Log Payment Bypass Events"
-msgstr "Журнал постбеків платіжних систем"
+msgstr "Журналювати події обходу оплати"
 
 #: admin/templates/settings/ui.php:35
 msgid "Log retention"
@@ -7416,11 +7416,11 @@ msgstr "керувати аддонами"
 
 #: admin/templates/settings/traffic.php:16
 msgid "Manage referrer analysis, UTM processing, and iframe restrictions to control traffic sources."
-msgstr "Управління аналізом реферерів, обробкою UTM та обмеженнями iframe для контролю джерел трафіку."
+msgstr "Керуйте аналізом джерел переходу, обробкою UTM та обмеженнями iframe для контролю джерел трафіку."
 
 #: admin/templates/tools/maintenance-tab.php:90
 msgid "Manage the plugin database, temporary files, logs, and service data to keep your site running efficiently."
-msgstr "Управління базою даних плагіна, тимчасовими файлами, журналами та службовими даними для ефективної роботи сайту."
+msgstr "Керуйте базою даних плагіна, тимчасовими файлами, журналами та службовими даними, щоб ваш сайт працював ефективно."
 
 #: admin/templates/setup-wizard/compatibility.php:36
 msgid "Manually"
@@ -7428,15 +7428,15 @@ msgstr "Вручну"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:519
 msgid "Maps activity speed (as a percentage of Max RPM) to a reputation tier 1-5. Tier 6 is the max penalty, assigned automatically when an IP is blocked by the engine. Each mapping goes on its own line."
-msgstr "Відображає швидкість активності (у відсотках від максимального RPM) на рівень репутації 1-5. Рівень 6 – максимальне покарання, призначається автоматично, коли IP блокується двигуном. Кожне відображення в окремому рядку."
+msgstr "Зіставляє швидкість діяльності (як відсоток від максимального RPM) з рівнем репутації 1-5. Рівень 6 – це максимальне покарання, яке призначається автоматично, коли IP блокується механізмом. Кожне зіставлення розміщується на окремому рядку."
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:525
 msgid "Maps traffic speed percentage to reputation tier 1-5 (tier 6 is reserved for blocked IPs). Format: percent:tier (one per line, e.g. 0.35:1)."
-msgstr "Відображає відсоток швидкості трафіку на рівень репутації 1-5 (рівень 6 зарезервовано для заблокованих IP). Формат: відсоток:рівень (по одному на рядок, наприклад, 0.35:1)."
+msgstr "Зіставляє відсоток швидкості трафіку з рівнем репутації 1-5 (рівень 6 зарезервовано для заблокованих IP). Формат: відсоток:рівень (один на рядок, напр. 0.35:1)."
 
 #: addons/bbcs-behavior/views/settings.php:279
 msgid "Maps traffic speed percentage to reputation tier 1–5 (tier 6 reserved for blocked IPs). Format: percent:tier (one per line)."
-msgstr "Відображає відсоток швидкості трафіку на рівень репутації 1–5 (рівень 6 зарезервовано для заблокованих IP). Формат: відсоток:рівень (по одному на рядок)."
+msgstr "Зіставляє відсоток швидкості трафіку з рівнем репутації 1–5 (рівень 6 зарезервовано для заблокованих IP). Формат: відсоток:рівень (один на рядок)."
 
 #: admin/class-botblocker-admin.php:597
 #: admin/templates/addons/addons-content.php:33
@@ -7454,7 +7454,7 @@ msgstr "Суміщення фігур, що обертаються - екскл�
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:74
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:288
 msgid "Max DB Rows"
-msgstr "Максимальна кількість рядків у БД"
+msgstr "Максимум рядків у БД"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:70
 #: addons/bbcs-truth-source/inc/class-bbcs-truth-source-addons-page.php:58
@@ -7521,11 +7521,11 @@ msgstr "Максимальна сумісність для тестування 
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:142
 msgid "Maximum findings embedded per target for the Tree view."
-msgstr "Максимальна кількість знахідок, вбудованих на ціль для перегляду у вигляді дерева."
+msgstr "Максимальна кількість вбудованих знахідок на ціль для перегляду у вигляді дерева."
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:134
 msgid "Maximum findings shown per category in the Flat view before truncating. Switch to Tree view to browse all."
-msgstr "Максимальна кількість знахідок, показаних на категорію у плоскому перегляді перед обрізанням. Перейдіть до перегляду у вигляді дерева, щоб переглянути всі."
+msgstr "Максимальна кількість знахідок, що показуються на категорію у плоскому перегляді до обрізання. Перемкніться на перегляд у вигляді дерева, щоб переглянути всі."
 
 #: admin/templates/setup-guide/one-click-modal.php:68
 msgid "Maximum hardening with cloud threat intelligence."
@@ -7533,7 +7533,7 @@ msgstr "Максимальний захист із хмарною інтелек
 
 #: addons/bbcs-behavior/views/settings.php:270
 msgid "Maximum penalty level an IP or subnet can reach. Higher tiers apply stricter thresholds. (Default: 6)"
-msgstr "Максимальний рівень покарання, якого може досягти IP або підмережа. Вищі рівні застосовують суворіші пороги. (За замовчуванням: 6)"
+msgstr "Максимальний рівень штрафу, якого може досягти IP або підмережа. Вищі рівні застосовують суворіші пороги. (Початково: 6)"
 
 #: admin/templates/setup-wizard/init-mode.php:53
 msgid "Maximum protection level"
@@ -7549,11 +7549,11 @@ msgstr "Максимальний захист, найжорсткіші обме
 
 #: addons/bbcs-behavior/views/settings.php:122
 msgid "Maximum requests per hour. Catches slow-crawling scrapers that avoid per-minute limits. (Default: 200)"
-msgstr "Максимальна кількість запитів на годину. Ловить повільно скануючі парсери, які уникають обмежень за хвилину. (За замовчуванням: 200)"
+msgstr "Максимальна кількість запитів на годину. Виявляє повільних скрейперів, які уникають щохвилинних обмежень. (Початково: 200)"
 
 #: addons/bbcs-behavior/views/settings.php:110
 msgid "Maximum requests per minute a typical human would make. (Default: 30)"
-msgstr "Максимальна кількість запитів на хвилину, яку зробила б звичайна людина. (За замовчуванням: 30)"
+msgstr "Максимальна кількість запитів на хвилину, яку зазвичай робить людина. (Початково: 30)"
 
 #: includes/modal/modal-botblocker-setup-wizard.php:94
 msgid "Maximum security hardening"
@@ -7594,7 +7594,7 @@ msgstr "Повідомлення"
 
 #: addons/bbcs-hide-admin/views/settings.php:71
 msgid "Message (Default)"
-msgstr "Повідомлення (за замовчуванням)"
+msgstr "Повідомлення (початкове)"
 
 #: admin/templates/cloud-api/status.php:141
 msgid "Migration and optimization"
@@ -7621,7 +7621,7 @@ msgstr "Мінімальне навантаження на сервер"
 #: admin/templates/settings/rate-limiting.php:138
 #, php-format
 msgid "Minimum threshold as a percentage of block RPM, preventing thresholds from dropping to zero under high subnet pressure. Default: 10%."
-msgstr "Мінімальний поріг у відсотках від блокування RPM, запобігаючи падінню порогів до нуля під високим тиском підмережі. За замовчуванням: 10%."
+msgstr "Мінімальний поріг як відсоток від RPM блокування, що запобігає зниженню порогів до нуля під високим тиском підмережі. Початково: 10%."
 
 #: admin/templates/setup-wizard/compatibility.php:32
 msgid "Minor compatibility issues detected"
@@ -7641,21 +7641,21 @@ msgstr "Відсутня IP-адреса."
 
 #: includes/ajax/class-botblocker-ajax-asn.php:452
 msgid "Missing or invalid ASN rule ID."
-msgstr "Відсутній або неправильний ID ASN-правила."
+msgstr "Відсутній або невірний ID правила ASN."
 
 #: includes/ajax/class-botblocker-ajax-paths.php:359
 msgid "Missing or invalid path ID."
-msgstr "Відсутній або неправильний ID шляху."
+msgstr "Відсутній або невірний ID шляху."
 
 #: includes/ajax/class-botblocker-ajax-rules.php:231
 #: includes/ajax/class-botblocker-ajax-rules.php:314
 #: includes/ajax/class-botblocker-ajax-rules.php:382
 msgid "Missing or invalid rule ID."
-msgstr "Ідентифікатор правила відсутній або недійсний."
+msgstr "Відсутній або невірний ID правила."
 
 #: includes/ajax/class-botblocker-ajax-white-bots.php:365
 msgid "Missing or invalid white bot ID."
-msgstr "Відсутній або неправильний ID білого бота."
+msgstr "Відсутній або невірний ID білого бота."
 
 #. translators: %s is the name of the required field.
 #: includes/ajax/class-botblocker-ajax-paths.php:214
@@ -7685,7 +7685,7 @@ msgstr "Відсутні дані про правила."
 
 #: addons/bbcs-https-protocol/inc/bbcs-https-protocol-settings.php:21
 msgid "Mixed Content Fixer"
-msgstr "Виправлення змішаного контенту"
+msgstr "Виправлення змішаного вмісту"
 
 #: addons/bbcs-truth-source/inc/views/scan-results.php:197
 #: includes/class-botblocker-telegram.php:125
@@ -7712,7 +7712,7 @@ msgstr "Модулі, що покращують BotBlocker"
 
 #: admin/templates/setup-guide/pro-body.php:17
 msgid "Monthly or annual subscription with cloud intelligence and premium features."
-msgstr "Щомісячна або річна передплата з хмарним інтелектом та преміум-функціями."
+msgstr "Щомісячна або річна підписка з хмарним інтелектом і преміум-функціями."
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:76
 msgid "More permissive, fewer false positives"
@@ -7731,7 +7731,7 @@ msgstr "Режим MU вимкнено: рання ініціалізація в
 #: admin/templates/shared/sidebar/status-card.php:67
 #: admin/templates/shared/system-toggles.php:43
 msgid "MU mode loads black/white IP lists before regular plugins and WordPress core"
-msgstr "Режим MU завантажує чорні/білі списки IP-адрес раніше, ніж звичайні плагіни та ядро WordPress"
+msgstr "Режим MU завантажує чорні/білі списки IP перед звичайними плагінами та ядром WordPress"
 
 #: admin/templates/setup-guide/chain-body.php:31
 #: admin/templates/shared/sidebar/status-card.php:66
@@ -7741,7 +7741,7 @@ msgstr "MU-плагін"
 #: includes/inc-botblocker-ui.php:152
 #: includes/viewmodels/class-chain-context-data.php:101
 msgid "MU plugin active. Early IP and rule filtering run before other plugins. Early initialization is not required."
-msgstr "MU-плагін активний: рання фільтрація IP-адрес та правил виконується до завантаження інших плагінів. Рання ініціалізація не потрібна."
+msgstr "MU-плагін активний. Рання фільтрація IP і правил виконується перед іншими плагінами. Рання ініціалізація не потрібна."
 
 #: includes/inc-botblocker-ui.php:155
 #: includes/viewmodels/class-chain-context-data.php:104
@@ -7763,11 +7763,11 @@ msgstr "Багатосигнальний поведінковий аналіз �
 
 #: admin/templates/settings/rate-limiting.php:129
 msgid "Multiplier applied to block RPM for subnet threshold. Higher = more tolerant. Default: 3."
-msgstr "Множник, який застосовується до блокування RPM для порогу підмережі. Вище = більш терпиме. За замовчуванням: 3."
+msgstr "Множник, що застосовується до RPM блокування для порогу підмережі. Вище = більш толерантно. Початково: 3."
 
 #: addons/bbcs-behavior/views/settings.php:168
 msgid "Multiplier for behavior metrics from proxy/VPN traffic. (Default: 1.15)"
-msgstr "Множник для показників поведінки з проксі/VPN трафіку. (За замовчуванням: 1.15)"
+msgstr "Множник для поведінкових метрик від трафіку через проксі/VPN. (Початково: 1.15)"
 
 #: admin/templates/setup-guide/pro-body.php:34
 msgid "My PRO status"
@@ -7822,7 +7822,7 @@ msgstr "Наступний запуск"
 
 #: includes/data/class-botblocker-alerts.php:185
 msgid "Nginx detected with WP_CACHE enabled. If using FastCGI Cache, ensure the BotBlocker cookie bypasses it. See CACHE-COMPATIBILITY.md."
-msgstr "Виявлено Nginx з WP_CACHE."
+msgstr "Виявлено Nginx з увімкненим WP_CACHE. Якщо використовується FastCGI Cache, переконайтеся, що файл cookie BotBlocker обходить його. Див. CACHE-COMPATIBILITY.md."
 
 #: admin/class-botblocker-admin.php:312
 #: admin/class-botblocker-admin.php:389
@@ -7832,7 +7832,7 @@ msgstr "Ні"
 
 #: admin/templates/shared/header/alerts.php:32
 msgid "No active alerts"
-msgstr "Активних попереджень немає"
+msgstr "Немає активних сповіщень"
 
 #: admin/templates/setup-guide/status.php:171
 msgid "No add-ons available at the moment."
@@ -7848,7 +7848,7 @@ msgstr "Для цього домену не знайдено ключ API."
 
 #: public/2FA/bbcs-2fa.php:204
 msgid "No backup codes remaining."
-msgstr "Резервних кодів не залишилося."
+msgstr "Не залишилося резервних кодів."
 
 #: admin/templates/setup-wizard/cache.php:38
 msgid "No cache"
@@ -7860,7 +7860,7 @@ msgstr "Налаштування не потрібне"
 
 #: includes/data/class-botblocker-alerts.php:85
 msgid "No connection to BotBlocker Cloud"
-msgstr "Немає підключення до BotBlocker Cloud"
+msgstr "Немає з’єднання з BotBlocker Cloud"
 
 #: admin/class-botblocker-admin.php:414
 msgid "No countries selected"
@@ -7882,7 +7882,7 @@ msgstr "Не потрібен DNS/NS: працює всередині WordPress,
 
 #: includes/ajax/class-botblocker-ajax-ip-rules-trait.php:1217
 msgid "No file content provided."
-msgstr "Зміст файлу не вказано."
+msgstr "Не надано вміст файлу."
 
 #: admin/class-botblocker-admin.php:596
 #: admin/templates/addons/upload-section.php:21
@@ -7961,7 +7961,7 @@ msgstr "Ніяких видимих перевірок. Рішення на ос
 #: includes/hook/class-botblocker-addon-hooks.php:366
 #: includes/hook/class-botblocker-addon-hooks.php:417
 msgid "Nonce verification failed."
-msgstr "Помилка перевірки безпеки (nonce)."
+msgstr "Помилка перевірки ідентифікатора."
 
 #: admin/templates/settings/cookie.php:16
 msgid "None"
@@ -7969,7 +7969,7 @@ msgstr "Ні"
 
 #: admin/templates/setup-guide/pro-body.php:13
 msgid "Not Active"
-msgstr "Неактивний"
+msgstr "Не діючий"
 
 #: includes/ajax/class-botblocker-ajax-debug.php:106
 msgid "Not cleared: log file not found or insufficient permissions."
@@ -8022,18 +8022,18 @@ msgstr "Нічого не знайдено для"
 #: admin/templates/settings/notifications.php:81
 #: includes/data/botblocker-data-snav.php:548
 msgid "Notification Settings"
-msgstr "Налаштування повідомлень"
+msgstr "Налаштування сповіщень"
 
 #: admin/templates/settings/notifications.php:36
 #: includes/data/botblocker-data-snav.php:538
 msgid "Notification Types"
-msgstr "Типи повідомлень"
+msgstr "Типи сповіщень"
 
 #: admin/templates/settings/notifications.php:26
 #: includes/data/botblocker-data-snav.php:533
 #: includes/viewmodels/class-settings-viewmodel.php:221
 msgid "Notifications"
-msgstr "Повідомлення"
+msgstr "Сповіщення"
 
 #: admin/templates/settings/notifications.php:85
 #: includes/data/botblocker-data-snav.php:550
@@ -8067,7 +8067,7 @@ msgstr "трафіку"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:216
 msgid "Off by default. Plugin/theme source trees legitimately differ from the slimmer wp.org distribution (Pro builds, dev files), so extra files are listed under \"Known non-core files\" instead of flagged as added. Turn on to surface them as added findings. Core added files are always reported."
-msgstr "Вимкнено за замовчуванням. Вихідні дерева плагінів/тем закономірно відрізняються від стрункішого дистрибутиву wp.org (Pro збірки, файли розробки), тому додаткові файли вказуються в розділі \"Відомі неосновні файли\", а не позначаються як додані. Увімкніть, щоб показати їх як додані знахідки. Додані файли ядра завжди повідомляються."
+msgstr "Вимкнено початково. Дерева вихідного коду плагінів/тем закономірно відрізняються від тоншого дистрибутиву wp.org (Pro-збірки, файли розробки), тому додаткові файли перелічуються в розділі «Відомі неосновні файли», а не позначаються як додані. Увімкніть, щоб показувати їх як додані знахідки. Додані основні файли завжди повідомляються."
 
 #: includes/class-botblocker-toastify.php:238
 msgid "Official BotBlocker add-ons require BotBlocker PRO."
@@ -8087,7 +8087,7 @@ msgstr "Раз на місяць"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:406
 msgid "One indicator ID per line. Matching indicators will be ignored for known-benign findings."
-msgstr "Один ідентифікатор показника в рядку. Показники, що збігаються, ігноруватимуться у випадку результатів, визнаних безпечними."
+msgstr "Один ID індикатора на рядок. Відповідні індикатори ігноруватимуться для відомих безпечних знахідок."
 
 #: addons/bbcs-xmlrpc-tunnel/views/settings.php:75
 msgid "One IP or CIDR range per line. Supports: single IPs (192.168.1.1), CIDR (10.0.0.0/24), wildcards (192.168.*.*), IPv6 (::1, 2001:db8::/32). Lines starting with # are comments."
@@ -8117,7 +8117,7 @@ msgstr "Налаштування безпеки в один клік"
 
 #: admin/templates/settings/tls-fingerprint.php:97
 msgid "Only accept TLS fingerprint headers from this trusted proxy IP or CIDR range. Cloudflare IPs are auto-detected."
-msgstr "Приймати заголовки відбитків TLS лише з цього довіреного проксі IP або діапазону CIDR. IP-адреси Cloudflare визначаються автоматично."
+msgstr "Приймати заголовки відбитків TLS лише з цієї довіреної IP-адреси проксі або діапазону CIDR. IP-адреси Cloudflare визначаються автоматично."
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:166
 msgid "Only hash executable file types (php, js, htaccess, etc.). Faster but may miss modified image/media files."
@@ -8125,7 +8125,7 @@ msgstr "Хешувати лише виконувані типи файлів (ph
 
 #: admin/templates/settings/payment-tab.php:22
 msgid "Only safe HTTP methods (GET, POST, HEAD) are bypassed. Hard IP blacklists and country blocks still apply."
-msgstr "Обхід здійснюється лише для безпечних HTTP-методів (GET, POST, HEAD). Чорні списки IP-адрес та блокування за країнами, як і раніше, залишаються чинними."
+msgstr "Обходяться лише безпечні методи HTTP (GET, POST, HEAD). Жорсткі чорні списки IP та блокування за країнами все ще застосовуються."
 
 #: admin/templates/shared/command-palette.php:17
 msgid "open"
@@ -8133,7 +8133,7 @@ msgstr "відкрити"
 
 #: includes/data/botblocker-data-palette.php:66
 msgid "Open dashboard - protection status, overview, main page"
-msgstr "Відкрити дашборд"
+msgstr "Відкрити майстерню - статус захисту, огляд, головна сторінка"
 
 #: public/2FA/bbcs-2fa.php:195
 msgid "Open Google Authenticator or another TOTP app and enter the 6-digit code."
@@ -8141,7 +8141,7 @@ msgstr "Відкрийте Google Authenticator або інший додаток
 
 #: includes/data/botblocker-data-palette.php:67
 msgid "Open reports & log - traffic, blocked, threats, visitor history"
-msgstr "Відкрити звіти та журнал"
+msgstr "Відкрити звіти та журнал - трафік, заблоковані, загрози, історія відвідувачів"
 
 #: admin/templates/about/body.php:31
 msgid "open support form"
@@ -8193,12 +8193,12 @@ msgstr "Необов'язковий коментар до цього прави�
 #: includes/modal/modal-botblocker-rule-ipv6-add.php:70
 #: includes/modal/modal-botblocker-rule-ipv6-edit.php:71
 msgid "Optional comment for this rule"
-msgstr "Додатковий коментар до цього правила"
+msgstr "Необов'язковий коментар для цього правила"
 
 #: includes/modal/modal-botblocker-white-add.php:73
 #: includes/modal/modal-botblocker-white-edit.php:74
 msgid "Optional comment for this white bot"
-msgstr "Додатковий коментар до цього білого бота"
+msgstr "Необов'язковий коментар для цього білого бота"
 
 #: admin/templates/setup-guide/chain-body.php:21
 #: admin/templates/shared/request-chain.php:73
@@ -8217,7 +8217,7 @@ msgstr "або зв’яжіться з нами за адресою"
 #: public/2FA/bbcs-2fa.php:200
 #, php-format
 msgid "Or use a backup code (remaining: %s)"
-msgstr "Або скористайтеся резервним кодом (залишилося: %s)"
+msgstr "Або використайте резервний код (залишилося: %s)"
 
 #: public/captcha/render-moving-shapes-button-trait.php:28
 msgid "Orange"
@@ -8300,7 +8300,7 @@ msgstr "Пріоритет правила шляху (1-100)"
 #: includes/modal/modal-botblocker-path-add.php:50
 #: includes/modal/modal-botblocker-path-edit.php:51
 msgid "Path substring or pattern to match"
-msgstr " Підрядок або шаблон шляху для відповідності"
+msgstr "Підрядок шляху або патерн для зіставлення"
 
 #: includes/ajax/class-botblocker-ajax-paths.php:382
 msgid "Path toggled successfully."
@@ -8369,7 +8369,7 @@ msgstr "Параметри продуктивності, обслуговува�
 
 #: includes/ajax/class-botblocker-ajax-maintenance.php:263
 msgid "Permalink rules have been flushed successfully."
-msgstr "Правила ЧПУ успішно скинуті."
+msgstr "Правила постійних посилань успішно скинуто."
 
 #: addons/bbcs-truth-source/inc/views/scan-results.php:206
 msgid "Permanent"
@@ -8385,11 +8385,11 @@ msgstr "Постійний бан"
 
 #: admin/templates/settings/bot-detection.php:44
 msgid "Permit CAPTCHA verification for visitors without Accept-Language header (privacy tools, Tor safest mode). Falls back to site default locale. Keep disabled unless you serve privacy-focused users."
-msgstr "Дозволити перевірку CAPTCHA для відвідувачів без заголовка Accept-Language (інструменти конфіденційності, безпечний режим Tor). Використовується локаль за замовчуванням сайту. Залиште вимкненим, якщо ви не обслуговуєте користувачів, орієнтованих на конфіденційність."
+msgstr "Дозволити перевірку CAPTCHA для відвідувачів без заголовка Accept-Language (інструменти приватності, найбезпечніший режим Tor). Повертається до початкової локалі сайту. Тримайте вимкненим, якщо не обслуговуєте користувачів, орієнтованих на приватність."
 
 #: admin/templates/setup-wizard/cache.php:19
 msgid "Persistent connections"
-msgstr "Постійні з'єднання"
+msgstr "Постійні з’єднання"
 
 #: includes/data/traits/trait-botblocker-stats-charts.php:266
 #, pgettext
@@ -8445,7 +8445,7 @@ msgstr "Будь ласка, оберіть країну."
 
 #: admin/class-botblocker-admin.php:595
 msgid "Please update the plugin first."
-msgstr "Будь ласка, спочатку оновіть плагін."
+msgstr "Спочатку оновіть плагін."
 
 #: admin/class-botblocker-admin.php:180
 #: admin/class-botblocker-admin.php:612
@@ -8458,11 +8458,11 @@ msgstr "Планувальник завдань Plesk"
 
 #: includes/shortcode/botblocker-shortcode-sidebar.php:198
 msgid "Plugin homepage"
-msgstr "Головна сторінка плагіна"
+msgstr "Домашня сторінка плагіна"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:243
 msgid "Plugin slugs to skip. One per line."
-msgstr "Слаги плагінів для пропуску. По одному на рядок."
+msgstr "Частини посилань плагінів для пропуску. Один на рядок."
 
 #: includes/shortcode/botblocker-shortcode-sidebar.php:175
 msgid "Plugins"
@@ -8513,7 +8513,7 @@ msgstr "Забороніть пошуковим системам кешуват�
 
 #: admin/templates/settings/traffic.php:44
 msgid "Prevent search engines from indexing UTM pages to avoid duplicate content."
-msgstr "Забороніть пошуковим системам індексувати сторінки UTM, щоб уникнути дублювання контенту."
+msgstr "Запобігайте індексації UTM-сторінок пошуковими системами, щоб уникнути дубльованого вмісту."
 
 #: addons/bbcs-speedup/views/settings.php:67
 msgid "Prevents loading of Dashicons for non-admin users."
@@ -8606,11 +8606,11 @@ msgstr ""
 
 #: includes/data/botblocker-data-palette.php:138
 msgid "PRO - cloud, upgrade, pricing, license, premium"
-msgstr "PRO - хмара, оновлення, ціни"
+msgstr "PRO – хмара, оновлення, ціни, ліцензія, преміум"
 
 #: admin/templates/settings/rate-limiting.php:47
 msgid "Pro Feature Active:"
-msgstr "Активна PRO функція:"
+msgstr "Активна функція Pro:"
 
 #: admin/templates/settings/rate-limiting.php:54
 msgid "Pro Feature Available:"
@@ -8668,7 +8668,7 @@ msgstr "Прогрес"
 
 #: addons/bbcs-hide-admin/views/settings.php:26
 msgid "Protect default login endpoints and use a custom login URL. Choose the behavior for blocked access and keep your admin area safe."
-msgstr "Захистіть стандартні кінцеві точки входу та використовуйте власний URL для входу. Виберіть поведінку для заблокованого доступу та тримайте свою адмін-зону в безпеці."
+msgstr "Захистіть стандартні точки входу та використовуйте власну URL-адресу для входу. Виберіть поведінку для заблокованого доступу та тримайте адміністративну зону в безпеці."
 
 #: public/check-page.php:67
 #: public/template-botblocker-denied.php:243
@@ -8728,7 +8728,7 @@ msgstr "Налаштування захисту"
 
 #: includes/data/botblocker-data-palette.php:129
 msgid "Protection Settings - firewall, blocking, security"
-msgstr "Налаштування захисту"
+msgstr "Налаштування захисту – брандмауер, блокування, безпека"
 
 #: admin/templates/dashboard/health-status.php:10
 msgid "Protection status"
@@ -8778,7 +8778,7 @@ msgstr "Проксі-файл успішно згенеровано."
 #: addons/bbcs-https-protocol/views/settings.php:96
 #: addons/bbcs-xmlrpc-tunnel/views/settings.php:33
 msgid "Proxy Header Trust"
-msgstr "Довіра до проксі-заголовків"
+msgstr "Довіра до заголовків проксі"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-addons-page.php:42
 #: addons/bbcs-behavior/views/settings.php:166
@@ -8836,7 +8836,7 @@ msgstr "Час існування кешу PTR"
 #: admin/templates/settings/bot-detection.php:54
 #: includes/data/botblocker-data-snav.php:79
 msgid "PTR Options"
-msgstr "PTR-опції"
+msgstr "Параметри PTR"
 
 #: admin/templates/settings/general.php:100
 #: includes/data/botblocker-data-snav.php:458
@@ -9076,11 +9076,11 @@ msgstr "Рекомендований пресет"
 
 #: admin/templates/setup-wizard/welcome.php:15
 msgid "Recommended preset in one click (~30 seconds)"
-msgstr "Рекомендований пресет одним натисканням (~30 секунд)"
+msgstr "Рекомендований пресет одним кліком (~30 секунд)"
 
 #: admin/templates/settings/log.php:36
 msgid "Record blocked visitor data for attack pattern analysis and threat intelligence."
-msgstr "Записуйте дані заблокованих відвідувачів для аналізу шаблонів атак та розвідки загроз."
+msgstr "Записуйте дані заблокованих відвідувачів для аналізу шаблонів атак і розвідки загроз."
 
 #: admin/templates/settings/data-log.php:37
 #: includes/data/botblocker-data-snav.php:326
@@ -9098,7 +9098,7 @@ msgstr "Записувати тип пристрою"
 
 #: admin/templates/settings/log.php:55
 msgid "Record internal errors for debugging and support troubleshooting."
-msgstr "Записувати внутрішні помилки для налагодження та усунення несправностей."
+msgstr "Записуйте внутрішні помилки для налагодження та усунення неполадок підтримкою."
 
 #: admin/templates/settings/data-log.php:38
 #: includes/data/botblocker-data-snav.php:327
@@ -9242,7 +9242,7 @@ msgstr "Перевстановити базу даних"
 
 #: includes/data/botblocker-data-palette.php:114
 msgid "Reinstall database - reset, fresh start, rebuild tables"
-msgstr "Перевстановити базу даних"
+msgstr "Перевстановити базу даних – скидання, новий старт, перебудова таблиць"
 
 #: admin/templates/rules/body.php:158
 msgid "Reload"
@@ -9254,11 +9254,11 @@ msgstr "Завантаження..."
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:446
 msgid "Remember repeat offenders. This tracks the reputation history of suspicious IPs and subnets over several days, making future blocks trigger much faster for repeat offenders. (Default: Enabled)"
-msgstr "Запам'ятовувати повторних порушників. Це відстежує історію репутації підозрілих IP-адрес та підмереж протягом кількох днів, що робить майбутні блокування набагато швидшими для повторних порушників. (За замовчуванням: Увімкнено)"
+msgstr "Запам'ятовуйте повторних порушників. Це відстежує історію репутації підозрілих IP-адрес і підмереж протягом кількох днів, завдяки чому майбутні блокування спрацьовують набагато швидше для повторних порушників. (За замовчуванням: Увімкнено)"
 
 #: addons/bbcs-behavior/views/settings.php:200
 msgid "Remember repeat offenders. Tracks reputation history of suspicious IPs and subnets over several days. (Default: Enabled)"
-msgstr "Запам'ятовувати повторних порушників. Відстежує історію репутації підозрілих IP-адрес та підмереж протягом кількох днів. (За замовчуванням: Увімкнено)"
+msgstr "Запам'ятовуйте повторних порушників. Відстежує історію репутації підозрілих IP-адрес і підмереж протягом кількох днів. (За замовчуванням: Увімкнено)"
 
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-addons-page.php:59
 #: addons/bbcs-speedup/views/settings.php:134
@@ -9287,7 +9287,7 @@ msgstr "Видалити RSD-посилання"
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-addons-page.php:68
 #: addons/bbcs-speedup/views/settings.php:177
 msgid "Remove RSS Feed Links"
-msgstr "Видалити посилання на РSS-стрічки"
+msgstr "Видалити посилання на RSS-стрічки"
 
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-addons-page.php:66
 #: addons/bbcs-speedup/views/settings.php:157
@@ -9300,15 +9300,15 @@ msgstr "Видаляє jQuery Migrate. Це може призвести до н�
 
 #: addons/bbcs-speedup/views/settings.php:178
 msgid "Removes RSS feed links from the header."
-msgstr "Видаляє посилання на RSS-стрічки із заголовка."
+msgstr "Видаляє посилання на RSS-стрічки з хедера."
 
 #: addons/bbcs-speedup/views/settings.php:150
 msgid "Removes the Really Simple Discovery link from the header."
-msgstr "Видаляє посилання Really Simple Discovery із заголовка."
+msgstr "Видаляє посилання Really Simple Discovery з хедера."
 
 #: addons/bbcs-speedup/views/settings.php:158
 msgid "Removes the shortlink URL from the header."
-msgstr "Видаляє коротке посилання із заголовка."
+msgstr "Видаляє коротке посилання URL з хедера."
 
 #: addons/bbcs-speedup/views/settings.php:135
 msgid "Removes the website URL field from the comment form."
@@ -9329,7 +9329,7 @@ msgstr "Відновлення та оптимізація бази даних"
 
 #: includes/data/botblocker-data-palette.php:111
 msgid "Repair and optimize DB - fix tables, cleanup, speed up"
-msgstr "Відновити та оптимізувати БД"
+msgstr "Ремонт і оптимізація БД – виправлення таблиць, очищення, прискорення"
 
 #: includes/data/botblocker-data-snav.php:481
 msgid "Repeat Block Time (seconds)"
@@ -9346,11 +9346,11 @@ msgstr "Повторні порушення призводять до посту
 
 #: addons/bbcs-https-protocol/inc/bbcs-https-protocol-settings.php:21
 msgid "replaces insecure content links with secure ones"
-msgstr "замінює небезпечні посилання на безпечні"
+msgstr "замінює незахищені посилання на вміст на захищені"
 
 #: admin/templates/settings/cookie.php:96
 msgid "Replaces IP/host/UA-bound cookie hash with a session token. Eliminates Captcha loops for VPN/proxy users. Disable only if experiencing issues."
-msgstr "Замінює хеш cookie, прив'язаний до IP/хоста/User-Agent, на токен сесії. Усуває петлі Captcha для користувачів VPN/проксі. Відключайте лише у разі проблем."
+msgstr "Замінює хеш cookie, прив'язаний до IP/хоста/UA, на токен сесії. Усуває цикли Captcha для користувачів VPN/проксі. Вимикайте лише за наявності проблем."
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:215
 msgid "Report extra (added) files in plugins/themes"
@@ -9376,7 +9376,7 @@ msgstr "Звіти"
 
 #: includes/data/botblocker-data-palette.php:136
 msgid "Reports - log, analytics, history, visitor stats"
-msgstr "Звіти - журнал, аналітика"
+msgstr "Звіти – журнал, аналітика, історія, статистика відвідувачів"
 
 #: admin/templates/settings/ui.php:62
 #: includes/data/botblocker-data-snav.php:523
@@ -9385,7 +9385,7 @@ msgstr "Звіти та статистика"
 
 #: admin/templates/reports/body.php:13
 msgid "Reports Dashboard"
-msgstr "Інформаційна панель звітів"
+msgstr "Майстерня звітів"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-addons-page.php:47
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:438
@@ -9433,11 +9433,11 @@ msgstr "Необхідно:"
 
 #: admin/templates/settings/tls-fingerprint.php:22
 msgid "Requires a web server module (nginx, HAProxy, LiteSpeed) or Cloudflare (Business+) to pass the fingerprint via HTTP header."
-msgstr "Потрібен модуль веб-сервера (nginx, HAProxy, LiteSpeed) або Cloudflare (Business+) для передачі відбитку через HTTP-заголовок."
+msgstr "Потребує модуля веб-сервера (nginx, HAProxy, LiteSpeed) або Cloudflare (Business+) для передачі відбитка через HTTP-заголовок."
 
 #: includes/viewmodels/class-sidebar-viewmodel.php:145
 msgid "Requires active BotBlocker PRO"
-msgstr "Потрібна активна ліцензія BotBlocker PRO"
+msgstr "Потребує активного BotBlocker PRO"
 
 #: includes/viewmodels/class-sidebar-viewmodel.php:143
 msgid "Requires BotBlocker PRO and the Early Init add-on."
@@ -9472,7 +9472,7 @@ msgstr "Скинути 2FA"
 
 #: admin/templates/tools/maintenance-tab.php:104
 msgid "Reset all BotBlocker tables to default settings"
-msgstr "Скинути всі таблиці BotBlocker до налаштувань за замовчуванням"
+msgstr "Скинути всі таблиці BotBlocker до стандартних налаштувань"
 
 #: admin/templates/setup-wizard/completed.php:56
 msgid "Reset and Re-run Wizard"
@@ -9503,7 +9503,7 @@ msgstr "Скинути правила"
 #: admin/templates/tools/maintenance-tab.php:171
 #: includes/data/botblocker-data-snav.php:726
 msgid "Reset URL rewrite rules"
-msgstr "Скинути правила перезапису URL-адреси"
+msgstr "Скинути правила перезапису URL"
 
 #: admin/templates/tools/modals/rewrite-rules.php:13
 msgid "Reset URL Rewrite Rules"
@@ -9515,11 +9515,11 @@ msgstr "Скидання всіх файлів cookie відвідувачів -
 
 #: admin/templates/tools/maintenance-tab.php:178
 msgid "Resets the internal WordPress cache and external caching systems (Redis, Memcached)"
-msgstr "Очищає внутрішній кеш WordPress та зовнішні системи кешування (Redis, Memcached)"
+msgstr "Скидає внутрішній кеш WordPress і зовнішні системи кешування (Redis, Memcached)"
 
 #: includes/modal/modal-botblocker-object-cache.php:15
 msgid "Resets the internal WordPress cache."
-msgstr "Очищає внутрішній кеш WordPress."
+msgstr "Скидає внутрішній кеш WordPress."
 
 #: admin/templates/setup-wizard/completed.php:68
 msgid "Resetting..."
@@ -9583,7 +9583,7 @@ msgstr ""
 
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-plugin.php:302
 msgid "RSS feeds are disabled. Visit the"
-msgstr "RSS-стрічки вимкнені. Відвідайте"
+msgstr "RSS-стрічки вимкнено. Відвідайте"
 
 #: admin/templates/tools/maintenance-tab.php:63
 msgid "RU-Gov"
@@ -9591,11 +9591,11 @@ msgstr ""
 
 #: includes/ajax/class-botblocker-ajax-rugov.php:52
 msgid "RU-Gov list update already queued."
-msgstr "Оновлення списку RU-Gov вже поставлено в чергу."
+msgstr "Оновлення списку RU-Gov вже в черзі."
 
 #: includes/ajax/class-botblocker-ajax-rugov.php:46
 msgid "RU-Gov list update scheduled."
-msgstr "Заплановано оновлення списку RU-Gov."
+msgstr "Оновлення списку RU-Gov заплановано."
 
 #: includes/ajax/class-botblocker-ajax-rugov.php:36
 msgid "RU-Gov sync not available."
@@ -9707,11 +9707,11 @@ msgstr "Правила та IP"
 
 #: includes/data/botblocker-data-palette.php:132
 msgid "Rules - lists, blacklist, whitelist, IP, GEO"
-msgstr "Правила - списки, чорний/білий список"
+msgstr "Правила – списки, чорний список, білий список, IP, GEO"
 
 #: admin/templates/rules.php:22
 msgid "Rules and IP Lists"
-msgstr "Правила та списки IP-адрес"
+msgstr "Правила та списки IP"
 
 #: includes/ajax/class-botblocker-ajax-rules.php:718
 msgid "Rules file generated successfully."
@@ -9736,7 +9736,7 @@ msgstr "Виконати лише прострочені завдання"
 
 #: includes/data/botblocker-data-palette.php:65
 msgid "Run setup wizard - guide, onboarding, first steps"
-msgstr "Запустити майстер налаштування"
+msgstr "Запустити майстер налаштування – посібник, онбординг, перші кроки"
 
 #: admin/templates/shared/header/header.php:33
 msgid "Run Setup Wizard Again"
@@ -9759,11 +9759,11 @@ msgstr "Російська"
 #: admin/templates/setup-guide/one-click-modal.php:54
 #: includes/modal/modal-botblocker-setup-wizard.php:60
 msgid "Safe defaults"
-msgstr "Безпечні налаштування"
+msgstr "Безпечні стандарти"
 
 #: admin/templates/setup-wizard/welcome.php:23
 msgid "Safe defaults: compatible with WooCommerce, Elementor, caches"
-msgstr "Безпечні параметри за замовчуванням: сумісні з WooCommerce, Elementor, кешами"
+msgstr "Безпечні стандарти: сумісні з WooCommerce, Elementor, кешами"
 
 #: includes/modal/modal-botblocker-object-cache.php:18
 msgid "Safe for production use."
@@ -9832,7 +9832,7 @@ msgstr "Збереження..."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:150
 msgid "Scan active and inactive themes for malicious code."
-msgstr "Сканувати активні та неактивні теми на наявність шкідливого коду."
+msgstr "Скануйте активні та неактивні теми на наявність шкідливого коду."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-admin.php:190
 #: addons/bbcs-malware/inc/class-bbcs-malware-admin.php:211
@@ -9879,7 +9879,7 @@ msgstr "Плагіни для сканування"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:173
 msgid "Scan posts, pages, options, users, and cron hooks"
-msgstr "Сканувати записи, сторінки, налаштування, користувачів та cron-хуки."
+msgstr "Скануйте записи, сторінки, параметри, користувачів і хуки cron"
 
 #: admin/templates/integrations/2fa.php:42
 #: includes/data/botblocker-data-snav.php:659
@@ -9904,7 +9904,7 @@ msgstr "Сканування розпочато."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:166
 msgid "Scan the entire wp-content directory instead of just the selected subdirectories."
-msgstr "Скануйте весь каталог wp-content, а не лише вибрані підкаталоги."
+msgstr "Сканувати всю директорію wp-content замість лише вибраних піддиректорій."
 
 #: public/2FA/bbcs-2fa-setup.php:150
 msgid "Scan the QR code"
@@ -9912,15 +9912,15 @@ msgstr "Відскануйте QR-код"
 
 #: admin/templates/settings/traffic.php:31
 msgid "Scan the URL referrer for specific GET parameters to detect unwanted or suspicious traffic sources."
-msgstr "Перевіряти URL-адресу реферера на наявність певних GET-параметрів для виявлення небажаних або підозрілих джерел трафіку."
+msgstr "Сканувати джерело переходу URL на наявність певних GET-параметрів для виявлення небажаних або підозрілих джерел трафіку."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:174
 msgid "Scan the WordPress database for malicious content in posts, pages, options, users, and cron jobs."
-msgstr "Перевірити базу даних WordPress на наявність шкідливого вмісту в записах, сторінках, налаштуваннях, облікових записах користувачів та завданнях cron."
+msgstr "Сканувати базу даних WordPress на наявність шкідливого вмісту в записах, сторінках, параметрах, користувачах і завданнях cron."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:158
 msgid "Scan the wp-content/uploads directory for malicious files."
-msgstr "Сканувати каталог wp-content/uploads на наявність шкідливих файлів."
+msgstr "Сканувати директорію wp-content/uploads на наявність шкідливих файлів."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:51
 #: addons/bbcs-truth-source/inc/class-bbcs-truth-source-addons-page.php:52
@@ -9991,19 +9991,19 @@ msgstr "Сканує файли WordPress та вміст бази даних н
 #: admin/templates/settings/cron.php:183
 #: admin/templates/settings/cron.php:195
 msgid "Schedule"
-msgstr "Графік"
+msgstr "Розклад"
 
 #: admin/templates/tools/maintenance-tab.php:130
 msgid "Schedule an immediate background download of the latest ASN (autonomous system) database from BotBlocker servers."
-msgstr "Заплануйте негайне фонове завантаження останньої версії бази даних автономних систем (ASN) із серверів BotBlocker."
+msgstr "Запланувати негайне фонове завантаження останньої бази даних ASN (автономних систем) із серверів BotBlocker."
 
 #: admin/templates/tools/maintenance-tab.php:143
 msgid "Schedule an immediate background download of the latest RU-Gov CIDR list from C24Be/AS_Network_List (VK excluded)."
-msgstr "Запланувати негайне фонове завантаження актуального списку CIDR-діапазонів RU-Gov із C24Be/AS_Network_List (без VK)."
+msgstr "Запланувати негайне фонове завантаження останнього списку CIDR RU-Gov з C24Be/AS_Network_List (VK виключено)."
 
 #: addons/bbcs-cron-jobs/views/settings.php:133
 msgid "Scheduled Content Cleanup"
-msgstr "Заплановане очищення контенту"
+msgstr "Заплановане очищення вмісту"
 
 #: addons/bbcs-cron-jobs/views/settings.php:32
 msgid "Scheduled Cron Jobs"
@@ -10153,19 +10153,19 @@ msgstr "Заголовки безпеки"
 #: includes/data/botblocker-data-palette.php:116
 #: includes/data/botblocker-data-palette.php:117
 msgid "Security headers - HSTS, CSP, permissions policy"
-msgstr "Заголовки безпеки - HSTS, CSP"
+msgstr "Заголовки безпеки – HSTS, CSP, політика дозволів"
 
 #: addons/bbcs-security-headers/mu/botblocker-security-headers.php:656
 msgid "Security headers are disabled because a conflicting plugin was detected."
-msgstr "Заголовки безпеки вимкнено, оскільки виявлено плагін, що викливає конфлікт."
+msgstr "Заголовки безпеки вимкнено, оскільки виявлено конфліктний плагін."
 
 #: includes/data/botblocker-pro-features.php:84
 msgid "Security headers management"
-msgstr "Управління заголовками безпеки"
+msgstr "Керування заголовками безпеки"
 
 #: includes/data/botblocker-pro-features.php:15
 msgid "Security headers management (HSTS, CSP, X-Frame, Permissions-Policy)"
-msgstr "Управління заголовками (HSTS, CSP)"
+msgstr "Керування заголовками безпеки (HSTS, CSP, X-Frame, Permissions-Policy)"
 
 #: admin/templates/setup-guide/health.php:13
 msgid "Security Health Status"
@@ -10214,7 +10214,7 @@ msgstr "Оберіть, як часто має виконуватися запл
 
 #: admin/templates/settings/captcha-tab.php:105
 msgid "Select image theme for Captcha."
-msgstr "Виберіть тему зображень для Captcha."
+msgstr "Виберіть тему зображення для Captcha."
 
 #: admin/templates/shared/header/lang-options.php:16
 msgid "Select Language"
@@ -10232,7 +10232,7 @@ msgstr "Виберіть тип правила"
 
 #: admin/templates/integrations/redis.php:61
 msgid "Select the Redis database index (0-15) to use. Default is 0. Different database indexes provide logical isolation between applications sharing the same Redis server."
-msgstr "Виберіть індекс бази даних Redis (0-15). За замовчуванням 0. Різні індекси баз даних забезпечують логічну ізоляцію між додатками, що використовують один сервер Redis."
+msgstr "Виберіть індекс бази даних Redis (0-15) для використання. За замовчуванням 0. Різні індекси баз даних забезпечують логічну ізоляцію між застосунками, що використовують один сервер Redis."
 
 #: admin/templates/rules/body.php:187
 msgid "Selected countries:"
@@ -10241,7 +10241,7 @@ msgstr "Вибрані країни:"
 #: admin/templates/settings/connection-types.php:59
 #: includes/data/botblocker-data-snav.php:196
 msgid "Self Connections"
-msgstr "Самопідключення"
+msgstr "Власні з’єднання"
 
 #: admin/class-botblocker-admin.php:220
 #: includes/utilites/util-botblocker-support.php:55
@@ -10323,7 +10323,7 @@ msgstr "Верифікація сесійного токена увімкнен�
 
 #: addons/bbcs-hide-admin/views/settings.php:63
 msgid "Set a custom login endpoint to hide wp-login.php. Use only letters, numbers, hyphens, or underscores. Do not use .php, slashes, or query strings."
-msgstr "Вкажіть власний URL-адресу для входу, щоб приховати wp-login.php. Використовуйте лише літери, цифри, дефіси або підкреслення. Не використовуйте .php, косі риски або параметри URL-адреси."
+msgstr "Встановіть власну кінцеву точку входу, щоб приховати wp-login.php. Використовуйте лише літери, цифри, дефіси або підкреслення. Не використовуйте .php, скісні риски або рядки запиту."
 
 #: admin/templates/settings/cookie.php:76
 msgid "Set SameSite attribute (Lax, Strict, None)."
@@ -10394,7 +10394,7 @@ msgstr "Налаштування завершено"
 
 #: includes/data/botblocker-data-palette.php:140
 msgid "Setup Guide - wizard, onboarding, getting started, first setup"
-msgstr "Посібник з налаштування"
+msgstr "Посібник з налаштування – майстер, онбординг, початок роботи, перше налаштування"
 
 #: includes/utilites/2FA/inc-botblocker-2fa.php:373
 msgid "Setup session expired. Please refresh the page."
@@ -10427,21 +10427,21 @@ msgstr "Показувати унікальних відвідувачів (за
 #: addons/bbcs-truth-source/inc/views/scan-results.php:135
 #, php-format
 msgid "Showing first %1$d of %2$d findings. Increase Tree View Cap in settings to see all."
-msgstr "Показано перші %1$d з %2$d знахідок. Збільште ліміт Tree View у налаштуваннях, щоб побачити всі."
+msgstr "Показано перші %1$d з %2$d знахідок. Збільште ліміт перегляду дерева в налаштуваннях, щоб побачити всі."
 
 #: addons/bbcs-truth-source/inc/views/scan-results.php:126
 #, php-format
 msgid "Showing first %1$d of %2$d. Switch to Tree to browse all."
-msgstr "Показано перші %1$d з %2$d. Перемкніться на дерево, щоб переглянути всі."
+msgstr "Показано перші %1$d з %2$d. Перейдіть до дерева, щоб переглянути всі."
 
 #: addons/bbcs-truth-source/inc/views/scan-results.php:110
 #, php-format
 msgid "Showing first %d per category. Switch to Tree to browse all."
-msgstr "Показано перші %d в кожній категорії. Перемкніться на дерево, щоб переглянути всі."
+msgstr "Показано перші %d у кожній категорії. Перейдіть до дерева, щоб переглянути всі."
 
 #: admin/templates/cloud-api/status.php:21
 msgid "Shows your BotBlocker PRO connection and subscription status. An active subscription delivers live security updates, firewall rules, and premium bot-detection from the BotBlocker network."
-msgstr "Відображає стан підключення та передплати на BotBlocker PRO. Чинна передплата забезпечує отримання оперативних оновлень безпеки, правил брандмауера та розширених функцій виявлення ботів із мережі BotBlocker."
+msgstr "Показує стан вашого з’єднання та підписки BotBlocker PRO. Активна підписка надає живі оновлення безпеки, правила брандмауера та преміальне виявлення ботів із мережі BotBlocker."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:85
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:325
@@ -10479,7 +10479,7 @@ msgstr "Просте виявлення ботів"
 
 #: includes/data/botblocker-pro-features.php:34
 msgid "Simple bot detection (UA, headers, JS, language)"
-msgstr "Просте виявлення ботів (UA, заголовки, JS)"
+msgstr "Просте виявлення ботів (UA, заголовки, JS, мова)"
 
 #: admin/templates/settings/bot-detection.php:20
 msgid "Simple bot detection analyzes basic browser characteristics to catch bots that fail to mimic real browsers."
@@ -10504,7 +10504,7 @@ msgstr "Простий режим"
 
 #: addons/bbcs-cron-jobs/inc/class-bbcs-cron-jobs-plugin.php:298
 msgid "Single event"
-msgstr "Одинична подія"
+msgstr "Одиночна подія"
 
 #: admin/templates/tools/wordpress-tab.php:31
 #: includes/data/botblocker-data-snav.php:684
@@ -10535,7 +10535,7 @@ msgstr "Відвідувачі сайту"
 
 #: addons/bbcs-early-init/inc/class-bbcs-early-init-addons-page.php:47
 msgid "Sites Map"
-msgstr "Карта сайтів"
+msgstr "Мапа сайтів"
 
 #: admin/templates/setup-wizard/header.php:15
 msgid "Skip"
@@ -10543,11 +10543,11 @@ msgstr "Пропустити"
 
 #: admin/templates/setup-wizard/welcome.php:36
 msgid "Skip (use defaults)"
-msgstr "Пропустити (використовувати типові)"
+msgstr "Пропустити (використовувати значення за замовчуванням)"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:380
 msgid "Skip asset directories"
-msgstr "Пропустити каталоги ресурсів"
+msgstr "Пропускати директорії ресурсів"
 
 #: admin/templates/settings/general.php:114
 #: includes/data/botblocker-data-snav.php:465
@@ -10556,15 +10556,15 @@ msgstr "Не перевіряти авторизованих користува�
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:190
 msgid "Skip hash-comparison integrity warnings for plugins and themes that ship with WordPress (Akismet, default themes, etc.). Version mismatches between bundled copies and wp.org often cause false positives. Added files and malware patterns are still always scanned."
-msgstr "Пропускати попередження хеш-порівняння для плагінів і тем WordPress. Розбіжності версій часто викликають помилкові спрацювання."
+msgstr "Пропускати попередження про цілісність порівняння хешів для плагінів і тем, що постачаються з WordPress (Akismet, стандартні теми тощо). Розбіжності версій між вбудованими копіями та wp.org часто спричиняють хибні спрацьовування. Додані файли та шаблони шкідливого ПЗ все одно завжди скануються."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:189
 msgid "Skip integrity check for bundled plugins & themes"
-msgstr "Пропустити перевірку цілісності вбудованих плагінів і тем"
+msgstr "Пропускати перевірку цілісності для вбудованих плагінів і тем"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:381
 msgid "Skip scanning files inside assets/ directories. These typically contain static frontend resources (JS, CSS, images) with low malware risk. Disable for full coverage."
-msgstr "Пропустити сканування файлів у каталогах assets/. Вони зазвичай містять статичні ресурси інтерфейсу (JS, CSS, зображення) з низьким ризиком шкідливого коду. Вимкніть для повного покриття."
+msgstr "Пропускати сканування файлів у директоріях assets/. Вони зазвичай містять статичні ресурси зовнішньої частини сайту (JS, CSS, зображення) з низьким ризиком шкідливого ПЗ. Вимкніть для повного покриття."
 
 #: admin/class-botblocker-admin.php:307
 #: admin/class-botblocker-admin.php:386
@@ -10582,7 +10582,7 @@ msgstr "Пропущено: "
 
 #: admin/templates/settings/rate-limiting.php:108
 msgid "Sliding window size in minutes. RPM = total hits in window / window minutes. Default: 5."
-msgstr "Розмір ковзного вікна в хвилинах. RPM = загальна кількість запитів у вікні / хвилини вікна. Типово: 5."
+msgstr "Розмір ковзного вікна в хвилинах. RPM = загальна кількість звернень у вікні / хвилини вікна. За замовчуванням: 5."
 
 #: admin/templates/about/body.php:206
 msgid "Software versions"
@@ -10595,7 +10595,7 @@ msgstr "Вирішіть наступне:"
 #: includes/botblocker/traits/class-botblocker-denied-page-trait.php:16
 #: includes/botblocker/traits/class-botblocker-response-trait.php:227
 msgid "Sorry, your request has been denied"
-msgstr "Вибачте, ваш запит було відхилено"
+msgstr "На жаль, ваш запит відхилено"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:645
 msgid "Source"
@@ -10603,11 +10603,11 @@ msgstr "Джерело"
 
 #: admin/templates/integrations/memcached.php:35
 msgid "Specify the Memcached server hostname or IP address. Default is localhost (127.0.0.1) for local installations."
-msgstr "Вкажіть ім'я хоста або IP-адресу сервера Memcached. Для локальної інсталяції за замовчуванням використовується localhost (127.0.0.1)."
+msgstr "Вкажіть ім’я хоста або IP-адресу сервера Memcached. За замовчуванням localhost (127.0.0.1) для локальних установок."
 
 #: admin/templates/integrations/redis.php:36
 msgid "Specify the Redis server hostname or IP address. Default is localhost (127.0.0.1) for local Redis installations."
-msgstr "Вкажіть ім'я хоста або IP-адресу сервера Redis. Для локальної інсталяції Redis за замовчуванням використовується localhost (127.0.0.1)."
+msgstr "Вкажіть ім’я хоста або IP-адресу сервера Redis. За замовчуванням localhost (127.0.0.1) для локальних установок Redis."
 
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-addons-page.php:24
 msgid "Speed Up"
@@ -10709,7 +10709,7 @@ msgstr "Статус: %1$s. Прогрес: %2$d%%."
 #: public/templates/block-page.php:42
 #: public/templates/denied-page.php:42
 msgid "Stop Visitor Icon"
-msgstr "Значок «Зупинити відвідувача»"
+msgstr "Іконка зупинки відвідувача"
 
 #: admin/templates/integrations/transients.php:24
 msgid "Store Cloud API responses in transients"
@@ -10721,7 +10721,7 @@ msgstr "Зберігати журнали"
 
 #: admin/templates/integrations/2fa.php:89
 msgid "Store these backup codes in a safe place. Each code can be used only once."
-msgstr "Зберігайте ці резервні коди в безпечному місці. Кожен код можна використовувати лише один раз."
+msgstr "Зберігайте ці резервні коди в безпечному місці. Кожен код можна використати лише один раз."
 
 #: admin/templates/settings/cookie.php:15
 msgid "Strict"
@@ -10730,12 +10730,12 @@ msgstr "Сувора"
 #: admin/templates/settings/cookie.php:137
 #: includes/data/botblocker-data-snav.php:440
 msgid "Strict CORS Headers"
-msgstr "Строгі заголовки CORS"
+msgstr "Суворі заголовки CORS"
 
 #: admin/templates/settings/payment-tab.php:41
 #: includes/data/botblocker-data-snav.php:303
 msgid "Strict Webhook Validation (POST only)"
-msgstr "Сувора перевірка веб-хуків (лише POST)"
+msgstr "Сувора перевірка вебхуків (лише POST)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:72
 #: admin/templates/setup-wizard/finish.php:19
@@ -10746,7 +10746,7 @@ msgstr "Сильна"
 
 #: includes/ajax/class-botblocker-ajax-profile.php:72
 msgid "Strong profile function is not available."
-msgstr "Функція розширеного профілю недоступна."
+msgstr "Функція надійного профілю недоступна."
 
 #: admin/templates/setup-guide/one-click-modal.php:48
 #: includes/modal/modal-botblocker-setup-wizard.php:54
@@ -10760,11 +10760,11 @@ msgstr "Сильний захист"
 #: admin/templates/setup-guide/one-click-modal.php:72
 #: includes/modal/modal-botblocker-setup-wizard.php:93
 msgid "Strongest protection mode"
-msgstr "Максимальний рівень захисту"
+msgstr "Найнадійніший режим захисту"
 
 #: includes/modal/modal-botblocker-setup-wizard.php:79
 msgid "Strongest Protection Mode"
-msgstr "Максимальний рівень захисту"
+msgstr "Найнадійніший режим захисту"
 
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-addons-page.php:55
 #: addons/bbcs-cookie-alert/views/settings.php:110
@@ -10898,7 +10898,7 @@ msgstr "Синхронізувати провайдерів LLM"
 
 #: includes/data/botblocker-data-palette.php:109
 msgid "Sync LLM providers - AI crawlers, ChatGPT, Claude bot list"
-msgstr "Синхронізувати LLM-провайдерів"
+msgstr "Синхронізувати провайдерів LLM – ШІ-краулери, ChatGPT, список ботів Claude"
 
 #: admin/class-botblocker-admin.php:498
 #: admin/templates/settings/tls-fingerprint.php:77
@@ -10937,7 +10937,7 @@ msgstr "Стан системи"
 
 #: includes/data/botblocker-data-palette.php:128
 msgid "System Status - health, server, diagnostics"
-msgstr "Статус системи"
+msgstr "Стан системи – здоров’я, сервер, діагностика"
 
 #: admin/templates/rules.php:44
 msgid "Table overview"
@@ -11010,7 +11010,7 @@ msgstr "Конфігурація Telegram"
 #: includes/services/class-botblocker-health-service.php:61
 #: includes/viewmodels/class-dashboard-viewmodel.php:163
 msgid "Telegram notifications"
-msgstr "Повідомлення Telegram"
+msgstr "Сповіщення Telegram"
 
 #: admin/templates/about/body.php:40
 msgid "Telegram support"
@@ -11026,7 +11026,7 @@ msgstr "Тимчасово вимкнути перевірки для сесії
 
 #: includes/hook/hook-addon-validation.php:88
 msgid "Temporary extraction directory is missing."
-msgstr "Тимчасовий каталог для розпакування відсутній."
+msgstr "Відсутня тимчасова директорія для розпакування."
 
 #: admin/templates/about/body.php:73
 msgid "Terms of service"
@@ -11060,7 +11060,7 @@ msgstr "URL-адреса завантаження аддона не дозвол
 #: admin/class-botblocker-admin.php:564
 #: includes/class-botblocker-toastify.php:236
 msgid "The add-on is invalid or broken."
-msgstr "Аддон недійсний або пошкоджений."
+msgstr "Додаток недійсний або пошкоджений."
 
 #: admin/class-botblocker-admin.php:576
 #: includes/class-botblocker-toastify.php:246
@@ -11070,7 +11070,7 @@ msgstr "Аддон не може бути відкритий."
 #: admin/class-botblocker-admin.php:577
 #: includes/class-botblocker-toastify.php:247
 msgid "The add-on package has an invalid file count."
-msgstr "Аддон має недійсну кількість файлів."
+msgstr "Пакет додатка має недійсну кількість файлів."
 
 #: admin/class-botblocker-admin.php:575
 #: includes/class-botblocker-toastify.php:245
@@ -11098,7 +11098,7 @@ msgstr "Аддон надає дві основні функції:"
 
 #: admin/templates/settings/rate-limiting.php:48
 msgid "The Behavioral Engine is installed and active. You can customize the multi-signal thresholds, session limits, and IP reputation decay."
-msgstr "Поведінковий двигун встановлено та активовано. Ви можете налаштувати багатосигнальні пороги, обмеження сесій та затухання репутації IP."
+msgstr "Поведінковий механізм встановлено та активовано. Ви можете налаштувати багатосигнальні пороги, ліміти сесій та згасання репутації IP."
 
 #: admin/templates/shared/sidebar/rail.php:145
 msgid "The Early Init add-on allows BotBlocker to execute at the very beginning of the WordPress load cycle. This stops bad bots early, saving massive amounts of database queries and server resources."
@@ -11110,7 +11110,7 @@ msgstr "Резервний виконавець перевіряє простр�
 
 #: admin/templates/tools/modals/object-cache.php:19
 msgid "The internal WordPress cache and external caching systems (Redis, Memcached) will be reset."
-msgstr "Внутрішній кеш WordPress та зовнішні системи кешування (Redis, Memcached) будуть скинуті."
+msgstr "Внутрішній кеш WordPress та зовнішні системи кешування (Redis, Memcached) буде скинуто."
 
 #: addons/bbcs-cookie-alert/views/settings.php:88
 msgid "The label for the cookie consent button."
@@ -11122,11 +11122,11 @@ msgstr "Мітка для посилання на сторінку політи�
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:389
 msgid "The maximum number of requests per hour (RPH) a typical human visitor would make. This captures slow-crawling scraping bots that keep their per-minute speed low to avoid basic limiters. (Default: 200)"
-msgstr "Максимальна кількість запитів на годину (RPH), яку зробив би типовий людський відвідувач. Це виявляє повільно повзаючих скрапінг-ботів, які підтримують низьку швидкість за хвилину, щоб уникнути базових обмежувачів. (За замовчуванням: 200)"
+msgstr "Максимальна кількість запитів на годину (RPH), яку зазвичай робить типовий відвідувач-людина. Це виявляє повільних скрейпінгових ботів, які тримають низьку швидкість за хвилину, щоб уникнути базових обмежувачів. (За замовчуванням: 200)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:377
 msgid "The maximum number of requests per minute (RPM) a typical human visitor would reasonably make. If a visitor goes over this speed, their behavior score goes up. (Default: 30)"
-msgstr "Максимальна кількість запитів за хвилину (RPM), яку звичайний відвідувач може розумно зробити. Якщо відвідувач перевищує цю швидкість, його оцінка поведінки зростає. (За замовчуванням: 30)"
+msgstr "Максимальна кількість запитів на хвилину (RPM), яку розумно може зробити типовий відвідувач-людина. Якщо відвідувач перевищує цю швидкість, його поведінковий бал зростає. (За замовчуванням: 30)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:504
 msgid "The maximum penalty level (tier) an IP or subnet can reach. Higher tiers apply a stricter threshold penalty, meaning they trigger blocks much faster. (Default: 6)"
@@ -11164,12 +11164,12 @@ msgstr "Аддон повинен декларувати Requires-Core."
 #: admin/class-botblocker-admin.php:582
 #: includes/class-botblocker-toastify.php:252
 msgid "The package root folder must be a valid slug."
-msgstr "Коренева папка аддона повинна бути дійсним слагом."
+msgstr "Коренева папка пакета повинна бути дійсним слагом."
 
 #: admin/class-botblocker-admin.php:586
 #: includes/class-botblocker-toastify.php:255
 msgid "The package slug does not match the requested add-on."
-msgstr "Слаг аддона не відповідає запитаному додатку."
+msgstr "Слаг пакета не відповідає запитаному додатку."
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:94
 msgid "The PHP zip extension is required for plugin/theme scanning. Ask your host to enable it."
@@ -11217,12 +11217,12 @@ msgstr "Тимчасова папка для розпакування відсу
 
 #: addons/bbcs-cookie-alert/views/settings.php:53
 msgid "The text displayed in the cookie notice. Keep it concise and informative."
-msgstr "Текст, який відображається у повідомленні про файли cookie. Зробіть його стислим та інформативним."
+msgstr "Текст, що відображається у повідомленні про файли cookie. Зробіть його стислим та інформативним."
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:425
 #, php-format
 msgid "The traffic activity level (as a fraction of your Max RPM) where we start tracking and recording reputation. For example, at 0.10, once a visitor reaches 10% of the Max RPM limit, we begin monitoring their patterns. (Default: 0.10)"
-msgstr "Рівень активності трафіку (як частка від вашого максимального RPM), при якому ми починаємо відстежувати та записувати репутацію. Наприклад, при 0.10, щойно відвідувач досягає 10% від ліміту Max RPM, ми починаємо відстежувати його шаблони. (За замовчуванням: 0.10)"
+msgstr "Рівень активності трафіку (як частка від вашого максимального RPM), з якого ми починаємо відстежувати та записувати репутацію. Наприклад, при 0.10, як тільки відвідувач досягає 10% ліміту максимального RPM, ми починаємо відстежувати його шаблони. (За замовчуванням: 0.10)"
 
 #: admin/class-botblocker-admin.php:572
 #: includes/class-botblocker-toastify.php:242
@@ -11253,7 +11253,7 @@ msgstr "Кеш об’єктів WordPress буде очищено:"
 
 #: includes/shortcode/botblocker-shortcode-sidebar.php:229
 msgid "Theme homepage"
-msgstr "Веб-сайт теми"
+msgstr "Домашня сторінка теми"
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:253
 msgid "Theme slugs to skip. One per line."
@@ -11293,7 +11293,7 @@ msgstr "Цей аддон потребує новішої версії BotBlocke
 #: includes/class-botblocker-toastify.php:271
 #, php-format
 msgid "This add-on requires BotBlocker %s or higher. Please update the plugin first."
-msgstr "Цей аддон потребує BotBlocker %s або вище. Будь ласка, спочатку оновіть плагін."
+msgstr "Цей додаток вимагає BotBlocker %s або вище. Будь ласка, спочатку оновіть плагін."
 
 #. translators: %s: required PHP version
 #: includes/class-botblocker-toastify.php:274
@@ -11308,7 +11308,7 @@ msgstr "Для роботи цього додатка необхідно вст�
 
 #: admin/templates/tools/modals/rewrite-rules.php:20
 msgid "This can help resolve 404 errors after changing permalink structure."
-msgstr "Це може допомогти усунути помилки 404 після зміни структури постійних посилань."
+msgstr "Це може допомогти вирішити помилки 404 після зміни структури постійних посилань."
 
 #: admin/templates/tools/modals/salt-clear.php:24
 #: includes/modal/modal-botblocker-salt-clear.php:18
@@ -11317,11 +11317,11 @@ msgstr "Цей процес незворотний."
 
 #: addons/bbcs-hide-admin/inc/class-bbcs-hide-admin-plugin.php:67
 msgid "This URL conflicts with an existing page, post, or taxonomy on your site. Choose a different login slug."
-msgstr "Ця URL-адреса конфліктує з існуючою сторінкою, публікацією або таксономією на вашому сайті. Оберіть іншу назву для входу."
+msgstr "Цей URL конфліктує з існуючою сторінкою, записом або таксономією на вашому сайті. Виберіть інший слаг для входу."
 
 #: includes/data/botblocker-pro-features.php:18
 msgid "Threat intelligence & zero-day botnet feeds"
-msgstr "Розвідка загроз та фіди zero-day"
+msgstr "Розвідка загроз та стрічки ботнетів нульового дня"
 
 #: addons/bbcs-behavior/views/settings.php:32
 msgid "Three-layer behavioral engine combining Free rate-limit inspection (RPM velocity with quadratic subnet pressure) with Pro multi-signal scoring (velocity, URI diversity, session depth, timing regularity, referer consistency) and IP/subnet reputation tracking with lazy decay. Detects and blocks robotic traffic through layered analysis."
@@ -11428,7 +11428,7 @@ msgstr "Запитів за сьогодні"
 
 #: admin/templates/dashboard/activity.php:10
 msgid "Today's activity"
-msgstr "Активність сьогодні"
+msgstr "Сьогоднішня активність"
 
 #: includes/components/class-botblocker-component-sidebar-nav.php:132
 msgid "Toggle navigation"
@@ -11477,7 +11477,7 @@ msgstr "Інструменти"
 
 #: includes/data/botblocker-data-palette.php:135
 msgid "Tools - maintenance, utilities, repair, cleanup"
-msgstr "Інструменти - обслуговування, утиліти"
+msgstr "Інструменти – обслуговування, утиліти, ремонт, очищення"
 
 #: admin/templates/tools/botblocker-tab.php:18
 msgid "Tools for blocking bots, filtering suspicious traffic, and optimizing server resources."
@@ -11582,7 +11582,7 @@ msgstr "Всього білих ботів:"
 
 #: admin/templates/settings/log.php:46
 msgid "Track admin panel activity for security auditing and multi-user accountability."
-msgstr "Відстеження активності в адмін-панелі для аудиту безпеки та багатокористувацької відповідальності."
+msgstr "Відстежуйте активність в адмін-панелі для аудиту безпеки та відповідальності кількох користувачів."
 
 #: admin/templates/settings/rate-limiting.php:67
 msgid "Track request velocity per IP and issue Captcha or block when thresholds are exceeded."
@@ -11590,11 +11590,11 @@ msgstr "Відстеження швидкості запитів з IP та ви
 
 #: admin/templates/settings/log.php:32
 msgid "Track returning verified visitors. Helps identify repeat traffic patterns and false positives."
-msgstr "Відстеження повернень перевірених відвідувачів. Допомагає визначити повторювані шаблони трафіку та помилкові спрацювання."
+msgstr "Відстежуйте повернення перевірених відвідувачів. Допомагає виявляти повторювані шаблони трафіку та хибні спрацьовування."
 
 #: admin/templates/settings/traffic.php:30
 msgid "Track traffic sources and filter suspicious referrers via UTM parameters."
-msgstr "Відстеження джерел трафіку та фільтрація підозрілих реферерів за допомогою параметрів UTM."
+msgstr "Відстежуйте джерела трафіку та фільтруйте підозрілі реферери за допомогою UTM-параметрів."
 
 #: admin/templates/settings/log.php:56
 msgid "Track WP-CLI and cron execution. Helps detect automated exploitation attempts."
@@ -11607,15 +11607,15 @@ msgstr "Трафік"
 
 #: includes/data/botblocker-data-snav.php:230
 msgid "Traffic & Referrer"
-msgstr "Трафік та реферер"
+msgstr "Трафік і реферер"
 
 #: includes/viewmodels/class-settings-viewmodel.php:177
 msgid "Traffic &amp; Referrer"
-msgstr "Трафік &amp; реферер"
+msgstr "Трафік і реферер"
 
 #: addons/bbcs-behavior/views/settings.php:180
 msgid "Traffic activity level (as fraction of Max RPM) where reputation tracking starts. (Default: 0.10)"
-msgstr "Рівень активності трафіку (як частка від Max RPM), з якого починається відстеження репутації. (Типово: 0.10)"
+msgstr "Рівень активності трафіку (як частка від максимального RPM), з якого починається відстеження репутації. (За замовчуванням: 0.10)"
 
 #: admin/templates/settings/traffic.php:15
 #: admin/templates/settings/traffic.php:26
@@ -11625,7 +11625,7 @@ msgstr "Налаштування трафіку та реферера"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:413
 msgid "Traffic coming from known proxies or VPNs is more likely to be automated. We multiply their behavior metrics by this factor to make our analyzer more sensitive. (Default: 1.15)"
-msgstr "Трафік з відомих проксі або VPN з більшою ймовірністю автоматизований. Ми множимо їхні показники поведінки на цей коефіцієнт, щоб зробити аналізатор чутливішим. (Типово: 1.15)"
+msgstr "Трафік, що надходить з відомих проксі або VPN, швидше за все, автоматизований. Ми множимо їх поведінкові показники на цей коефіцієнт, щоб зробити наш аналізатор більш чутливим. (За замовчуванням: 1.15)"
 
 #: admin/templates/integrations/card.php:15
 #: admin/templates/integrations/transients.php:23
@@ -11652,7 +11652,7 @@ msgstr "Дерево"
 #: addons/bbcs-truth-source/inc/class-bbcs-truth-source-addons-page.php:61
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:141
 msgid "Tree View Cap"
-msgstr "Обмеження перегляду дерева"
+msgstr "Ліміт деревоподібного перегляду"
 
 #: public/captcha/render-moving-shapes-button-trait.php:18
 msgid "Triangle"
@@ -11660,11 +11660,11 @@ msgstr "Трикутник"
 
 #: addons/bbcs-https-protocol/views/settings.php:103
 msgid "Trust proxy headers for HTTPS detection"
-msgstr "Довіряти проксі-заголовкам для виявлення HTTPS"
+msgstr "Довіряти заголовкам проксі для визначення HTTPS"
 
 #: addons/bbcs-xmlrpc-tunnel/views/settings.php:40
 msgid "Trust proxy headers for IP allowlisting"
-msgstr "Довіряти проксі-заголовкам для білого списку IP"
+msgstr "Довіряти заголовкам проксі для білого списку IP"
 
 #: admin/templates/setup-wizard/exclusions.php:22
 msgid "Trust your current IP"
@@ -11734,15 +11734,15 @@ msgstr "Налаштування тунелю"
 
 #: addons/bbcs-behavior/views/settings.php:67
 msgid "Turn on advanced behavior checking. Analyzes multiple signals (click speed, timing regularity, missing referrers, page diversity) to identify robotic traffic."
-msgstr "Увімкнути розширену перевірку поведінки. Аналізує кілька сигналів (швидкість кліків, регулярність часу, відсутність реферерів, різноманітність сторінок) для виявлення роботизованого трафіку."
+msgstr "Увімкніть розширену перевірку поведінки. Аналізує кілька сигналів (швидкість кліків, регулярність часу, відсутні реферери, різноманітність сторінок), щоб виявити роботизований трафік."
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:331
 msgid "Turn on advanced behavior checking. Unlike simple speed limits, this analyzes multiple signals (like click speed, timing regularity, missing referrers, and page diversity) to identify robotic traffic."
-msgstr "Увімкнути розширену перевірку поведінки. На відміну від простих обмежень швидкості, це аналізує кілька сигналів (таких як швидкість кліків, регулярність часу, відсутність реферерів та різноманітність сторінок) для виявлення роботизованого трафіку."
+msgstr "Увімкніть розширену перевірку поведінки. На відміну від простих обмежень швидкості, вона аналізує кілька сигналів (таких як швидкість кліків, регулярність часу, відсутні реферери та різноманітність сторінок), щоб виявити роботизований трафік."
 
 #: addons/bbcs-security-headers/views/settings.php:97
 msgid "Turns all BotBlocker security headers on or off. Use to globally disable header output for testing or compatibility checks."
-msgstr "Вмикає або вимикає всі заголовки безпеки BotBlocker. Використовуйте для глобального відключення виводу заголовків для тестування або перевірки сумісності."
+msgstr "Вмикає або вимикає всі заголовки безпеки BotBlocker. Використовуйте для глобального вимкнення виводу заголовків для тестування або перевірки сумісності."
 
 #: includes/data/traits/trait-botblocker-stats-charts.php:268
 #, pgettext
@@ -11756,7 +11756,7 @@ msgstr "Двічі на тиждень"
 
 #: includes/data/botblocker-data-palette.php:134
 msgid "Two-Factor Auth - 2FA, MFA, OTP, authentication"
-msgstr "Двофакторна автентифікація - 2FA"
+msgstr "Двофакторна автентифікація – 2FA, MFA, OTP, автентифікація"
 
 #: admin/templates/integrations/2fa.php:29
 #: includes/data/botblocker-data-snav.php:650
@@ -11771,7 +11771,7 @@ msgstr "Двофакторна автентифікація (2FA)"
 
 #: admin/templates/integrations/2fa.php:14
 msgid "Two-Factor Authentication (2FA) requires a time-based code from your authenticator app in addition to your password. This prevents unauthorized access even if your password is compromised. You can set which user roles require 2FA and generate backup codes for emergency access."
-msgstr "Двофакторна автентифікація (2FA) вимагає введення одноразового коду з додатка-автентифікатора на додаток до пароля. Це запобігає несанкціонованому доступу, навіть якщо ваш пароль було викрадено. Ви можете встановити, для яких ролей користувачів потрібна 2FA, та генерувати резервні коди для екстреного доступу."
+msgstr "Двофакторна автентифікація (2FA) вимагає код на основі часу з вашого додатка-автентифікатора на додаток до пароля. Це запобігає несанкціонованому доступу, навіть якщо ваш пароль скомпрометовано. Ви можете встановити, які ролі користувачів вимагають 2FA, і згенерувати резервні коди для екстреного доступу."
 
 #: admin/class-botblocker-admin.php:478
 msgid "Two-Factor Authentication enabled."
@@ -11783,11 +11783,11 @@ msgstr "Двофакторна автентифікація увімкнена."
 
 #: admin/class-botblocker-admin.php:479
 msgid "Two-Factor Authentication has been reset."
-msgstr "Двофакторну автентифікацію скинуто."
+msgstr "Двофакторну автентифікацію було скинуто."
 
 #: public/2FA/bbcs-2fa-setup.php:139
 msgid "Two-factor authentication is now active on your account."
-msgstr "Двофакторна автентифікація тепер увімкнена для вашого облікового запису."
+msgstr "Двофакторну автентифікацію тепер активовано для вашого облікового запису."
 
 #: public/2FA/bbcs-2fa-setup.php:119
 msgid "Two-Factor Authentication Setup"
@@ -11999,7 +11999,7 @@ msgstr "Оновити базу даних ASN"
 
 #: includes/data/botblocker-data-palette.php:110
 msgid "Update ASN database - geo, network, country data"
-msgstr "Оновити базу ASN"
+msgstr "Оновити базу даних ASN – гео, мережа, дані про країну"
 
 #: admin/templates/tools/maintenance-tab.php:142
 #: includes/data/botblocker-data-snav.php:718
@@ -12008,7 +12008,7 @@ msgstr "Оновити список RU-Gov"
 
 #: includes/data/botblocker-data-palette.php:108
 msgid "Update RU-Gov list - Russian IP ranges, RKN blocklist"
-msgstr "Оновити список RU-Gov"
+msgstr "Оновити список RU-Gov – діапазони російських IP, чорний список RKN"
 
 #: includes/cron/class-botblocker-cron.php:88
 msgid "Update Statistics"
@@ -12028,11 +12028,11 @@ msgstr "Оновлення до PRO"
 
 #: includes/data/botblocker-data-palette.php:93
 msgid "Upgrade to PRO - premium, pricing, license, features"
-msgstr "Оновитися до PRO"
+msgstr "Оновлення до PRO – преміум, ціни, ліцензія, функції"
 
 #: admin/templates/settings/rate-limiting.php:38
 msgid "Upgrade to Pro for the Behavioral Engine. It features advanced multi-signal scoring and decay-based reputation, preventing bots from spamming your site by tightening thresholds for repeat offenders."
-msgstr "Перейдіть на Pro для Поведінкового двигуна. Він має розширену мультисигнальну оцінку та репутацію на основі затухання, запобігаючи спаму ботами на вашому сайті шляхом посилення порогів для повторних порушників."
+msgstr "Оновіться до Pro для поведінкового рушія. Він має передове багатосигнальне оцінювання та репутацію на основі затухання, запобігаючи спаму ботів на вашому сайті шляхом посилення порогів для повторних порушників."
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:123
 msgid "Upgrade your plan for better protection."
@@ -12044,11 +12044,11 @@ msgstr "Завантажити ZIP-архів"
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:176
 msgid "Uploading a new list will add new IPs and skip existing ones. Invalid lines will be skipped automatically."
-msgstr "Завантаження нового списку додасть нові IP-адреси та пропустить ті, що вже існують. Неправильні рядки будуть автоматично пропущені."
+msgstr "Завантаження нового списку додасть нові IP-адреси та пропустить наявні. Недійсні рядки буде пропущено автоматично."
 
 #: includes/modal/modal-botblocker-rewrite-rules.php:13
 msgid "URL rewrite rules will be reset:"
-msgstr "Правила перезапису URL будуть скинуті:"
+msgstr "Правила перезапису URL буде скинуто:"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:341
 msgid "URL to fetch remote regex signatures for malware detection. Endpoint must return JSON with version + signatures array. Each signature: id, severity (critical/high/medium/low), regex (valid PHP regex), score (1-100), confidence, category, description."
@@ -12056,7 +12056,7 @@ msgstr "URL для отримання віддалених сигнатур ре
 
 #: addons/bbcs-hide-admin/views/settings.php:100
 msgid "URL to redirect to when someone tries to access the default login URL. Only used when behavior is set to Redirect."
-msgstr "URL для перенаправлення при спробі доступу до типового URL входу. Використовується лише коли поведінка встановлена на Redirect."
+msgstr "URL для переспрямування, коли хтось намагається отримати доступ до стандартного URL входу. Використовується лише тоді, коли поведінку встановлено на «Переспрямування»."
 
 #: admin/templates/integrations/botblocker-api.php:57
 msgid "Usage"
@@ -12064,7 +12064,7 @@ msgstr "Використання"
 
 #: admin/templates/settings/cookie.php:138
 msgid "Use explicit CORS headers (Content-Type, X-Requested-With) instead of wildcard (*). Fixes Fetch-spec violation when Access-Control-Allow-Credentials is active. Enable if CAPTCHA verification breaks in browsers."
-msgstr "Використовувати явні заголовки CORS (Content-Type, X-Requested-With) замість підстановочного знаку (*). Виправляє порушення специфікації Fetch, коли активний Access-Control-Allow-Credentials. Увімкніть, якщо перевірка CAPTCHA не працює в браузерах."
+msgstr "Використовуйте явні заголовки CORS (Content-Type, X-Requested-With) замість символу підстановки (*). Виправляє порушення специфікації Fetch, коли активний Access-Control-Allow-Credentials. Увімкніть, якщо перевірка CAPTCHA не працює в браузерах."
 
 #: public/2FA/bbcs-2fa-setup.php:156
 msgid "Use Google Authenticator or any TOTP app to scan the code, or enter the key manually."
@@ -12088,7 +12088,7 @@ msgstr "Використовувати віддалені сигнатури р�
 
 #: addons/bbcs-security-headers/views/settings.php:55
 msgid "Use these options to enable or disable groups of security response headers. These headers enhance browser protections and privacy, but some may require theme/plugin compatibility checks. If you are running a local site without HTTPS, disable HSTS and CSP temporarily to avoid mixed content issues. Re-enable them on production for better security posture."
-msgstr "Використовуйте ці опції, щоб увімкнути або вимкнути групи заголовків безпеки відповіді. Ці заголовки покращують захист браузера та конфіденційність, але деякі можуть потребувати перевірки сумісності з темою/плагінами. Якщо ви запускаєте локальний сайт без HTTPS, тимчасово вимкніть HSTS та CSP, щоб уникнути проблем зі змішаним вмістом. Увімкніть їх знову на продакшені для кращого рівня безпеки."
+msgstr "Використовуйте ці параметри, щоб увімкнути або вимкнути групи заголовків безпекових відповідей. Ці заголовки посилюють захист браузера та конфіденційність, але деякі можуть потребувати перевірки сумісності з темою/плагіном. Якщо ви працюєте на локальному сайті без HTTPS, тимчасово вимкніть HSTS і CSP, щоб уникнути проблем зі змішаним вмістом. Знову ввімкніть їх на робочому сайті для кращого рівня безпеки."
 
 #: admin/templates/about/body.php:172
 msgid "used with attribution"
@@ -12139,11 +12139,11 @@ msgstr ""
 #: admin/templates/settings/traffic.php:30
 #: includes/data/botblocker-data-snav.php:237
 msgid "UTM Referrer Processing"
-msgstr "Обробка UTM-реферерів"
+msgstr "Обробка реферера UTM"
 
 #: includes/services/class-botblocker-health-service.php:51
 msgid "UTM referrer processing"
-msgstr "Обробка UTM-реферерів"
+msgstr "Обробка реферера UTM"
 
 #: includes/hook/hook-addon-install.php:24
 msgid "Validated add-on source is missing."
@@ -12206,7 +12206,7 @@ msgstr "Перевірка кожного відвідувача через хм
 
 #: addons/bbcs-truth-source/views/settings.php:18
 msgid "Verify installed WordPress core, plugins, and themes against official wp.org sources. Detect modified, added, and missing files."
-msgstr "Перевірте встановлене ядро WordPress, плагіни та теми за офіційними джерелами wp.org. Виявіть змінені, додані та відсутні файли."
+msgstr "Перевірте встановлене ядро WordPress, плагіни та теми на відповідність офіційним джерелам wp.org. Виявляйте змінені, додані та відсутні файли."
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:74
 msgid "Verify plugin files against official checksums."
@@ -12214,7 +12214,7 @@ msgstr "Перевірте файли плагінів за офіційними
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:85
 msgid "Verify theme files against official checksums."
-msgstr "Перевірте файли тем за офіційними контрольними сумами."
+msgstr "Перевірте файли теми на відповідність офіційним контрольним сумам."
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:64
 msgid "Verify WordPress core files against official checksums."
@@ -12246,7 +12246,7 @@ msgstr "Відеоуроки"
 
 #: includes/data/class-botblocker-alerts.php:267
 msgid "View Add-ons"
-msgstr "Дивитися аддони"
+msgstr "Переглянути додатки"
 
 #: admin/templates/setup-guide/status.php:168
 msgid "View all"
@@ -12254,7 +12254,7 @@ msgstr "Переглянути все"
 
 #: addons/bbcs-cron-jobs/views/settings.php:25
 msgid "View and manage all WordPress scheduled cron jobs. Disable unwanted cron tasks directly from the admin panel."
-msgstr "Перегляд і керування всіма запланованими завданнями cron WordPress. Вимкніть небажані завдання cron безпосередньо з панелі адміністратора."
+msgstr "Переглядайте та керуйте всіма запланованими завданнями cron WordPress. Вимикайте небажані завдання cron безпосередньо з панелі адміністратора."
 
 #: admin/templates/shared/sidebar/rail.php:65
 #: admin/templates/shared/sidebar/social-proof.php:39
@@ -12296,7 +12296,7 @@ msgstr "Блокування VPN та Tor"
 #: admin/templates/settings/connection-types.php:53
 #: includes/data/botblocker-data-snav.php:191
 msgid "VPN Connections"
-msgstr "VPN-підключення"
+msgstr "VPN-з’єднання"
 
 #: includes/data/botblocker-pro-features.php:13
 msgid "VPN, Tor and proxy blocking"
@@ -12304,7 +12304,7 @@ msgstr "Блокування VPN, Tor та проксі"
 
 #: includes/data/class-botblocker-alerts.php:178
 msgid "W3 Total Cache detected. If using Disk Enhanced mode with rewrite rules, add a cookie-based server exception. See CACHE-COMPATIBILITY.md."
-msgstr "Виявлено W3 Total Cache."
+msgstr "Виявлено W3 Total Cache. Якщо використовуєте режим Disk Enhanced з правилами перезапису, додайте виняток на основі cookie на сервері. Див. CACHE-COMPATIBILITY.md."
 
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-settings.php:12
 msgid "We use cookies to improve site security and user experience."
@@ -12326,7 +12326,7 @@ msgstr "Веб:"
 
 #: admin/templates/settings/payment-tab.php:23
 msgid "Webhook"
-msgstr "Веб-хук"
+msgstr "Вебхук"
 
 #: addons/bbcs-malware/views/settings.php:20
 msgid "Webshell"
@@ -12390,7 +12390,7 @@ msgstr "Якщо хмарний API повертає несподівані да
 
 #: admin/templates/settings/general.php:114
 msgid "When enabled, all authenticated WordPress users (including subscribers, authors, contributors) bypass BotBlocker checks. By default, only administrators, editors and moderators are bypassed."
-msgstr "Якщо ця опція увімкнена, всі авторизовані користувачі WordPress (включно з підписниками, авторами та учасниками) обходитимуть перевірки BotBlocker. За замовчуванням перевірки обходять лише адміністратори, редактори та модератори."
+msgstr "Коли ввімкнено, всі автентифіковані користувачі WordPress (включно з підписниками, авторами, помічниками) обходять перевірки BotBlocker. За замовчуванням обходяться лише адміністратори, редактори та модератори."
 
 #: addons/bbcs-xmlrpc-tunnel/views/settings.php:58
 msgid "When enabled, only allowlisted IPs can access XML-RPC. When disabled, XML-RPC is fully blocked (allowlisted IPs can still bypass)."
@@ -12398,23 +12398,23 @@ msgstr "Якщо увімкнено, лише IP-адреси з білого с
 
 #: admin/templates/settings/payment-tab.php:41
 msgid "When enabled, payment bypass only applies to POST requests and requires signature headers to have valid format (min 8 chars). GET requests with payment query keys will not be bypassed. Reduces attack surface while keeping real webhooks working."
-msgstr "Якщо ця опція увімкнена, обхід перевірок для платіжних систем застосовується лише до POST-запитів і вимагає наявності заголовків підпису у правильному форматі (не менше 8 символів). GET-запити з параметрами платіжних систем не обробляються. Це дозволяє зменшити вразливість системи, зберігши при цьому працездатність реальних веб-хуків."
+msgstr "Коли ввімкнено, обхід платежів застосовується лише до POST-запитів і вимагає, щоб заголовки підпису мали дійсний формат (мінімум 8 символів). GET-запити з ключами платіжних запитів не обходитимуться. Зменшує поверхню атаки, зберігаючи роботу справжніх вебхуків."
 
 #: admin/templates/settings/payment-tab.php:42
 msgid "When enabled, payment callbacks still skip Captcha but IP blacklists, ASN rules, path rules and country blocks remain active. A blocked IP cannot use a payment callback to bypass the block."
-msgstr "Якщо увімкнено, платіжні зворотні виклики все одно пропускають Captcha, але чорні списки IP, правила ASN, правила шляхів та блокування країн залишаються активними. Заблокована IP-адреса не може використовувати платіжний зворотний виклик для обходу блокування."
+msgstr "Коли ввімкнено, платіжні зворотні виклики все ще пропускають Captcha, але чорні списки IP, правила ASN, правила шляхів і блокування за країнами залишаються активними. Заблокована IP-адреса не може використати платіжний зворотний виклик для обходу блокування."
 
 #: admin/templates/settings/payment-tab.php:34
 msgid "When enabled, requests matching well-known payment callback patterns (paths, query keys, admin-ajax actions, signature headers) skip JS-challenge, Captcha and rate-limit. Recommended for any site with WooCommerce or another e-commerce plugin."
-msgstr "Якщо увімкнено, запити, що відповідають відомим шаблонам платіжних зворотних викликів (шляхи, ключі запитів, дії admin-ajax, заголовки підписів), пропускають JS-виклик, Captcha та обмеження швидкості. Рекомендується для будь-якого сайту з WooCommerce або іншим плагіном електронної комерції."
+msgstr "Коли ввімкнено, запити, що відповідають відомим шаблонам платіжних зворотних викликів (шляхи, ключі запитів, дії admin-ajax, заголовки підпису), пропускають JS-виклик, Captcha та обмеження швидкості. Рекомендовано для будь-якого сайту з WooCommerce або іншим плагіном електронної комерції."
 
 #: addons/bbcs-xmlrpc-tunnel/views/settings.php:41
 msgid "When enabled, X-Forwarded-For and CF-Connecting-IP headers are trusted for IP allowlisting. WARNING: These headers are client-spoofable — only enable if your server is behind a trusted reverse proxy that strips these headers from external requests."
-msgstr "Коли увімкнено, заголовки X-Forwarded-For та CF-Connecting-IP вважаються довіреними для IP-дозволу. УВАГА: Ці заголовки можуть бути підроблені клієнтом — вмикайте лише якщо ваш сервер знаходиться за довіреним зворотним проксі-сервером, який видаляє ці заголовки із зовнішніх запитів."
+msgstr "Коли ввімкнено, заголовки X-Forwarded-For і CF-Connecting-IP вважаються довіреними для дозволеного списку IP. ПОПЕРЕДЖЕННЯ: Ці заголовки можуть бути підроблені клієнтом – вмикайте лише якщо ваш сервер знаходиться за довіреним зворотним проксі, який видаляє ці заголовки із зовнішніх запитів."
 
 #: addons/bbcs-https-protocol/views/settings.php:104
 msgid "When enabled, X-Forwarded-Proto, CF-Visitor and other proxy headers are trusted to detect HTTPS connections. WARNING: These headers are client-spoofable — only enable if your server is behind a trusted reverse proxy that strips these headers from external requests."
-msgstr "Коли увімкнено, заголовки X-Forwarded-Proto, CF-Visitor та інші проксі-заголовки вважаються довіреними для визначення з'єднань HTTPS. УВАГА: Ці заголовки можуть бути підроблені клієнтом — вмикайте лише якщо ваш сервер знаходиться за довіреним зворотним проксі-сервером, який видаляє ці заголовки із зовнішніх запитів."
+msgstr "Коли ввімкнено, заголовки X-Forwarded-Proto, CF-Visitor та інші проксі-заголовки вважаються довіреними для виявлення HTTPS-з’єднань. ПОПЕРЕДЖЕННЯ: Ці заголовки можуть бути підроблені клієнтом – вмикайте лише якщо ваш сервер знаходиться за довіреним зворотним проксі, який видаляє ці заголовки із зовнішніх запитів."
 
 #: addons/bbcs-https-protocol/inc/bbcs-https-protocol-settings.php:44
 msgid "When enabling HTTPS redirect, ensure your SSL certificate is properly configured. Misconfiguration may cause site access issues."
@@ -12468,7 +12468,7 @@ msgstr "Для імпорту потрібні дані про білих бот
 #: admin/templates/settings/bot-detection.php:65
 #: includes/data/botblocker-data-snav.php:89
 msgid "Whitelist WhatsApp Preview"
-msgstr "Білий список превью WhatsApp"
+msgstr "Білий список попереднього перегляду WhatsApp"
 
 #: admin/templates/setup-wizard/exclusions.php:8
 msgid "Who always gets access?"
@@ -12484,7 +12484,7 @@ msgstr "Хто відвідав сайт і хто був заблоковани
 
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:233
 msgid "Wildcard patterns (one per line) that silence any matching added/modified/missing finding across every target. Use * and ?. Examples: */cache/*, *.log, wp-content/uploads/*. Bulk version of the per-file Ignore button."
-msgstr "Шаблони підстановки (по одному на рядок), які заглушують будь-яке відповідне знаходження доданого/зміненого/відсутнього для всіх цілей. Використовуйте * і ?. Приклади: */cache/*, *.log, wp-content/uploads/*. Масова версія кнопки «Ігнорувати» для кожного файлу."
+msgstr "Шаблони з символами підстановки (по одному на рядок), які приглушують будь-яке відповідне виявлення доданих/змінених/відсутніх файлів у всіх цілях. Використовуйте * і ?. Приклади: */cache/*, *.log, wp-content/uploads/*. Масова версія кнопки «Ігнорувати» для окремого файлу."
 
 #: admin/templates/settings/rate-limiting.php:107
 #: includes/data/botblocker-data-snav.php:215
@@ -12497,7 +12497,7 @@ msgstr "з кольором: "
 
 #: admin/class-botblocker-setup-wizard-ajax.php:514
 msgid "Wizard reset successfully."
-msgstr "Майстер налаштування успішно скинуто."
+msgstr "Майстер успішно скинуто."
 
 #: admin/templates/integrations/2fa.php:17
 msgid "WordPress 2FA Documentation"
@@ -12584,11 +12584,11 @@ msgstr "WP Cron увімкнено"
 
 #: includes/data/class-botblocker-alerts.php:197
 msgid "WP Rocket detected. Add the BotBlocker cookie to the \"Never Cache Cookies\" list in WP Rocket settings. See CACHE-COMPATIBILITY.md."
-msgstr "Виявлено WP Rocket."
+msgstr "Виявлено WP Rocket. Додайте cookie BotBlocker до списку «Ніколи не кешувати cookie» в налаштуваннях WP Rocket. Див. CACHE-COMPATIBILITY.md."
 
 #: includes/data/class-botblocker-alerts.php:171
 msgid "WP Super Cache (Expert/mod_rewrite mode) serves cached pages via .htaccess, bypassing PHP. Add a cookie-based exception. See CACHE-COMPATIBILITY.md."
-msgstr "WP Super Cache обходить PHP."
+msgstr "WP Super Cache (режим Expert/mod_rewrite) обслуговує кешовані сторінки через .htaccess, обходячи PHP. Додайте виняток на основі cookie. Див. CACHE-COMPATIBILITY.md."
 
 #: addons/bbcs-early-init/inc/class-bbcs-early-init-addons-page.php:46
 msgid "wp-config.php Integration"
@@ -12665,11 +12665,11 @@ msgstr "Так"
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:172
 msgid "You can prepare your list in any text editor. Each line should contain a single IP address or subnet in CIDR format (e.g. 192.168.1.0/24)."
-msgstr "Ви можете підготувати свій список у будь-якому текстовому редакторі. Кожен рядок повинен містити одну IP-адресу або підмережу у форматі CIDR (наприклад, 192.168.1.0/24)."
+msgstr "Ви можете підготувати свій список у будь-якому текстовому редакторі. Кожен рядок має містити одну IP-адресу або підмережу у форматі CIDR (наприклад, 192.168.1.0/24)."
 
 #: includes/shortcode/botblocker-shortcode-sidebar.php:122
 msgid "You do not have permission to view this information."
-msgstr "Ви не маєте прав на перегляд цієї інформації."
+msgstr "Ви не маєте дозволу переглядати цю інформацію."
 
 #: admin/partials/botblocker-admin-dashboard-widgets.php:123
 #: includes/viewmodels/class-dashboard-viewmodel.php:172
@@ -12752,7 +12752,7 @@ msgstr "Токен вашого Telegram-бота від @BotFather."
 
 #: admin/templates/settings/notifications.php:69
 msgid "Your Telegram chat ID (user or group)."
-msgstr "Ідентифікатор вашого Telegram-чату (користувач або група)."
+msgstr "Ваш ідентифікатор чату Telegram (користувача або групи)."
 
 #: admin/templates/setup-wizard/presets.php:18
 msgid "Zero impact on visitors"
