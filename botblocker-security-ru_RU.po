@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-08-12 16:58+0000"
-"PO-Revision-Date: 2026-08-12 16:58+0000"
+"POT-Creation-Date: 2026-08-12 17:01+0000"
+"PO-Revision-Date: 2026-08-12 17:01+0000"
 "Last-Translator: BotBlocker Translator Team"
 "Language-Team: Russian"
 "Language: ru_RU"
@@ -9329,7 +9329,7 @@ msgstr "Восстановление и оптимизация базы данн
 
 #: includes/data/botblocker-data-palette.php:111
 msgid "Repair and optimize DB - fix tables, cleanup, speed up"
-msgstr "Восстановить и оптимизировать БД - исправить таблицы"
+msgstr "Восстановить и оптимизировать БД — исправить таблицы, очистить, ускорить"
 
 #: includes/data/botblocker-data-snav.php:481
 msgid "Repeat Block Time (seconds)"
