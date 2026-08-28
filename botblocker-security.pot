@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-08-28 18:14+0000"
+"POT-Creation-Date: 2026-08-28 21:03+0000"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>"
 "Language-Team: "
@@ -257,10 +257,6 @@ msgstr ""
 msgid "120 days"
 msgstr ""
 
-#: addons/bbcs-telegram/views/settings.php:56
-msgid "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
-msgstr ""
-
 #: includes/data/class-botblocker-data-time.php:13
 msgid "15 minutes"
 msgstr ""
@@ -428,10 +424,6 @@ msgstr ""
 msgid "A weekly security report is delivered to your chat with request, block and bot statistics."
 msgstr ""
 
-#: addons/bbcs-pusher/views/settings.php:70
-msgid "a1b2c3d4e5f6g7h8"
-msgstr ""
-
 #: admin/class-botblocker-admin.php:798
 #: admin/class-botblocker-admin.php:799
 msgid "About"
@@ -468,10 +460,6 @@ msgstr ""
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-settings.php:15
 #: addons/bbcs-cookie-alert/views/settings.php:89
 msgid "Accept"
-msgstr ""
-
-#: admin/templates/settings/bot-detection.php:24
-msgid "Accept-Language"
 msgstr ""
 
 #: includes/botblocker/traits/class-botblocker-check-page-trait.php:122
@@ -533,8 +521,8 @@ msgstr ""
 #: admin/templates/reports/audit-log.php:52
 #: admin/templates/rules/body.php:112
 #: admin/templates/rules/body.php:128
-#: admin/templates/rules/body.php:141
-#: admin/templates/rules/body.php:202
+#: admin/templates/rules/body.php:165
+#: admin/templates/rules/body.php:226
 #: admin/templates/rules/body.php:35
 #: admin/templates/rules/body.php:50
 #: admin/templates/rules/body.php:66
@@ -630,11 +618,6 @@ msgstr ""
 msgid "Actor"
 msgstr ""
 
-#: admin/templates/settings/browser-plugins.php:42
-#: includes/data/class-botblocker-snav.php:120
-msgid "AdBlock / uBlock"
-msgstr ""
-
 #: admin/class-botblocker-admin.php:506
 msgid "Adblocker:"
 msgstr ""
@@ -680,7 +663,7 @@ msgstr ""
 msgid "Add category"
 msgstr ""
 
-#: admin/templates/rules/body.php:167
+#: admin/templates/rules/body.php:191
 msgid "Add country"
 msgstr ""
 
@@ -1640,6 +1623,7 @@ msgstr ""
 msgid "ASN data is required for import."
 msgstr ""
 
+#: admin/templates/rules/body.php:137
 #: admin/templates/tools/maintenance-tab.php:37
 msgid "ASN database"
 msgstr ""
@@ -1672,6 +1656,10 @@ msgstr ""
 
 #: includes/ajax/class-botblocker-ajax-maintenance.php:191
 msgid "ASN database update scheduled. The download will start shortly in the background."
+msgstr ""
+
+#: admin/templates/rules/body.php:151
+msgid "ASN database: not yet downloaded."
 msgstr ""
 
 #. translators: %1$s: ASN database type, %2$s: database size, %3$s: time since last update
@@ -1924,10 +1912,6 @@ msgstr ""
 #: addons/bbcs-truth-source/inc/class-bbcs-truth-source-addons-page.php:62
 #: addons/bbcs-truth-source/inc/class-bbcs-ts-settings-view.php:120
 msgid "Batch Size"
-msgstr ""
-
-#: addons/bbcs-pusher/views/settings.php:103
-msgid "bbcs-site"
 msgstr ""
 
 #: admin/templates/plugins/deactivation-feedback-modal.php:23
@@ -2326,11 +2310,6 @@ msgstr ""
 msgid "Bot Token"
 msgstr ""
 
-#: includes/data/class-botblocker-snav.php:687
-#: includes/viewmodels/class-integrations-viewmodel.php:169
-msgid "BotBlocker 2FA"
-msgstr ""
-
 #: addons/bbcs-security-headers/views/settings.php:84
 msgid "BotBlocker API (botblocker.top, globus.studio) - always allowed in CSP."
 msgstr ""
@@ -2359,19 +2338,6 @@ msgstr ""
 msgid "BotBlocker API URL:"
 msgstr ""
 
-#: admin/templates/settings/captcha-tab.php:105
-#: admin/templates/settings/captcha-tab.php:69
-#: admin/templates/settings/captcha-tab.php:71
-#: includes/data/class-botblocker-snav.php:294
-msgid "BotBlocker Captcha"
-msgstr ""
-
-#: admin/templates/integrations/card.php:18
-#: includes/data/class-botblocker-snav.php:673
-#: includes/viewmodels/class-integrations-viewmodel.php:165
-msgid "BotBlocker Cloud"
-msgstr ""
-
 #: addons/bbcs-cookie-alert/views/settings.php:32
 msgid "BotBlocker Docs"
 msgstr ""
@@ -2389,7 +2355,7 @@ msgstr ""
 msgid "BotBlocker Image Captcha"
 msgstr ""
 
-#: public/check-page.php:74
+#: public/check-page.php:71
 #: public/template-botblocker-denied.php:244
 #: public/templates/block-page.php:61
 #: public/templates/denied-page.php:63
@@ -2445,13 +2411,6 @@ msgstr ""
 #: includes/inc-botblocker-ui.php:162
 #: includes/viewmodels/class-chain-context-data.php:109
 msgid "BotBlocker operates in normal mode processing all threat types at WordPress load."
-msgstr ""
-
-#: admin/templates/cloud-api.php:20
-#: admin/templates/cloud-api/status.php:66
-#: admin/templates/dashboard/quick-links.php:20
-#: admin/templates/setup-guide/pro-body.php:10
-msgid "BotBlocker PRO"
 msgstr ""
 
 #: admin/class-botblocker-admin.php:539
@@ -2533,10 +2492,6 @@ msgstr ""
 msgid "BotBlocker Stats"
 msgstr ""
 
-#: addons/bbcs-telegram/inc/class-bbcs-telegram-plugin.php:344
-msgid "BotBlocker Telegram"
-msgstr ""
-
 #: admin/templates/tools/botblocker-tab.php:17
 msgid "BotBlocker Tools"
 msgstr ""
@@ -2547,14 +2502,6 @@ msgstr ""
 
 #: admin/templates/about/body.php:157
 msgid "BotBlocker uses third-party libraries selected for security, compatibility, and open-source license compliance."
-msgstr ""
-
-#: public/check-page.php:13
-#: public/template-botblocker-denied.php:18
-#: public/templates/block-page.php:13
-#: public/templates/denied-page.php:13
-#, php-format
-msgid "BotBlocker v. %s"
 msgstr ""
 
 #: addons/bbcs-telegram/inc/class-bbcs-telegram-plugin.php:274
@@ -2568,11 +2515,6 @@ msgstr ""
 #: public/templates/block-page.php:34
 #: public/templates/denied-page.php:34
 msgid "BotBlocker WordPress Plugin"
-msgstr ""
-
-#: admin/templates/shared/system-status-lines.php:13
-#: includes/viewmodels/class-about-viewmodel.php:67
-msgid "BotBlocker: v"
 msgstr ""
 
 #: addons/bbcs-cookie-alert/views/settings.php:120
@@ -2730,10 +2672,6 @@ msgstr ""
 
 #: admin/templates/settings/ui.php:37
 msgid "Cache UI"
-msgstr ""
-
-#: admin/templates/integrations/cache.php:71
-msgid "CACHE-COMPATIBILITY.md"
 msgstr ""
 
 #: admin/templates/integrations/transients.php:24
@@ -2979,10 +2917,6 @@ msgstr ""
 msgid "Choose ZIP"
 msgstr ""
 
-#: admin/class-botblocker-admin.php:507
-msgid "CID:"
-msgstr ""
-
 #: admin/templates/settings/rate-limiting.php:148
 msgid "CIDR mask pair for subnet aggregation (v4_v6). Tighter masks target attackers more precisely. Default: 24-64."
 msgstr ""
@@ -3031,7 +2965,7 @@ msgid "Clear"
 msgstr ""
 
 #: addons/bbcs-antispam/views/settings.php:226
-#: admin/templates/rules/body.php:170
+#: admin/templates/rules/body.php:194
 msgid "Clear all"
 msgstr ""
 
@@ -3308,7 +3242,7 @@ msgstr ""
 msgid "Cluster"
 msgstr ""
 
-#: admin/templates/rules/body.php:198
+#: admin/templates/rules/body.php:222
 msgid "Code"
 msgstr ""
 
@@ -3351,7 +3285,7 @@ msgstr ""
 
 #: admin/templates/rules/body.php:111
 #: admin/templates/rules/body.php:127
-#: admin/templates/rules/body.php:201
+#: admin/templates/rules/body.php:225
 #: admin/templates/rules/body.php:34
 #: admin/templates/rules/body.php:49
 #: admin/templates/rules/body.php:65
@@ -3611,14 +3545,14 @@ msgstr ""
 msgid "Connection filtering blocks suspicious connection methods used by bots and scrapers."
 msgstr ""
 
-#: public/check-page.php:61
+#: public/check-page.php:58
 #: public/template-botblocker-denied.php:237
 #: public/templates/block-page.php:54
 #: public/templates/denied-page.php:56
 msgid "Connection ID:"
 msgstr ""
 
-#: public/check-page.php:60
+#: public/check-page.php:57
 #: public/template-botblocker-denied.php:236
 #: public/templates/block-page.php:53
 #: public/templates/denied-page.php:55
@@ -3818,7 +3752,7 @@ msgstr ""
 msgid "Could not update the RU-Gov CIDR list (%s). RKN blocking may run on outdated data."
 msgstr ""
 
-#: admin/templates/rules/body.php:199
+#: admin/templates/rules/body.php:223
 #: includes/components/class-botblocker-component-latest-hits-table.php:46
 #: includes/modal/modal-botblocker-hits-add-rule.php:30
 #: includes/modal/modal-botblocker-rule-add.php:35
@@ -3919,10 +3853,6 @@ msgstr ""
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:549
 msgid "Critical:"
-msgstr ""
-
-#: admin/templates/settings/cron.php:68
-msgid "Cron"
 msgstr ""
 
 #: addons/bbcs-antispam/views/settings.php:99
@@ -4187,17 +4117,6 @@ msgstr ""
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:490
 msgid "db rows"
-msgstr ""
-
-#. translators: 1: DB version, 2: PHP version
-#: admin/templates/shared/system-status-lines.php:10
-#: includes/viewmodels/class-about-viewmodel.php:64
-msgid "DB: v"
-msgstr ""
-
-#: admin/templates/about/body.php:16
-#: admin/templates/settings/advanced-protection.php:81
-msgid "DDOS-COMPATIBILITY.md"
 msgstr ""
 
 #: admin/templates/addons/addon-market-card.php:73
@@ -4618,8 +4537,8 @@ msgstr ""
 #: addons/bbcs-early-init/inc/class-bbcs-early-init-addons-page.php:36
 #: addons/bbcs-early-init/inc/class-bbcs-early-init-addons-page.php:57
 #: addons/bbcs-early-init/views/settings.php:84
-#: admin/templates/rules/body.php:180
-#: admin/templates/rules/body.php:186
+#: admin/templates/rules/body.php:204
+#: admin/templates/rules/body.php:210
 #: admin/templates/settings/status.php:23
 #: admin/templates/settings/status.php:39
 #: admin/templates/setup-wizard/finish.php:68
@@ -4663,7 +4582,7 @@ msgstr ""
 msgid "Early Init provides instant IP bans. Custom IPv4/IPv6 lists can be uploaded in any mode - see %s."
 msgstr ""
 
-#: admin/templates/rules/body.php:184
+#: admin/templates/rules/body.php:208
 msgid "Early Init requires an active PRO license"
 msgstr ""
 
@@ -4832,10 +4751,6 @@ msgstr ""
 msgid "Emergency support (24h)"
 msgstr ""
 
-#: addons/bbcs-speedup/views/settings.php:26
-msgid "Emoji"
-msgstr ""
-
 #: addons/bbcs-speedup/views/settings.php:24
 msgid "Emoji Support"
 msgstr ""
@@ -4941,11 +4856,11 @@ msgstr ""
 msgid "Enable empty User-Agent blocking"
 msgstr ""
 
-#: admin/templates/rules/body.php:181
+#: admin/templates/rules/body.php:205
 msgid "Enable GEO blocking in Early Init to reject blocked countries before WordPress even starts."
 msgstr ""
 
-#: admin/templates/rules/body.php:175
+#: admin/templates/rules/body.php:199
 msgid "Enable GEO blocking in the MU layer to filter blocked countries before WordPress loads plugins."
 msgstr ""
 
@@ -6482,10 +6397,6 @@ msgstr ""
 msgid "Generated by BotBlocker Security"
 msgstr ""
 
-#: admin/templates/rules.php:41
-msgid "GEO / ASN:"
-msgstr ""
-
 #: admin/templates/reports/dashboard.php:54
 msgid "Geo Data"
 msgstr ""
@@ -6568,22 +6479,8 @@ msgstr ""
 msgid "Google Analytics ID"
 msgstr ""
 
-#: admin/templates/integrations/2fa.php:164
-#: admin/templates/integrations/2fa.php:20
-msgid "Google Authenticator (App Store)"
-msgstr ""
-
-#: admin/templates/integrations/2fa.php:167
-#: admin/templates/integrations/2fa.php:21
-msgid "Google Authenticator (Google Play)"
-msgstr ""
-
 #: admin/templates/integrations/2fa.php:19
 msgid "Google Authenticator Setup Guide"
-msgstr ""
-
-#: addons/bbcs-security-headers/views/settings.php:61
-msgid "Google CSP Evaluator"
 msgstr ""
 
 #: addons/bbcs-security-headers/views/settings.php:89
@@ -6929,23 +6826,6 @@ msgstr ""
 msgid "hr"
 msgstr ""
 
-#: addons/bbcs-security-headers/views/settings.php:129
-msgid "HSTS includeSubDomains"
-msgstr ""
-
-#: addons/bbcs-security-headers/views/settings.php:137
-msgid "HSTS preload"
-msgstr ""
-
-#: addons/bbcs-hide-admin/views/settings.php:31
-msgid "HTTP 404"
-msgstr ""
-
-#: includes/modal/modal-botblocker-rule-add.php:30
-#: includes/modal/modal-botblocker-rule-edit.php:29
-msgid "HTTP Accept"
-msgstr ""
-
 #: admin/templates/settings/error.php:26
 msgid "HTTP Codes"
 msgstr ""
@@ -7015,17 +6895,6 @@ msgstr ""
 msgid "Icons:"
 msgstr ""
 
-#: admin/templates/rules/body.php:108
-#: admin/templates/rules/body.php:122
-#: admin/templates/rules/body.php:196
-#: admin/templates/rules/body.php:28
-#: admin/templates/rules/body.php:45
-#: admin/templates/rules/body.php:60
-#: admin/templates/rules/body.php:76
-#: admin/templates/rules/body.php:92
-msgid "ID"
-msgstr ""
-
 #: includes/ajax/class-botblocker-ajax-asn.php:412
 #: includes/ajax/class-botblocker-ajax-white-bots.php:303
 msgid "ID is required for deletion."
@@ -7061,10 +6930,6 @@ msgstr ""
 
 #: addons/bbcs-security-headers/views/settings.php:99
 msgid "If you use payment gateways (Stripe, PayPal, LiqPay, etc.), add their domains to \"Allowed Domains\" below to prevent CSP from blocking checkout scripts."
-msgstr ""
-
-#: admin/templates/settings/traffic.php:20
-msgid "iFrame"
 msgstr ""
 
 #: includes/services/class-botblocker-health-service.php:36
@@ -7671,7 +7536,7 @@ msgstr ""
 msgid "IP range overlaps with an existing rule: %s"
 msgstr ""
 
-#: admin/templates/rules/body.php:139
+#: admin/templates/rules/body.php:163
 msgid "IP Ranges"
 msgstr ""
 
@@ -7685,15 +7550,6 @@ msgstr ""
 
 #: addons/bbcs-xmlrpc-tunnel/inc/class-bbcs-xmlrpc-tunnel-plugin.php:45
 msgid "IP-allowlist XML-RPC access control with safe request routing."
-msgstr ""
-
-#: admin/templates/settings/payment-tab.php:30
-msgid "IPN"
-msgstr ""
-
-#: admin/templates/rules.php:39
-#: includes/viewmodels/class-rules-viewmodel.php:109
-msgid "IPv4"
 msgstr ""
 
 #: includes/modal/modal-botblocker-rule-ipv4-add.php:30
@@ -7715,11 +7571,6 @@ msgstr ""
 
 #: admin/class-botblocker-admin.php:345
 msgid "IPv4 whitelist imported successfully."
-msgstr ""
-
-#: admin/templates/rules.php:39
-#: includes/viewmodels/class-rules-viewmodel.php:110
-msgid "IPv6"
 msgstr ""
 
 #: includes/data/class-botblocker-data-time.php:62
@@ -7764,17 +7615,9 @@ msgstr ""
 msgid "It currently takes precedence. Enabling the MU-plugin switches the protection layer to MU mode."
 msgstr ""
 
-#: admin/templates/settings/tls-fingerprint.php:30
-msgid "JA3 DB"
-msgstr ""
-
 #: admin/templates/settings/tls-fingerprint.php:52
 #: includes/data/class-botblocker-snav.php:148
 msgid "JA3 Header Name"
-msgstr ""
-
-#: admin/templates/reports/dashboard.php:31
-msgid "JA3/4"
 msgstr ""
 
 #: admin/templates/settings/tls-fingerprint.php:60
@@ -7796,14 +7639,6 @@ msgstr ""
 
 #: admin/templates/settings/bot-detection.php:25
 msgid "Javascript Support"
-msgstr ""
-
-#: addons/bbcs-speedup/views/settings.php:27
-msgid "jQuery"
-msgstr ""
-
-#: addons/bbcs-speedup/views/settings.php:25
-msgid "jQuery Migrate"
 msgstr ""
 
 #: includes/services/class-botblocker-health-service.php:35
@@ -7871,10 +7706,6 @@ msgstr ""
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:345
 #, php-format
 msgid "Last signature DB check: %1$s. Loaded: %2$d."
-msgstr ""
-
-#: admin/templates/settings/cookie.php:14
-msgid "Lax"
 msgstr ""
 
 #: admin/partials/class-botblocker-dashboard-widgets.php:229
@@ -7994,7 +7825,7 @@ msgstr ""
 #: includes/botblocker/traits/class-botblocker-check-page-trait.php:89
 #: public/captcha/render-recaptcha-with-button-trait.php:46
 #: public/captcha/render-recaptcha-without-button-trait.php:24
-#: public/check-page.php:56
+#: public/check-page.php:53
 msgid "Loading..."
 msgstr ""
 
@@ -8187,6 +8018,10 @@ msgstr ""
 #: addons/bbcs-cookie-alert/inc/class-bbcs-cookie-alert-addons-page.php:44
 #: addons/bbcs-cookie-alert/views/settings.php:39
 msgid "Main"
+msgstr ""
+
+#: admin/templates/rules/body.php:153
+msgid "Maintained automatically by BotBlocker cloud - read-only. Manage your own ASN rules in the table above."
 msgstr ""
 
 #: admin/templates/tools/maintenance-tab.php:89
@@ -8626,11 +8461,7 @@ msgstr ""
 msgid "Moved the %post_type% %title% to trash."
 msgstr ""
 
-#: addons/bbcs-pusher/views/settings.php:92
-msgid "mt1"
-msgstr ""
-
-#: admin/templates/rules/body.php:174
+#: admin/templates/rules/body.php:198
 msgid "MU layer"
 msgstr ""
 
@@ -9323,7 +9154,7 @@ msgstr ""
 
 #: admin/templates/rules.php:38
 #: admin/templates/rules/body.php:13
-#: includes/viewmodels/class-rules-viewmodel.php:107
+#: includes/viewmodels/class-rules-viewmodel.php:120
 msgid "Paths"
 msgstr ""
 
@@ -9345,17 +9176,6 @@ msgstr ""
 
 #: addons/bbcs-security-headers/views/settings.php:207
 msgid "Payment gateways (Stripe, PayPal, LiqPay, Fondy), analytics (Google Analytics, Facebook Pixel), and other external services require their domains here."
-msgstr ""
-
-#: admin/templates/about/body.php:12
-#: admin/templates/settings/payment-tab.php:82
-msgid "PAYMENT-BYPASS.md"
-msgstr ""
-
-#: includes/data/traits/trait-botblocker-stats-charts.php:275
-#, pgettext
-msgctxt "device type label"
-msgid "PC"
 msgstr ""
 
 #: admin/templates/settings/cron.php:201
@@ -9440,12 +9260,6 @@ msgstr ""
 msgid "PHP zip extension is required for imports."
 msgstr ""
 
-#. translators: 1: DB version, 2: PHP version
-#: admin/templates/shared/system-status-lines.php:11
-#: includes/viewmodels/class-about-viewmodel.php:64
-msgid "PHP: v"
-msgstr ""
-
 #: admin/templates/setup-wizard/captcha.php:25
 msgid "Pick the correct color. Simple logic, hard to automate."
 msgstr ""
@@ -9478,10 +9292,6 @@ msgstr ""
 #: admin/class-botblocker-admin.php:186
 #: admin/class-botblocker-admin.php:680
 msgid "Please wait..."
-msgstr ""
-
-#: admin/templates/settings/cron.php:70
-msgid "Plesk Cron"
 msgstr ""
 
 #: admin/templates/about/body.php:235
@@ -9572,7 +9382,7 @@ msgstr ""
 
 #: admin/partials/class-botblocker-dashboard-widgets.php:198
 #: admin/templates/rules/body.php:123
-#: admin/templates/rules/body.php:197
+#: admin/templates/rules/body.php:221
 #: admin/templates/rules/body.php:29
 #: admin/templates/rules/body.php:46
 #: admin/templates/rules/body.php:61
@@ -9626,21 +9436,6 @@ msgstr ""
 
 #: admin/templates/about/body.php:89
 msgid "Privacy policy"
-msgstr ""
-
-#: admin/class-botblocker-admin.php:788
-#: admin/class-botblocker-admin.php:789
-#: admin/templates/addons/addon-market-card.php:47
-#: admin/templates/addons/marketplace-card.php:63
-#: admin/templates/cloud-api/status.php:100
-#: admin/templates/rules/body.php:187
-#: admin/templates/settings/status.php:40
-#: admin/templates/setup-guide/one-click-modal.php:66
-#: admin/templates/setup-guide/status.php:109
-#: admin/templates/setup-wizard/finish.php:64
-#: admin/templates/shared/system-toggles.php:18
-#: includes/utilites/class-botblocker-support.php:66
-msgid "PRO"
 msgstr ""
 
 #: includes/data/class-botblocker-palette.php:196
@@ -9708,7 +9503,7 @@ msgstr ""
 msgid "Protect default login endpoints and use a custom login URL. Choose the behavior for blocked access and keep your admin area safe."
 msgstr ""
 
-#: public/check-page.php:73
+#: public/check-page.php:70
 #: public/template-botblocker-denied.php:243
 #: public/templates/block-page.php:60
 #: public/templates/denied-page.php:62
@@ -9792,7 +9587,7 @@ msgstr ""
 msgid "Protocol Settings"
 msgstr ""
 
-#: admin/templates/rules/body.php:138
+#: admin/templates/rules/body.php:162
 msgid "Provider"
 msgstr ""
 
@@ -9813,7 +9608,7 @@ msgid "Proxies successfully updated for Early BotBlocker Mode"
 msgstr ""
 
 #: admin/templates/rules/body.php:17
-#: includes/viewmodels/class-rules-viewmodel.php:115
+#: includes/viewmodels/class-rules-viewmodel.php:128
 msgid "Proxy"
 msgstr ""
 
@@ -9926,10 +9721,6 @@ msgstr ""
 #: addons/bbcs-pusher/inc/class-bbcs-pusher-addons-page.php:29
 #: addons/bbcs-pusher/views/settings.php:44
 msgid "Pusher notifications"
-msgstr ""
-
-#: addons/bbcs-pusher/views/settings.php:27
-msgid "Pusher REST API"
 msgstr ""
 
 #: addons/bbcs-pusher/inc/class-bbcs-pusher-addons-page.php:22
@@ -10050,17 +9841,6 @@ msgstr ""
 msgid "reCaptcha Threshold Level"
 msgstr ""
 
-#: admin/templates/integrations/card.php:13
-#: admin/templates/integrations/integrations-content.php:22
-#: admin/templates/integrations/recaptcha-v2.php:24
-#: admin/templates/settings/captcha-tab.php:27
-#: admin/templates/settings/captcha-tab.php:72
-#: includes/data/class-botblocker-snav.php:595
-#: includes/data/class-botblocker-snav.php:600
-#: includes/viewmodels/class-integrations-viewmodel.php:155
-msgid "reCaptcha v2"
-msgstr ""
-
 #: admin/templates/settings/captcha-tab.php:26
 msgid "reCaptcha v2 - \"I am not a robot\""
 msgstr ""
@@ -10101,15 +9881,6 @@ msgstr ""
 msgid "reCaptcha v2 Site Key:"
 msgstr ""
 
-#: admin/templates/integrations/card.php:14
-#: admin/templates/integrations/recaptcha-v3.php:25
-#: admin/templates/settings/captcha-tab.php:73
-#: includes/data/class-botblocker-snav.php:609
-#: includes/data/class-botblocker-snav.php:614
-#: includes/viewmodels/class-integrations-viewmodel.php:157
-msgid "reCaptcha v3"
-msgstr ""
-
 #: includes/services/class-botblocker-health-service.php:32
 msgid "reCaptcha v3 enabled"
 msgstr ""
@@ -10136,10 +9907,6 @@ msgstr ""
 
 #: admin/templates/integrations/recaptcha-v3.php:29
 msgid "reCaptcha v3 Site Key:"
-msgstr ""
-
-#: admin/templates/dashboard/quick-links.php:17
-msgid "reCaptcha, Redis"
 msgstr ""
 
 #: includes/data/class-botblocker-pro-features.php:53
@@ -10724,10 +10491,6 @@ msgstr ""
 msgid "Respects X-LiteSpeed-Cache-Control: no-cache - auto-compatible."
 msgstr ""
 
-#: admin/templates/setup-wizard/compatibility.php:25
-msgid "REST API"
-msgstr ""
-
 #: addons/bbcs-truth-source/inc/views/scan-results.php:214
 msgid "Restore"
 msgstr ""
@@ -10791,30 +10554,8 @@ msgstr ""
 msgid "Router File"
 msgstr ""
 
-#: addons/bbcs-behavior/views/settings.php:123
-msgid "rph"
-msgstr ""
-
-#: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:285
-msgid "RPM"
-msgstr ""
-
-#: addons/bbcs-behavior/views/settings.php:111
-#: admin/templates/settings/rate-limiting.php:76
-#: admin/templates/settings/rate-limiting.php:85
-msgid "rpm"
-msgstr ""
-
-#: addons/bbcs-speedup/views/settings.php:28
-msgid "RSS"
-msgstr ""
-
 #: addons/bbcs-speedup/inc/class-bbcs-speedup-plugin.php:365
 msgid "RSS feeds are disabled. Visit the"
-msgstr ""
-
-#: admin/templates/tools/maintenance-tab.php:63
-msgid "RU-Gov"
 msgstr ""
 
 #: includes/ajax/class-botblocker-ajax-rugov.php:52
@@ -10848,7 +10589,7 @@ msgid "RUGOV Update"
 msgstr ""
 
 #: admin/templates/rules/body.php:126
-#: admin/templates/rules/body.php:200
+#: admin/templates/rules/body.php:224
 #: admin/templates/rules/body.php:33
 #: admin/templates/rules/body.php:48
 #: admin/templates/rules/body.php:64
@@ -10934,7 +10675,7 @@ msgstr ""
 #: admin/templates/rules/body.php:12
 #: admin/templates/setup-wizard/finish.php:51
 #: admin/templates/setup-wizard/init-mode.php:60
-#: includes/viewmodels/class-rules-viewmodel.php:106
+#: includes/viewmodels/class-rules-viewmodel.php:119
 msgid "Rules"
 msgstr ""
 
@@ -11484,7 +11225,7 @@ msgstr ""
 msgid "Select a category"
 msgstr ""
 
-#: admin/templates/rules/body.php:152
+#: admin/templates/rules/body.php:176
 msgid "Select a country"
 msgstr ""
 
@@ -12356,14 +12097,6 @@ msgstr ""
 msgid "Technical issues or bugs"
 msgstr ""
 
-#: addons/bbcs-telegram/views/settings.php:28
-msgid "Telegram API"
-msgstr ""
-
-#: addons/bbcs-telegram/views/settings.php:27
-msgid "Telegram BotFather"
-msgstr ""
-
 #: addons/bbcs-telegram/inc/class-bbcs-telegram-addons-page.php:27
 #: addons/bbcs-telegram/views/settings.php:35
 msgid "Telegram Configuration"
@@ -12904,11 +12637,6 @@ msgstr ""
 msgid "TLS fingerprints synced successfully."
 msgstr ""
 
-#: admin/templates/about/body.php:20
-#: admin/templates/settings/tls-fingerprint.php:156
-msgid "TLS-FINGERPRINTING.md"
-msgstr ""
-
 #: admin/templates/tools/modals/db-repair.php:19
 msgid "To enable database repair and optimization:"
 msgstr ""
@@ -13032,10 +12760,6 @@ msgstr ""
 #: includes/class-botblocker-shortcodes.php:124
 #, php-format
 msgid "Top-%d IPs"
-msgstr ""
-
-#: admin/templates/settings/connection-types.php:27
-msgid "Tor"
 msgstr ""
 
 #: admin/templates/settings/connection-types.php:54
@@ -13171,7 +12895,7 @@ msgstr ""
 
 #: admin/templates/rules.php:40
 #: admin/templates/rules/body.php:14
-#: includes/viewmodels/class-rules-viewmodel.php:108
+#: includes/viewmodels/class-rules-viewmodel.php:121
 msgid "Trusted Bots"
 msgstr ""
 
@@ -13295,12 +13019,6 @@ msgstr ""
 msgid "Turns all BotBlocker security headers on or off. Use to globally disable header output for testing or compatibility checks."
 msgstr ""
 
-#: includes/data/traits/trait-botblocker-stats-charts.php:279
-#, pgettext
-msgctxt "device type label"
-msgid "TV"
-msgstr ""
-
 #: admin/templates/settings/notifications.php:17
 msgid "Twice a week"
 msgstr ""
@@ -13402,7 +13120,7 @@ msgstr ""
 msgid "Type or data is not set or empty."
 msgstr ""
 
-#: admin/templates/rules/body.php:140
+#: admin/templates/rules/body.php:164
 msgid "UA Tokens"
 msgstr ""
 
@@ -13643,6 +13361,12 @@ msgstr ""
 msgid "Updated %1$d add-on(s). Failed to update: %2$s."
 msgstr ""
 
+#. translators: %1$s: time since last update
+#: admin/templates/rules/body.php:143
+#, php-format
+msgid "updated %1$s ago"
+msgstr ""
+
 #. translators: %object_id%: numeric term ID; %taxonomy%: taxonomy name.
 #: includes/audit/class-botblocker-audit-logger.php:445
 #, php-format
@@ -13794,10 +13518,6 @@ msgstr ""
 msgid "User not logged in"
 msgstr ""
 
-#: admin/templates/settings/bot-detection.php:23
-msgid "User-Agent"
-msgstr ""
-
 #: admin/templates/settings/bot-detection.php:42
 #: includes/data/class-botblocker-snav.php:82
 msgid "User-Agent Anomalies"
@@ -13806,10 +13526,6 @@ msgstr ""
 #: includes/modal/modal-botblocker-white-add.php:49
 #: includes/modal/modal-botblocker-white-edit.php:50
 msgid "User-Agent substring identifying the bot"
-msgstr ""
-
-#: admin/templates/settings/traffic.php:18
-msgid "UTM"
 msgstr ""
 
 #: admin/templates/settings/traffic.php:30
@@ -13965,10 +13681,6 @@ msgstr ""
 msgid "Visitors see the built-in maintenance screen instead. Cosmetic only."
 msgstr ""
 
-#: admin/templates/settings/connection-types.php:26
-msgid "VPN"
-msgstr ""
-
 #: includes/data/class-botblocker-pro-features.php:73
 msgid "VPN / Tor / proxy blocking"
 msgstr ""
@@ -14000,21 +13712,9 @@ msgstr ""
 msgid "Weak"
 msgstr ""
 
-#: admin/class-botblocker-admin.php:505
-msgid "Web"
-msgstr ""
-
 #: admin/templates/shared/system-status-lines.php:9
 #: includes/viewmodels/class-about-viewmodel.php:62
 msgid "Web:"
-msgstr ""
-
-#: admin/templates/settings/payment-tab.php:29
-msgid "Webhook"
-msgstr ""
-
-#: addons/bbcs-malware/views/settings.php:21
-msgid "Webshell"
 msgstr ""
 
 #: addons/bbcs-telegram/inc/class-bbcs-telegram-plugin.php:293
@@ -14275,7 +13975,7 @@ msgid "WordPress starts running it again on the next page load."
 msgstr ""
 
 #. phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-#: includes/botblocker/class-botblocker.php:303
+#: includes/botblocker/class-botblocker.php:306
 msgid "WordPress stopped by BotBlocker"
 msgstr ""
 
@@ -14291,17 +13991,8 @@ msgstr ""
 msgid "WordPress uses its own recovery-mode handler. Errors are still caught."
 msgstr ""
 
-#: admin/templates/shared/system-status-lines.php:12
-#: includes/viewmodels/class-about-viewmodel.php:65
-msgid "WordPress: v"
-msgstr ""
-
 #: admin/templates/setup-wizard/cache.php:42
 msgid "Works everywhere"
-msgstr ""
-
-#: includes/data/class-botblocker-snav.php:408
-msgid "WP Cron"
 msgstr ""
 
 #: includes/data/class-botblocker-snav.php:410
@@ -14538,9 +14229,5 @@ msgstr ""
 
 #: includes/ajax/class-botblocker-ajax-backup.php:277
 msgid "ZIP file not provided."
-msgstr ""
-
-#: addons/bbcs-pusher/views/settings.php:81
-msgid "••••••••••••"
 msgstr ""
 
