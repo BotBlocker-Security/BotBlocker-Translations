@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-10-16 22:47+0000"
-"PO-Revision-Date: 2026-10-16 22:47+0000"
+"POT-Creation-Date: 2026-10-17 19:09+0000"
+"PO-Revision-Date: 2026-10-17 19:09+0000"
 "Last-Translator: BotBlocker Team (Stefanie Seaton)"
 "Language-Team: German"
 "Language: de_DE"
@@ -2533,7 +2533,7 @@ msgstr "BotBlocker-Funktionen"
 
 #: addons/bbcs-https-protocol/views/settings.php:28
 msgid "BotBlocker HTTPS Protocol automatically upgrades all insecure HTTP connections to secure HTTPS. This protects your visitors' data and improves your site security. The addon provides two essential features: HTTPS Redirect - automatically redirects HTTP traffic to HTTPS. Mixed Content Fixer - replaces insecure content links with secure ones."
-msgstr "Das BotBlocker HTTPS-Protokoll installiert automatisch Upgrades für alle unsicheren HTTP-Verbindungen auf sicheres HTTPS. Dies schützt die Daten Ihrer Besucher und verbessert die Sicherheit Ihrer Website. Das Add-on bietet zwei wesentliche Funktionen: HTTPS-Weiterleitung – leitet HTTP-Traffic automatisch auf HTTPS um. Mixed-Content-Fixer – ersetzt unsichere Inhaltslinks durch sichere."
+msgstr "BotBlocker HTTPS Protocol stellt automatisch alle unsicheren HTTP-Verbindungen auf sicheres HTTPS um. Dies schützt die Daten Ihrer Besucher und verbessert die Sicherheit Ihrer Website. Das Add-on bietet zwei wesentliche Funktionen: HTTPS-Weiterleitung – leitet HTTP-Traffic automatisch auf HTTPS um. Mixed-Content-Fixer – ersetzt unsichere Links zu Inhalten durch sichere."
 
 #: admin/templates/settings/captcha-tab.php:25
 #: admin/templates/setup-wizard/captcha.php:27
@@ -2850,7 +2850,7 @@ msgstr "PRO kaufen"
 
 #: admin/templates/settings/payment-tab.php:26
 msgid "Bypass BotBlocker checks for incoming payment gateway callbacks (webhooks / IPN / postbacks) so legitimate payment notifications are never blocked."
-msgstr "Bypass BotBlocker überprüft eingehende Callbacks von Zahlungsgateways (Webhooks / IPN / Postbacks), damit legitime Zahlungsbenachrichtigungen niemals blockiert werden."
+msgstr "Umgehen Sie die BotBlocker-Prüfungen für eingehende Callbacks des Zahlungs-Gateways (Webhooks / IPN / Postbacks), damit legitime Zahlungsbenachrichtigungen niemals blockiert werden."
 
 #: includes/data/class-botblocker-snav.php:660
 #: includes/viewmodels/class-integrations-viewmodel.php:172
@@ -5759,7 +5759,7 @@ msgstr "Regeln als JSON exportieren – Backup, Speichern, Download starten"
 
 #: addons/bbcs-firewall-export/views/settings.php:30
 msgid "Exports the active BotBlocker ban list as ready-to-use firewall rules for Apache (.htaccess Require not ip / Deny from), nginx (deny list), fail2ban (persistent jail installer script), and iptables/ip6tables (dedicated DROP chain script). Permanent and temporary blocks are taken from the IP rules database; expired bans are never included. Download the format you need and deploy it on the front-end server or edge firewall."
-msgstr "Exportiert die aktive BotBlocker-Sperrliste als einsatzbereite Firewall-Regeln für Apache (.htaccess erfordert not ip / Deny from), nginx (Sperrliste), fail2ban (Skript zur Installation einer persistenten Jail) und iptables/ip6tables (dediziertes DROP-Chain-Skript). Dauerhafte und temporäre Sperren werden aus der IP-Regeldatenbank übernommen; abgelaufene Sperren werden nie einbezogen. Download Sie das Format, das Sie benötigen, und setzen Sie es auf dem Frontend Server oder der Edge-Firewall ein."
+msgstr "Exportiert die aktive BotBlocker-Sperrliste als gebrauchsfertige Firewall-Regeln für Apache (.htaccess Require not ip / Deny from), nginx (Sperrliste), fail2ban (Skript zur Installation einer persistenten Jail) und iptables/ip6tables (dediziertes DROP-Chain-Skript). Permanente und temporäre Sperren stammen aus der IP-Regeldatenbank; abgelaufene Sperren werden niemals einbezogen. Laden Sie das benötigte Format herunter und stellen Sie es auf dem Frontend Server oder der Edge-Firewall bereit."
 
 #: admin/templates/integrations/wp-abilities.php:16
 msgid "Expose BotBlocker to the WordPress Abilities API. When disabled, nothing is registered — the abilities do not exist for REST, MCP or AI clients."
@@ -7387,7 +7387,7 @@ msgstr "HSTS preload"
 
 #: addons/bbcs-firewall-export/views/settings.php:138
 msgid "htaccess: Apache 2.4 RequireAll/Require not ip with an Apache 2.2 fallback. nginx: ngx_http_access_module deny list. fail2ban: installer that creates a persistent jail and bans every address via banip. iptables: idempotent BBCS_EXPORT chain script (ip6tables for IPv6)."
-msgstr "htaccess: Apache 2.4 RequireAll/erfordert not ip mit einem Apache 2.2-Fallback. nginx: Sperrliste des ngx_http_access_module. fail2ban: Installer, der eine persistente Jail erstellt und jede Adresse über banip sperrt. iptables: idempotentes BBCS_EXPORT-Chain-Skript (ip6tables für IPv6)."
+msgstr "htaccess: Apache 2.4 RequireAll/Require not ip mit einem Fallback für Apache 2.2. nginx: Sperrliste des ngx_http_access_module. fail2ban: Installer, der eine persistente Jail erstellt und jede Adresse über banip sperrt. iptables: idempotentes BBCS_EXPORT-Chain-Skript (ip6tables für IPv6)."
 
 #: admin/templates/settings/connection-types.php:24
 #: admin/templates/settings/error.php:24
@@ -10044,7 +10044,7 @@ msgstr "Telefon"
 
 #: includes/data/class-botblocker-alerts.php:646
 msgid "PHP caching mode - BotBlocker registers its cookie with WP Super Cache (wpsc_add_cookie), so verified pages are keyed per visitor and the challenge wall is never bypassed from cache."
-msgstr "PHP-Caching-Modus – BotBlocker registriert seinen Cookie bei WP Super Cache (wpsc_add_cookie), sodass verifizierte Seiten pro Besucher verschlüsselt werden und die Challenge-Wand niemals aus dem Cache umgangen wird."
+msgstr "PHP-Caching-Modus – BotBlocker registriert seinen Cookie bei WP Super Cache (wpsc_add_cookie), sodass verifizierte Seiten pro Besucher mit einem eigenen Cache-Schlüssel versehen werden und die Challenge-Wall niemals aus dem Cache umgangen wird."
 
 #: includes/data/class-botblocker-alerts.php:656
 msgid "PHP caching mode - respects DONOTCACHEPAGE automatically."
@@ -11971,7 +11971,7 @@ msgstr "Dateien werden auf Malware gescannt"
 
 #: addons/bbcs-malware/views/settings.php:18
 msgid "Scans WordPress files and database content for dangerous execution, obfuscation, encoded payloads, injected scripts, and known webshell markers. Findings are indicators for review. Do not delete files before checking backups and confirming the payload."
-msgstr "Scannt WordPress-Dateien und Datenbankinhalte auf gefährliche Ausführung, Verschleierung, codierte Payloads, eingeschleuste Skripte und bekannte Webshell-Marker. Funde sind Hinweise zur Rezension. Löschen Sie keine Dateien, bevor sie gelöscht werden, nachdem Sie Backups geprüft und die Payload bestätigt haben."
+msgstr "Durchsucht WordPress-Dateien und Datenbankinhalte nach gefährlicher Ausführung, Obfuskation, kodierten Payloads, eingeschleusten Skripten und bekannten Webshell-Markern. Die Funde sind Indikatoren für Rezension. Löschen Sie keine Dateien, bevor Sie die Backups geprüft und die Payload bestätigt haben."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-plugin.php:128
 msgid "Scans WordPress files for malware indicators, obfuscation chains, and webshell patterns."
@@ -12536,7 +12536,7 @@ msgstr "URL der Signaturdatenbank"
 
 #: admin/templates/settings/payment-tab.php:47
 msgid "Signature headers are always verified for format (min 8 chars, POST only). When enabled, payment bypass additionally applies to POST requests only: GET requests with payment query keys or ajax actions will not bypass the shield. Callbacks matched by generic markers (webhook, ipn, callback_handler) always keep IP and rate-limit rules active. Reduces attack surface while keeping real webhooks working."
-msgstr "Signatur-Kopfzeilen werden immer auf das Format hin geprüft (mind. 8 Zeichen, nur Beitrag veröffentlicht). Wenn aktiviert, gilt die Zahlungsumgehung zusätzlich nur für Beitrag veröffentlicht-Anfragen: GET-Anfragen mit Zahlungs-Abfrage-Schlüsseln oder AJAX-Aktionen umgehen den Schutz nicht. Callbacks, die durch generische Marker (webhook, ipn, callback_handler) abgeglichen werden, halten IP- und Rate-Limit-Regeln stets aktiv. Reduziert die Angriffsfläche, während echte Webhooks weiterhin funktionieren."
+msgstr "Signatur-Header werden immer auf ihr Format geprüft (mind. 8 Zeichen, nur POST). Wenn aktiviert, gilt die Zahlungs-Umgehung zusätzlich nur für POST-Anfragen: GET-Anfragen mit Zahlungs-Abfrage-Schlüsseln oder AJAX-Aktionen umgehen den Schutz nicht. Callbacks, die durch generische Marker (webhook, ipn, callback_handler) erkannt werden, halten IP- und Ratenbegrenzungsregeln stets aktiv. Verringert die Angriffsfläche, während echte Webhooks weiterhin funktionieren."
 
 #: includes/audit/class-botblocker-audit-logger.php:414
 msgid "Signed in from a trusted device."
@@ -14534,6 +14534,7 @@ msgid "URI"
 msgstr "URI"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:292
+#, fuzzy
 msgid "URL to fetch remote regex signatures for malware detection. Endpoint must return JSON with version + signatures array. Each signature: id, severity (critical/high/medium/low), regex (valid PHP regex), score (1-100), confidence, category, description."
 msgstr "URL, um entfernte Regex-Signaturen zur Malware-Erkennung abzurufen. Der Endpunkt muss JSON mit Version + Signaturen-Array zurückgeben. Jede Signatur: id, severity (critical/high/medium/low), regex (gültiger PHP-Regex), score (1-100), confidence, Kategorie, description."
 

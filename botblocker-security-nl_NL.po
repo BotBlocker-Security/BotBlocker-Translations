@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-10-17 11:22+0000"
-"PO-Revision-Date: 2026-10-17 11:22+0000"
+"POT-Creation-Date: 2026-10-17 20:12+0000"
+"PO-Revision-Date: 2026-10-17 20:12+0000"
 "Last-Translator: BotBlocker Team (Martijn Herrman)"
 "Language-Team: Dutch"
 "Language: nl_NL"
@@ -3937,6 +3937,7 @@ msgid "Control request velocity per IP with configurable thresholds, sliding win
 msgstr "Beheer aanvraagsnelheid per IP met configureerbare drempels, sliding windows en subnet-aggregatie."
 
 #: addons/bbcs-xmlrpc-tunnel/views/settings.php:26
+#, fuzzy
 msgid "Control XML-RPC access with IP allowlist support for IPv4 and IPv6. When enabled, only allowlisted IPs can access xmlrpc.php. When disabled, XML-RPC is fully blocked with allowlist bypass capability."
 msgstr "Beheer XML-RPC-toegang met IP-toegangsondersteuning voor IPv4 en IPv6. Indien ingeschakeld, hebben alleen IP's op de toegangslijst toegang tot xmlrpc.php. Indien uitgeschakeld, wordt XML-RPC volledig geblokkeerd met de mogelijkheid tot het omzeilen van de toegangslijst."
 
@@ -9585,7 +9586,7 @@ msgstr "Niet gesynchroniseerd"
 
 #: addons/bbcs-firewall-export/views/settings.php:140
 msgid "Note: extra IPs/CIDRs from the field above are saved only after you save the settings."
-msgstr "let op: extra IP's/CIDR's uit het veld hierboven worden pas bespaart nadat u de instellingen opslaan/besparen."
+msgstr "let op: extra IP's/CIDR's uit het veld hierboven worden pas opgeslagen nadat u de instellingen hebt opgeslagen."
 
 #: admin/class-botblocker-admin.php:263
 msgid "Nothing found for"
@@ -12536,7 +12537,7 @@ msgstr "URL van de Handtekeningendatabase"
 
 #: admin/templates/settings/payment-tab.php:47
 msgid "Signature headers are always verified for format (min 8 chars, POST only). When enabled, payment bypass additionally applies to POST requests only: GET requests with payment query keys or ajax actions will not bypass the shield. Callbacks matched by generic markers (webhook, ipn, callback_handler) always keep IP and rate-limit rules active. Reduces attack surface while keeping real webhooks working."
-msgstr "Handtekening-headers worden altijd geverifieerd voor format (min. 8 tekens, alleen bericht). Indien ingeschakeld, geldt de betalingsbypass bovendien alleen voor bericht aanvragen: GET-aanvragen met betalingsquery-sleutels/toetsen of ajax-acties omzeilen het schild niet. Callbacks die overeenkomen met generieke markers (webhook, ipn, callback_handler) houden IP- en snelheidsbeperkingsregels altijd actief. Dit verkleint het aanvalsoppervlak terwijl echte webhooks blijven werken."
+msgstr "Handtekening-headers worden altijd geverifieerd voor format (min. 8 tekens, alleen POST). Indien ingeschakeld, geldt de betalingsbypass bovendien alleen voor POST-aanvragen: GET-aanvragen met betalingsquery-sleutels/toetsen of ajax-acties omzeilen het schild niet. Callbacks die overeenkomen met generieke markers (webhook, ipn, callback_handler) houden IP- en snelheidsbeperkingsregels altijd actief. Dit verkleint het aanvalsoppervlak terwijl echte webhooks blijven werken."
 
 #: includes/audit/class-botblocker-audit-logger.php:414
 msgid "Signed in from a trusted device."
@@ -14505,6 +14506,7 @@ msgid "Upgrade to PRO - premium, pricing, license, features"
 msgstr "Upgraden naar PRO - premium, prijzen, licentie, functies"
 
 #: admin/templates/settings/rate-limiting.php:38
+#, fuzzy
 msgid "Upgrade to Pro for the Behavioral Engine. It features advanced multi-signal scoring and decay-based reputation, preventing bots from spamming your site by tightening thresholds for repeat offenders."
 msgstr "Upgrade naar Pro voor de Behavioral Engine. Deze beschikt over geavanceerde multi-signaal scoring en op verval gebaseerde reputatie, waardoor bots worden tegengehouden uw site te spammen door drempels te verhogen voor herhaalde overtreders."
 

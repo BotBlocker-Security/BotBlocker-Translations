@@ -4957,6 +4957,7 @@ msgid "Early Init and MU modes drop blacklisted IPs at the first gate - no WordP
 msgstr "Early Init- och MU-lägena släpper svartlistade IP-adresser vid första grinden - ingen WordPress-laddning, inget overhead. Detta sparar CPU-tid genom att hoppa över tyngre logik för skräptrafik innan den når huvudskölden."
 
 #: admin/templates/setup-guide/chain-body.php:49
+#, fuzzy
 msgid "Early Init and MU plugin modes reject requests at the first gate: IPs on the blacklist (bots, malicious networks, previously blocked) are dropped before heavier logic runs. With Early Init, WordPress does not load at all - saving memory and CPU. The MU plugin filters before regular plugins and the theme. Only clean traffic proceeds; junk is dropped as early as possible."
 msgstr "Early Init- och MU-tilläggslägen avvisar förfrågningar vid första grinden: IP-adresser på svartlistan (robotar, skadliga nätverk, tidigare blockerade) släpps innan tyngre logik körs. Med Early Init laddas WordPress inte alls - vilket sparar minne och CPU. MU-tillägget filtrerar före vanliga tillägg och temat. Endast ren trafik fortsätter; skräp släpps så tidigt som möjligt."
 
@@ -12536,7 +12537,7 @@ msgstr "Signature DB-URL"
 
 #: admin/templates/settings/payment-tab.php:47
 msgid "Signature headers are always verified for format (min 8 chars, POST only). When enabled, payment bypass additionally applies to POST requests only: GET requests with payment query keys or ajax actions will not bypass the shield. Callbacks matched by generic markers (webhook, ipn, callback_handler) always keep IP and rate-limit rules active. Reduces attack surface while keeping real webhooks working."
-msgstr "Signatur-Rubriker kontrolleras alltid avseende format (minst 8 tecken, endast inlägg). När aktiverat verkställs betalningskringgåendet dessutom endast för inlägg-förfrågningar: GET-förfrågningar med betalnings-query-nycklar eller ajax-åtgärder kringgår inte skyddet. Återanrop som matchas av generiska markörer (webhook, ipn, callback_handler) behåller alltid IP- och hastighetsbegränsningsregler aktiv. Minskar angreppsytan samtidigt som riktiga webhooks fortsätter fungera."
+msgstr "Signatur-Rubriker kontrolleras alltid avseende format (minst 8 tecken, endast POST). När aktiverat verkställs betalningskringgåendet dessutom endast för POST-förfrågningar: GET-förfrågningar med betalnings-query-nycklar eller ajax-åtgärder kringgår inte skyddet. Återanrop som matchas av generiska markörer (webhook, ipn, callback_handler) behåller alltid IP- och hastighetsbegränsningsregler aktiv. Minskar angreppsytan samtidigt som riktiga webhooks fortsätter fungera."
 
 #: includes/audit/class-botblocker-audit-logger.php:414
 msgid "Signed in from a trusted device."
@@ -13376,6 +13377,7 @@ msgid "The malware scanner is not available."
 msgstr "Skanningen efter skadlig kod är inte tillgänglig."
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:389
+#, fuzzy
 msgid "The maximum number of requests per hour (RPH) a typical human visitor would make. This captures slow-crawling scraping bots that keep their per-minute speed low to avoid basic limiters. (Default: 200)"
 msgstr "Det maximala antalet förfrågningar per timme (RPH) som en typisk mänsklig besökare skulle göra. Detta genomför långsamt krypande skrapningsbotar som håller sin hastighet per minut låg för att undvika grundläggande begränsare. (Standard: 200)"
 

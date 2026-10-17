@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-10-17 11:46+0000"
-"PO-Revision-Date: 2026-10-17 11:46+0000"
+"POT-Creation-Date: 2026-10-17 19:03+0000"
+"PO-Revision-Date: 2026-10-17 19:03+0000"
 "Last-Translator: BotBlocker Team (rati karelidze)"
 "Language-Team: Russian"
 "Language: ru_RU"
@@ -12870,7 +12870,7 @@ msgstr "Строгие заголовки CORS"
 #: admin/templates/settings/payment-tab.php:47
 #: includes/data/class-botblocker-snav.php:328
 msgid "Strict Webhook Validation (POST only)"
-msgstr "Строгая проверка вебхуков (только запись)"
+msgstr "Строгая проверка вебхуков (только POST)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:72
 #: admin/templates/setup-wizard/finish.php:19
@@ -13459,7 +13459,7 @@ msgstr "Для использования этого кеша требуется
 
 #: admin/templates/tools/modals/db-repair.php:29
 msgid "The repair page is publicly accessible without authentication while enabled. Disable it after use."
-msgstr "Страница восстановления публично доступна. Отключите после использования."
+msgstr "Пока страница восстановления включена, она доступна всем без аутентификации. Отключите её после использования."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:400
 msgid "The scan runs in the background and may pause if you close this page. For best results, keep this tab open until the scan finishes."

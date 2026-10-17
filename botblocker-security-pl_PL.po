@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-10-17 11:31+0000"
-"PO-Revision-Date: 2026-10-17 11:31+0000"
+"POT-Creation-Date: 2026-10-17 19:34+0000"
+"PO-Revision-Date: 2026-10-17 19:34+0000"
 "Last-Translator: BotBlocker Team (Grzegorz B.)"
 "Language-Team: Polish"
 "Language: pl_PL"
@@ -2857,7 +2857,7 @@ msgstr "Kup PRO"
 
 #: admin/templates/settings/payment-tab.php:26
 msgid "Bypass BotBlocker checks for incoming payment gateway callbacks (webhooks / IPN / postbacks) so legitimate payment notifications are never blocked."
-msgstr "Funkcja Bypass BotBlocker monitoruje przychodzące powiadomienia zwrotne z bramek płatniczych (webhooki / IPN / postbacki), dzięki czemu legalne powiadomienia o płatnościach nigdy nie są blokowane."
+msgstr "Pomijaj kontrole BotBlocker dla przychodzących wywołań zwrotnych bramki płatności (webhooki / IPN / postbacki), aby uzasadnione powiadomienia o płatnościach nigdy nie były blokowane."
 
 #: includes/data/class-botblocker-snav.php:660
 #: includes/viewmodels/class-integrations-viewmodel.php:172
@@ -10433,6 +10433,7 @@ msgid "Protects feed content from scrapers: excerpt-only entries, attribution li
 msgstr "Chroni treść kanałów RSS przed skrobakami: wpisy tylko z zajawką, odnośniki atrybucji i kanały RSS z noindex."
 
 #: addons/bbcs-feed-guard/views/settings.php:27
+#, fuzzy
 msgid "Protects your RSS/Atom feed content from scrapers. Full-content feeds are truncated to an excerpt, an attribution link back to the original article is appended, feeds can be marked noindex for search engines, and feed discovery links can be removed or the feeds disabled entirely. Legitimate subscribers and feed readers keep working."
 msgstr "Chroni twój kanały RSS/Atom treść przed skrobakami. Kanały z pełną treścią są obcinane do zajawka, dołączany jest odnośnik atrybucji odnośnik prowadzący z powrotem do oryginalnego artykułu, kanały można oznaczyć jako noindex dla wyszukiwarek, a odnośniki odkrywania kanałów można usunąć lub całkowicie wyłączyć same kanały. Legalni subskrybenci i czytniki kanałów nadal działają."
 
@@ -12544,7 +12545,7 @@ msgstr "Adres URL bazy sygnatur"
 
 #: admin/templates/settings/payment-tab.php:47
 msgid "Signature headers are always verified for format (min 8 chars, POST only). When enabled, payment bypass additionally applies to POST requests only: GET requests with payment query keys or ajax actions will not bypass the shield. Callbacks matched by generic markers (webhook, ipn, callback_handler) always keep IP and rate-limit rules active. Reduces attack surface while keeping real webhooks working."
-msgstr "Nagłówki sygnatur są zawsze weryfikowane pod kątem formatu (min. 8 znaków, tylko wpis). Po włączeniu obejście płatności dotyczy dodatkowo tylko żądań wpis: żądania GET z kluczami zapytania płatności lub ajax działania nie ominą tarczy. Wywołania zwrotne dopasowane przez ogólne znaczniki (webhook, ipn, callback_handler) zawsze zachowują aktywne reguły IP i limitu szybkości. Zmniejsza powierzchnię ataku, zachowując działanie prawdziwych webhooków."
+msgstr "Format nagłówków podpisu jest zawsze weryfikowany (min. 8 znaków, tylko POST). Po włączeniu obejście płatności dodatkowo dotyczy wyłącznie żądań POST: żądania GET z kluczami zapytania płatności lub ajax działania nie ominą osłony. Wywołania zwrotne dopasowane przez ogólne znaczniki (webhook, ipn, callback_handler) zawsze zachowują aktywne reguły IP i limitów szybkości. Zmniejsza to powierzchnię ataku, zachowując działanie prawdziwych webhooków."
 
 #: includes/audit/class-botblocker-audit-logger.php:414
 msgid "Signed in from a trusted device."

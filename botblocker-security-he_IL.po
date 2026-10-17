@@ -12536,7 +12536,7 @@ msgstr "כתובת URL של מאגר החתימות"
 
 #: admin/templates/settings/payment-tab.php:47
 msgid "Signature headers are always verified for format (min 8 chars, POST only). When enabled, payment bypass additionally applies to POST requests only: GET requests with payment query keys or ajax actions will not bypass the shield. Callbacks matched by generic markers (webhook, ipn, callback_handler) always keep IP and rate-limit rules active. Reduces attack surface while keeping real webhooks working."
-msgstr "כותרות חתימה תמיד נבדקות מבחינת תבנית (מינימום 8 תווים, לפרסם בלבד). כשמופעל, עקיפת תשלום חלה בנוסף רק על בקשות לפרסם: בקשות GET עם מפתחות שאילתא של תשלום או פעולות ajax לא יעקפו את המגן. קריאות חוזרות שמתאימות לסממנים גנריים (webhook, ipn, callback_handler) תמיד משאירות את כללי ה-IP ומגבלת הקצב פעילים. מפחית את שטח התקיפה תוך שמירה על webhooks אמיתיים פועלים."
+msgstr "כותרות חתימה תמיד נבדקות מבחינת תבנית (מינימום 8 תווים, POST בלבד). כשמופעל, עקיפת תשלום חלה בנוסף רק על בקשות POST: בקשות GET עם מפתחות שאילתא של תשלום או פעולות ajax לא יעקפו את המגן. קריאות חוזרות שמתאימות לסממנים גנריים (webhook, ipn, callback_handler) תמיד משאירות את כללי ה-IP ומגבלת הקצב פעילים. מפחית את שטח התקיפה תוך שמירה על webhooks אמיתיים פועלים."
 
 #: includes/audit/class-botblocker-audit-logger.php:414
 msgid "Signed in from a trusted device."

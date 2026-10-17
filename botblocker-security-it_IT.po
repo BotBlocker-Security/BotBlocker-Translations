@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-10-17 11:34+0000"
-"PO-Revision-Date: 2026-10-17 11:34+0000"
+"POT-Creation-Date: 2026-10-17 19:48+0000"
+"PO-Revision-Date: 2026-10-17 19:48+0000"
 "Last-Translator: BotBlocker Team (ubermann)"
 "Language-Team: Italian"
 "Language: it_IT"
@@ -10426,7 +10426,7 @@ msgstr "Protegge il contenuto del feed dagli scraper: voci solo con riassunto, c
 
 #: addons/bbcs-feed-guard/views/settings.php:27
 msgid "Protects your RSS/Atom feed content from scrapers. Full-content feeds are truncated to an excerpt, an attribution link back to the original article is appended, feeds can be marked noindex for search engines, and feed discovery links can be removed or the feeds disabled entirely. Legitimate subscribers and feed readers keep working."
-msgstr "Protegge i contenuti dei feed RSS/Atom dagli scraper. I feed a contenuto completo vengono troncati a un riassunto, viene aggiunto un collega di attribuzione che collega al articolo originale, i feed possono essere contrassegnati come noindex per i motori di ricerca e i link di discovery feed possono essere rimossi oppure i feed possono essere disabilitato del tutto. Gli abbonati legittimi e i lettori dei feed mantengono elaborazione in corso."
+msgstr "Protegge il contenuto del feed RSS/Atom dai raccoglitori di dati. I feed a contenuto completo vengono troncati a un riassunto, viene aggiunto un link di attribuzione verso l’articolo originale, i feed possono essere contrassegnati come noindex per i motori di ricerca e i link di scoperta del feed possono essere rimossi oppure i feed possono essere disabilitato del tutto. Gli abbonati legittimi e i lettori del feed continuano a elaborazione in corso."
 
 #: addons/bbcs-https-protocol/inc/class-bbcs-https-protocol-addons-page.php:53
 #: addons/bbcs-https-protocol/views/settings.php:115
@@ -12536,7 +12536,7 @@ msgstr "URL del Signature DB"
 
 #: admin/templates/settings/payment-tab.php:47
 msgid "Signature headers are always verified for format (min 8 chars, POST only). When enabled, payment bypass additionally applies to POST requests only: GET requests with payment query keys or ajax actions will not bypass the shield. Callbacks matched by generic markers (webhook, ipn, callback_handler) always keep IP and rate-limit rules active. Reduces attack surface while keeping real webhooks working."
-msgstr "Gli header della firma vengono sempre verificati nel formato (min 8 caratteri, solo articolo). Quando abilitato, il bypass dei pagamenti si applica inoltre solo alle richieste articolo: le richieste GET con chiavi di pagamento effettua una query o azioni AJAX non aggireranno lo shield. I callback corrispondenti agli indicatori generici (webhook, ipn, callback_handler) mantengono sempre attive le regole su IP e limite di frequenza. Riduce la superficie di attacco mantenendo i webhook reali elaborazione in corso."
+msgstr "Gli header di firma vengono sempre verificati nel formato (min 8 caratteri, solo POST). Quando abilitato, il bypass del pagamento si applica inoltre esclusivamente alle richieste POST: le richieste GET con chiavi di query di pagamento o azioni AJAX non aggireranno lo scudo. I callback corrispondenti a indicatori generici (webhook, ipn, callback_handler) mantengono sempre attive le regole IP e di limitazione della frequenza. Riduce la superficie di attacco mantenendo funzionanti i webhook reali."
 
 #: includes/audit/class-botblocker-audit-logger.php:414
 msgid "Signed in from a trusted device."
@@ -13558,7 +13558,7 @@ msgstr "Temi"
 #: includes/data/class-botblocker-alerts.php:775
 #, php-format
 msgid "These add-ons could not start and were switched off to keep the site running: %s. Your settings are kept. Please update or reinstall them."
-msgstr "Questi add-on non hanno potuto avviarsi e sono stati messi off per mantenere il sito in esecuzione: %s. Le Sue impostazioni sono conservate. NON SI TRADUCE aggiornamento o reinstallarli."
+msgstr "Questi add-on non sono riusciti ad avviarsi e sono stati off per mantenere il sito in funzione: %s. Le sue impostazioni sono conservate. NON SI TRADUCE aggiorni o reinstalli gli add-on."
 
 #: admin/templates/settings/status.php:22
 msgid "These options require no form save - they apply immediately and are safe to experiment with."

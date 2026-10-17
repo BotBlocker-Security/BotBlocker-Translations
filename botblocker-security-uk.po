@@ -1383,12 +1383,12 @@ msgstr "Дозволити порожній заголовок Accept-Language �
 
 #: admin/templates/settings/bot-detection.php:63
 msgid "Allow HTTP OPTIONS requests for CORS preflight (REST API, WooCommerce, external apps)."
-msgstr "Дозволити HTTP-запити ПАРАМЕТРИ для попередньої перевірки CORS (REST API, WooCommerce, зовнішні застосунки)."
+msgstr "Дозволити HTTP-запити OPTIONS для попередньої перевірки CORS (REST API, WooCommerce, зовнішні застосунки)."
 
 #: admin/templates/settings/bot-detection.php:63
 #: includes/data/class-botblocker-snav.php:98
 msgid "Allow OPTIONS Preflight"
-msgstr "Дозволити попередню перевірку ПАРАМЕТРИ"
+msgstr "Дозволити попередню перевірку OPTIONS"
 
 #: admin/partials/class-botblocker-dashboard-widgets.php:232
 msgid "Allow or Block"
@@ -12870,7 +12870,7 @@ msgstr "Суворі хедери CORS"
 #: admin/templates/settings/payment-tab.php:47
 #: includes/data/class-botblocker-snav.php:328
 msgid "Strict Webhook Validation (POST only)"
-msgstr "Сувора перевірка вебхука (лише запис)"
+msgstr "Сувора перевірка вебхука (лише POST)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:72
 #: admin/templates/setup-wizard/finish.php:19

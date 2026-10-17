@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-10-16 22:47+0000"
-"PO-Revision-Date: 2026-10-16 22:47+0000"
+"POT-Creation-Date: 2026-10-17 19:14+0000"
+"PO-Revision-Date: 2026-10-17 19:14+0000"
 "Last-Translator: BotBlocker Team (victor_spain)"
 "Language-Team: Spanish"
 "Language: es_ES"
@@ -13539,7 +13539,7 @@ msgstr "El archivo de registro de WordPress (debug.log) se vaciará:"
 
 #: addons/bbcs-forced-inclusions/views/settings.php:162
 msgid "The WPMU_PLUGIN_DIR constant is set - your mu-plugins are loading from a non-standard location. If you did not change this, an attacker may have redirected the directory to hide malicious files."
-msgstr "La constante WPMU_PLUGIN_DIR está conjunto – sus mu-plugins se cargan desde una ubicación no estándar. Si usted no ha cambiado esto, un atacante podría haber redirigido el directorio a archivos ocultar malintencionado."
+msgstr "La constante WPMU_PLUGIN_DIR está definida: sus mu-plugins se cargan desde una ubicación no estándar. Si usted no ha cambiado esto, es posible que un atacante haya redirigido el directorio para ocultar archivos malintencionados."
 
 #: addons/bbcs-hcaptcha/views/settings.php:72
 #: addons/bbcs-turnstile/views/settings.php:73
@@ -14139,7 +14139,7 @@ msgstr "La identificación de dos pasos se ha restablecido."
 
 #: includes/data/class-botblocker-alerts.php:219
 msgid "Two-factor authentication is enabled but your account has no authenticator secret yet. Set it up to protect this account."
-msgstr "dos pasos identificación está activado / activo, pero su cuenta aún no tiene ninguna clave secreta de autenticador. conjunto para configurarlo y proteger este cuenta."
+msgstr "La identificación en dos pasos está activada, pero su cuenta aún no tiene ningún secreto del autenticador. Configúrelo para proteger esta cuenta."
 
 #: public/2FA/bbcs-2fa-setup.php:152
 msgid "Two-factor authentication is now active on your account."

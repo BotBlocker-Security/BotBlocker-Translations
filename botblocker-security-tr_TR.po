@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-10-17 11:33+0000"
-"PO-Revision-Date: 2026-10-17 11:33+0000"
+"POT-Creation-Date: 2026-10-17 19:53+0000"
+"PO-Revision-Date: 2026-10-17 19:53+0000"
 "Last-Translator: BotBlocker Team (Erdemselvi)"
 "Language-Team: Turkish"
 "Language: tr_TR"
@@ -12528,7 +12528,7 @@ msgstr "İmza DB adresi"
 
 #: admin/templates/settings/payment-tab.php:47
 msgid "Signature headers are always verified for format (min 8 chars, POST only). When enabled, payment bypass additionally applies to POST requests only: GET requests with payment query keys or ajax actions will not bypass the shield. Callbacks matched by generic markers (webhook, ipn, callback_handler) always keep IP and rate-limit rules active. Reduces attack surface while keeping real webhooks working."
-msgstr "İmza üst bilgiler her zaman Biçim için doğrulanır (en az 8 karakter, yalnızca yazı). Etkinleştirildiğinde, ödeme atlatma ek olarak yalnızca yazı isteklerine uygulanır: ödeme sorgu tuşları veya AJAX eylemleri içeren GET istekleri kalkanı atlatmayacaktır. Genel işaretleyicilerle (webhook, ipn, callback_handler) eşleşen geri çağırmalar her zaman IP ve hız sınırı kurallarını etkin tutar. Gerçek webhook'lar çalışırken saldırı yüzeyini azaltır."
+msgstr "İmza üst bilgileri her zaman biçim açısından doğrulanır (en az 8 karakter, yalnızca POST). Etkinleştirildiğinde, ödeme atlaması ek olarak yalnızca POST isteklerine uygulanır: ödeme sorgu anahtarları veya AJAX eylemleri içeren GET istekleri kalkanı atlamaz. Genel işaretleyicilerle (webhook, ipn, callback_handler) eşleşen geri çağırmalar IP ve hız sınırı kurallarını her zaman etkin tutar. Gerçek webhook'ların çalışmaya devam etmesini sağlarken saldırı yüzeyini azaltır."
 
 #: includes/audit/class-botblocker-audit-logger.php:414
 msgid "Signed in from a trusted device."

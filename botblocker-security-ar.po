@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-10-17 11:04+0000"
-"PO-Revision-Date: 2026-10-17 11:04+0000"
+"POT-Creation-Date: 2026-10-17 20:04+0000"
+"PO-Revision-Date: 2026-10-17 20:04+0000"
 "Last-Translator: BotBlocker Team (Mohamed Ibrahim)"
 "Language-Team: Arabic"
 "Language: ar"
@@ -479,7 +479,7 @@ msgstr "عنوان IP صالح مطلوب."
 
 #: addons/bbcs-pusher/views/settings.php:25
 msgid "A weekly digest with request, block and bot statistics is delivered on a schedule. The add-on never runs on visitor requests."
-msgstr "يتم تسليم ملخص أسبوعي يحتوي على إحصائيات الطلبات والمُكوِّنات والروبوتات وفق جدول زمني. لا تعمل الإضافة أبدًا على طلبات الزائر."
+msgstr "يُسلَّم ملخص أسبوعي يتضمن إحصائيات الطلبات ومُكوِّن والروبوتات وفق جدول زمني. لا تعمل الإضافة أبدًا على طلبات زائر."
 
 #: addons/bbcs-telegram/views/settings.php:26
 msgid "A weekly security report is delivered to your chat with request, block and bot statistics."
@@ -1623,8 +1623,9 @@ msgid "Approve (fail-open)"
 msgstr "موافقة (فشل مفتوح)"
 
 #: admin/templates/shared/sidebar/rail.php:143
+#, fuzzy
 msgid "Are you getting spam from specific regions? You can block entire high-risk countries in the Rules & IPs section. Country blocking is a highly effective way to reduce unwanted bot traffic by up to 80%."
-msgstr "هل تتلقى مزعج من مناطق محددة؟ يمكنك مُكوِّن دولًا كاملة عالية الخطورة في قسم Rules & IPs. حظر الدول طريقة فعالة للغاية لتقليل حركة البوتات غير المرغوب فيها بنسبة تصل إلى 80%."
+msgstr "هل تتلقى مزعج من مناطق محددة؟ يمكنك مُكوِّن دولًا كاملة عالية الخطورة في قسم القواعد وعناوين IP. حظر الدول طريقة فعّالة للغاية لتقليل حركة الروبوتات غير المرغوب فيها بنسبة تصل إلى 80%."
 
 #: admin/class-botblocker-admin.php:558
 msgid "Are you sure you want to clear all TLS fingerprints?"
@@ -4619,7 +4620,7 @@ msgstr "صفوف تفصيلية لكل تصنيف"
 
 #: admin/templates/setup-wizard/finish.php:47
 msgid "Detailed logs of all blocks"
-msgstr "سجلات مفصلة لجميع المكوِّنات"
+msgstr "سجلات مُفصَّل لجميع عمليات الحظر مكوِّنات"
 
 #: admin/class-botblocker-admin.php:486
 msgid "Details"
@@ -5259,7 +5260,7 @@ msgstr "تفعيل مصادقة العاملين الثنائية من BotBlocke
 
 #: admin/templates/integrations/2fa.php:34
 msgid "Enable BotBlocker Two-Factor Authentication for enhanced security."
-msgstr "تمكين مصادقة العاملين من BotBlocker لتعزيز الأمان."
+msgstr "تفعيل المصادقة الثنائية من BotBlocker مصادقة لتعزيز الأمان."
 
 #: addons/bbcs-security-headers/views/settings.php:146
 msgid "Enable common protection headers: X-Frame-Options, X-Content-Type-Options, X-XSS-Protection, Referrer-Policy, and X-Permitted-Cross-Domain-Policies."
@@ -7418,6 +7419,7 @@ msgid "HSTS preload"
 msgstr "HSTS preload"
 
 #: addons/bbcs-firewall-export/views/settings.php:138
+#, fuzzy
 msgid "htaccess: Apache 2.4 RequireAll/Require not ip with an Apache 2.2 fallback. nginx: ngx_http_access_module deny list. fail2ban: installer that creates a persistent jail and bans every address via banip. iptables: idempotent BBCS_EXPORT chain script (ip6tables for IPv6)."
 msgstr "htaccess: Apache 2.4 RequireAll/Require not ip مع بديل Apache 2.2. nginx: قائمة الحظر ngx_http_access_module. fail2ban: مثبّت ينشئ حجزًا دائمًا ويحظر كل عنوان عبر banip. iptables: سكربت سلسلة BBCS_EXPORT متساوي القوة (ip6tables لـ IPv6)."
 
@@ -9022,7 +9024,7 @@ msgstr "Memcached"
 
 #: includes/hook/class-botblocker-settings-hooks.php:49
 msgid "Memcached backend is not reachable — the integration was left disabled."
-msgstr "الواجهة الخلفية Memcached غير قابلة للوصول — تم يسار التكامل مُعطّل."
+msgstr "الواجهة الخلفية Memcached غير قابلة للوصول — تُرك التكامل مُعطّلًا."
 
 #: includes/ajax/class-botblocker-ajax-cache.php:73
 msgid "Memcached backend is not reachable."
@@ -9371,6 +9373,7 @@ msgid "Networks that are never counted or blocked. One IPv4/IPv6 address or CIDR
 msgstr "الشبكات التي لا تُحتسب أو تُحظر أبدًا. عنوان IPv4/IPv6 واحد أو نطاق CIDR لكل سطر؛ الأسطر التي تبدأ بـ # يتم تجاهلها."
 
 #: addons/bbcs-404-guard/views/settings.php:129
+#, fuzzy
 msgid "Never count or block logged-in users. Recommended: protects editors and administrators from locking themselves out."
 msgstr "لا تحسب أو مُكوِّن مستخدمين المسجّلين للدخول أبدًا. موصى به: يحمي المحررين والمديرين من قفل حساباتهم."
 
@@ -12568,7 +12571,7 @@ msgstr "رابط Signature DB"
 
 #: admin/templates/settings/payment-tab.php:47
 msgid "Signature headers are always verified for format (min 8 chars, POST only). When enabled, payment bypass additionally applies to POST requests only: GET requests with payment query keys or ajax actions will not bypass the shield. Callbacks matched by generic markers (webhook, ipn, callback_handler) always keep IP and rate-limit rules active. Reduces attack surface while keeping real webhooks working."
-msgstr "يتم دائمًا التحقق من ترويسات التوقيع لـ صيغة (8 محارف كحد أدنى، مقالة فقط). عند التفعيل، ينطبق تجاوز الدفع إضافةً على طلبات مقالة فقط: طلبات GET التي تحتوي على مفاتيح استعلام للدفع أو إجراءات ajax لن تتجاوز الدرع. الاستدعاءات المرتبطة بعلامات عامة (webhook، ipn، callback_handler) تُبقي قواعد IP وتحديد المعدل نشطة دائمًا. يقلل مساحة الهجوم مع إبقاء webhooks الحقيقية تعمل."
+msgstr "يتم دائمًا التحقق من ترويسات التوقيع لـ صيغة (8 محارف كحد أدنى، POST فقط). عند التفعيل، ينطبق تجاوز الدفع إضافةً على طلبات POST فقط: طلبات GET التي تحتوي على مفاتيح استعلام للدفع أو إجراءات ajax لن تتجاوز الدرع. الاستدعاءات المرتبطة بعلامات عامة (webhook، ipn، callback_handler) تُبقي قواعد IP وتحديد المعدل نشطة دائمًا. يقلل مساحة الهجوم مع إبقاء webhooks الحقيقية تعمل."
 
 #: includes/audit/class-botblocker-audit-logger.php:414
 msgid "Signed in from a trusted device."

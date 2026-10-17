@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-10-16 22:17+0000"
-"PO-Revision-Date: 2026-10-16 22:17+0000"
+"POT-Creation-Date: 2026-10-17 19:43+0000"
+"PO-Revision-Date: 2026-10-17 19:43+0000"
 "Last-Translator: BotBlocker Team (Susana_raposo)"
 "Language-Team: Portuguese"
 "Language: pt_BR"
@@ -12536,7 +12536,7 @@ msgstr "URL do banco de dados de assinaturas"
 
 #: admin/templates/settings/payment-tab.php:47
 msgid "Signature headers are always verified for format (min 8 chars, POST only). When enabled, payment bypass additionally applies to POST requests only: GET requests with payment query keys or ajax actions will not bypass the shield. Callbacks matched by generic markers (webhook, ipn, callback_handler) always keep IP and rate-limit rules active. Reduces attack surface while keeping real webhooks working."
-msgstr "Os cabeçalhos de assinatura são sempre verificados quanto ao formato (mín. 8 caracteres, apenas publicar). Quando ativado, o bypass de pagamento se aplica adicionalmente apenas a solicitações publicar: solicitações GET com chaves consulta de pagamento ou ações ajax não contornarão o escudo. Callbacks correspondidos por marcadores genéricos (webhook, ipn, callback_handler) sempre mantêm as regras de IP e de limite de taxa ativas. Reduz a superfície de ataque enquanto mantém webhooks reais funcionando."
+msgstr "Os cabeçalhos de assinatura são sempre verificados quanto ao formato (mín. 8 caracteres, apenas POST). Quando ativado, o bypass de pagamento se aplica adicionalmente apenas a solicitações POST: solicitações GET com chaves consulta de pagamento ou ações ajax não contornarão o escudo. Callbacks correspondidos por marcadores genéricos (webhook, ipn, callback_handler) sempre mantêm as regras de IP e de limite de taxa ativas. Reduz a superfície de ataque enquanto mantém webhooks reais funcionando."
 
 #: includes/audit/class-botblocker-audit-logger.php:414
 msgid "Signed in from a trusted device."
@@ -13501,7 +13501,7 @@ msgstr "O texto exibido no aviso de cookies. Mantenha-o conciso e informativo."
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:425
 msgid "The traffic activity level (as a fraction of the Core Rate Inspector's block RPM limit) where we start tracking and recording reputation. For example, at 0.10, once a visitor reaches 10% of that core limit, we begin monitoring their patterns. (Default: 0.10)"
-msgstr "O nível de atividade de tráfego (como uma fração do limite Bloco RPM do arquivos básicos Rate Inspector) no qual nós iniciar o rastreamento e o registro de reputação. Por exemplo, em 0,10, quando um visitante atinge 10% daquele limite arquivos básicos, começamos a monitorar seus padrões. (padrão: 0,10)"
+msgstr "O nível de atividade de tráfego (como uma fração do limite de RPM Bloco do Rate Inspector arquivos básicos) em que nós iniciar o rastreamento e registro de reputação. Por exemplo, em 0,10, quando um visitante atinge 10% desse limite arquivos básicos, começamos a monitorar seus padrões. (padrão: 0,10)"
 
 #: admin/class-botblocker-admin.php:640
 #: includes/class-botblocker-toastify.php:248
@@ -13557,6 +13557,7 @@ msgstr "Temas"
 #. translators: %s: comma-separated list of add-on names that failed to load.
 #: includes/data/class-botblocker-alerts.php:775
 #, php-format
+#, fuzzy
 msgid "These add-ons could not start and were switched off to keep the site running: %s. Your settings are kept. Please update or reinstall them."
 msgstr "Esses complementos Não foi possível iniciar e foram desativados para manter o site funcionando: %s. Suas configurações são mantidas. Por favor, atualização ou reinstale-os."
 

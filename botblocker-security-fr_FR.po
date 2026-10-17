@@ -12535,8 +12535,9 @@ msgid "Signature DB URL"
 msgstr "URL de la Signature DB"
 
 #: admin/templates/settings/payment-tab.php:47
+#, fuzzy
 msgid "Signature headers are always verified for format (min 8 chars, POST only). When enabled, payment bypass additionally applies to POST requests only: GET requests with payment query keys or ajax actions will not bypass the shield. Callbacks matched by generic markers (webhook, ipn, callback_handler) always keep IP and rate-limit rules active. Reduces attack surface while keeping real webhooks working."
-msgstr "Les entêtes de signature sont toujours vérifiés pour leur format (8 caractères min., publier uniquement). Lorsque cette option est activée, la dérogation de paiement s’applique en plus aux requêtes publier uniquement : les requêtes GET avec des clés de paiement requête ou des actions ajax ne contourneront pas le bouclier. Les rappels correspondant à des marqueurs génériques (crochet web, ipn, callback_handler) conservent toujours les règles d’IP et de limite de débit actives. Réduit la surface d’attaque tout en laissant fonctionner les vrais crochets web."
+msgstr "Les entêtes de signature sont toujours vérifiés pour leur format (8 caractères min., POST uniquement). Lorsque cette option est activée, la dérogation de paiement s’applique en plus aux requêtes POST uniquement : les requêtes GET avec des clés de paiement requête ou des actions ajax ne contourneront pas le bouclier. Les rappels correspondant à des marqueurs génériques (crochet web, ipn, callback_handler) conservent toujours les règles d’IP et de limite de débit actives. Réduit la surface d’attaque tout en laissant fonctionner les vrais crochets web."
 
 #: includes/audit/class-botblocker-audit-logger.php:414
 msgid "Signed in from a trusted device."
@@ -14138,6 +14139,7 @@ msgid "Two-Factor Authentication has been reset."
 msgstr "L’authentification à deux facteurs a été réinitialisée."
 
 #: includes/data/class-botblocker-alerts.php:219
+#, fuzzy
 msgid "Two-factor authentication is enabled but your account has no authenticator secret yet. Set it up to protect this account."
 msgstr "L’authentification à deux facteurs est activée, mais votre compte n’a Aucun encore de secret d’authentification. définir-le en place pour protéger ce compte."
 
