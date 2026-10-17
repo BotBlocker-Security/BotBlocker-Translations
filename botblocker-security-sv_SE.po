@@ -16,7 +16,6 @@ msgstr ""
 
 
 #: admin/templates/setup-wizard/presets.php:58
-#, fuzzy
 msgid "\"Recommended\" protection active"
 msgstr "\"Rekommenderat\" aktivt skydd"
 
