@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-11-05 15:43+0000"
-"PO-Revision-Date: 2026-11-05 15:43+0000"
+"POT-Creation-Date: 2026-11-14 14:18+0000"
+"PO-Revision-Date: 2026-11-14 14:18+0000"
 "Last-Translator: BotBlocker Team (Yaroslavlukasev)"
 "Language-Team: Ukrainian"
 "Language: uk"
@@ -23,7 +23,7 @@ msgstr "«Рекомендований» захист діючий"
 #: admin/templates/cloud-api/status.php:41
 #, php-format
 msgid "$%s / month, billed annually"
-msgstr "$%s / місяць, з річною оплатою"
+msgstr "$%s / місяць, оплата щорічно"
 
 #. translators: 1: number of cached files, 2: their total size
 #: addons/bbcs-page-cache/inc/class-bbcs-page-cache-settings-viewmodel.php:87
@@ -406,7 +406,7 @@ msgstr "5 хвилин"
 
 #: includes/data/class-botblocker-pro-plans.php:44
 msgid "5M+ bot signatures"
-msgstr "5M+ сигнатур ботів"
+msgstr "Понад 5 млн сигнатур ботів"
 
 #: includes/data/class-botblocker-data-time.php:17
 msgid "6 hours"
@@ -442,7 +442,7 @@ msgstr "Плагін кешування або ваш хостинг."
 
 #: includes/inc-botblocker-wp-abilities.php:2251
 msgid "A CAPTCHA mode is required."
-msgstr "Потрібно вказати режим CAPTCHA."
+msgstr "Необхідно вказати режим CAPTCHA."
 
 #: addons/bbcs-forced-inclusions/inc/class-file-classifier.php:85
 msgid "A custom install script, or a host provisioning tool."
@@ -470,7 +470,7 @@ msgstr "Людина всередині застосунку, чий UA збіг
 
 #: includes/inc-botblocker-wp-abilities.php:1459
 msgid "A list of IP addresses is required."
-msgstr "Потрібно вказати перелік IP-адрес."
+msgstr "Потрібен перелік IP-адрес."
 
 #: addons/bbcs-forced-inclusions/inc/class-file-classifier.php:67
 msgid "A maintenance-mode plugin, or added by hand."
@@ -518,7 +518,7 @@ msgstr "Посилання для відновлення було викорис
 
 #: includes/inc-botblocker-wp-abilities.php:2123
 msgid "A rule id is required."
-msgstr "Потрібно вказати ID правила."
+msgstr "Необхідно вказати ID правила."
 
 #: addons/bbcs-forced-inclusions/views/settings.php:55
 msgid "A single file in wp-content that replaces one built-in part of WordPress."
@@ -545,15 +545,15 @@ msgstr "Потрібна дійсна IP-адреса або діапазон CI
 
 #: addons/bbcs-page-cache/views/settings.php:189
 msgid "A visitor carrying a cookie whose name contains one of these strings always gets a live page. Login, password-post and commenter cookies are always excluded."
-msgstr "Відвідувач із cookie, ім’я якого містить один із цих рядків, завжди отримує живу сторінку. Cookie для входу, надсилання пароля та коментаторів завжди виключаються."
+msgstr "Відвідувач із cookie, ім’я якої містить один із цих рядків, завжди отримує живу сторінку. Cookie входу, надсилання пароля та коментаторів завжди виключені."
 
 #: addons/bbcs-pusher/views/settings.php:25
 msgid "A weekly digest with request, block and bot statistics is delivered on a schedule. The add-on never runs on visitor requests."
-msgstr "Щотижневий дайджест зі статистикою запитів, блокувань і ботів надсилається за відкласти. Додаток ніколи не запускається під час запитів відвідувачів."
+msgstr "Щотижневий звіт зі статистикою запитів, блокувань і ботів надсилається за розкладом. Аддон не запускається під час обробки запитів відвідувачів."
 
 #: addons/bbcs-telegram/views/settings.php:26
 msgid "A weekly security report is delivered to your chat with request, block and bot statistics."
-msgstr "Щотижневий звіт про безпеку доставляється у ваш чат зі статистикою запитів, блокувань і ботів."
+msgstr "Щотижневий звіт про безпеку зі статистикою запитів, блокувань і ботів надсилається безпосередньо у ваш чат."
 
 #: addons/bbcs-pusher/views/settings.php:70
 msgid "a1b2c3d4e5f6g7h8"
@@ -574,7 +574,7 @@ msgstr "Про журнал аудиту"
 
 #: admin/templates/reports/dashboard.php:11
 msgid "About this dashboard"
-msgstr "Про цю Майстерню"
+msgstr "Про цю панель керування"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:164
 msgid "Absolute paths to additional directories to scan."
@@ -681,7 +681,7 @@ msgstr "Активуйте додаток Behavioral Engine, щоб отрима
 
 #: addons/bbcs-early-init/views/settings.php:38
 msgid "Activate the Page Cache add-on for fast cached pages that bots and unverified visitors never get."
-msgstr "Активуйте додаток Page Cache, щоб отримувати швидкі кешовані сторінки, які боти та непідтверджені відвідувачі ніколи не отримують."
+msgstr "Активуйте додаток Page Cache, щоб отримувати швидкі кешовані сторінки, яких боти й непідтверджені відвідувачі ніколи не отримують."
 
 #: includes/audit/class-botblocker-audit-logger.php:453
 msgid "Activated the plugin %plugin%."
@@ -834,7 +834,7 @@ msgstr "Додати правило IPv6"
 #: admin/templates/settings/traffic.php:41
 #: includes/data/class-botblocker-snav.php:255
 msgid "Add noarchive to All Pages"
-msgstr "Додати noarchive до всіх сторінок"
+msgstr "Додати noarchive на всі сторінки"
 
 #: admin/templates/settings/traffic.php:42
 #: includes/data/class-botblocker-snav.php:256
@@ -1084,7 +1084,7 @@ msgstr "Додає початковий хедер Content-Security-Policy дл�
 
 #: includes/inc-botblocker-wp-abilities.php:438
 msgid "Adds a firewall block rule for an IP address and regenerates the runtime ban files. Requires confirm \"BLOCK\". Refuses readonly rules and self-blocking without force."
-msgstr "Додає правило блокування брандмауера для IP-адреси та повторно генерує файли заборони часу виконання. Потрібне підтвердження «BLOCK». Відхиляє правила лише для читання та самоблокування без force."
+msgstr "Додає правило блокування брандмауера для IP-адреси та повторно генерує файли бану середовища виконання. Потрібне підтвердження «BLOCK». Відхиляє правила лише для читання та самоблокування без примусу."
 
 #: admin/templates/settings/captcha-tab.php:182
 msgid "Adds a hidden anti-bot trap field and a submit-timing check to the verification page. Disabled by default."
@@ -1092,7 +1092,7 @@ msgstr "Додає приховане поле-пастку проти боті�
 
 #: addons/bbcs-turnstile/views/settings.php:27
 msgid "Adds Cloudflare Turnstile as an external CAPTCHA provider on the BotBlocker check page. Enter the site key and secret key from your Cloudflare Turnstile dashboard, pick theme and size, then select mode 91 (Cloudflare Turnstile) as the CAPTCHA mode in BotBlocker settings. Verification runs server-side through the Turnstile siteverify endpoint; if the provider is unreachable, the check page degrades to the Button check instead of blocking visitors."
-msgstr "Додає Cloudflare Turnstile як зовнішнього постачальника CAPTCHA на сторінці перевірки BotBlocker. Введіть ключ сайту та секретний ключ із вашої Майстерні Cloudflare Turnstile, виберіть тему та розмір, а потім виберіть режим 91 (Cloudflare Turnstile) як режим CAPTCHA у налаштуваннях BotBlocker. Перевірка виконується на сервері через кінцеву точку siteverify Turnstile; якщо постачальник недоступний, сторінка перевірки переходить до перевірки кнопкою замість блокування відвідувачів."
+msgstr "Додає Cloudflare Turnstile як зовнішнього CAPTCHA-провайдера на сторінці перевірки BotBlocker. Введіть ключ сайту (Site Key) і секретний ключ (Secret Key) з панелі керування Cloudflare Turnstile, виберіть тему та розмір, а потім встановіть режим 91 (Cloudflare Turnstile) як режим CAPTCHA у налаштуваннях BotBlocker. Перевірка виконується на сервері через кінцеву точку Turnstile Siteverify. Якщо провайдер недоступний, сторінка перевірки автоматично переходить до перевірки за допомогою кнопки (Button check), замість того щоб блокувати відвідувачів."
 
 #: addons/bbcs-security-headers/views/settings.php:169
 msgid "Adds Cross-Origin-Opener-Policy: same-origin-allow-popups. Protects against window.opener attacks and Spectre while keeping popup payments and OAuth flows working."
@@ -1100,7 +1100,7 @@ msgstr "Додає Cross-Origin-Opener-Policy: same-origin-allow-popups. Зах�
 
 #: addons/bbcs-hcaptcha/views/settings.php:27
 msgid "Adds hCaptcha as an external CAPTCHA provider on the BotBlocker check page. Enter the site key and secret key from your hCaptcha dashboard, pick theme and size, then select mode 90 (hCaptcha) as the CAPTCHA mode in BotBlocker settings. Verification runs server-side through the hCaptcha siteverify endpoint; if the provider is unreachable, the check page degrades to the Button check instead of blocking visitors."
-msgstr "Додає hCaptcha як зовнішнього постачальника CAPTCHA на сторінці перевірки BotBlocker. Введіть ключ сайту та секретний ключ із вашої Майстерні hCaptcha, виберіть тему та розмір, а потім виберіть режим 90 (hCaptcha) як режим CAPTCHA у налаштуваннях BotBlocker. Перевірка виконується на сервері через кінцеву точку siteverify hCaptcha; якщо постачальник недоступний, сторінка перевірки переходить до перевірки кнопкою замість блокування відвідувачів."
+msgstr "Додає hCaptcha як зовнішнього CAPTCHA-провайдера на сторінці перевірки BotBlocker. Введіть ключ сайту (Site Key) і секретний ключ (Secret Key) з панелі керування hCaptcha, виберіть тему та розмір, а потім встановіть режим 90 (hCaptcha) як режим CAPTCHA у налаштуваннях BotBlocker. Перевірка виконується на сервері через кінцеву точку hCaptcha Siteverify. Якщо провайдер недоступний, сторінка перевірки автоматично переходить до перевірки за допомогою кнопки (Button check), замість того щоб блокувати відвідувачів."
 
 #: addons/bbcs-security-headers/views/settings.php:178
 msgid "Adds Origin-Agent-Cluster: ?1 to isolate the document at origin level in the browser process model."
@@ -1116,11 +1116,11 @@ msgstr "Додає захисні хедери, керування CSP і нео
 
 #: addons/bbcs-security-headers/views/settings.php:124
 msgid "Adds Strict-Transport-Security header for HTTPS responses (max-age=1 year). Only works on HTTPS sites."
-msgstr "Додає хедер Strict-Transport-Security для відповідей HTTPS (max-age=1 рік). Працює лише на сайтах з HTTPS."
+msgstr "Додає заголовок Strict-Transport-Security для HTTPS-відповідей (max-age=1 year). Працює лише на HTTPS-сайтах."
 
 #: addons/bbcs-form-captcha/views/settings.php:28
 msgid "Adds the [bbcs_form_captcha] shortcode. Put it inside any front-end form to show a BotBlocker challenge the size of a Google reCAPTCHA block. The challenge is bound to the visitor connection: IP address, browser user agent and a session cookie must stay the same from widget load to form submit."
-msgstr "Додає короткий код [bbcs_form_captcha]. Розмістіть його в будь-якій формі зовнішньої частини сайту, щоб показати перевірку BotBlocker розміром із блок Google reCAPTCHA. Перевірка прив’язана до з’єднання відвідувача: IP-адреса, user agent браузера та сесійний cookie мають залишатися незмінними від завантаження віджета до відправлення форми."
+msgstr "Додає короткий код [bbcs_form_captcha]. Розмістіть його всередині будь-якої форми зовнішньої частини сайту, щоб показати виклик BotBlocker розміром із блок Google reCAPTCHA. Виклик прив'язаний до з’єднання відвідувача: IP-адреса, user agent браузера та сесійний cookie мають залишатися незмінними від завантаження віджета до відправлення форми."
 
 #: admin/templates/settings/login-brute-force.php:26
 msgid "Adjust attempt limits and block times to balance security and usability."
@@ -1141,7 +1141,7 @@ msgstr "Журналізація адміністратора та подій Wo
 
 #: includes/utilites/class-botblocker-deactivation-feedback.php:197
 msgid "Admin or login access was blocked"
-msgstr "Доступ до адміністративної частини або входу було заблоковано"
+msgstr "Було заблоковано доступ до адмінпанелі або входу"
 
 #: admin/templates/setup-wizard/compatibility.php:17
 msgid "Admin panel"
@@ -1187,7 +1187,7 @@ msgstr "Передовий захист"
 
 #: admin/templates/about/body.php:37
 msgid "Advanced protection against bots, spam, and brute-force attacks."
-msgstr "Передовий захист від ботів, спаму та атак перебором."
+msgstr "Передовий захист від ботів, спаму та брутфорсу."
 
 #: admin/templates/settings/advanced-protection.php:27
 msgid "Advanced protection uses cloud-based real-time analysis and smart verification to detect sophisticated bots."
@@ -1313,7 +1313,7 @@ msgstr "Усі коментарі"
 
 #: addons/bbcs-antispam/views/settings.php:446
 msgid "All comments: every new comment is held. Selected categories: only comments on posts in the chosen categories are held. An empty category list holds all comments."
-msgstr "Усі коментарі: кожен новий коментар утримується. Вибрані категорії: утримуються лише коментарі до записів у вибраних категоріях. Порожній перелік категорій утримує всі коментарі."
+msgstr "Усі коментарі: кожен новий коментар затримується. Вибрані категорії: затримуються лише коментарі до записів у вибраних категоріях. Порожній перелік категорій затримує всі коментарі."
 
 #: admin/templates/reports/audit-log.php:35
 msgid "All contexts"
@@ -1505,15 +1505,15 @@ msgstr "Дозволити запити з IP-адреси вашого серв
 
 #: admin/templates/settings/connection-types.php:58
 msgid "Allow REST clients with a valid application password for an administrator, editor, moderator, or shop manager to skip browser checks. IP, country, ASN, and path restrictions still apply."
-msgstr "Дозволити REST-клієнтам із дійсним паролем застосунку для адміністратора, редактора, модератора або менеджера магазину пропускати перевірки браузера. Обмеження за IP, країною, ASN і шляхом усе ще діють."
+msgstr "Дозволити REST-клієнтам із чинним застосунковим паролем для адміністратора, редактора, модератора або менеджера магазину пропускати перевірки браузера. Обмеження IP, країни, ASN і шляху усе ще застосовуються."
 
 #: includes/viewmodels/class-selftest-viewmodel.php:80
 msgid "Allow rule for your IP ignored"
-msgstr "Правило дозволу для вашої IP-адреси проігноровано"
+msgstr "Правило дозволу для вашого IP проігноровано"
 
 #: admin/templates/selftest/body.php:29
 msgid "Allow rules that match your IP address."
-msgstr "Дозволити правила, які збігаються з вашою IP-адресою."
+msgstr "Дозволити правила, що збігаються з вашою IP-адресою."
 
 #: admin/templates/settings/bot-detection.php:57
 msgid "Allow WhatsApp to create link previews for shared pages. Warning: this reduces protection across the whole site for matching requests, not just previews. Enable only if really needed."
@@ -1602,7 +1602,7 @@ msgstr "І ще"
 
 #: admin/templates/cloud-api/status.php:20
 msgid "Annual"
-msgstr "Річна"
+msgstr "Щорічно"
 
 #: addons/bbcs-antispam/inc/class-bbcs-antispam-cron.php:56
 msgid "Anti-Spam Batch Check"
@@ -1642,7 +1642,7 @@ msgstr "Потрібен ключ API."
 
 #: includes/utilites/class-botblocker-deactivation-feedback.php:198
 msgid "API, webhooks or integrations failed"
-msgstr "Збій API, вебхуків або інтеграцій"
+msgstr "Не працювали API, вебхуки або інтеграції"
 
 #: addons/bbcs-pusher/inc/class-bbcs-pusher-addons-page.php:30
 #: addons/bbcs-pusher/views/settings.php:59
@@ -2147,8 +2147,9 @@ msgid "Basic bot blocking"
 msgstr "Базове блокування ботів"
 
 #: addons/bbcs-form-captcha/views/settings.php:93
+#, fuzzy
 msgid "Basic usage: [bbcs_form_captcha]. Optional attributes: type=\"robot|color|hold\", theme=\"light|dark\", class=\"your-class\"."
-msgstr "Базове використання: [bbcs_form_captcha]. необов'язково атрибути: type=\"robot|color|hold\", тема=\"тонкий|dark\", class=\"your-class\"."
+msgstr "Базове використання: [bbcs_form_captcha]. необов'язково атрибути: type=\"robot|color|hold\", theme=\"light|dark\", class=\"your-class\"."
 
 #: addons/bbcs-antispam/views/settings.php:578
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:73
@@ -2214,11 +2215,11 @@ msgstr "За один виклик дозволено від 1 до 20 IP-адр
 
 #: admin/templates/cloud-api/status.php:34
 msgid "Billed monthly"
-msgstr "Щомісячна оплата"
+msgstr "Оплата щомісячно"
 
 #: admin/templates/cloud-api/status.php:18
 msgid "Billing period"
-msgstr "Розрахунковий період"
+msgstr "Період оплати"
 
 #: admin/partials/class-botblocker-dashboard-widgets.php:168
 #: admin/partials/class-botblocker-dashboard-widgets.php:175
@@ -2258,7 +2259,7 @@ msgstr "Заблокувати IP-адресу – бан, заборона, ч�
 
 #: admin/templates/setup-wizard/welcome.php:12
 msgid "Block brute-force, scanners and scrapers before WordPress"
-msgstr "Блокувати брутфорс, сканери та збирачі до WordPress"
+msgstr "Блокуйте брутфорс, сканери та парсери ще до завантаження WordPress"
 
 #: admin/templates/rules.php:41
 msgid "block by country or network - GEO, ASN."
@@ -2469,7 +2470,7 @@ msgstr "Блокування користувачів AdBlock/uBlock"
 
 #: includes/inc-botblocker-wp-abilities.php:1904
 msgid "Blocking an allowed IP requires force."
-msgstr "Блокування дозволеної IP-адреси потребує force."
+msgstr "Блокування дозволеної IP-адреси потребує примусу."
 
 #: includes/services/class-botblocker-health-service.php:26
 msgid "Blocking classic proxies"
@@ -2544,7 +2545,7 @@ msgstr "Блокування простих ботів User-Agents"
 #: includes/inc-botblocker-wp-abilities.php:1907
 #: includes/inc-botblocker-wp-abilities.php:2054
 msgid "Blocking the current or server IP requires force."
-msgstr "Блокування поточної або серверної IP-адреси потребує force."
+msgstr "Блокування поточної або серверної IP-адреси потребує примусу."
 
 #: includes/services/class-botblocker-health-service.php:46
 #: includes/shortcode/class-botblocker-health-shortcodes.php:92
@@ -2644,7 +2645,7 @@ msgstr "Протокол HTTPS BotBlocker автоматично перетво�
 #: admin/templates/settings/captcha-tab.php:25
 #: admin/templates/setup-wizard/captcha.php:27
 msgid "BotBlocker Image Captcha"
-msgstr "Зображення"
+msgstr "BotBlocker зображення Captcha"
 
 #: public/check-page.php:71
 #: public/template-botblocker-denied.php:244
@@ -2856,7 +2857,7 @@ msgstr "botblocker/get-ip-rules – повертає правила брандм
 
 #: admin/templates/integrations/wp-abilities.php:54
 msgid "botblocker/get-recent-events — aggregated blocks, allows, CAPTCHA and proxy events per time bucket, without IP addresses or user agents."
-msgstr "botblocker/get-recent-events – агреговані блокування, дозволи, події CAPTCHA та проксі за проміжок часу, без IP-адрес і user agent."
+msgstr "botblocker/get-recent-events – агреговані блокування, дозволи, CAPTCHA та події проксі за часовими проміжками, без IP-адрес і агентів користувача."
 
 #: admin/templates/integrations/wp-abilities.php:109
 msgid "botblocker/get-scan-results — returns the status and findings of the latest malware scan."
@@ -2884,27 +2885,27 @@ msgstr "botblocker/run-malware-scan – запускає фонове скану
 
 #: admin/templates/integrations/wp-abilities.php:63
 msgid "botblocker/run-self-test — self-test summary and bypass reasons without writing to the plugin log."
-msgstr "botblocker/run-self-test – підсумок самоперевірки та причини обходу без запису в журнал плагіна."
+msgstr "botblocker/run-self-test – зведення самоперевірки та причини обходу без запису до журналу плагіна."
 
 #: admin/templates/integrations/wp-abilities.php:96
 msgid "botblocker/set-captcha-mode — switches the CAPTCHA mode. Unavailable modes are rejected instead of silently falling back."
-msgstr "botblocker/set-captcha-mode – перемикає режим CAPTCHA. Недоступні режими відхиляються, а не тихо повертаються до попереднього."
+msgstr "botblocker/set-captcha-mode – перемикає режим CAPTCHA. Недоступні режими відхиляються, а не тихо замінюються попередніми."
 
 #: admin/templates/integrations/wp-abilities.php:90
 msgid "botblocker/set-protection — turns protection on or off through the Dashboard path. Requires confirm \"ENABLE\" or \"DISABLE\"."
-msgstr "botblocker/set-protection – вмикає або вимикає захист через шлях Майстерні. Потребує підтвердження «ENABLE» або «DISABLE»."
+msgstr "botblocker/set-protection - вмикає або вимикає захист через панель керування. Потребує підтвердження \"ENABLE\" або \"DISABLE\"."
 
 #: admin/templates/integrations/wp-abilities.php:93
 msgid "botblocker/set-secure-mode — switches between frontend and full secure mode. Full mode also challenges the admin area."
-msgstr "botblocker/set-secure-mode – перемикає між зовнішньою частиною сайту та повним безпечним режимом. Повний режим також перевіряє адміністративну частину."
+msgstr "botblocker/set-secure-mode - перемикає між зовнішньою частиною сайту та повним безпечним режимом. Повний режим також перевіряє адміністративну частину."
 
 #: admin/templates/integrations/wp-abilities.php:77
 msgid "botblocker/unblock-ip — removes firewall rules for an IP address and regenerates the runtime ban files. Destructive, requires manage_options."
-msgstr "botblocker/unblock-ip – видаляє правила брандмауера для IP-адреси та повторно генерує файли банів під час виконання. Деструктивна дія, потребує manage_options."
+msgstr "botblocker/unblock-ip - видаляє правила брандмауера для IP-адреси та повторно генерує файли банів під час виконання. Деструктивна дія, потребує manage_options."
 
 #: admin/templates/integrations/wp-abilities.php:80
 msgid "botblocker/upsert-ip-rule — creates or updates a rule for an IP or CIDR range. Refuses readonly rows and self-blocking without force."
-msgstr ""
+msgstr "botblocker/upsert-ip-rule – створює правило для IP або діапазону CIDR чи виконує його оновлення. Відмовляється працювати з рядками лише для читання та самоблокуванням без примусового параметра."
 
 #: admin/templates/shared/system-status-lines.php:13
 #: includes/viewmodels/class-about-viewmodel.php:65
@@ -3006,7 +3007,7 @@ msgstr "Мітка кнопки"
 #: admin/templates/cloud-api/status.php:25
 #: admin/templates/cloud-api/status.php:56
 msgid "Buy on the website"
-msgstr "Купити на сайті"
+msgstr "Купити на вебсайті"
 
 #: admin/js/bbcs-js/bbcs-connectors.js:128
 msgid "Buy PRO"
@@ -3052,7 +3053,7 @@ msgstr "Префікс ключа кешу"
 
 #: addons/bbcs-page-cache/views/settings.php:126
 msgid "Cache Lifespan"
-msgstr "Тривалість кешу"
+msgstr "Термін життя кешу"
 
 #: includes/data/class-botblocker-alerts.php:784
 msgid "Cache Plugin Compatibility"
@@ -3089,7 +3090,7 @@ msgstr "CACHE-COMPATIBILITY.md"
 
 #: addons/bbcs-page-cache/views/settings.php:206
 msgid "Cacheable Query Parameters (one per line)"
-msgstr "Параметри запиту, які можна кешувати (по одному в рядку)"
+msgstr "Параметри запитів, що кешуються (по одному в рядку)"
 
 #: addons/bbcs-page-cache/inc/class-bbcs-page-cache-settings-viewmodel.php:89
 #: addons/bbcs-page-cache/inc/class-bbcs-page-cache-settings-viewmodel.php:91
@@ -3227,7 +3228,7 @@ msgstr "Тип CAPTCHA"
 
 #: addons/bbcs-form-captcha/inc/class-bbcs-form-captcha-plugin.php:232
 msgid "CAPTCHA verification failed"
-msgstr "Перевірка CAPTCHA не вдалася"
+msgstr "Не вдалося перевірити CAPTCHA"
 
 #: addons/bbcs-form-captcha/inc/class-bbcs-form-captcha-ajax.php:69
 msgid "CAPTCHA verification failed. Reload the page and try again."
@@ -3243,7 +3244,7 @@ msgstr "Обережно: вимкнення цього файлу може ви
 
 #: addons/bbcs-page-cache/views/settings.php:198
 msgid "Case-insensitive user agent substrings that always get a live page."
-msgstr "Підрядки агента користувача без урахування регістру, які завжди отримують живу сторінку."
+msgstr "Підрядки user agent без урахування регістру, які завжди отримують живу сторінку."
 
 #: admin/templates/settings/captcha-tab.php:63
 msgid "Cat"
@@ -3287,7 +3288,7 @@ msgstr "Змінено параметри WordPress: %options%."
 
 #: includes/inc-botblocker-wp-abilities.php:2051
 msgid "Changing an allow rule requires force."
-msgstr "Зміна правила дозволу потребує force."
+msgstr "Зміна правила дозволу потребує примусу."
 
 #: addons/bbcs-pusher/inc/class-bbcs-pusher-addons-page.php:34
 #: addons/bbcs-pusher/views/settings.php:107
@@ -3331,7 +3332,7 @@ msgstr "Перевіряти GET-параметри в джерелі перех
 
 #: includes/viewmodels/class-selftest-viewmodel.php:81
 msgid "Check page shown"
-msgstr "Показано сторінку перевірки"
+msgstr "Сторінку перевірки показано"
 
 #: admin/templates/integrations/wp-abilities.php:65
 #: includes/inc-botblocker-wp-abilities.php:85
@@ -3368,11 +3369,11 @@ msgstr "Перевірка..."
 
 #: includes/utilites/class-botblocker-deactivation-feedback.php:196
 msgid "Checkout, payments or forms stopped working"
-msgstr "Оформлення замовлення, платежі або форми перестали працювати"
+msgstr "Перестали працювати оформлення замовлення, платежі або форми"
 
 #: includes/inc-botblocker-wp-abilities.php:86
 msgid "Checks a batch of IP addresses against the firewall engine and returns one result per address."
-msgstr "Перевіряє пакет IP-адрес за допомогою механізму брандмауера та повертає один результат для кожної адреси."
+msgstr "Перевіряє групу IP-адрес за допомогою механізму брандмауера та повертає один результат для кожної адреси."
 
 #: admin/templates/settings/cron.php:128
 msgid "Checks for missed tasks every 15 minutes via the WordPress"
@@ -3380,7 +3381,7 @@ msgstr "Перевіряє пропущені завдання кожні 15 х�
 
 #: includes/inc-botblocker-wp-abilities.php:39
 msgid "Checks whether an IP address is blocked by the firewall engine, including the deciding rule, expired rules and active hot-bans."
-msgstr "Перевіряє, чи IP-адресу заблоковано механізмом брандмауера, включно з вирішальним правилом, простроченими правилами та діючий гарячими заборонами."
+msgstr "Перевіряє, чи IP-адресу заблоковано механізмом брандмауера, включно з вирішальним правилом, простроченими правилами та діючий гарячими блокуваннями."
 
 #: admin/class-botblocker-admin.php:651
 #: includes/class-botblocker-toastify.php:246
@@ -3787,7 +3788,7 @@ msgstr "Поріг збору"
 
 #: addons/bbcs-form-captcha/views/settings.php:54
 msgid "Color button"
-msgstr "Кольорова кнопка"
+msgstr "Кнопка кольору"
 
 #: admin/templates/settings/captcha-tab.php:24
 #: admin/templates/setup-wizard/captcha.php:19
@@ -3909,7 +3910,7 @@ msgstr "Повний контрольний список захисту. Пер�
 #. Description of the plugin
 #: botblocker-security.php
 msgid "Complete security platform for everyday: block bots, brute-force, viruses, spam, fake crawlers. WAF, 2FA, no-malware, proactive defense, 200+ tools"
-msgstr "Повна платформа безпеки на кожен день: блокування ботів, перебору паролів, вірусів, спаму, фальшивих сканерів. WAF, 2FA, без шкідливого ПЗ, проактивний захист, понад 200 інструментів"
+msgstr "Повна платформа безпеки на кожен день: блокування ботів, брутфорсу, вірусів, спаму, фальшивих сканерів. WAF, 2FA, без шкідливого ПЗ, проактивний захист, понад 200 інструментів"
 
 #: includes/shortcode/class-botblocker-recommendations-shortcodes.php:35
 msgid "Complete Setup Wizard"
@@ -3971,7 +3972,7 @@ msgstr "Налаштувати зараз"
 
 #: addons/bbcs-early-init/views/settings.php:31
 msgid "Configure Page Cache"
-msgstr "Налаштувати кеш сторінок"
+msgstr "Налаштувати Page Cache"
 
 #: includes/data/class-botblocker-palette.php:155
 msgid "Configure payment gateways - Stripe, PayPal, checkout bypass"
@@ -4405,7 +4406,7 @@ msgstr "Створено обліковий запис користувача %l
 
 #: includes/inc-botblocker-wp-abilities.php:502
 msgid "Creates or updates a firewall rule for an IP address or CIDR range. Refuses readonly rows and refuses to downgrade an allow rule or block trusted addresses without force."
-msgstr ""
+msgstr "Створює нове правило брандмауера або виконує оновлення наявного правила для IP-адреси чи діапазону CIDR. Відхиляє рядки лише для читання та відмовляється знижувати рівень правила дозволу чи блокувати довірені адреси без примусу."
 
 #: includes/audit/class-botblocker-audit-logger.php:242
 msgid "critical"
@@ -4588,15 +4589,15 @@ msgstr "Темно-забанені IP"
 #: admin/class-botblocker-admin.php:722
 #: admin/templates/setup-wizard/finish.php:41
 msgid "Dashboard"
-msgstr "Майстерня"
+msgstr "Панель керування"
 
 #: includes/data/class-botblocker-palette.php:184
 msgid "Dashboard - home, overview, main page"
-msgstr "Майстерня – домашня сторінка, огляд, головна сторінка"
+msgstr "Панель керування – домашня сторінка, огляд, головна сторінка"
 
 #: admin/templates/tools/modals/hits-clear.php:22
 msgid "Dashboard counters and daily statistics will be reset."
-msgstr "Лічильники майстерні та щоденну статистику буде скидано."
+msgstr "Лічильники панелі керування та щоденна статистика будуть скинуті."
 
 #: admin/class-botblocker-admin.php:507
 #: admin/templates/rules/body.php:33
@@ -4812,7 +4813,7 @@ msgstr "Видалити правило IP за ID"
 
 #: admin/templates/tools/maintenance-tab.php:127
 msgid "Delete BotBlocker cached values"
-msgstr "Видалити кешовані значення BotBlocker"
+msgstr "Видаліть кешовані значення BotBlocker"
 
 #: addons/bbcs-cron-jobs/views/settings.php:141
 msgid "Delete Expired Transients"
@@ -5091,7 +5092,7 @@ msgstr "Вимкнути вбудовування oEmbed із зовнішніх
 
 #: addons/bbcs-speedup/views/settings.php:93
 msgid "Disables XML-RPC. Required by some plugins (Jetpack, etc.) and the WordPress mobile app."
-msgstr "Вимкнення XML-RPC. Потрібно для деяких плагінів (Jetpack тощо) та мобільного додатка WordPress."
+msgstr "Вимикає XML-RPC. Потрібен деяким плагінам (Jetpack тощо) і мобільному застосунку WordPress."
 
 #: admin/class-botblocker-admin.php:250
 msgid "Disabling Early Init mode may reduce protection against advanced bots. Are you sure you want to proceed?"
@@ -5269,7 +5270,7 @@ msgstr "Ранню ініціалізацію увімкнено"
 
 #: includes/data/class-botblocker-pro-plans.php:38
 msgid "Early Init Mode"
-msgstr "Режим ранньої ініціалізації"
+msgstr "Ранній режим ініціалізації"
 
 #. translators: %s: URL to Rules settings page
 #: admin/templates/setup-wizard/init-mode.php:60
@@ -5571,7 +5572,7 @@ msgstr "Увімкнути захист каналів"
 
 #: addons/bbcs-form-captcha/views/settings.php:42
 msgid "Enable Form CAPTCHA"
-msgstr "Увімкнути CAPTCHA для форм"
+msgstr "Увімкнути Form CAPTCHA"
 
 #: admin/templates/rules/body.php:208
 msgid "Enable GEO blocking in Early Init to reject blocked countries before WordPress even starts."
@@ -5622,7 +5623,7 @@ msgstr "Увімкнути журналювання"
 #: admin/templates/settings/login-brute-force.php:34
 #: includes/data/class-botblocker-snav.php:278
 msgid "Enable Login Brute-Force Protection"
-msgstr "Увімкнути захист від атак brute-force під час входу"
+msgstr "Увімкнути захист від брутфорсу під час входу"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-addons-page.php:48
 msgid "Enable Malware Scanner"
@@ -5756,7 +5757,7 @@ msgstr "Увімкнути двофакторну автентифікацію"
 
 #: admin/templates/shared/sidebar/rail.php:141
 msgid "Enable Two-Factor Authentication (2FA) for all administrator accounts. It adds an essential layer of security that stops 99% of automated credential stuffing and brute-force attacks from accessing your dashboard."
-msgstr "Увімкнути двокрокову автентифікацію (2FA) для всіх облікових записів адміністраторів. Це додає важливий рівень безпеки, який зупиняє 99% автоматизованих атак підбору облікових даних і перебору паролів від доступу до вашої Майстерні."
+msgstr "Увімкніть двофакторну автентифікацію (2FA) для всіх облікових записів адміністраторів. Це забезпечить додатковий рівень безпеки, який захищає панель керування від 99% автоматизованих атак із підбором облікових даних (Credential Stuffing) і брутфорсу."
 
 #: addons/bbcs-xmlrpc-tunnel/inc/class-bbcs-xmlrpc-tunnel-addons-page.php:36
 #: addons/bbcs-xmlrpc-tunnel/views/settings.php:57
@@ -5835,7 +5836,7 @@ msgstr "Введіть пароль для автентифікації серв
 
 #: admin/partials/class-botblocker-dashboard-widgets.php:205
 msgid "Enter single IP or CIDR (e.g. 198.51.100.0/24 or 2001:db8::/32)."
-msgstr "Введіть окрему IP-адресу або CIDR (наприклад, 198.51.100.0/24 або 2001\\:db8::/32)."
+msgstr "Введіть окрему IP-адресу або CIDR (наприклад, 198.51.100.0/24 або 2001:db8::/32)."
 
 #: public/2FA/bbcs-2fa-setup.php:196
 msgid "Enter the 6-digit code from the app:"
@@ -6156,7 +6157,7 @@ msgstr "Витягувати та зберігати операційну сис
 
 #: addons/bbcs-firewall-export/views/settings.php:99
 msgid "fail2ban bantime"
-msgstr "fail2ban bantime"
+msgstr "Час блокування fail2ban"
 
 #: addons/bbcs-firewall-export/views/settings.php:101
 msgid "fail2ban bantime value, e.g. -1 for permanent or 24h."
@@ -6898,7 +6899,7 @@ msgstr "Знайти будь-який параметр або дію… (або
 
 #: admin/templates/about/body.php:133
 msgid "Find help for a problem"
-msgstr "Знайти допомогу з проблемою"
+msgstr "Знайдіть допомогу з проблемою"
 
 #: admin/templates/integrations/integrations-content.php:20
 msgid "Find integration…"
@@ -7319,13 +7320,13 @@ msgstr "Перейти до додатків"
 
 #: admin/class-botblocker-admin.php:1047
 msgid "Go to BotBlocker Dashboard"
-msgstr "Перейти до Майстерні BotBlocker"
+msgstr "Перейти до панелі керування BotBlocker"
 
 #: admin/templates/setup-wizard/completed.php:50
 #: admin/templates/setup-wizard/finish.php:86
 #: public/2FA/bbcs-2fa-setup.php:160
 msgid "Go to Dashboard"
-msgstr "Перейти до Майстерні"
+msgstr "Перейти до панелі керування"
 
 #: public/captcha/render-recaptcha-with-button-trait.php:23
 #: public/captcha/render-recaptcha-with-button-trait.php:32
@@ -7567,7 +7568,7 @@ msgstr "CAPTCHA з утриманням кнопки"
 
 #: addons/bbcs-antispam/views/settings.php:432
 msgid "Hold Comments for Moderation"
-msgstr "Утримувати коментарі для модерації"
+msgstr "Затримувати коментарі для модерації"
 
 #: addons/bbcs-antispam/views/settings.php:214
 msgid "Hold for moderation"
@@ -7587,7 +7588,7 @@ msgstr "Утримуйте кнопку та відпустіть її в зел
 
 #: addons/bbcs-form-captcha/inc/class-bbcs-form-captcha-service.php:248
 msgid "Hold the button and release it in the green zone"
-msgstr "Утримуйте кнопку та відпустіть її в зеленій зоні"
+msgstr "Утримуйте кнопку та відпустіть її в зеленій зоні."
 
 #: addons/bbcs-hide-admin/views/settings.php:68
 msgid "Home Page"
@@ -7678,7 +7679,7 @@ msgstr "Як довго (у секундах) IP залишається тимч
 
 #: addons/bbcs-early-init/views/settings.php:151
 msgid "How long a verified visitor can browse cached pages before BotBlocker checks them again. Shorter: stronger protection, but more pages load without cache. Longer: faster site, but visitors are checked less often."
-msgstr "Як довго підтверджений відвідувач може оглядати кешовані сторінки, перш ніж BotBlocker перевірить їх знову. Коротше: сильніший захист, але більше сторінок завантажується без кешу. Довше: швидший сайт, але відвідувачі перевіряються рідше."
+msgstr "Як довго перевірений відвідувач може оглядати кешовані сторінки, перш ніж BotBlocker перевірить його знову. Коротше: сильніший захист, але більше сторінок завантажується без кешу. Довше: швидший сайт, але відвідувачів перевіряють рідше."
 
 #: admin/templates/settings/rate-limiting.php:99
 msgid "How long the IP stays blocked after exceeding the rate limit. Default: 600 (10 minutes)."
@@ -8025,8 +8026,9 @@ msgid "Import"
 msgstr "Імпорт"
 
 #: admin/templates/settings/tls-fingerprint.php:79
+#, fuzzy
 msgid "Import a JSON file containing known JA3/JA4 TLS fingerprints. The file must be an array of objects with fields: fingerprint, category, ua_family, description."
-msgstr "Імпортуйте файл JSON, що містить відомі відбитки TLS JA3/JA4. Файл має бути масивом об'єктів з полями: fingerprint, категорія, ua_family, description."
+msgstr "Імпортуйте файл JSON, що містить відомі відбитки TLS JA3/JA4. Файл має бути масивом об’єктів із полями: fingerprint, category, ua_family, description."
 
 #: admin/templates/tools/botblocker-tab.php:38
 #: includes/data/class-botblocker-snav.php:707
@@ -8356,7 +8358,7 @@ msgstr "Кешування інтерфейсу"
 #: includes/ajax/class-botblocker-ajax-ip-rules-trait.php:639
 #, php-format
 msgid "Invalid %s address or CIDR notation provided."
-msgstr "Надано невірну адресу %s або нотацію CIDR."
+msgstr "Вказано невірну %s-адресу або нотацію CIDR."
 
 #: admin/templates/integrations/2fa.php:73
 msgid "Invalid 6-digit code. Please try again."
@@ -8364,7 +8366,7 @@ msgstr "Невірний 6-значний код. Будь ласка, спро�
 
 #: includes/hook/class-botblocker-cloud-api-hooks.php:151
 msgid "Invalid API key."
-msgstr "Невірний ключ API."
+msgstr "Невірний API-ключ."
 
 #: includes/hook/class-botblocker-cloud-api-hooks.php:148
 msgid "Invalid API key. Cloud API responded with: "
@@ -8697,11 +8699,11 @@ msgstr "Інформація про JS"
 
 #: addons/bbcs-page-cache/views/settings.php:147
 msgid "Keep a separate copy for mobile user agents. Needed only when the theme renders different HTML for mobile."
-msgstr "Зберігати окрему копію для мобільних агентів користувача. Потрібно лише тоді, коли тема генерує інший HTML для мобільних."
+msgstr "Зберігати окрему копію для мобільних user agent. Потрібно лише тоді, коли тема формує різний HTML для мобільних пристроїв."
 
 #: addons/bbcs-antispam/views/settings.php:433
 msgid "Keep new comments in the moderation queue until you review them. The AI check still runs: spam follows Spam Action, clean comments stay held instead of being published."
-msgstr "Утримуйте нові коментарі в черзі модерації, доки не переглянете їх. Перевірка ШІ усе ще виконується: спам обробляється згідно з дією для спаму, а чисті коментарі залишаються утриманими, а не публікуються."
+msgstr "Нові коментарі залишаються в черзі модерації, доки ви їх не переглянете. Перевірка ШІ усе ще виконується: для спаму застосовується дія спаму, а чисті коментарі залишаються затриманими, а не публікуються."
 
 #: admin/templates/plugins/deactivation-feedback-modal.php:71
 msgid "Keep plugin active"
@@ -8723,7 +8725,7 @@ msgstr "Вид"
 
 #: includes/data/class-botblocker-alerts.php:758
 msgid "Kinsta hosting detected. Add the BotBlocker cookie as a cache bypass rule in the Kinsta dashboard. See CACHE-COMPATIBILITY.md."
-msgstr "Виявлено хостинг Kinsta. Додайте cookie BotBlocker як правило обходу кешу в Майстерні Kinsta. Див. CACHE-COMPATIBILITY.md."
+msgstr "Виявлено хостинг Kinsta. Додайте cookie BotBlocker до правил обходу кешування (Cache Bypass) у панелі керування Kinsta. Див. CACHE-COMPATIBILITY.md."
 
 #: addons/bbcs-cron-jobs/views/settings.php:127
 #: addons/bbcs-cron-jobs/views/settings.php:69
@@ -8769,7 +8771,7 @@ msgstr "Lax"
 
 #: includes/components/class-botblocker-component-base.php:204
 msgid "Learn more"
-msgstr "Дізнатися більше"
+msgstr "Дізнайтеся більше"
 
 #: admin/partials/class-botblocker-dashboard-widgets.php:229
 msgid "Legend:"
@@ -8861,7 +8863,7 @@ msgstr "рядок %d"
 #: admin/templates/integrations/wp-abilities.php:47
 #: includes/inc-botblocker-wp-abilities.php:170
 msgid "List IP rules"
-msgstr "Перелік IP-правил"
+msgstr "Перелік правил IP"
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:376
 msgid "List of path segments to exclude from scanning."
@@ -8869,7 +8871,7 @@ msgstr "Перелік сегментів шляху, які виключают�
 
 #: includes/inc-botblocker-wp-abilities.php:171
 msgid "Lists firewall rules with filters for family, rule type and search text, with pagination."
-msgstr "Перелічує правила брандмауера з фільтрами за сімейством, типом правила та текстом пошуку, з посторінковою навігацією."
+msgstr "Виводить перелік правил брандмауера з фільтрами за сімейством, типом правила та текстом пошуку, з посторінковою навігацією."
 
 #: admin/templates/reports/dashboard.php:34
 #: admin/templates/rules/body.php:21
@@ -9078,7 +9080,7 @@ msgstr "Налаштування журналювання"
 #: includes/data/class-botblocker-snav.php:271
 #: includes/viewmodels/class-settings-viewmodel.php:183
 msgid "Login Brute-Force"
-msgstr "Brute-force захист входу"
+msgstr "Брутфорс-захист входу"
 
 #: admin/templates/settings/login-brute-force.php:24
 #: admin/templates/settings/login-brute-force.php:32
@@ -9610,7 +9612,7 @@ msgstr "Лише моніторинг"
 
 #: admin/templates/cloud-api/status.php:19
 msgid "Monthly"
-msgstr "Щомісячна"
+msgstr "Щомісячно"
 
 #: admin/templates/setup-guide/pro-body.php:17
 msgid "Monthly or annual subscription with cloud intelligence and premium features."
@@ -9755,11 +9757,11 @@ msgstr "Мережі, які ніколи не підраховуються та
 
 #: addons/bbcs-page-cache/views/settings.php:197
 msgid "Never Cache For User Agents (one per line)"
-msgstr "Ніколи не кешувати для агентів користувача (по одному в рядку)"
+msgstr "Ніколи не кешувати для user agent (по одному в рядку)"
 
 #: addons/bbcs-page-cache/views/settings.php:179
 msgid "Never Cache URLs (one per line, * wildcard)"
-msgstr "Ніколи не кешувати URL (по одному в рядку, * – символ підстановки)"
+msgstr "Ніколи не кешувати URL (по одному в рядку, * – підстановочний знак)"
 
 #: addons/bbcs-page-cache/views/settings.php:188
 msgid "Never Cache With Cookies (one per line)"
@@ -9779,7 +9781,7 @@ msgstr "Нові помилки будуть реєструватися по м�
 
 #: admin/templates/selftest/body.php:79
 msgid "New visitor view"
-msgstr "Перегляд як новий відвідувач"
+msgstr "Вигляд нового відвідувача"
 
 #: includes/viewmodels/class-selftest-viewmodel.php:61
 msgid "New visitors are not checked"
@@ -10022,7 +10024,7 @@ msgstr "Не синхронізовано"
 
 #: admin/templates/selftest/body.php:64
 msgid "Not tested yet"
-msgstr "Ще не тестовано"
+msgstr "Ще не перевірено"
 
 #: addons/bbcs-firewall-export/views/settings.php:144
 msgid "Note: extra IPs/CIDRs from the field above are saved only after you save the settings."
@@ -10103,7 +10105,7 @@ msgstr "Увімкнено"
 
 #: addons/bbcs-page-cache/views/settings.php:54
 msgid "On a multisite network these settings are managed on the main site and apply to every site. Changes made here are not used."
-msgstr "У мультисайтовій мережі ці налаштування задаються на головному сайті й застосовуються до кожного сайту. Зміни, зроблені тут, не використовуються."
+msgstr "У мережі сайтів ці налаштування керуються на головному сайті та застосовуються до кожного сайту. Зміни, зроблені тут, не використовуються."
 
 #: addons/bbcs-antispam/views/settings.php:232
 msgid "On API Error"
@@ -10111,7 +10113,7 @@ msgstr "При помилці API"
 
 #: addons/bbcs-early-init/views/settings.php:137
 msgid "On: verified visitors get cached pages, everyone else is checked first. Off: BotBlocker stops pages from being cached at all, so no cached page can skip its checks. The site is slower, but safe. Turn it off only if a cache plugin misbehaves."
-msgstr "Увімкнено: підтверджені відвідувачі отримують кешовані сторінки, усі інші спершу перевіряються. Вимкнено: BotBlocker взагалі не дозволяє кешувати сторінки, тож жодна кешована сторінка не може оминути його перевірки. Сайт повільніший, але безпечний. Вимкніть це, лише якщо кеш плагін поводиться некоректно."
+msgstr "Увімкнено: перевірені відвідувачі отримують кешовані сторінки, усіх інших спершу перевіряють. Вимкнено: BotBlocker взагалі не дає кешувати сторінки, тож жодна кешована сторінка не може оминути його перевірки. Сайт повільніший, але безпечний. Вимкайте це, лише якщо кеш плагін поводиться неправильно."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:386
 msgid "One fnmatch wildcard per line (e.g. \"wp-content/cache/*\", \"*.log\"). Matching integrity findings are silenced across every scan root. Bulk equivalent of the per-file Ignore button."
@@ -10160,7 +10162,7 @@ msgstr "Перевіряти лише коментарі у вибраних к�
 
 #: includes/inc-botblocker-wp-abilities.php:1973
 msgid "Only readonly rules match this IP and cannot be removed."
-msgstr "Цій IP-адресі відповідають лише правила лише для читання, і їх не можна видалити."
+msgstr "З цією IP-адресою збігаються лише правила лише для читання, і їх не можна видалити."
 
 #: admin/templates/settings/payment-tab.php:29
 msgid "Only safe HTTP methods (GET, POST, HEAD) are bypassed. Hard IP blacklists and country blocks still apply."
@@ -10172,7 +10174,7 @@ msgstr "відкрити"
 
 #: admin/templates/setup-guide/status.php:201
 msgid "Open add-ons"
-msgstr "Відкрити додатки"
+msgstr "Відкрийте додатки"
 
 #: admin/templates/integrations/cache.php:52
 msgid "Open CACHE-COMPATIBILITY.md"
@@ -10180,7 +10182,7 @@ msgstr "Відкрити CACHE-COMPATIBILITY.md"
 
 #: includes/data/class-botblocker-palette.php:149
 msgid "Open dashboard - protection status, overview, main page"
-msgstr "Відкрити майстерню - статус захисту, огляд, головна сторінка"
+msgstr "Відкрити панель керування - стан захисту, огляд, головна сторінка"
 
 #: admin/templates/about/body.php:264
 #: admin/templates/settings/advanced-protection.php:67
@@ -10228,7 +10230,7 @@ msgstr "Відкрити інструмент діагностики стану 
 
 #: includes/viewmodels/class-selftest-viewmodel.php:66
 msgid "Opening your home page as a new visitor."
-msgstr "Відкриття вашої домашньої сторінки як нового відвідувача."
+msgstr "Відкриваємо вашу домашню сторінку від імені нового відвідувача."
 
 #: admin/templates/selftest/body.php:19
 msgid "Opens your real home page in the window below. Nothing is simulated."
@@ -10342,11 +10344,11 @@ msgstr "Кеш сторінок"
 
 #: addons/bbcs-early-init/views/settings.php:28
 msgid "Page Cache Active:"
-msgstr "Кеш сторінок діючий:"
+msgstr "Page Cache діючий:"
 
 #: addons/bbcs-early-init/views/settings.php:37
 msgid "Page Cache Available:"
-msgstr "Кеш сторінок доступний:"
+msgstr "Page Cache доступний:"
 
 #: addons/bbcs-page-cache/inc/class-bbcs-page-cache-admin.php:225
 msgid "Page cache cannot write inside its cache folder. Check the folder permissions."
@@ -10362,23 +10364,23 @@ msgstr "Кеш сторінок не може записати до wp-config.ph
 
 #: addons/bbcs-page-cache/inc/class-bbcs-page-cache-admin.php:232
 msgid "Page cache is enabled but WP_CACHE could not be added to wp-config.php. Make wp-config.php writable or add the WP_CACHE define manually."
-msgstr "Кеш сторінок увімкнено, але не вдалося додати WP_CACHE до wp-config.php. Зробіть wp-config.php доступним для запису або додайте константу WP_CACHE вручну."
+msgstr "Кеш сторінок увімкнено, але WP_CACHE не вдалося додати до wp-config.php. Зробіть wp-config.php доступним для запису або додайте константу WP_CACHE вручну."
 
 #: addons/bbcs-page-cache/views/settings.php:65
 msgid "Page Cache needs the Early Init add-on with \"Cached pages for verified visitors\" turned on. Early Init checks every visitor before a cached page is sent, so bots never get cached HTML. Until then page caching cannot be enabled."
-msgstr "Кешу сторінок потрібен додаток Early Init із увімкненим параметром «Кешовані сторінки для перевірених відвідувачів». Early Init перевіряє кожного відвідувача, перш ніж надіслати кешовану сторінку, тож боти ніколи не отримують кешований HTML. До того часу кешування сторінок неможливо ввімкнути."
+msgstr "Page Cache потребує додатка Early Init з увімкненим параметром «Кешовані сторінки для перевірених відвідувачів». Early Init перевіряє кожного відвідувача, перш ніж надіслати кешовану сторінку, тож боти ніколи не отримують кешований HTML. До того часу кешування сторінок увімкнути неможливо."
 
 #. translators: %d: number of URLs queued
 #: addons/bbcs-page-cache/inc/class-bbcs-page-cache-admin.php:248
 #, php-format
 msgid "Page cache preload started: %d URLs queued."
-msgstr "Попереднє завантаження кешу сторінок розпочато: %d URL у черзі."
+msgstr "Попереднє завантаження кешу сторінок розпочато: у черзі %d URL."
 
 #. translators: %d: number of cache files removed
 #: addons/bbcs-page-cache/inc/class-bbcs-page-cache-admin.php:251
 #, php-format
 msgid "Page cache purged: %d files removed."
-msgstr "Кеш сторінок очищено: видалено %d файлів."
+msgstr "Кеш сторінок очищено: видалено файлів – %d."
 
 #: addons/bbcs-early-init/inc/class-bbcs-early-init-addons-page.php:62
 #: addons/bbcs-early-init/views/settings.php:125
@@ -10403,7 +10405,7 @@ msgstr "Сторінка:"
 
 #: includes/viewmodels/class-selftest-viewmodel.php:87
 msgid "Passed the background check"
-msgstr "Пройдено перевірку фон"
+msgstr "Пройдено перевірку у фоні"
 
 #: includes/audit/class-botblocker-audit-logger.php:411
 msgid "Password reset for %login%."
@@ -10477,7 +10479,7 @@ msgstr "Файл шляхів успішно створено."
 
 #: addons/bbcs-page-cache/views/settings.php:180
 msgid "Paths that are never cached or served from cache."
-msgstr "Шляхи, які ніколи не кешуються та не віддаються з кешу."
+msgstr "Шляхи, які ніколи не кешуються й не віддаються з кешу."
 
 #: admin/templates/rules.php:38
 msgid "Paths:"
@@ -10654,7 +10656,7 @@ msgstr "Спочатку виконайте оновлення плагіна."
 
 #: includes/hook/class-botblocker-cloud-api-hooks.php:84
 msgid "Please wait a minute before trying again."
-msgstr "Зачекайте хвилину, перш ніж спробувати знову."
+msgstr "Будь ласка, зачекайте хвилину перед повторною спробою."
 
 #: admin/class-botblocker-admin.php:191
 #: admin/class-botblocker-admin.php:698
@@ -11158,7 +11160,7 @@ msgstr "Очищати при новому коментарі"
 
 #: addons/bbcs-page-cache/views/settings.php:155
 msgid "Purge the post page when a comment is added, edited or moderated."
-msgstr "Очищати сторінку запису, коли коментар додано, відредаговано або піддано модерації."
+msgstr "Очищати сторінку запису, коли коментар додано, відредаговано або схвалено."
 
 #: addons/bbcs-page-cache/inc/class-bbcs-page-cache-admin.php:62
 msgid "Purge this page"
@@ -11297,7 +11299,7 @@ msgstr "Правила лише для читання не можна видал
 
 #: admin/templates/selftest/body.php:52
 msgid "Real visitors may see something different"
-msgstr "Справжні відвідувачі можуть бачити дещо інше"
+msgstr "Справжні відвідувачі можуть побачити дещо інше"
 
 #: admin/templates/setup-wizard/presets.php:31
 msgid "Real visitors unaffected"
@@ -11765,7 +11767,7 @@ msgstr "Видаляє jQuery Migrate. Це може призвести до н�
 
 #: includes/inc-botblocker-wp-abilities.php:472
 msgid "Removes non-readonly firewall rules for an IP address and regenerates the runtime ban files. Requires confirm \"UNBLOCK\"."
-msgstr "Видаляє правила брандмауера, що не є лише для читання, для IP-адреси та повторно генерує файли заборони часу виконання. Потрібне підтвердження «UNBLOCK»."
+msgstr "Видаляє правила брандмауера, що не є лише для читання, для IP-адреси та повторно генерує файли бану середовища виконання. Потрібне підтвердження «UNBLOCK»."
 
 #: addons/bbcs-speedup/views/settings.php:187
 msgid "Removes RSS feed links from the header."
@@ -11811,7 +11813,7 @@ msgstr "Час повторного блокування (секунди):"
 
 #: admin/templates/settings/error.php:26
 msgid "Repeated violations result in progressively longer bans. X-Robots-Tag directives tell search engines how to index and cache your pages."
-msgstr "Повторні порушення призводять до дедалі триваліших блокувань. Директиви X-Robots-Tag повідомляють пошуковим системам, як індексувати та кешувати ваші сторінки."
+msgstr "Повторні порушення призводять до дедалі довших блокувань. Директиви X-Robots-Tag повідомляють пошуковим системам, як індексувати та кешувати ваші сторінки."
 
 #: addons/bbcs-feed-guard/views/settings.php:54
 msgid "Replace full post content in feeds with a short excerpt."
@@ -11882,7 +11884,7 @@ msgstr "Звіти та статистика"
 
 #: admin/templates/reports/body.php:13
 msgid "Reports Dashboard"
-msgstr "Майстерня звітів"
+msgstr "Панель звітів"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-addons-page.php:50
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:432
@@ -12084,7 +12086,7 @@ msgstr "Повертати HTTP 403 для кожного запиту кана�
 
 #: includes/inc-botblocker-wp-abilities.php:289
 msgid "Returns aggregated firewall events per time bucket: blocks, allows, CAPTCHA and proxy hits. No individual IP addresses or user agents are exposed."
-msgstr "Повертає агреговані події брандмауера за інтервалами часу: блокування, дозволи, CAPTCHA та звернення через проксі. Окремі IP-адреси чи user agents не розкриваються."
+msgstr "Повертає агреговані події брандмауера за часовими інтервалами: блокування, дозволи, CAPTCHA та звернення через проксі. Окремі IP-адреси або агенти користувача не розкриваються."
 
 #: includes/inc-botblocker-wp-abilities.php:257
 msgid "Returns aggregated request, block, captcha and proxy counters for a period."
@@ -12092,19 +12094,19 @@ msgstr "Повертає агреговані лічильники запиті�
 
 #: includes/inc-botblocker-wp-abilities.php:327
 msgid "Returns non-secret BotBlocker settings for a group. Secrets are reported only as configured true/false and never expose their value."
-msgstr "Повертає несекретні налаштування BotBlocker для групи. Секрети повідомляються лише як налаштовано true/false і ніколи не розкривають свого значення."
+msgstr "Повертає несекретні налаштування BotBlocker для групи. Секрети повідомляються лише як налаштовані true/false і ніколи не розкривають свого значення."
 
 #: includes/inc-botblocker-wp-abilities.php:352
 msgid "Returns the active CAPTCHA mode, wait time, image packing and the availability of every mode on this site."
-msgstr "Повертає діючий CAPTCHA режим, час очікування, зображення пакування та доступність кожного режим на цьому сайті."
+msgstr "Повертає діючий режим CAPTCHA, час очікування, пакування зображень та доступність кожного режиму на цьому сайті."
 
 #: includes/inc-botblocker-wp-abilities.php:418
 msgid "Returns the BotBlocker self-test summary, bypass reasons and the active flag without writing to the plugin log."
-msgstr "Повертає зведення самоперевірки BotBlocker, причини обходу та прапорець діючий без запису до журналу плагін."
+msgstr "Повертає зведення самоперевірки BotBlocker, причини обходу та діючий прапорець без запису до журналу плагіна."
 
 #: includes/inc-botblocker-wp-abilities.php:16
 msgid "Returns the current protection state, secure mode, CAPTCHA mode and plugin version."
-msgstr "Повертає поточний стан захисту, захищений режим, CAPTCHA режим та версію плагін."
+msgstr "Повертає поточний стан захисту, захищений режим, режим CAPTCHA та версію плагіна."
 
 #: includes/inc-botblocker-wp-abilities.php:129
 msgid "Returns the firewall rules matching a given IP address."
@@ -12112,7 +12114,7 @@ msgstr "Повертає правила брандмауера, що відпо�
 
 #: includes/inc-botblocker-wp-abilities.php:217
 msgid "Returns the IP addresses currently blocked by firewall rules."
-msgstr "Повертає IP-адреси, наразі заблоковані правилами брандмауера."
+msgstr "Повертає IP-адреси, які наразі заблоковано правилами брандмауера."
 
 #: includes/inc-botblocker-wp-abilities.php:701
 msgid "Returns the status and findings of the latest malware scan from the BotBlocker Malware Scanner add-on."
@@ -12386,12 +12388,12 @@ msgstr "Виконати лише прострочені завдання"
 
 #: includes/data/class-botblocker-palette.php:157
 msgid "Run protection test - see your site as a new visitor, captcha preview, check if protection works"
-msgstr "Запустіть тест захисту – подивіться на свій сайт як новий відвідувач, попередній перегляд captcha, перевірте, чи працює захист"
+msgstr "Запустити тест захисту – побачте свій сайт як новий відвідувач, captcha попередній перегляд, перевірте, чи працює захист"
 
 #: admin/templates/integrations/wp-abilities.php:62
 #: includes/inc-botblocker-wp-abilities.php:417
 msgid "Run self-test summary"
-msgstr "Запустити підсумок самоперевірки"
+msgstr "Запустити зведення самоперевірки"
 
 #: includes/data/class-botblocker-palette.php:148
 msgid "Run setup wizard - guide, onboarding, first steps"
@@ -12404,7 +12406,7 @@ msgstr "Запустити тест"
 #: admin/templates/settings/advanced-protection.php:31
 #: admin/templates/settings/captcha-tab.php:108
 msgid "Run the Protection Test"
-msgstr "Запустіть тест захисту"
+msgstr "Запустити тест захисту"
 
 #: admin/templates/settings/cron.php:202
 msgid "Run this task now"
@@ -12483,7 +12485,7 @@ msgstr "Зберегти"
 
 #: addons/bbcs-page-cache/views/settings.php:135
 msgid "Save a pre-compressed .gz copy and send it to browsers that accept gzip."
-msgstr "Зберігати попередньо стиснуту копію .gz і надсилати її браузерам, які підтримують gzip."
+msgstr "Зберігати попередньо стиснуту копію .gz і надсилати її браузерам, що приймають gzip."
 
 #: admin/class-botblocker-admin.php:479
 msgid "Save LLM rules to PHP file"
@@ -12656,12 +12658,14 @@ msgid "Schedule"
 msgstr "Відкласти"
 
 #: admin/templates/tools/maintenance-tab.php:135
+#, fuzzy
 msgid "Schedule an immediate background download of the latest ASN (autonomous system) database from BotBlocker servers."
-msgstr "Відкласти негайне фонове завантаження останньої бази даних ASN (автономних систем) з серверів BotBlocker."
+msgstr "Запланувати негайне фонове завантаження найновішої бази даних ASN (автономних систем) із серверів BotBlocker."
 
 #: admin/templates/tools/maintenance-tab.php:149
+#, fuzzy
 msgid "Schedule an immediate background download of the latest RU-Gov CIDR list from C24Be/AS_Network_List (VK excluded)."
-msgstr "Відкласти негайне фонове завантаження останнього переліку CIDR RU-Gov з C24Be/AS_Network_List (VK виключено)."
+msgstr "Запланувати негайне фонове завантаження найновішого переліку CIDR для RU-Gov із C24Be/AS_Network_List (VK виключено)."
 
 #: addons/bbcs-cron-jobs/views/settings.php:133
 msgid "Scheduled Content Cleanup"
@@ -12738,7 +12742,7 @@ msgstr "Файл пошукових систем успішно згенеров
 
 #: includes/utilites/class-botblocker-deactivation-feedback.php:195
 msgid "Search engines or other good bots were blocked"
-msgstr "Пошукові системи або інші добрі боти були заблоковані"
+msgstr "Пошукові системи або інші корисні боти були заблоковані"
 
 #: admin/templates/shared/command-palette.php:11
 msgid "Search settings and actions"
@@ -12893,7 +12897,7 @@ msgstr "SecurityHeaders.com — оцінка хедера"
 
 #: admin/templates/setup-guide/pro-body.php:32
 msgid "See all PRO features"
-msgstr "Переглянути всі функції PRO"
+msgstr "Переглянути всі функції та особливості PRO"
 
 #: admin/templates/cloud-api/status.php:185
 msgid "See pricing"
@@ -12902,11 +12906,11 @@ msgstr "Дивитися ціни"
 #: admin/templates/settings/advanced-protection.php:29
 #: admin/templates/settings/captcha-tab.php:106
 msgid "See what a new visitor gets."
-msgstr "Подивіться, що отримує новий відвідувач."
+msgstr "Побачте, що отримує новий відвідувач."
 
 #: admin/templates/selftest.php:22
 msgid "See your site exactly as a new, unverified visitor sees it."
-msgstr "Подивіться на свій сайт точно так, як його бачить новий, непідтверджений відвідувач."
+msgstr "Побачте свій сайт точно таким, яким його бачить новий непідтверджений відвідувач."
 
 #: addons/bbcs-antispam/views/settings.php:285
 #: addons/bbcs-antispam/views/settings.php:460
@@ -12945,7 +12949,7 @@ msgstr "Виберіть завдання, яке бачать відвідув�
 
 #: addons/bbcs-form-captcha/inc/class-bbcs-form-captcha-service.php:235
 msgid "Select the color shown on the left"
-msgstr "Виберіть колір, показаний ліворуч"
+msgstr "Виберіть колір, показаний ліворуч."
 
 #: admin/templates/integrations/redis.php:67
 msgid "Select the Redis database index (0-15) to use. Default is 0. Different database indexes provide logical isolation between applications sharing the same Redis server."
@@ -13014,7 +13018,7 @@ msgstr "Керування білим списком SEO-ботів"
 
 #: addons/bbcs-page-cache/views/settings.php:146
 msgid "Separate Mobile Cache"
-msgstr "Окремий кеш для мобільних"
+msgstr "Окремий кеш для мобільних пристроїв"
 
 #: admin/templates/settings/captcha-tab.php:55
 msgid "Separate Requests (Legacy)"
@@ -13284,7 +13288,7 @@ msgstr "Silent Captcha пройдено"
 
 #: includes/viewmodels/class-selftest-viewmodel.php:83
 msgid "Silent captcha started"
-msgstr "Silent Captcha розпочато"
+msgstr "Silent Captcha запущено"
 
 #: admin/templates/setup-wizard/cache.php:30
 msgid "Simple and reliable"
@@ -13549,11 +13553,11 @@ msgstr "Запуск…"
 
 #: includes/inc-botblocker-wp-abilities.php:676
 msgid "Starts a background malware scan through the BotBlocker Malware Scanner add-on. Requires confirm \"SCAN\"."
-msgstr "Запускає фон сканування на зловмисне програмне забезпечення через додаток BotBlocker Malware Scanner. Потрібне підтвердження «SCAN»."
+msgstr "Запускає фонове сканування на зловмисне програмне забезпечення через додаток BotBlocker Malware Scanner. Потрібне підтвердження «SCAN»."
 
 #: addons/bbcs-page-cache/views/settings.php:24
 msgid "Static HTML page cache that works with BotBlocker instead of against it. Cached pages are served only to visitors the shield has passed; check, block and denied pages are never stored."
-msgstr "Кеш статичних HTML-сторінок, який працює разом із BotBlocker, а не проти нього. Кешовані сторінки віддаються лише відвідувачам, яких пропустив щит; сторінки перевірки, блокування й відмови ніколи не зберігаються."
+msgstr "Кеш статичних HTML-сторінок, який працює разом із BotBlocker, а не проти нього. Кешовані сторінки надсилаються лише відвідувачам, яких пропустив щит; сторінки перевірки, блокування та відмови ніколи не зберігаються."
 
 #: admin/templates/settings/ui.php:89
 #: includes/data/class-botblocker-snav.php:559
@@ -13601,7 +13605,7 @@ msgstr "Зберігати відповіді Cloud API у транзієнта�
 
 #: addons/bbcs-page-cache/views/settings.php:134
 msgid "Store Gzip Copies"
-msgstr "Зберігати gzip-копії"
+msgstr "Зберігати копії Gzip"
 
 #: addons/bbcs-page-cache/views/settings.php:113
 msgid "Store rendered pages as static HTML and serve them only to visitors Early Init has verified."
@@ -13627,7 +13631,7 @@ msgstr "Суворі хедери CORS"
 #: admin/templates/settings/payment-tab.php:46
 #: includes/data/class-botblocker-snav.php:327
 msgid "Strict Webhook Validation (POST only)"
-msgstr "Сувора перевірка вебхука (лише POST)"
+msgstr "Строга перевірка вебхук (лише POST)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:72
 #: admin/templates/setup-wizard/finish.php:19
@@ -13762,11 +13766,11 @@ msgstr "Перемкнуто тему з %from% на %to%."
 
 #: includes/inc-botblocker-wp-abilities.php:628
 msgid "Switches the CAPTCHA mode and optional wait time. A mode that is unavailable on this site is rejected instead of silently falling back."
-msgstr "Перемикає CAPTCHA режим і необов'язково час очікування. режим, недоступний на цьому сайті, відхиляється замість тихого повернення до попереднього."
+msgstr "Перемикає режим CAPTCHA та необов'язковий час очікування. Режим, недоступний на цьому сайті, відхиляється, а не тихо повертається до попереднього значення."
 
 #: includes/inc-botblocker-wp-abilities.php:598
 msgid "Switches the secure mode between frontend and full. Full mode also challenges the WordPress admin area. Requires confirm \"FRONTEND\" or \"FULL\"."
-msgstr "Перемикає захищений режим між зовнішньою частиною сайту та повним. Повний режим також перевіряє адміністративну частину WordPress. Потрібне підтвердження «FRONTEND» або «FULL»."
+msgstr "Перемикає захищений режим між зовнішньою частиною сайту та повним режимом. Повний режим також перевіряє адміністративну частину WordPress. Потрібне підтвердження «FRONTEND» або «FULL»."
 
 #: includes/cron/class-botblocker-cron.php:96
 msgid "Sync Early Init Data"
@@ -13941,8 +13945,9 @@ msgid "Temporary extraction directory is missing."
 msgstr "Відсутня тимчасова директорія для розпакування."
 
 #: admin/templates/about/body.php:92
+#, fuzzy
 msgid "Terms of service"
-msgstr "Групи (таксономії) обслуговування"
+msgstr "Умови обслуговування"
 
 #: addons/bbcs-pusher/views/settings.php:121
 #: addons/bbcs-telegram/views/settings.php:79
@@ -14058,11 +14063,11 @@ msgstr "Замість цього використовується вбудов�
 
 #: includes/inc-botblocker-wp-abilities.php:2268
 msgid "The CAPTCHA mode could not be saved."
-msgstr "Не вдалося зберегти CAPTCHA режим."
+msgstr "Режим CAPTCHA не вдалося зберегти."
 
 #: includes/viewmodels/class-selftest-viewmodel.php:64
 msgid "The check page is running."
-msgstr "Сторінка перевірки виконується."
+msgstr "Сторінка перевірки працює."
 
 #: includes/viewmodels/class-selftest-viewmodel.php:90
 msgid "The check page reloads with a new captcha. Not banned, because this is a test"
@@ -14070,7 +14075,7 @@ msgstr "Сторінка перевірки перезавантажується
 
 #: includes/viewmodels/class-selftest-viewmodel.php:49
 msgid "The connection to your site was interrupted."
-msgstr "З’єднання із вашим сайтом було перервано."
+msgstr "З’єднання з вашим сайтом було перервано."
 
 #: addons/bbcs-forced-inclusions/views/settings.php:151
 msgid "The DISALLOW_FILE_MODS constant is set in wp-config.php, so this page is read-only. The list below still shows everything WordPress is loading."
@@ -14086,12 +14091,12 @@ msgstr "Шлюз кешу Early Init перевіряє кожного відв�
 
 #: includes/inc-botblocker-wp-abilities.php:2169
 msgid "The enabled flag is required."
-msgstr "Потрібен прапорець увімкнення."
+msgstr "Потрібен прапорець enabled."
 
 #: includes/inc-botblocker-wp-abilities.php:1901
 #: includes/inc-botblocker-wp-abilities.php:2048
 msgid "The existing rule is readonly and cannot be changed."
-msgstr "Наявне правило лише для читання, і його не можна змінити."
+msgstr "Наявне правило доступне лише для читання, і його не можна змінити."
 
 #: includes/inc-botblocker-wp-abilities.php:1352
 msgid "The expiry timestamp is too far in the future."
@@ -14227,7 +14232,7 @@ msgstr "Частина посилання пакета не відповідає
 
 #: addons/bbcs-early-init/views/settings.php:29
 msgid "The Page Cache add-on is active. It serves cached pages only to visitors this gate has verified."
-msgstr "Додаток Page Cache: діючий. Він надсилає кешовані сторінки лише відвідувачам, яких підтвердив цей шлюз."
+msgstr "Додаток Page Cache діючий. Він надсилає кешовані сторінки лише відвідувачам, яких підтвердив цей шлюз."
 
 #: admin/templates/selftest/body.php:30
 msgid "The pass cookie your browser got from an earlier check."
@@ -14239,15 +14244,15 @@ msgstr "Для перевірки пакетів додатків потрібн
 
 #: includes/inc-botblocker-wp-abilities.php:2186
 msgid "The protection state could not be saved."
-msgstr "Не вдалося зберегти стан захисту."
+msgstr "Стан захисту не вдалося зберегти."
 
 #: addons/bbcs-turnstile/views/settings.php:46
 msgid "The public site key from the Cloudflare Turnstile dashboard."
-msgstr "Публічний ключ сайту з Майстерні Cloudflare Turnstile."
+msgstr "Публічний ключ сайту з панелі керування Cloudflare Turnstile."
 
 #: addons/bbcs-hcaptcha/views/settings.php:46
 msgid "The public site key from the hCaptcha dashboard."
-msgstr "Публічний ключ сайту з Майстерні hCaptcha."
+msgstr "Публічний ключ сайту з панелі керування hCaptcha."
 
 #: includes/data/class-botblocker-alerts.php:339
 msgid "The Redis PHP extension is available on this server but Redis counters are disabled. Enable them if a Redis server is running."
@@ -14263,7 +14268,7 @@ msgstr "Поки сторінка відновлення увімкнена, в�
 
 #: includes/inc-botblocker-wp-abilities.php:2149
 msgid "The rule could not be deleted."
-msgstr "Не вдалося видалити правило."
+msgstr "Правило не вдалося видалити."
 
 #: includes/inc-botblocker-wp-abilities.php:2128
 msgid "The rule was not found."
@@ -14289,12 +14294,12 @@ msgstr "Секретний ключ, який використовується �
 
 #: includes/inc-botblocker-wp-abilities.php:2229
 msgid "The secure mode could not be saved."
-msgstr "Не вдалося зберегти захищений режим."
+msgstr "Захищений режим не вдалося зберегти."
 
 #: includes/inc-botblocker-wp-abilities.php:1143
 #: includes/inc-botblocker-wp-abilities.php:1778
 msgid "The selected CAPTCHA mode is not available on this site."
-msgstr "Вибраний CAPTCHA режим недоступний на цьому сайті."
+msgstr "Вибраний режим CAPTCHA недоступний на цьому сайті."
 
 #: includes/hook/class-botblocker-settings-hooks.php:625
 msgid "The selected CAPTCHA provider add-on is not active. Captcha mode was adjusted to a compatible mode."
@@ -14314,7 +14319,7 @@ msgstr "Компонент самоперевірки недоступний."
 
 #: includes/viewmodels/class-selftest-viewmodel.php:62
 msgid "The site opened without any check."
-msgstr "Сайт відкрився без жодної перевірки."
+msgstr "Сайт відкрився без будь-якої перевірки."
 
 #: addons/bbcs-hcaptcha/views/settings.php:86
 msgid "The size of the hCaptcha widget."
@@ -14335,7 +14340,7 @@ msgstr "Тестове посилання працює лише для вас, �
 
 #: admin/templates/selftest/body.php:46
 msgid "The test runs from your own IP address. That is why a failed attempt is never counted as a ban: if it were, your own IP would be blocked and you could not open this admin panel anymore."
-msgstr "Тест виконується з вашої власної IP-адреси. Ось чому невдала спроба ніколи не зараховується як бан: якби це було так, вашу власну IP-адресу було б заблоковано, і ви більше не змогли б відкрити цю панель адміністратора."
+msgstr "Тест виконується з вашої власної IP-адреси. Ось чому невдала спроба ніколи не зараховується як блокування: якби це було так, вашу власну IP-адресу було б заблоковано, і ви більше не змогли б відкрити цю панель адміністратора."
 
 #: addons/bbcs-cookie-alert/views/settings.php:53
 msgid "The text displayed in the cookie notice. Keep it concise and informative."
@@ -14343,7 +14348,7 @@ msgstr "Текст, який відображається у сповіщенн�
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:419
 msgid "The traffic activity level (as a fraction of the Core Rate Inspector's block RPM limit) where we start tracking and recording reputation. For example, at 0.35, once a visitor reaches 35% of that core limit, we begin monitoring their patterns. (Default: 0.35)"
-msgstr "Рівень трафіку діяльність (як частка від ліміту RPM блокування Core Rate Inspector), на якому ми починаємо відстежувати й записувати репутацію. Наприклад, при 0.35, щойно відвідувач досягає 35% цього основного ліміту, ми починаємо моніторити його патерни. (початковий: 0.35)"
+msgstr "Рівень трафіку діяльність (як частка від ліміту блокування RPM Core Rate Inspector), на якому ми починаємо відстежувати й записувати репутацію. Наприклад, при 0.35, щойно відвідувач досягає 35% цього основного ліміту, ми починаємо відстежувати його патерни. (початковий: 0.35)"
 
 #: admin/class-botblocker-admin.php:653
 #: includes/class-botblocker-toastify.php:248
@@ -14365,19 +14370,19 @@ msgstr "Видима мітка посилання атрибуції."
 
 #: includes/viewmodels/class-selftest-viewmodel.php:82
 msgid "The visitor has no pass cookie"
-msgstr "Відвідувач не має pass cookie"
+msgstr "Відвідувач не має cookie проходження"
 
 #: includes/viewmodels/class-selftest-viewmodel.php:59
 msgid "The visitor passed the background check and the site opened. Force verification is off, so no captcha was required."
-msgstr "Відвідувач пройшов перевірку фон, і сайт відкрився. Примусову перевірку вимкнено, тому Captcha не була потрібна."
+msgstr "Відвідувач пройшов перевірку у фоні, і сайт відкрився. Примусову перевірку вимкнено, тому Captcha не була потрібна."
 
 #: includes/viewmodels/class-selftest-viewmodel.php:60
 msgid "The visitor passed the background check. Force verification is off, so no captcha was required."
-msgstr "Відвідувач пройшов перевірку фон. Примусову перевірку вимкнено, тому Captcha не була потрібна."
+msgstr "Відвідувач пройшов перевірку у фоні. Примусову перевірку вимкнено, тому Captcha не була потрібна."
 
 #: admin/templates/selftest/body.php:81
 msgid "The visitor view opens here."
-msgstr "Тут відкривається перегляд відвідувача."
+msgstr "Тут відкривається вигляд відвідувача."
 
 #: addons/bbcs-cookie-alert/views/settings.php:115
 msgid "The visual style of the cookie alert banner."
@@ -14668,7 +14673,7 @@ msgstr "Занадто багато спроб. Спробуйте ще раз �
 
 #: includes/inc-botblocker-wp-abilities.php:819
 msgid "Too many destructive ability calls. Try again later."
-msgstr "Забагато викликів деструктивних можливостей. Спробуйте пізніше."
+msgstr "Забагато деструктивних викликів можливостей. Спробуйте пізніше."
 
 #: includes/ajax/class-botblocker-ajax-paths.php:587
 msgid "Too many entries. Maximum 1000 per import."
@@ -14885,7 +14890,7 @@ msgstr "Довіряти вашій поточній IP-адресі"
 
 #: admin/templates/settings/connection-types.php:58
 msgid "Trusted application password REST access"
-msgstr "Довірений REST-доступ із паролем застосунку"
+msgstr "Довірений доступ REST із застосунковим паролем"
 
 #: admin/templates/rules.php:40
 #: admin/templates/rules/body.php:16
@@ -14991,7 +14996,7 @@ msgstr "Вмикає або вимикає всі захисні хедери Bo
 
 #: includes/inc-botblocker-wp-abilities.php:568
 msgid "Turns BotBlocker protection on or off through the same path as the Dashboard toggle, including the runtime settings file. Requires confirm \"ENABLE\" or \"DISABLE\"."
-msgstr "Вмикає або вимикає захист BotBlocker через той самий шлях, що й перемикач Майстерня, включно з файлом налаштування часу виконання. Потрібне підтвердження «ENABLE» або «DISABLE»."
+msgstr "Вмикає або вимикає захист BotBlocker тим самим способом, що й перемикач на панелі керування, зокрема оновлює файл налаштувань середовища виконання (runtime settings). Потребує підтвердження \"ENABLE\" або \"DISABLE\"."
 
 #: includes/data/traits/trait-botblocker-stats-charts.php:280
 #, pgettext
@@ -15303,7 +15308,7 @@ msgstr "Блокування IP-адрес, що не відповідають"
 #: includes/inc-botblocker-wp-abilities.php:1135
 #: includes/inc-botblocker-wp-abilities.php:1150
 msgid "Unsupported CAPTCHA mode."
-msgstr "Непідтримуваний CAPTCHA режим."
+msgstr "Непідтримуваний режим CAPTCHA."
 
 #: includes/inc-botblocker-wp-abilities.php:1612
 #: includes/inc-botblocker-wp-abilities.php:1652
@@ -15320,7 +15325,7 @@ msgstr "Непідтримуваний захищений режим."
 
 #: includes/inc-botblocker-wp-abilities.php:1736
 msgid "Unsupported settings group."
-msgstr "Непідтримувана група налаштування."
+msgstr "Непідтримувана група налаштувань."
 
 #: addons/bbcs-forced-inclusions/views/settings.php:139
 msgid "Unsure what a file does? Ask your host before removing it. Some hosts restore their own files automatically, so a disabled file may reappear."
@@ -15459,7 +15464,7 @@ msgstr "URL для перенаправлення, коли хтось нама�
 
 #: addons/bbcs-page-cache/views/settings.php:207
 msgid "URLs with other query parameters are not cached. Tracking parameters (utm_*, gclid, fbclid and similar) are ignored automatically."
-msgstr "URL з іншими параметрами запиту не кешуються. Параметри відстеження (utm_*, gclid, fbclid та подібні) ігноруються автоматично."
+msgstr "URL з іншими параметрами запитів не кешуються. Параметри відстеження (utm_*, gclid, fbclid та подібні) ігноруються автоматично."
 
 #: admin/templates/integrations/botblocker-api.php:64
 msgid "Usage"
@@ -15510,8 +15515,9 @@ msgid "Use these options to enable or disable groups of security response header
 msgstr "Використовуйте ці параметри, щоб увімкнути або вимкнути групи захисних хедерів відповіді. Ці хедери покращують захист браузера та конфіденційність, але деякі можуть вимагати перевірки сумісності з темами та плагінами. Якщо ви запускаєте локальний сайт без HTTPS, тимчасово вимкніть HSTS і CSP, щоб уникнути проблем зі змішаним вмістом. Знову увімкніть їх на робочому сайті для кращого рівня безпеки."
 
 #: addons/bbcs-form-captcha/views/settings.php:58
+#, fuzzy
 msgid "Used when the shortcode has no type attribute. Type can be overridden per shortcode: type=\"robot\", type=\"color\" or type=\"hold\"."
-msgstr "Використовується, коли короткий код не має атрибута type. Тип можна перевизначити для кожного короткого коду: type=«robot», type=«color» або type=«hold»."
+msgstr "Використовується, коли короткий код не має атрибута type. Тип можна перевизначити для кожного короткого коду: type=\"robot\", type=\"color\" або type=\"hold\"."
 
 #: admin/templates/about/body.php:208
 msgid "used with attribution"
@@ -15606,7 +15612,7 @@ msgstr "Джерела перевірки"
 
 #: addons/bbcs-form-captcha/inc/class-bbcs-form-captcha-plugin.php:185
 msgid "Verified"
-msgstr "Підтверджено"
+msgstr "Перевірено"
 
 #: admin/templates/shared/kpi-primary-grid.php:53
 msgid "verified and passed"
@@ -15880,7 +15886,7 @@ msgstr "Коли ввімкнено, всі автентифіковані ко�
 
 #: addons/bbcs-xmlrpc-tunnel/views/settings.php:58
 msgid "When enabled, only allowlisted IPs can access XML-RPC. When disabled, XML-RPC is fully blocked for every IP, including allowlisted ones."
-msgstr "Якщо ввімкнено, лише IP зі списку дозволених можуть отримати доступ до XML-RPC. Якщо вимкнено, XML-RPC повністю блокується для всіх IP, зокрема й для тих, що в списку дозволених."
+msgstr "Коли ввімкнено, доступ до XML-RPC мають лише IP зі списку дозволених. Коли вимкнено, XML-RPC повністю заблоковано для кожного IP, зокрема й для тих, що в списку дозволених."
 
 #: admin/templates/settings/payment-tab.php:47
 msgid "When enabled, payment callbacks still skip Captcha but IP blacklists, ASN rules, path rules and country blocks remain active. A blocked IP cannot use a payment callback to bypass the block."
@@ -15911,7 +15917,7 @@ msgstr "Де на сторінці з’являється банер попер
 #: admin/templates/reports/body.php:47
 #: admin/templates/reports/body.php:61
 msgid "Which requests are logged"
-msgstr "Які запити журналюються"
+msgstr "Які запити записуються"
 
 #: admin/partials/class-botblocker-dashboard-widgets.php:167
 #: admin/partials/class-botblocker-dashboard-widgets.php:174
@@ -15973,8 +15979,9 @@ msgid "Why you don’t see a captcha yourself"
 msgstr "Чому ви самі не бачите Captcha"
 
 #: addons/bbcs-form-captcha/views/settings.php:70
+#, fuzzy
 msgid "Widget color theme. Override per shortcode with theme=\"light\" or theme=\"dark\"."
-msgstr "Колір віджета тема. Перевизначте для кожного короткий код за допомогою тема=\"тонкий\" або тема=\"dark\"."
+msgstr "Колір віджета тема. Перевизначення для кожного короткий код за допомогою theme=\"light\" або theme=\"dark\"."
 
 #: admin/templates/settings/rate-limiting.php:108
 #: includes/data/class-botblocker-snav.php:225
@@ -16103,7 +16110,7 @@ msgstr "Працює скрізь"
 
 #: addons/bbcs-early-init/views/settings.php:129
 msgid "Works with page cache plugins such as WP Super Cache, W3 Total Cache, WP Fastest Cache and Cache Enabler while Early Init is on. Visitors BotBlocker has verified get fast cached pages. Bots and unverified visitors always get a fresh page and are checked first."
-msgstr "Працює з плагінами кешу сторінок, як-от WP Super Cache, W3 Total Cache, WP Fastest Cache і Cache Enabler, поки увімкнено Early Init. Відвідувачі, яких підтвердив BotBlocker, отримують швидкі кешовані сторінки. Боти та непідтверджені відвідувачі завжди отримують свіжу сторінку, і їх перевіряють першими."
+msgstr "Працює з плагінами кешу сторінок, як-от WP Super Cache, W3 Total Cache, WP Fastest Cache і Cache Enabler, поки Early Init увімкнено. Відвідувачі, яких підтвердив BotBlocker, отримують швидкі кешовані сторінки. Боти й непідтверджені відвідувачі завжди отримують свіжу сторінку, і їх перевіряють першими."
 
 #: admin/templates/integrations/wp-abilities.php:25
 #: includes/viewmodels/class-integrations-viewmodel.php:186
@@ -16133,7 +16140,7 @@ msgstr "Інтеграція з wp-config.php"
 
 #: addons/bbcs-page-cache/views/settings.php:76
 msgid "wp-content/advanced-cache.php belongs to another caching plugin, so cached pages are served later, after the BotBlocker shield. Deactivate that plugin and remove its drop-in, then save again for the fastest mode."
-msgstr "wp-content/advanced-cache.php належить іншому плагіну кешування, тому кешовані сторінки віддаються пізніше, після щита BotBlocker. Деактивуйте цей плагін і видаліть його drop-in, потім збережіть ще раз, щоб отримати найшвидший режим."
+msgstr "wp-content/advanced-cache.php належить іншому плагіну кешування, тому кешовані сторінки надсилаються пізніше – після щита BotBlocker. Деактивуйте той плагін і видаліть його drop-in, потім збережіть знову для найшвидшого режиму."
 
 #: admin/templates/settings/cron.php:20
 msgid "WP-Cron enabled"
@@ -16153,7 +16160,7 @@ msgstr "Створює запис у журналі під час кожного
 
 #: includes/viewmodels/class-selftest-viewmodel.php:91
 msgid "Wrong captcha answer"
-msgstr "Неправильна відповідь Captcha"
+msgstr "Неправильна відповідь на Captcha"
 
 #: includes/data/class-botblocker-snav.php:519
 msgid "X-Robots-Tag directives"
@@ -16206,7 +16213,7 @@ msgstr "Так"
 #. Author of the plugin
 #: botblocker-security.php
 msgid "Yevhen Leonidov"
-msgstr "Yevhen Leonidov"
+msgstr "Євген Леонідов"
 
 #: includes/viewmodels/class-selftest-viewmodel.php:101
 msgid "You are logged in as an administrator or editor. BotBlocker never checks them."
@@ -16235,7 +16242,7 @@ msgstr "Ви можете вимкнути його знову в будь-як�
 
 #: admin/templates/selftest/body.php:36
 msgid "You cannot get banned here. If you fail the captcha, nothing is saved against you, so you will not lock yourself out of the admin panel."
-msgstr "Тут вас не можуть забанити. Якщо ви не пройдете captcha, проти вас нічого не зберігається, тож ви не заблокуєте собі доступ до панелі адміністратора."
+msgstr "Тут вас не можуть заблокувати. Якщо ви не пройдете captcha, проти вас нічого не зберігається, тож ви не заблокуєте собі доступ до панелі адміністратора."
 
 #: addons/bbcs-page-cache/inc/class-bbcs-page-cache-admin.php:71
 msgid "You do not have permission to do this."
@@ -16257,7 +16264,7 @@ msgstr "Потрібна авторизація."
 
 #: admin/templates/selftest/body.php:14
 msgid "You never see the captcha on your own site because BotBlocker recognizes you. This test removes that recognition for one visit, so you see what a first-time visitor sees."
-msgstr "Ви ніколи не бачите captcha на власному сайті, бо BotBlocker розпізнає вас. Цей тест прибирає це розпізнавання на одне відвідування, тож ви бачите те, що бачить відвідувач уперше."
+msgstr "Ви ніколи не бачите captcha на власному сайті, тому що BotBlocker розпізнає вас. Цей тест прибирає це розпізнавання на одне відвідування, тож ви побачите те, що бачить новий відвідувач."
 
 #: addons/bbcs-telegram/inc/class-bbcs-telegram-plugin.php:378
 msgid "You will receive weekly security reports here."
@@ -16265,7 +16272,7 @@ msgstr "Тут ви отримуватимете щотижневі звіти �
 
 #: admin/templates/selftest/body.php:28
 msgid "Your administrator login. Administrators and editors are never checked."
-msgstr "Ваш логін адміністратора. Адміністратори й редактори ніколи не перевіряються."
+msgstr "Ваш вхід як адміністратора. Адміністратори та редактори ніколи не перевіряються."
 
 #: includes/data/class-botblocker-alerts.php:247
 msgid "Your authenticator secret is saved but the QR code was not verified yet. Complete the verification to actually protect this account."
@@ -16273,7 +16280,7 @@ msgstr "Ваш секрет автентифікатора збережено, �
 
 #: includes/viewmodels/class-selftest-viewmodel.php:103
 msgid "Your browser already passed the check and keeps a pass cookie."
-msgstr "Ваш браузер уже пройшов перевірку та зберігає pass cookie."
+msgstr "Ваш браузер уже пройшов перевірку та зберігає cookie проходження."
 
 #: admin/templates/setup-guide/chain-body.php:56
 msgid "Your browser does not support the video tag."
@@ -16312,9 +16319,9 @@ msgstr "Ліміт звернень Cloud API вичерпано."
 #, php-format, plural
 msgid "Your cloud API will expire in %d day."
 msgid_plural "Your cloud API will expire in %d days."
-msgstr[0] "Термін дії вашого хмарного API спливає через %d день."
-msgstr[1] "Термін дії вашого хмарного API спливає через %d дні."
-msgstr[2] "Термін дії вашого хмарного API спливає через %d днів."
+msgstr[0] "Термін дії вашого хмарного API спливе через %d день."
+msgstr[1] "Термін дії вашого хмарного API спливе через %d дні."
+msgstr[2] "Термін дії вашого хмарного API спливе через %d днів."
 
 #: admin/templates/shared/sidebar/rail.php:82
 msgid "Your email"
@@ -16350,7 +16357,7 @@ msgstr "Вашою ліцензією керує Freemius."
 
 #: admin/templates/selftest/body.php:37
 msgid "Your login and your pass cookie are not changed."
-msgstr "Ваш логін і ваше cookie проходження не змінюються."
+msgstr "Ваш вхід і ваше cookie проходження не змінюються."
 
 #: includes/utilites/class-botblocker-support.php:143
 msgid "Your message has been sent."
@@ -16358,7 +16365,7 @@ msgstr "Ваше повідомлення надіслано."
 
 #: addons/bbcs-pusher/views/settings.php:60
 msgid "Your Pusher app ID from the dashboard."
-msgstr "Ваш ID додатка Pusher з Майстерні."
+msgstr "Ідентифікатор вашого застосунку Pusher (App ID) з майстерні."
 
 #: addons/bbcs-pusher/views/settings.php:72
 msgid "Your Pusher app key (public)."
