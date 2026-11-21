@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BotBlocker"
 "Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2026-11-10 18:26+0000"
-"PO-Revision-Date: 2026-11-10 18:26+0000"
+"POT-Creation-Date: 2026-11-19 19:28+0000"
+"PO-Revision-Date: 2026-11-19 19:28+0000"
 "Last-Translator: BotBlocker Team (jacobs_web)"
 "Language-Team: Hebrew"
 "Language: he_IL"
@@ -482,7 +482,7 @@ msgstr "מבקר חדש מקבל Captcha. לאחר שפותר אותו, ה-את�
 
 #: includes/viewmodels/class-selftest-viewmodel.php:55
 msgid "A new visitor gets a captcha. Solve it in the window on the right to finish the test."
-msgstr "מבקר חדש מקבל Captcha. פתרו אותו בחלון שמצד ימין כדי לסיים את הבדיקה."
+msgstr "מבקר חדש מקבל Captcha. פתור אותו בחלון שמצד ימין כדי לסיים את הבדיקה."
 
 #: includes/viewmodels/class-selftest-viewmodel.php:57
 msgid "A new visitor is going through the Silent captcha."
@@ -520,7 +520,7 @@ msgstr "קובץ יחיד בתיקיית wp-content שמחליף חלק מובנ
 
 #: addons/bbcs-forced-inclusions/views/settings.php:134
 msgid "a single file with a name WordPress recognises, such as object-cache.php. It replaces one built-in part of WordPress, for example caching or the \"site is down for maintenance\" page."
-msgstr "קובץ יחיד עם שם שוורדפרס מזהה, כמו object-cache.php. הוא מחליף חלק מובנה אחד של וורדפרס, למשל מטמון או עמוד „האתר מושבת לצורך תחזוקה”."
+msgstr "קובץ יחיד עם שם שוורדפרס מזהה, כמו object-cache.php. הוא מחליף חלק מובנה אחד של וורדפרס, למשל מטמון או עמוד \"האתר מושבת לצורך תחזוקה\"."
 
 #: admin/templates/integrations/mu.php:21
 msgid "A small loader file is installed into wp-content/mu-plugins and pulls the main plugin code on every request."
@@ -883,13 +883,13 @@ msgstr "תוסף"
 #: includes/hook/class-botblocker-addon-hooks.php:291
 #, php-format
 msgid "Add-on \"%s\" failed and was switched off to keep the site running."
-msgstr "התוסף „%s” נכשל וכובה כדי לשמור על פעילות האתר."
+msgstr "התוסף \"%s\" נכשל וכובה כדי לשמור על פעילות האתר."
 
 #. translators: %slug%: add-on slug; %event%: lifecycle event name.
 #: includes/audit/class-botblocker-audit-logger.php:467
 #, php-format
 msgid "Add-on %slug%: %event%."
-msgstr ""
+msgstr "תוסף %slug%: %event%."
 
 #: includes/hook/class-botblocker-addon-hooks.php:307
 msgid "Add-on activated successfully."
@@ -1078,7 +1078,7 @@ msgstr "מוסיף כותרת Content-Security-Policy ברירת מחדל כדי
 
 #: includes/inc-botblocker-wp-abilities.php:438
 msgid "Adds a firewall block rule for an IP address and regenerates the runtime ban files. Requires confirm \"BLOCK\". Refuses readonly rules and self-blocking without force."
-msgstr "מוסיף כלל בלוק של חומת אש עבור כתובת IP ומחדש את קובצי החסימה בזמן ריצה. מחייב אישור “BLOCK”. מסרב לכללים לקריאה בלבד ולחסימה עצמית ללא force."
+msgstr "מוסיף כלל בלוק של חומת אש עבור כתובת IP ומחדש את קובצי החסימה בזמן ריצה. מחייב אישור \"BLOCK\". מסרב לכללים לקריאה בלבד ולחסימה עצמית ללא force."
 
 #: admin/templates/settings/captcha-tab.php:182
 msgid "Adds a hidden anti-bot trap field and a submit-timing check to the verification page. Disabled by default."
@@ -1233,7 +1233,7 @@ msgstr "ניתוח התנהגות AI"
 
 #: addons/bbcs-antispam/views/settings.php:64
 msgid "AI responses are emulated locally with keyword heuristics (mock mode). No real API calls are made — disable before going live."
-msgstr "תגובות ה-AI מדומות באופן מקומי באמצעות היוריסטיקת מילות מפתח (מצב הדמיה). לא מתבצעות קריאות API אמיתיות — יש להשבית לפני עלייה לאוויר."
+msgstr "תגובות ה-AI מדומות באופן מקומי באמצעות היוריסטיקת מילות מפתח (מצב הדמיה). לא מתבצעות קריאות API אמיתיות - יש להשבית לפני עלייה לאוויר."
 
 #: addons/bbcs-antispam/views/settings.php:124
 msgid "AI service WebSocket endpoint (wss:// or ws://). Leave empty to use the default endpoint."
@@ -1608,7 +1608,7 @@ msgstr "APCu"
 
 #: includes/hook/class-botblocker-settings-hooks.php:62
 msgid "APCu backend is not reachable — the integration was left disabled."
-msgstr "ה-backend של APCu אינו זמין — השילוב נשאר מושבת."
+msgstr "ה-backend של APCu אינו זמין - השילוב נשאר מושבת."
 
 #: admin/templates/integrations/apcu.php:35
 msgid "APCu Cache Integration"
@@ -1616,7 +1616,7 @@ msgstr "שילוב מטמון APCu"
 
 #: admin/templates/integrations/apcu.php:28
 msgid "APCu is shared memory of one PHP process pool. Cache invalidation and security counters are not shared across PHP-FPM pools or web servers — for load-balanced or multi-pool hosting enable Redis or Memcached instead."
-msgstr "APCu הוא זיכרון משותף של מאגר תהליכי PHP אחד. ביטול מטמון ומוני אבטחה אינם משותפים בין מאגרי PHP-FPM או שרתי אינטרנט — עבור אירוח מאוזן עומסים או מרובה מאגרים יש להפעיל במקום זאת Redis או Memcached."
+msgstr "APCu הוא זיכרון משותף של מאגר תהליכי PHP אחד. ביטול מטמון ומוני אבטחה אינם משותפים בין מאגרי PHP-FPM או שרתי אינטרנט - עבור אירוח מאוזן עומסים או מרובה מאגרים יש להפעיל במקום זאת Redis או Memcached."
 
 #: admin/templates/integrations/apcu.php:18
 msgid "APCu provides in-process shared memory caching for security counters and visitor data, with no disk I/O and no network connection."
@@ -2814,91 +2814,91 @@ msgstr "תוסף הוורדפרס BotBlocker"
 
 #: admin/templates/integrations/wp-abilities.php:74
 msgid "botblocker/block-ip — adds a firewall block rule and regenerates the runtime ban files. Destructive, requires manage_options."
-msgstr "botblocker/block-ip — מוסיף כלל בלוק לחומת אש ומחדש את קבצי החסימה בזמן ריצה. הרסני, דורש manage_options."
+msgstr "botblocker/block-ip - מוסיף כלל בלוק לחומת אש ומחדש את קבצי החסימה בזמן ריצה. הרסני, דורש manage_options."
 
 #: admin/templates/integrations/wp-abilities.php:36
 msgid "botblocker/check-ip — checks an IP address against the firewall rules and returns the matched rules."
-msgstr "botblocker/check-ip — בודק כתובת IP מול כללי חומת האש ומחזיר את הכללים המתאימים."
+msgstr "botblocker/check-ip - בודק כתובת IP מול כללי חומת האש ומחזיר את הכללים המתאימים."
 
 #: admin/templates/integrations/wp-abilities.php:66
 msgid "botblocker/check-ips — batch check of up to 20 addresses in one call."
-msgstr "botblocker/check-ips — בדיקה קבוצתית של עד 20 כתובות בקריאה אחת."
+msgstr "botblocker/check-ips - בדיקה קבוצתית של עד 20 כתובות בקריאה אחת."
 
 #: admin/templates/integrations/wp-abilities.php:99
 msgid "botblocker/clear-cache — clears the BotBlocker file cache after manual rule or data changes."
-msgstr "botblocker/clear-cache — מנקה את מטמון הקבצים של BotBlocker לאחר שינויים ידניים בכללים או בנתונים."
+msgstr "botblocker/clear-cache - מנקה את מטמון הקבצים של BotBlocker לאחר שינויים ידניים בכללים או בנתונים."
 
 #: admin/templates/integrations/wp-abilities.php:83
 msgid "botblocker/delete-ip-rule — deletes a single rule by id. Requires confirm \"DELETE\" and refuses readonly rows."
-msgstr "botblocker/delete-ip-rule — מוחק כלל בודד לפי id. דורש אישור “DELETE” ומסרב לשורות לקריאה בלבד."
+msgstr "botblocker/delete-ip-rule - מוחק כלל בודד לפי id. דורש אישור \"DELETE\" ומסרב לשורות לקריאה בלבד."
 
 #: admin/templates/integrations/wp-abilities.php:51
 msgid "botblocker/get-blocked-ips — returns the IP addresses currently blocked by firewall rules."
-msgstr "botblocker/get-blocked-ips — מחזיר את כתובות ה-IP שנחסמות כעת על ידי כללי חומת האש."
+msgstr "botblocker/get-blocked-ips - מחזיר את כתובות ה-IP שנחסמות כעת על ידי כללי חומת האש."
 
 #: admin/templates/integrations/wp-abilities.php:60
 msgid "botblocker/get-captcha-state — active CAPTCHA mode, wait time and the availability of every mode."
-msgstr "botblocker/get-captcha-state — מצב CAPTCHA הפעיל, זמן ההמתנה והזמינות של כל מצב."
+msgstr "botblocker/get-captcha-state - מצב CAPTCHA הפעיל, זמן ההמתנה והזמינות של כל מצב."
 
 #: admin/templates/integrations/wp-abilities.php:33
 msgid "botblocker/get-firewall-status — returns the protection mode, enabled state and plugin version."
-msgstr "botblocker/get-firewall-status — מחזיר את מצב ההגנה, מצב ההפעלה וגרסת התוסף."
+msgstr "botblocker/get-firewall-status - מחזיר את מצב ההגנה, מצב ההפעלה וגרסת התוסף."
 
 #: admin/templates/integrations/wp-abilities.php:39
 msgid "botblocker/get-ip-rules — returns the firewall rules matching a given IP address."
-msgstr "botblocker/get-ip-rules — מחזיר את כללי חומת האש המתאימים לכתובת IP נתונה."
+msgstr "botblocker/get-ip-rules - מחזיר את כללי חומת האש המתאימים לכתובת IP נתונה."
 
 #: admin/templates/integrations/wp-abilities.php:54
 msgid "botblocker/get-recent-events — aggregated blocks, allows, CAPTCHA and proxy events per time bucket, without IP addresses or user agents."
-msgstr "botblocker/get-recent-events — אירועי בלוקים, אירועי התרה, אירועי CAPTCHA ואירועי פרוקסי שמצטברים לכל פרק זמן, ללא כתובות IP או סוכני משתמש."
+msgstr "botblocker/get-recent-events - אירועי בלוקים, אירועי התרה, אירועי CAPTCHA ואירועי פרוקסי שמצטברים לכל פרק זמן, ללא כתובות IP או סוכני משתמש."
 
 #: admin/templates/integrations/wp-abilities.php:109
 msgid "botblocker/get-scan-results — returns the status and findings of the latest malware scan."
-msgstr "botblocker/get-scan-results — מחזיר את הסטטוס והממצאים של סריקת הנוזקות האחרונה."
+msgstr "botblocker/get-scan-results - מחזיר את הסטטוס והממצאים של סריקת הנוזקות האחרונה."
 
 #: admin/templates/integrations/wp-abilities.php:57
 msgid "botblocker/get-settings — non-secret settings by group; secrets are reported only as configured or not."
-msgstr "botblocker/get-settings — הגדרות שאינן סודיות לפי קבוצה; סודות מדווחים רק כמוגדרים או לא."
+msgstr "botblocker/get-settings - הגדרות שאינן סודיות לפי קבוצה; סודות מדווחים רק כמוגדרים או לא."
 
 #: admin/templates/integrations/wp-abilities.php:42
 msgid "botblocker/get-traffic-summary — aggregated request, block, captcha, suspicious and proxy counters."
-msgstr "botblocker/get-traffic-summary — מוני בקשות, בלוק, CAPTCHA, בקשות חשודות ופרוקסי מצטברים."
+msgstr "botblocker/get-traffic-summary - מוני בקשות, בלוק, CAPTCHA, בקשות חשודות ופרוקסי מצטברים."
 
 #: admin/templates/integrations/wp-abilities.php:48
 msgid "botblocker/list-ip-rules — lists firewall rules with family, type, search and pagination filters."
-msgstr "botblocker/list-ip-rules — מציג את כללי חומת האש עם מסננים לפי משפחה, סוג, חיפוש ודפדוף."
+msgstr "botblocker/list-ip-rules - מציג את כללי חומת האש עם מסננים לפי משפחה, סוג, חיפוש ודפדוף."
 
 #: admin/templates/integrations/wp-abilities.php:45
 msgid "botblocker/run-diagnostics — read-only health checks for the data directory and database tables."
-msgstr "botblocker/run-diagnostics — בדיקות תקינות לקריאה בלבד עבור ספריית הנתונים וטבלאות מסד הנתונים."
+msgstr "botblocker/run-diagnostics - בדיקות תקינות לקריאה בלבד עבור ספריית הנתונים וטבלאות מסד הנתונים."
 
 #: admin/templates/integrations/wp-abilities.php:106
 msgid "botblocker/run-malware-scan — starts a background malware scan through the Malware Scanner add-on."
-msgstr "botblocker/run-malware-scan — מתחיל סריקת תוכנות זדוניות ברקע דרך התוסף Malware Scanner."
+msgstr "botblocker/run-malware-scan - מתחיל סריקת תוכנות זדוניות ברקע דרך התוסף Malware Scanner."
 
 #: admin/templates/integrations/wp-abilities.php:63
 msgid "botblocker/run-self-test — self-test summary and bypass reasons without writing to the plugin log."
-msgstr "botblocker/run-self-test — סיכום בדיקה עצמית וסיבות עקיפה ללא כתיבה ליומן התוסף."
+msgstr "botblocker/run-self-test - סיכום בדיקה עצמית וסיבות עקיפה ללא כתיבה ליומן התוסף."
 
 #: admin/templates/integrations/wp-abilities.php:96
 msgid "botblocker/set-captcha-mode — switches the CAPTCHA mode. Unavailable modes are rejected instead of silently falling back."
-msgstr "botblocker/set-captcha-mode — מחליף את מצב ה-CAPTCHA. מצבים שאינם זמינים נדחים במקום מעבר שקט לברירת מחדל."
+msgstr "botblocker/set-captcha-mode - מחליף את מצב ה-CAPTCHA. מצבים שאינם זמינים נדחים במקום מעבר שקט לברירת מחדל."
 
 #: admin/templates/integrations/wp-abilities.php:90
 msgid "botblocker/set-protection — turns protection on or off through the Dashboard path. Requires confirm \"ENABLE\" or \"DISABLE\"."
-msgstr "botblocker/set-protection — מפעיל או מכבה את ההגנה דרך נתיב לוח הבקרה. דורש אישור “ENABLE” או “DISABLE”."
+msgstr "botblocker/set-protection - מפעיל או מכבה את ההגנה דרך נתיב לוח הבקרה. דורש אישור \"ENABLE\" או \"DISABLE\"."
 
 #: admin/templates/integrations/wp-abilities.php:93
 msgid "botblocker/set-secure-mode — switches between frontend and full secure mode. Full mode also challenges the admin area."
-msgstr "botblocker/set-secure-mode — מחליף בין מצב מאובטח בחזית האתר למצב מאובטח מלא. המצב המלא מאתגר גם את אזור הניהול."
+msgstr "botblocker/set-secure-mode - מחליף בין מצב מאובטח בחזית האתר למצב מאובטח מלא. המצב המלא מאתגר גם את אזור הניהול."
 
 #: admin/templates/integrations/wp-abilities.php:77
 msgid "botblocker/unblock-ip — removes firewall rules for an IP address and regenerates the runtime ban files. Destructive, requires manage_options."
-msgstr "botblocker/unblock-ip — מסיר כללי חומת אש עבור כתובת IP ומחדש את קובצי החסימה בזמן ריצה. פעולה הרסנית, דורשת manage_options."
+msgstr "botblocker/unblock-ip - מסיר כללי חומת אש עבור כתובת IP ומחדש את קובצי החסימה בזמן ריצה. פעולה הרסנית, דורשת manage_options."
 
 #: admin/templates/integrations/wp-abilities.php:80
 msgid "botblocker/upsert-ip-rule — creates or updates a rule for an IP or CIDR range. Refuses readonly rows and self-blocking without force."
-msgstr "botblocker/upsert-ip-rule — יוצר או מעדכן כלל עבור IP או טווח CIDR. מסרב לשורות לקריאה בלבד ולחסימה עצמית ללא force."
+msgstr "botblocker/upsert-ip-rule - יוצר או מעדכן כלל עבור IP או טווח CIDR. מסרב לשורות לקריאה בלבד ולחסימה עצמית ללא force."
 
 #: admin/templates/shared/system-status-lines.php:13
 #: includes/viewmodels/class-about-viewmodel.php:65
@@ -3599,7 +3599,7 @@ msgstr "מנקה את מטמון הקבצים של BotBlocker לאחר שינו�
 
 #: admin/templates/selftest/body.php:65
 msgid "Click \"Run test\" to open your site as a new visitor."
-msgstr "לחץ על “הרצת בדיקה” כדי לפתוח את האתר שלך כמו מבקר חדש."
+msgstr "לחץ על \"הרצת בדיקה\" כדי לפתוח את האתר שלך כמו מבקר חדש."
 
 #: public/captcha/render-color-button-trait.php:74
 msgid "Click on the matching color"
@@ -4857,7 +4857,7 @@ msgstr "חשבון המשתמש %login% נמחק."
 
 #: includes/inc-botblocker-wp-abilities.php:538
 msgid "Deletes a single firewall rule by its id. Requires confirm \"DELETE\". Refuses readonly rows."
-msgstr "מוחק כלל חומת אש בודד לפי המזהה שלו. מחייב אישור “DELETE”. מסרב לשורות לקריאה בלבד."
+msgstr "מוחק כלל חומת אש בודד לפי המזהה שלו. מחייב אישור \"DELETE\". מסרב לשורות לקריאה בלבד."
 
 #: addons/bbcs-early-init/views/settings.php:79
 msgid "Deployed"
@@ -5365,7 +5365,7 @@ msgstr "מצב Echo (בדיקה)"
 
 #: addons/bbcs-antispam/views/settings.php:62
 msgid "Echo Mode Active — Not for Production"
-msgstr "מצב Echo פעיל — לא לשימוש בסביבת ייצור"
+msgstr "מצב Echo פעיל - לא לשימוש בסביבת ייצור"
 
 #: admin/class-botblocker-admin.php:333
 #: admin/class-botblocker-admin.php:421
@@ -6087,7 +6087,7 @@ msgstr "מייצא את רשימת החסימות הפעילה של BotBlocker �
 
 #: admin/templates/integrations/wp-abilities.php:18
 msgid "Expose BotBlocker to the WordPress Abilities API. When disabled, nothing is registered — the abilities do not exist for REST, MCP or AI clients."
-msgstr "חושף את BotBlocker ל-API היכולות של וורדפרס. כאשר מושבת, שום דבר לא נרשם — היכולות אינן קיימות עבור לקוחות REST, MCP או AI."
+msgstr "חושף את BotBlocker ל-API היכולות של וורדפרס. כאשר מושבת, שום דבר לא נרשם - היכולות אינן קיימות עבור לקוחות REST, MCP או AI."
 
 #: admin/templates/settings/captcha-tab.php:167
 msgid "Extended Captcha Check"
@@ -7416,7 +7416,7 @@ msgstr "הקשחת וורדפרס"
 
 #: addons/bbcs-security-headers/views/settings.php:60
 msgid "Hardenize — headers + TLS + DNS"
-msgstr "Hardenize — כותרות + TLS + DNS"
+msgstr "Hardenize - כותרות + TLS + DNS"
 
 #: admin/templates/settings/advanced-protection.php:58
 msgid "Hardens the verification cycle against server-side interference (DDoS protection, WAF, CDN, rate-limiters). Adds response signing, circuit breaker, and transport hardening. Disable if your hosting environment interferes with these protections."
@@ -7884,7 +7884,7 @@ msgstr "אם משימה מתוזמנת מתפספסת (WP Cron לא יציב), B
 
 #: addons/bbcs-behavior/views/settings.php:82
 msgid "If a visitor's behavior score (0–100) reaches this threshold, a Captcha challenge is shown. Lower values = stricter. (Default: 50)"
-msgstr "אם ציון ההתנהגות של מבקר (0–100) מגיע לסף זה, מוצג אתגר Captcha. ערכים נמוכים יותר = מחמיר יותר. (ברירת מחדל: 50)"
+msgstr "אם ציון ההתנהגות של מבקר (0-100) מגיע לסף זה, מוצג אתגר Captcha. ערכים נמוכים יותר = מחמיר יותר. (ברירת מחדל: 50)"
 
 #: addons/bbcs-behavior/inc/class-bbcs-behavior-settings.php:347
 msgid "If a visitor's behavior score (from 0 to 100) reaches this threshold, they are blocked immediately. This should be set higher than the Captcha threshold. Lower values make protection stricter. (Default: 75)"
@@ -7908,7 +7908,7 @@ msgstr "אם תכבה את Early Init, יש לנקות את מטמון הדפי�
 
 #: addons/bbcs-security-headers/views/settings.php:100
 msgid "If you use payment gateways (Stripe, PayPal, LiqPay, etc.), add their domains to \"Allowed Domains\" below to prevent CSP from blocking checkout scripts."
-msgstr "אם אתה משתמש בשערי תשלום (Stripe, PayPal, LiqPay וכו'), הוסף את הדומיינים שלהם ל“דומיינים מורשים” למטה כדי למנוע מ-CSP לחסום סקריפטים של תהליך התשלום."
+msgstr "אם אתה משתמש בשערי תשלום (Stripe, PayPal, LiqPay וכו'), הוסף את הדומיינים שלהם ל\"דומיינים מורשים\" למטה כדי למנוע מ-CSP לחסום סקריפטים של תהליך התשלום."
 
 #: includes/services/class-botblocker-health-service.php:35
 msgid "Iframe protection (clickjacking)"
@@ -9217,7 +9217,7 @@ msgstr "ממפה את אחוז מהירות התנועה לדרגת מוניטי
 
 #: addons/bbcs-behavior/views/settings.php:294
 msgid "Maps traffic speed percentage to reputation tier 1–5 (tier 6 reserved for blocked IPs). Format: percent:tier (one per line)."
-msgstr "ממפה את אחוז מהירות התנועה לדרגת מוניטין 1–5 (דרגה 6 שמורה לכתובות IP חסומות). פורמט: אחוז:דרגה (אחת לשורה)"
+msgstr "ממפה את אחוז מהירות התנועה לדרגת מוניטין 1-5 (דרגה 6 שמורה לכתובות IP חסומות). פורמט: אחוז:דרגה (אחת לשורה)"
 
 #: admin/class-botblocker-admin.php:678
 #: admin/templates/addons/addons-content.php:33
@@ -9247,7 +9247,7 @@ msgstr "מתג ראשי לזיהוי סורק ה-404 שלהלן."
 
 #: admin/templates/integrations/wp-abilities.php:27
 msgid "Master switch. When off, no BotBlocker ability is registered at all — it is invisible in the ability list, REST, MCP and run endpoints."
-msgstr "מתג ראשי. כאשר הוא כבוי, לא נרשמת כלל יכולת BotBlocker — היא בלתי נראית ברשימת היכולות, ב-REST, ב-MCP ובנקודות הקצה של ההרצה."
+msgstr "מתג ראשי. כאשר הוא כבוי, לא נרשמת כלל יכולת BotBlocker - היא בלתי נראית ברשימת היכולות, ב-REST, ב-MCP ובנקודות הקצה של ההרצה."
 
 #: admin/templates/setup-wizard/captcha.php:36
 msgid "Match rotating shapes. BotBlocker exclusive."
@@ -9573,7 +9573,7 @@ msgstr "מצב"
 #: includes/viewmodels/class-dashboard-viewmodel.php:142
 #, php-format
 msgid "Mode \"Recommended\" today blocked %1$s bots, passed %2$s search engines."
-msgstr "מצב “מומלץ” חסם היום %1$s בוטים ואיפשר ל-%2$s מנועי חיפוש לעבור."
+msgstr "מצב \"מומלץ\" חסם היום %1$s בוטים ואיפשר ל-%2$s מנועי חיפוש לעבור."
 
 #: includes/helpers/class-health-score-helper.php:15
 #: includes/shortcode/class-botblocker-health-shortcodes.php:44
@@ -10105,7 +10105,7 @@ msgstr "פעיל: מבקרים מאומתים מקבלים עמודים מהמט
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:386
 msgid "One fnmatch wildcard per line (e.g. \"wp-content/cache/*\", \"*.log\"). Matching integrity findings are silenced across every scan root. Bulk equivalent of the per-file Ignore button."
-msgstr "תו כללי אחד של fnmatch בכל שורה (למשל „wp-content/cache/*”, „*.log”). ממצאי שלמות תואמים מושתקים בכל שורש סריקה. מקבילה קבוצתית של כפתור ההתעלמות לכל קובץ."
+msgstr "תו כללי אחד של fnmatch בכל שורה (למשל \"wp-content/cache/*\", \"*.log\"). ממצאי שלמות תואמים מושתקים בכל שורש סריקה. מקבילה קבוצתית של כפתור ההתעלמות לכל קובץ."
 
 #: addons/bbcs-malware/inc/class-bbcs-malware-settings-view.php:396
 msgid "One indicator ID per line. Matching indicators will be ignored for known-benign findings."
@@ -10356,7 +10356,7 @@ msgstr "מטמון העמודים מופעל אך לא ניתן היה להוס�
 
 #: addons/bbcs-page-cache/views/settings.php:65
 msgid "Page Cache needs the Early Init add-on with \"Cached pages for verified visitors\" turned on. Early Init checks every visitor before a cached page is sent, so bots never get cached HTML. Until then page caching cannot be enabled."
-msgstr "מטמון עמודים דורש את התוסף Early Init עם האפשרות “עמודים במטמון למבקרים מאומתים” מופעלת. Early Init בודק כל מבקר לפני שליחת עמוד מהמטמון, כך שבוטים לעולם לא מקבלים HTML מהמטמון. עד אז לא ניתן להפעיל מטמון עמודים."
+msgstr "מטמון עמודים דורש את התוסף Early Init עם האפשרות \"עמודים במטמון למבקרים מאומתים\" מופעלת. Early Init בודק כל מבקר לפני שליחת עמוד מהמטמון, כך שבוטים לעולם לא מקבלים HTML מהמטמון. עד אז לא ניתן להפעיל מטמון עמודים."
 
 #. translators: %d: number of URLs queued
 #: addons/bbcs-page-cache/inc/class-bbcs-page-cache-admin.php:248
@@ -11553,7 +11553,7 @@ msgstr "הסתר סודות בקטעים"
 
 #: addons/bbcs-security-headers/views/settings.php:61
 msgid "REDbot — HTTP response analysis"
-msgstr "REDbot — ניתוח תגובת HTTP"
+msgstr "REDbot - ניתוח תגובת HTTP"
 
 #: addons/bbcs-hide-admin/views/settings.php:69
 msgid "Redirect"
@@ -11755,7 +11755,7 @@ msgstr "מסיר את jQuery Migrate. עלול לשבור תוספים ישני�
 
 #: includes/inc-botblocker-wp-abilities.php:472
 msgid "Removes non-readonly firewall rules for an IP address and regenerates the runtime ban files. Requires confirm \"UNBLOCK\"."
-msgstr "מסיר כללי חומת אש שאינם לקריאה בלבד עבור כתובת IP ומחדש את קובצי החסימה בזמן ריצה. מחייב אישור “UNBLOCK”."
+msgstr "מסיר כללי חומת אש שאינם לקריאה בלבד עבור כתובת IP ומחדש את קובצי החסימה בזמן ריצה. מחייב אישור \"UNBLOCK\"."
 
 #: addons/bbcs-speedup/views/settings.php:187
 msgid "Removes RSS feed links from the header."
@@ -12879,7 +12879,7 @@ msgstr "עדכוני אבטחה והצעות"
 
 #: addons/bbcs-security-headers/views/settings.php:59
 msgid "SecurityHeaders.com — header grade"
-msgstr "SecurityHeaders.com — ציון כותרת"
+msgstr "SecurityHeaders.com - ציון כותרת"
 
 #: admin/templates/setup-guide/pro-body.php:32
 msgid "See all PRO features"
@@ -13065,7 +13065,7 @@ msgstr "הגדר את תקופת השמירה של היומנים והפעל ה�
 
 #: admin/templates/integrations/recaptcha-v3.php:57
 msgid "Set the reCaptcha threshold level (0.1–1.0)"
-msgstr "הגדר את סף רמת ה-reCaptcha (0.1–1.0)"
+msgstr "הגדר את סף רמת ה-reCaptcha (0.1-1.0)"
 
 #: admin/templates/integrations/recaptcha-v3.php:19
 msgid "Set the score threshold: lower = stricter blocking, higher = more permissive."
@@ -13539,7 +13539,7 @@ msgstr "מתחיל…"
 
 #: includes/inc-botblocker-wp-abilities.php:676
 msgid "Starts a background malware scan through the BotBlocker Malware Scanner add-on. Requires confirm \"SCAN\"."
-msgstr "מתחיל סריקת תוכנות זדוניות ברקע באמצעות התוסף BotBlocker Malware Scanner. מחייב אישור “SCAN”."
+msgstr "מתחיל סריקת תוכנות זדוניות ברקע באמצעות התוסף BotBlocker Malware Scanner. מחייב אישור \"SCAN\"."
 
 #: addons/bbcs-page-cache/views/settings.php:24
 msgid "Static HTML page cache that works with BotBlocker instead of against it. Cached pages are served only to visitors the shield has passed; check, block and denied pages are never stored."
@@ -13756,7 +13756,7 @@ msgstr "מחליף את מצב ה-CAPTCHA ואת זמן ההמתנה האופצ�
 
 #: includes/inc-botblocker-wp-abilities.php:598
 msgid "Switches the secure mode between frontend and full. Full mode also challenges the WordPress admin area. Requires confirm \"FRONTEND\" or \"FULL\"."
-msgstr "מחליף את המצב המאובטח בין חזית האתר למצב מלא. המצב המלא מאתגר גם את אזור הניהול של וורדפרס. מחייב אישור “FRONTEND” או “FULL”."
+msgstr "מחליף את המצב המאובטח בין חזית האתר למצב מלא. המצב המלא מאתגר גם את אזור הניהול של וורדפרס. מחייב אישור \"FRONTEND\" או \"FULL\"."
 
 #: includes/cron/class-botblocker-cron.php:96
 msgid "Sync Early Init Data"
@@ -13978,7 +13978,7 @@ msgstr "קובץ זה כבר שונה על ידי בקשה אחרת. רענן א
 #: includes/hook/class-botblocker-settings-hooks.php:590
 #, php-format
 msgid "The \"%s\" add-on provided the selected CAPTCHA type and is no longer active. Captcha mode was adjusted to a compatible mode."
-msgstr "התוסף „%s” סיפק את סוג ה-CAPTCHA שנבחר ואינו פעיל עוד. מצב ה-Captcha הותאם למצב תואם."
+msgstr "התוסף \"%s\" סיפק את סוג ה-CAPTCHA שנבחר ואינו פעיל עוד. מצב ה-Captcha הותאם למצב תואם."
 
 #: includes/class-botblocker-toastify.php:272
 #: includes/hook/class-botblocker-addon-files.php:352
@@ -14403,7 +14403,7 @@ msgstr "תבניות"
 
 #: admin/templates/integrations/wp-abilities.php:88
 msgid "These abilities change protection settings. A connected client acts with administrator rights — publish them only for a client you control."
-msgstr "יכולות אלה משנות את הגדרות ההגנה. לקוח מחובר פועל בהרשאות מנהל — יש לפרסם אותן רק עבור לקוח שנמצא בשליטתך."
+msgstr "יכולות אלה משנות את הגדרות ההגנה. לקוח מחובר פועל בהרשאות מנהל - יש לפרסם אותן רק עבור לקוח שנמצא בשליטתך."
 
 #. translators: %s: comma-separated list of add-on names that failed to load.
 #: includes/data/class-botblocker-alerts.php:842
@@ -14608,7 +14608,7 @@ msgstr "כדי להפעיל תיקון ואופטימיזציה של מסד הנ
 
 #: addons/bbcs-security-headers/views/settings.php:73
 msgid "To let a scanner (e.g. securityheaders.com) see your live page instead of the challenge page, find its bot in BotBlocker reports and whitelist its IP under White Bots → Search Engines (se). A rating is computed even on the challenge page itself — whitelisting is only needed for the production look."
-msgstr "כדי לאפשר לסורק (למשל securityheaders.com) לראות את הדף החי שלך במקום דף האתגר, מצא את הבוט שלו בדוחות BotBlocker והוסף את ה-IP שלו לרשימה הלבנה תחת White Bots → Search Engines (se). דירוג מחושב גם בדף האתגר עצמו — הרשימה הלבנה נדרשת רק למראה הייצור."
+msgstr "כדי לאפשר לסורק (למשל securityheaders.com) לראות את הדף החי שלך במקום דף האתגר, מצא את הבוט שלו בדוחות BotBlocker והוסף את ה-IP שלו לרשימה הלבנה תחת White Bots → Search Engines (se). דירוג מחושב גם בדף האתגר עצמו - הרשימה הלבנה נדרשת רק למראה הייצור."
 
 #: admin/templates/about/body.php:230
 msgid "Toast Notifications:"
@@ -14944,7 +14944,7 @@ msgstr "הפעל זיהוי ספאם בתגובות באמצעות AI. משתמ�
 
 #: addons/bbcs-page-cache/views/settings.php:41
 msgid "Turn on Early Init and its \"Cached pages for verified visitors\" setting to enable page caching."
-msgstr "יש להפעיל את Early Init ואת האפשרות “עמודים במטמון למבקרים מאומתים” כדי לאפשר מטמון עמודים."
+msgstr "יש להפעיל את Early Init ואת האפשרות \"עמודים במטמון למבקרים מאומתים\" כדי לאפשר מטמון עמודים."
 
 #: addons/bbcs-forced-inclusions/inc/class-bbcs-forced-inclusions-plugin.php:142
 msgid "Turn this file back on now?"
@@ -14980,7 +14980,7 @@ msgstr "מפעיל או מכבה את כל כותרות האבטחה של BotBlo
 
 #: includes/inc-botblocker-wp-abilities.php:568
 msgid "Turns BotBlocker protection on or off through the same path as the Dashboard toggle, including the runtime settings file. Requires confirm \"ENABLE\" or \"DISABLE\"."
-msgstr "מפעיל או מכבה את הגנת BotBlocker באותו נתיב כמו המתג של לוח בקרה, כולל קובץ ההגדרות בזמן ריצה. מחייב אישור “ENABLE” או “DISABLE”."
+msgstr "מפעיל או מכבה את הגנת BotBlocker באותו נתיב כמו המתג של לוח בקרה, כולל קובץ ההגדרות בזמן ריצה. מחייב אישור \"ENABLE\" או \"DISABLE\"."
 
 #: includes/data/traits/trait-botblocker-stats-charts.php:280
 #, pgettext
@@ -15444,7 +15444,7 @@ msgstr "כתובת URL שממנה נטענות חתימות regex מרוחקות
 
 #: addons/bbcs-hide-admin/views/settings.php:97
 msgid "URL to redirect to when someone tries to access the default login URL. Only used when behavior is set to Redirect."
-msgstr "הכתובת שאליה תתבצע הפניה כשמישהו מנסה לגשת לכתובת ההתחברות של ברירת מחדל. משמשת רק כאשר ההתנהגות מוגדרת ל“הפניה”."
+msgstr "הכתובת שאליה תתבצע הפניה כשמישהו מנסה לגשת לכתובת ההתחברות של ברירת מחדל. משמשת רק כאשר ההתנהגות מוגדרת ל\"הפניה\"."
 
 #: addons/bbcs-page-cache/views/settings.php:207
 msgid "URLs with other query parameters are not cached. Tracking parameters (utm_*, gclid, fbclid and similar) are ignored automatically."
@@ -15500,7 +15500,7 @@ msgstr "השתמש באפשרויות האלה כדי להפעיל או להשב
 
 #: addons/bbcs-form-captcha/views/settings.php:58
 msgid "Used when the shortcode has no type attribute. Type can be overridden per shortcode: type=\"robot\", type=\"color\" or type=\"hold\"."
-msgstr "משמש כאשר ל-שורטקוד אין מאפיין type. אפשר לעקוף את ה-type בכל שורטקוד: type=“robot”, type=“color” או type=“hold”."
+msgstr "משמש כאשר ל-שורטקוד אין מאפיין type. אפשר לעקוף את ה-type בכל שורטקוד: type=\"robot\", type=\"color\" או type=\"hold\"."
 
 #: admin/templates/about/body.php:208
 msgid "used with attribution"
@@ -16109,7 +16109,7 @@ msgstr "WP Cron מופעל"
 
 #: includes/data/class-botblocker-alerts.php:746
 msgid "WP Rocket detected. Add the BotBlocker cookie to the \"Never Cache Cookies\" list in WP Rocket settings. See CACHE-COMPATIBILITY.md."
-msgstr "זוהה WP Rocket. הוסף את עוגיית BotBlocker לרשימת „Never Cache Cookies” בהגדרות WP Rocket. ראה CACHE-COMPATIBILITY.md."
+msgstr "זוהה WP Rocket. הוסף את עוגיית BotBlocker לרשימת \"Never Cache Cookies\" בהגדרות WP Rocket. ראה CACHE-COMPATIBILITY.md."
 
 #: includes/data/class-botblocker-alerts.php:711
 msgid "WP Super Cache (Expert/mod_rewrite mode) serves cached pages via .htaccess, bypassing PHP. Switch to the PHP caching mode so the BotBlocker cookie registration applies. See CACHE-COMPATIBILITY.md."
@@ -16406,6 +16406,3 @@ msgstr "קובץ ZIP מכיל קובץ לא צפוי:"
 msgid "ZIP file not provided."
 msgstr "קובץ ZIP לא סופק."
 
-#: addons/bbcs-pusher/views/settings.php:82
-msgid "••••••••••••"
-msgstr "••••••••••••"
